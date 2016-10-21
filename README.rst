@@ -13,7 +13,7 @@ The converted reST file can be downloaded or committed to Github. Once it was in
 
 You can |location_link|.
 
-.. |location_link| raw:: html
+.. _location_link: raw:: html
 
    <a href="http://geoiptool.com" target="_blank">check your location here</a>
 
