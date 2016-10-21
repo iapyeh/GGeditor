@@ -34,4 +34,4 @@ Known Issues:
 
 * Open hyperlink in a new tab:
 
-   * This is not supported. Please see details here.
+   * This is not supported.  `Please see details here <https://github.com/sphinx-doc/sphinx/issues/1634>`_ .
