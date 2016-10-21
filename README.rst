@@ -25,6 +25,22 @@ Features:
 
 #. Binding the Google doc with the Github file, then commit it directly to the Github.
 
+
+.. image:: README.rst/img_1.jpg
+   :height: 68px
+   :width: 240px
+
+#. undefined
+
+
++---------++
+|Like this||
++---------++
+|         ||
++---------++
+
+#. 
+
 Known Issues:
 *************
 
@@ -35,3 +51,7 @@ Known Issues:
 * Open hyperlink in a new tab:
 
    * This is not supported.  `Please see details here <https://github.com/sphinx-doc/sphinx/issues/1634>`_ .
+
+* Only text is allowed in a list item. Text with hyperlink is fine.
+
+   * But image, table in a list item is not supported.
