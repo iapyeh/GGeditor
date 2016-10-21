@@ -51,3 +51,7 @@ Known Issues:
 * Only text is allowed in a list item. Text with hyperlink is fine.
 
    * But image, table in a list item is not supported. If it does, it will be interpreted as outside the list.
+
+* Image subfolder naming limitation.
+
+   * If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”.  Which means if there is a file named “README” in the same folder of README.rst, confliction would happen.
