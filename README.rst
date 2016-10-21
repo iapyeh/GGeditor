@@ -13,6 +13,8 @@ Features:
 
 #. Almost what you see is what you get.
 
+#. Powered by the Google Docs, such as unicode symbol, voice typing.
+
 #. Preview generated reST files and download it.
 
 #. Just copy and paste images, the reST Editor will handle them.
@@ -25,17 +27,26 @@ Features:
 
 #. Binding the Google doc with the Github file, then commit it directly to the Github.
 
+#. Nested list is supported.
 
-.. image:: README/img_1.jpg
-   :height: 68px
-   :width: 240px
+Unsupported Google Docs Features:
+*********************************
 
+The Google Docs is a powerful editor, not all features are supported to convert to reST markups. Below is the manifest (included but not limited to)
 
-+---------+-----------------------------------------------------+
-|Like this|                                                     |
-+---------+-----------------------------------------------------+
-|         |a like to  `google <http://www.google.com>`_  <- link|
-+---------+-----------------------------------------------------+
+* Page header and page footer
+
+* Math equations
+
+* Drawings
+
+* Charts
+
+* Comments
+
+* Page numbering
+
+* Page break
 
 Known Issues:
 *************
@@ -50,9 +61,13 @@ Known Issues:
 
 * Only text is allowed in a list item. Text with hyperlink is fine.
 
-   * But image, table in a list item is not supported. If it does, it will be interpreted as outside the list.
+   * Image, table in a list item is not supported. If it does, it will be interpreted as outside the list.
 
-* Image subfolder naming limitation.
+* Only text is allowed in a table cell. Text with hyperlink is fine.
+
+   * Image, nested table in a table cell is not supported.
+
+* Image subfolder naming scheme.
 
    * If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”. 
 
