@@ -30,16 +30,12 @@ Features:
    :height: 68px
    :width: 240px
 
-#. undefined
-
 
 +---------++
 |Like this||
 +---------++
 |         ||
 +---------++
-
-#. 
 
 Known Issues:
 *************
@@ -54,4 +50,4 @@ Known Issues:
 
 * Only text is allowed in a list item. Text with hyperlink is fine.
 
-   * But image, table in a list item is not supported.
+   * But image, table in a list item is not supported. If it does, it will be interpreted as outside the list.
