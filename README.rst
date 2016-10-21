@@ -26,7 +26,7 @@ Features:
 #. Binding the Google doc with the Github file, then commit it directly to the Github.
 
 
-.. image:: README.rst/img_1.jpg
+.. image:: README/img_1.jpg
    :height: 68px
    :width: 240px
 
