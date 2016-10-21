@@ -2,8 +2,8 @@
 GGeditor
 ########
 
-GGeditor is a  `Google Docs Add-on<https://support.google.com/a/answer/4530135?hl=en>`  for editing reST file. That is, you edit the content in Google Docs and with GGeditor to convert it into reST format. 
-The converted reST file can be downloaded or committed to Github. Once it was in the Github, it will be integrated with the sphinx service by readthedoc.
+GGeditor is a  `Google Docs Add-on <https://support.google.com/a/answer/4530135?hl=en>_`  for editing reST file. That is, you edit the content in Google Docs and with GGeditor to convert it into  `reST format <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>_` . 
+The converted reST file can be downloaded or committed to Github. Once it was in the Github, it will be integrated with the sphinx service by ` Read The Docs <https://readthedocs.org/>_` .
 
 Features:
 *********
