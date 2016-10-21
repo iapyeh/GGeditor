@@ -13,7 +13,9 @@ Features:
 
 #. Almost what you see is what you get.
 
-#. Powered by the Google Docs, such as unicode symbol, voice typing.
+#. Binding with the Github file, one-click to commit to the Github.
+
+#. Powered by the Google Docs, such as unicode symbol 💞 © ®, voice typing.
 
 #. Preview generated reST files and download it.
 
@@ -23,30 +25,30 @@ Features:
 
 #. Convert inline links into reST link markup.
 
-#. Convert list items into reST list.
-
-#. Binding the Google doc with the Github file, then commit it directly to the Github.
-
-#. Nested list is supported.
+#. List and nested list
 
 Unsupported Google Docs Features:
 *********************************
 
 The Google Docs is a powerful editor, not all features are supported to convert to reST markups. Below is the manifest (included but not limited to)
 
-* Page header and page footer
-
-* Math equations
-
-* Drawings
-
 * Charts
 
 * Comments
 
-* Page numbering
+* Drawings
+
+* List style
+
+* Math equations
+
+* Multi column
 
 * Page break
+
+* Page header and page footer
+
+* Page numbering
 
 Known Issues:
 *************
