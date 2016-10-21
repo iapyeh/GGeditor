@@ -9,7 +9,7 @@ The converted reST file can be downloaded or committed to Github. Once it was in
 
 .. |Google Docs Add-on| raw:: html
 
-    <a href="http://docutils.sourceforge.net/rst.html">test</a>
+    <a href="http://www.google.com" target="_blank">test</a>
 
 Features:
 *********
