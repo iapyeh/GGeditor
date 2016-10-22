@@ -31,9 +31,9 @@ Any chunk of text with “Normal text” style will be converted to reST paragra
 
 For example, this is the second paragraph.
 
-   Paragraph Indent is preserved. Like this.Paragraph Indent is preserved. Like this.Paragraph Indent is preserved. 
+   Paragraph Indent is preserved. event it has indent only at the first line, the total paragraph got indent in generated reST.
 
-      Like this.Paragraph Indent is preserved. Like this.Paragraph Indent is preserved. Like this.
+      Nested indent paragraph is allowed like this paragraph. Its first line has 2 level of indent, the rest lines has 1 level of indent. In this case, this paragraph takes 2 level of indent.
 
 Table
 *****
