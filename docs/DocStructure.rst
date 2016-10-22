@@ -37,8 +37,8 @@ For example, this is the second paragraph.
 
 
 .. image:: DocStructure/img_1.jpg
-   :height: 161px
-   :width: 453px
+   :height: 161 px
+   :width: 453 px
 
 Table
 *****
