@@ -36,9 +36,9 @@ For example, this is the second paragraph.
       Nested indent paragraph is allowed like this paragraph. Its first line has 2 level of indent, the rest lines has 1 level of indent. In this case, this paragraph takes 2 level of indent.
 
 
-.. image:: DocStructure/img_1.jpg
-   :height: 241 px
-   :width: 677 px
+.. image:: DocStructure/img_1.png
+   :height: 160 px
+   :width: 366 px
    :alt: this is the original paragraph in Google Docs
    :target: http://www.iis.sinica.edu.tw
 
@@ -52,7 +52,28 @@ Numbered List
 *************
 
 Image
+*****
+
+#. Image with hyperlinks is exported to reST :target:.
+
+#. Image alt\-title was exported to reST :alt:, but alt\-description was not.
+
+#. Resized image dimension was coded as :width: and :height: argument of reST. Though, you will see this image with original size in Github’s preview page, but it is recognized in the Sphinx.
+
+#. Image adjustments, border, cropping was dropped. So always the original image was exported.
+
+#. Images were saved into a subfolder. The naming rules for this subfolder are:
+
+   * For document with Github binding, the binding name was used.
+
+   * For document without Github binding, the document name was used.
+
+   * If there is file extension (ex, .rst) in the name, that extension was omitted.
+
+   * If there is no file extension in the name, “_files” was appended to avoid naming\-conflict.
 
 Inline Image
+************
 
 Inline Markup
+*************
