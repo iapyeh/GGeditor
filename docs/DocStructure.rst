@@ -61,6 +61,13 @@ Numbered List
 Image
 *****
 
+* Please set image to be “Inline”, like this:
+
+
+.. image:: DocStructure/img_2.png
+   :height: 60 px
+   :width: 206 px
+
 * Image with hyperlinks is exported to reST :target:.
 
 * Image alt\-title was exported to reST :alt:, but alt\-description was not.
