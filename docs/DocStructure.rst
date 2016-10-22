@@ -67,9 +67,11 @@ Image
 .. image:: DocStructure/img_2.png
    :height: 60 px
    :width: 206 px
-   :align: right
+   :align: center
 
-* Image with hyperlinks is exported to reST :target:.
+* Image with hyperlinks is exported to :target:.
+
+* Horizontal alignment (left, center and right) is exported to :align:
 
 * Image alt\-title was exported to reST :alt:, but alt\-description was not.
 
