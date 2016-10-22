@@ -40,6 +40,7 @@ For example, this is the second paragraph.
    :height: 241 px
    :width: 677 px
    :alt: this is the original paragraph in Google Docs
+   :target: http://www.iis.sinica.edu.tw
 
 Table
 *****
