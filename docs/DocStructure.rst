@@ -27,7 +27,7 @@ Document Structure
 Paragraph
 *********
 
-Any chunk of text with “Normal text” style will be converted to reST paragraph.  No line break will be inserted for a single paragraph. There will be an empty line between different paragraph.
+Any chunk of text with “Normal text” style is converted to reST paragraph.  No line break was inserted for a single paragraph. There is an empty line between every paragraph.
 
 For example, this is the second paragraph.
 
@@ -37,8 +37,9 @@ For example, this is the second paragraph.
 
 
 .. image:: DocStructure/img_1.jpg
-   :height: 161 px
-   :width: 453 px
+   :height: 241 px
+   :width: 677 px
+   :alt: this is the original paragraph in Google Docs
 
 Table
 *****
