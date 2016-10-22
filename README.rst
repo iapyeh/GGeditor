@@ -15,7 +15,7 @@ Features:
 
 #. Binding with the Github file, one-click to commit to the Github.
 
-#. Powered by the Google Docs, such as unicode symbol 💞 © ®, voice typing.
+#. Powered by the Google Docs, such as unicode symbols 💞 © ®, voice typing...etc
 
 #. Preview generated reST files and download it.
 
@@ -78,3 +78,9 @@ Known Issues:
 * When the binding file has changed
 
    * If the binding file has changed, according to the new binding name, a new  image subfolder might be created. Which means the original image subfolder should be removed manually.
+
+Related Works
+
+*  `Gitbook <https://www.gitbook.com>`_ : it has a markup editor
+
+* Online reStructuredText editor
