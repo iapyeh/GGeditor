@@ -37,6 +37,11 @@ For example, this is the second paragraph.
 
 In Google Docs, it actually is like this:
 
+
+.. image:: DocStructure/img_1.png
+   :height: 285 px
+   :width: 697 px
+
 Horizontal Rule
 ***************
 
