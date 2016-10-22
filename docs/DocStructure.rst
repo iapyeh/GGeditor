@@ -41,11 +41,12 @@ In Google Docs, it actually is like this:
 .. image:: DocStructure/img_1.png
    :height: 285 px
    :width: 697 px
+   :align: center
 
-Horizontal Rule
+Horizontal Line
 ***************
 
-Just insert a horizontal line in Google Docs, it will be converted to reST. Like this:
+Just insert a horizontal line in Google Docs, it was converted to reST. Like this:
 
 --------
 
@@ -61,12 +62,13 @@ Numbered List
 Image
 *****
 
-* Please set image to be “Inline”, like this:
+* Please set image to be “Inline” in Google Docs, like this:
 
 
 .. image:: DocStructure/img_2.png
    :height: 60 px
    :width: 206 px
+   :align: center
 
 * Image with hyperlinks is exported to reST :target:.
 
