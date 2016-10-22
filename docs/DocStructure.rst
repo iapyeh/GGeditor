@@ -35,20 +35,14 @@ For example, this is the second paragraph.
 
       Nested indent paragraph is allowed like this paragraph. Its first line has 2 level of indent, the rest lines has 1 level of indent. In this case, this paragraph takes 2 level of indent.
 
-
-.. image:: DocStructure/img_1.png
-   :height: 160 px
-   :width: 366 px
-   :alt: this is the original paragraph in Google Docs
-   :target: http://www.iis.sinica.edu.tw
+In Google Docs, it actually is like this:
 
 Horizontal Rule
 ***************
 
+Just insert a horizontal line in Google Docs, it will be converted to reST. Like this:
+
 --------
-
-
-Warning: HORIZONTAL_RULE skiped
 
 Table
 *****
