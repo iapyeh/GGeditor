@@ -35,6 +35,11 @@ For example, this is the second paragraph.
 
       Nested indent paragraph is allowed like this paragraph. Its first line has 2 level of indent, the rest lines has 1 level of indent. In this case, this paragraph takes 2 level of indent.
 
+
+.. image:: DocStructure/img_1.jpg
+   :height: 249px
+   :width: 697px
+
 Table
 *****
 
