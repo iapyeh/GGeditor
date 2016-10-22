@@ -39,7 +39,6 @@ For example, this is the second paragraph.
 .. image:: DocStructure/img_1.jpg
    :height: 178px
    :width: 674px
-   :scale: 50 %
 
 Table
 *****
