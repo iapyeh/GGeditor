@@ -42,6 +42,14 @@ For example, this is the second paragraph.
    :alt: this is the original paragraph in Google Docs
    :target: http://www.iis.sinica.edu.tw
 
+Horizontal Rule
+***************
+
+--------
+
+
+Warning: HORIZONTAL_RULE skiped
+
 Table
 *****
 
@@ -54,15 +62,15 @@ Numbered List
 Image
 *****
 
-#. Image with hyperlinks is exported to reST :target:.
+* Image with hyperlinks is exported to reST :target:.
 
-#. Image alt\-title was exported to reST :alt:, but alt\-description was not.
+* Image alt\-title was exported to reST :alt:, but alt\-description was not.
 
-#. Resized image dimension was coded as :width: and :height: argument of reST. Though, you will see this image with original size in Github’s preview page, but it is recognized in the Sphinx.
+* Resized image dimension was coded as :width: and :height: argument of reST. Though, you will see this image with original size in Github’s preview page, but it is recognized in the Sphinx.
 
-#. Image adjustments, border, cropping was dropped. So always the original image was exported.
+* Image adjustments, border, cropping was dropped. So always the original image was exported.
 
-#. Images were saved into a subfolder. The naming rules for this subfolder are:
+* Images were saved into a subfolder. The naming rules for this subfolder are:
 
    * For document with Github binding, the binding name was used.
 
