@@ -41,7 +41,6 @@ In Google Docs, it actually is like this:
 .. image:: DocStructure/img_1.png
    :height: 285 px
    :width: 697 px
-   :align: center
 
 Horizontal Line
 ***************
@@ -68,7 +67,7 @@ Image
 .. image:: DocStructure/img_2.png
    :height: 60 px
    :width: 206 px
-   :align: center
+   :align: right
 
 * Image with hyperlinks is exported to reST :target:.
 
