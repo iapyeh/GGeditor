@@ -24,6 +24,8 @@ Document Structure
 |Paragraph       |Normal Text        |      |
 +----------------+-------------------+------+
 
+\*
+
 Paragraph
 *********
 
@@ -75,9 +77,11 @@ Image
 
 * Image alt\-title was exported to reST :alt:, but alt\-description was not.
 
-* Resized image dimension was coded as :width: and :height: argument of reST. Though, you will see this image with original size in Github’s preview page, but it is recognized in the Sphinx.
+* Resized dimension was exported to  :width: and :height:. 
 
-* Image adjustments, border, cropping was dropped. So always the original image was exported.
+* Image adjustments, border, cropping in Google Docs were dropped when exported to reST. Always the original image was exported.
+
+* Please be noted, currently the Github skipped :width:, :height:, :align:. you will see them be effective in the Sphinx (ReadTheDocs) only.
 
 * Images were saved into a subfolder. The naming rules for this subfolder are:
 
