@@ -24,8 +24,6 @@ Document Structure
 |Paragraph       |Normal Text        |      |
 +----------------+-------------------+------+
 
-\*
-
 Paragraph
 *********
 
@@ -53,6 +51,12 @@ Just insert a horizontal line in Google Docs, it was converted to reST. Like thi
 
 Table
 *****
+
+A Google Docs table was exported to a reST table with the following rules:
+
+* Text and hyperlink of text was exported.
+
+* Nested table, list item, image was not exported.
 
 List
 ****
