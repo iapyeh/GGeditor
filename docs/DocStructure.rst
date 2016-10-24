@@ -56,7 +56,19 @@ A Google Docs table was exported to a reST table with the following rules:
 
 * Text and hyperlink of text was exported.
 
-* Nested table, list item, image was not exported.
+* Nested table, list item, image were not exported.
+
+
+
+
+
++-----------------+-----------------------------------------------------+
+|Header 1A        |                      Header 1B                      |
++-----------------+-----------------------------------------------------+
+|        Header 2A|Header 2B                                            |
++-----------------+-----------------------------------------------------+
+|   Cell with text|Cell with link to  `google <http://www.google.com>`_ |
++-----------------+-----------------------------------------------------+
 
 List
 ****
