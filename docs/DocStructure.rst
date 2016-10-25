@@ -2,6 +2,12 @@
 Document Structure and Components
 #################################
 
+.. rubric::
+
+   Version 1.0
+
+Date: Oct 25, 2016
+
 Document Structure
 ******************
 
@@ -85,6 +91,11 @@ Bullet List, Enumerated List
 * Image in list item was not exported
 * Table in list item was not exported
 
+The above list in the Google Docs:
+
+
+
+
 
 
 
@@ -127,44 +138,47 @@ A Google Docs table was exported to a reST table with the following rules:
 * Heading rows with all cell text to be bold were exported as header rows.
 * Nested table, image were not exported.
 * Text alignment, indent in cells were not exported. 
-* Line break was preserved. Which means, you got to break a very long sentence manually in order not to have a very long cell.
+* Currently, column and row span is not supported.
+* Line break was preserved. Which means, you got to break a very long sentence manually (with Shift+Enter) in order not to have a table with great width.
 
 For example, in the Google Docs:
 
 
 .. image:: DocStructure/img_4.png
-   :height: 317 px
+   :height: 325 px
    :width: 697 px
 
 It results:
 
-+----------------------------------------------+---------------------------------------+------------------------+
-| **Make all cells BOLD**                      | **would upgrade this row**            | **to be a header row** |
-+==============================================+=======================================+========================+
-|Normal cell text                              |                                       |Empty cell in my left   |
-+----------------------------------------------+---------------------------------------+------------------------+
-|Hyper link is fine                            |#. This is #1                          |                        |
-|                                              |#. This is #2                          |                        |
-|| Link to  `google <http://www.google.com>`_  |                                       |                        |
-|| Link to  `Facebook <http://facebook.com>`_  |   * This is #a                        |                        |
-|| Link to  `Apple <http://apple.com>`_        |   * This is #b                        |                        |
-|                                              |                                       |                        |
-|                                              |      #. This is #1                    |                        |
-|                                              |      #. This is #2                    |                        |
-|                                              |      #. This is #3                    |                        |
-|                                              |                                       |                        |
-|                                              |   * This is #c                        |                        |
-|                                              |                                       |                        |
-|                                              |#. This is #3                          |                        |
-+----------------------------------------------+---------------------------------------+------------------------+
-|But  image                                    | , column or row span does not exported|                        |
-|                                              |                                       |                        |
-+----------------------------------------------+---------------------------------------+------------------------+
++----------------------------------------------+------------------------------------------+------------------------+
+| **Make all cells BOLD**                      | **would upgrade this row**               | **to be a header row** |
++==============================================+==========================================+========================+
+|Normal cell text                              |                                          |Empty cell in my left   |
++----------------------------------------------+------------------------------------------+------------------------+
+|Hyper link is fine                            |#. This is #1                             |                        |
+|                                              |#. This is #2                             |                        |
+|| Link to  `google <http://www.google.com>`_  |                                          |                        |
+|| Link to  `Facebook <http://facebook.com>`_  |   * This is #a                           |                        |
+|| Link to  `Apple <http://apple.com>`_        |   * This is #b                           |                        |
+|                                              |                                          |                        |
+|                                              |      #. This is #1                       |                        |
+|                                              |      #. This is #2                       |                        |
+|                                              |      #. This is #3                       |                        |
+|                                              |                                          |                        |
+|                                              |   * This is #c                           |                        |
+|                                              |                                          |                        |
+|                                              |#. This is #3                             |                        |
++----------------------------------------------+------------------------------------------+------------------------+
+|But  image                                    | , column or row span is not exported yet.|                        |
+|                                              |                                          |                        |
++----------------------------------------------+------------------------------------------+------------------------+
 
 --------
 
 Image
 *****
+
+Image in the Google Docs was exported to reST. 
 
 * Please set image to be “Inline” in Google Docs, like this:
 
@@ -180,6 +194,7 @@ Image
 * Resized dimension was exported to  :width: and :height:. 
 * Image adjustments, border, cropping in Google Docs were dropped when exported to reST. Always the original image was exported.
 * Please be noted, currently the Github skipped :width:, :height:, :align:. you will see them be effective in the Sphinx (ReadTheDocs) only.
+* The inline drawing in the Google Docs has not API to get its binary data, it is not able to be exported. Please use inline image instead of inline drawing.
 * Images were saved into a subfolder. The naming rules for this subfolder are:
 
    #. For document with Github binding, the binding name was used.
@@ -187,8 +202,5 @@ Image
    #. If there is file extension (ex, .rst) in the name, that extension was omitted.
    #. If there is no file extension in the name, “_files” was appended to avoid naming\-conflict.
 
-Inline Image
-************
 
-Inline Markup
-*************
+
