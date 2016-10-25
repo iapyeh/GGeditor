@@ -56,6 +56,9 @@ For example, this is the second paragraph.
     **Paragraph Indent is preserved** .  The indentation level depends on the second line.  This paragraph is of 1 level of indentation. 
 
        *This paragraph is of 2 level of indentation in italic* . Hyperlinks are supported. You can create a link like this:  `link to the Google <http://www.google.com>`_ . 
+       
+A paragraph with hypertext: **GGeditor :sup:`1.0`** is a  `Google Docs Add\-on <https://support.google.com/a/answer/4530135?hl=en>`_  for editing reST file. That is, you edit *V :sub:`2`* the content in Google Docs and with GGeditor to convert it into  `reST format <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_ . 
+
 
 Remarks on paragraph
 ====================
