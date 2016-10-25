@@ -60,23 +60,23 @@ A Google Docs table was exported to a reST table with the following rules:
 * Text alignment, indent in cells were not exported. 
 * Line break was preserved. Which means, you got to break a very long sentence manually in order not to have a very long cell.
 
-+-------------------+-------------------------------------------+---------------------+
-|Make all cells BOLD| would upgrade this row                    | to be a header row  |
-+===================+===========================================+=====================+
-|Normal cell text   |                                           |Empty cell in my left|
-+-------------------+-------------------------------------------+---------------------+
-|Hyper link is fine |Link to  `google <http://www.google.com>`_ |                     |
-|                   |Link to  `Facebook <http://facebook.com>`_ |#. This is #1        |
-|                   |Link to  `Apple <http://apple.com>`_       |#. This is #2        |
-|                   |                                           |                     |
-|                   |                                           |   * This is #a      |
-|                   |                                           |   * This is #b      |
-|                   |                                           |                     |
-|                   |                                           |#. This is #3        |
-+-------------------+-------------------------------------------+---------------------+
-|But  image         | , column or row span does not exported    |                     |
-|                   |                                           |                     |
-+-------------------+-------------------------------------------+---------------------+
++-------------------+---------------------------------------------+---------------------+
+|Make all cells BOLD| would upgrade this row                      | to be a header row  |
++===================+=============================================+=====================+
+|Normal cell text   |                                             |Empty cell in my left|
++-------------------+---------------------------------------------+---------------------+
+|Hyper link is fine || Link to  `google <http://www.google.com>`_ |                     |
+|                   || Link to  `Facebook <http://facebook.com>`_ |#. This is #1        |
+|                   |Link to  `Apple <http://apple.com>`_         |#. This is #2        |
+|                   |                                             |                     |
+|                   |                                             |   * This is #a      |
+|                   |                                             |   * This is #b      |
+|                   |                                             |                     |
+|                   |                                             |#. This is #3        |
++-------------------+---------------------------------------------+---------------------+
+|But  image         | , column or row span does not exported      |                     |
+|                   |                                             |                     |
++-------------------+---------------------------------------------+---------------------+
 
 This is what the above table looks like in the Google Docs.
 
