@@ -87,7 +87,7 @@ This is what the above table looks like in the Google Docs.
 
 
 .. image:: DocStructure/img_2.png
-   :height: 208 px
+   :height: 317 px
    :width: 697 px
 
 List
