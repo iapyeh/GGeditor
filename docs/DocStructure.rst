@@ -60,9 +60,16 @@ Remarks on paragraph
 Literal Block, Quoted Block
 ***************************
 
-   You can use the indentation in the Google Docs to have a paragraph with indentation. No double dot (::) is required at the end of previous paragraph. But if you do, like this paragraph, it will be reserved::
+You can use the indentation in the Google Docs to have a paragraph with indentation. No double\-colon (::) is required at the end of previous paragraph. But if you do put  double\-colon (::) at end , like this paragraph, the next paragraph would have 1 more level of indentation::
 
-      The quoted content.
+   The quoted content.
+
+The above paragraph in the Google Docs.
+
+
+.. image:: DocStructure/img_2.png
+   :height: 178 px
+   :width: 697 px
 
 
 
@@ -87,7 +94,7 @@ Definition lists:
 Just use the indentation for definition content like this:
 
 
-.. image:: DocStructure/img_2.png
+.. image:: DocStructure/img_3.png
    :height: 142 px
    :width: 697 px
 
@@ -125,7 +132,7 @@ A Google Docs table was exported to a reST table with the following rules:
 For example, in the Google Docs:
 
 
-.. image:: DocStructure/img_3.png
+.. image:: DocStructure/img_4.png
    :height: 317 px
    :width: 697 px
 
@@ -162,7 +169,7 @@ Image
 * Please set image to be “Inline” in Google Docs, like this:
 
 
-.. image:: DocStructure/img_4.png
+.. image:: DocStructure/img_5.png
    :height: 60 px
    :width: 206 px
    :align: center
