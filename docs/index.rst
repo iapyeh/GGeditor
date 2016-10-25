@@ -22,7 +22,6 @@ Features:
 :maxdepth: 2
 
    DocStructure
-
    Examples
 
 Supported reST Features:
