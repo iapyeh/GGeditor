@@ -6,43 +6,56 @@ Document Structure
 ******************
 
 
-+----------------+-------------------+------+
-|Hierarchy       |Google Docs Heading|Markup|
-+================+===================+======+
-|Parts           |Title              |#     |
-+----------------+-------------------+------+
-|Chapter         |Heading 1          |\*    |
-+----------------+-------------------+------+
-|Section         |Heading 2          |=     |
-+----------------+-------------------+------+
-|Subsection      |Heading 3          |\-    |
-+----------------+-------------------+------+
-|Subsubsection   |Heading 4          |~     |
-+----------------+-------------------+------+
-|Subsubsubsection|Heading 5          |^     |
-+----------------+-------------------+------+
-|Paragraph       |Normal Text        |      |
-+----------------+-------------------+------+
++----------------+-------------------------+------------+
+| **Hierarchy**  | **Google Docs Heading** | **Markup** |
++================+=========================+============+
+|Parts           |Title                    |#           |
++----------------+-------------------------+------------+
+|Chapter         |Heading 1                |\*          |
++----------------+-------------------------+------------+
+|Section         |Heading 2                |=           |
++----------------+-------------------------+------------+
+|Subsection      |Heading 3                |\-          |
++----------------+-------------------------+------------+
+|Subsubsection   |Heading 4                |~           |
++----------------+-------------------------+------------+
+|Subsubsubsection|Heading 5                |^           |
++----------------+-------------------------+------------+
+|Paragraph       |Normal Text              |            |
++----------------+-------------------------+------------+
+
+Remarks on document structure
+=============================
+
+* If you have unicode in heading text, such as CKJ characters, the markup in next line might be longer because it got length from bytes not words count.
+
+--------
 
 Paragraph
 *********
 
-Any chunk of text with “Normal text” style is converted to reST paragraph.  No line break was inserted for a single paragraph. There is an empty line between every paragraph.
+Any chunk of text with “Normal text” style is converted to reST paragraph.  
 
 For example, in the Google Docs:
 
 
 .. image:: DocStructure/img_1.png
-   :height: 285 px
+   :height: 205 px
    :width: 697 px
 
 It results:
 
 For example, this is the second paragraph.
 
-   Paragraph Indent is preserved. event it has indent only at the first line, the total paragraph got indent in generated reST.
+    **Paragraph Indent is preserved** .  The indentation level depends on the second line.  This paragraph is of 1 level of indentation. 
 
-      Nested indent paragraph is allowed like this paragraph. Its first line has 2 level of indent, the rest lines has 1 level of indent. In this case, this paragraph takes 2 level of indent.
+       *This paragraph is of 2 level of indentation in italic* . Hyperlinks are supported. You can create a link like this:  `link to the Google <http://www.google.com>`_ . 
+
+Remarks on paragraph
+====================
+
+* You don’t need to put a backslash for escaping special characters.
+* A link text is not to be bold and italic at the same time, and a bold text is not to be italic too.
 
 
 
@@ -111,28 +124,28 @@ For example, in the Google Docs:
 
 It results:
 
-+----------------------------------------------+---------------------------------------+---------------------+
-|Make all cells BOLD                           | would upgrade this row                | to be a header row  |
-+==============================================+=======================================+=====================+
-|Normal cell text                              |                                       |Empty cell in my left|
-+----------------------------------------------+---------------------------------------+---------------------+
-|Hyper link is fine                            |#. This is #1                          |                     |
-|                                              |#. This is #2                          |                     |
-|| Link to  `google <http://www.google.com>`_  |                                       |                     |
-|| Link to  `Facebook <http://facebook.com>`_  |   * This is #a                        |                     |
-|| Link to  `Apple <http://apple.com>`_        |   * This is #b                        |                     |
-|                                              |                                       |                     |
-|                                              |      #. This is #1                    |                     |
-|                                              |      #. This is #2                    |                     |
-|                                              |      #. This is #3                    |                     |
-|                                              |                                       |                     |
-|                                              |   * This is #c                        |                     |
-|                                              |                                       |                     |
-|                                              |#. This is #3                          |                     |
-+----------------------------------------------+---------------------------------------+---------------------+
-|But  image                                    | , column or row span does not exported|                     |
-|                                              |                                       |                     |
-+----------------------------------------------+---------------------------------------+---------------------+
++----------------------------------------------+---------------------------------------+------------------------+
+| **Make all cells BOLD**                      | **would upgrade this row**            | **to be a header row** |
++==============================================+=======================================+========================+
+|Normal cell text                              |                                       |Empty cell in my left   |
++----------------------------------------------+---------------------------------------+------------------------+
+|Hyper link is fine                            |#. This is #1                          |                        |
+|                                              |#. This is #2                          |                        |
+|| Link to  `google <http://www.google.com>`_  |                                       |                        |
+|| Link to  `Facebook <http://facebook.com>`_  |   * This is #a                        |                        |
+|| Link to  `Apple <http://apple.com>`_        |   * This is #b                        |                        |
+|                                              |                                       |                        |
+|                                              |      #. This is #1                    |                        |
+|                                              |      #. This is #2                    |                        |
+|                                              |      #. This is #3                    |                        |
+|                                              |                                       |                        |
+|                                              |   * This is #c                        |                        |
+|                                              |                                       |                        |
+|                                              |#. This is #3                          |                        |
++----------------------------------------------+---------------------------------------+------------------------+
+|But  image                                    | , column or row span does not exported|                        |
+|                                              |                                       |                        |
++----------------------------------------------+---------------------------------------+------------------------+
 
 --------
 
