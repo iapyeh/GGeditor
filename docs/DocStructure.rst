@@ -82,7 +82,7 @@ Bullet List, Enumerated List
 
    * But the list style was depended on rendering.
 
-* Image 
+* Image in list item was not exported
 * Table in list item was not exported
 
 
