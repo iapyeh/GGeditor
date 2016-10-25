@@ -2,9 +2,7 @@
 Document Structure and Components
 #################################
 
-.. rubric::
-
-   Version 1.0
+Version 1.0
 
 Date: Oct 25, 2016
 
@@ -12,23 +10,23 @@ Document Structure
 ******************
 
 
-+----------------+-------------------------+------------+
-| **Hierarchy**  | **Google Docs Heading** | **Markup** |
-+================+=========================+============+
-|Parts           |Title                    |#           |
-+----------------+-------------------------+------------+
-|Chapter         |Heading 1                |\*          |
-+----------------+-------------------------+------------+
-|Section         |Heading 2                |=           |
-+----------------+-------------------------+------------+
-|Subsection      |Heading 3                |\-          |
-+----------------+-------------------------+------------+
-|Subsubsection   |Heading 4                |~           |
-+----------------+-------------------------+------------+
-|Subsubsubsection|Heading 5                |^           |
-+----------------+-------------------------+------------+
-|Paragraph       |Normal Text              |            |
-+----------------+-------------------------+------------+
++----------------+-------------------+------+
+|Hierarchy       |Google Docs Heading|Markup|
++================+===================+======+
+|Parts           |Title              |#     |
++----------------+-------------------+------+
+|Chapter         |Heading 1          |\*    |
++----------------+-------------------+------+
+|Section         |Heading 2          |=     |
++----------------+-------------------+------+
+|Subsection      |Heading 3          |\-    |
++----------------+-------------------+------+
+|Subsubsection   |Heading 4          |~     |
++----------------+-------------------+------+
+|Subsubsubsection|Heading 5          |^     |
++----------------+-------------------+------+
+|Paragraph       |Normal Text        |      |
++----------------+-------------------+------+
 
 Remarks on document structure
 =============================
@@ -55,11 +53,8 @@ For example, this is the second paragraph.
 
     **Paragraph Indent is preserved** .  The indentation level depends on the second line.  This paragraph is of 1 level of indentation. 
 
-       *This paragraph is of 2 level of indentation in italic* . Hyperlinks are supported. You can create a link like this:  `link to the Google <http://www.google.com>`_ . 
-       
-A paragraph with hypertext: **GGeditor :sup:`1.0`** is a  `Google Docs Add\-on <https://support.google.com/a/answer/4530135?hl=en>`_  for editing reST file. That is, you edit *V :sub:`2`* the content in Google Docs and with GGeditor to convert it into  `reST format <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_ .   Do you know X :sup:`2.0` + Y :sub:`3.51` ? Yes!
-
-
+       *This paragraph is of 2 level of indentation in italic* [#f1]_
+      . Hyperlinks are supported. You can create a link like this:  `link to the Google <http://www.google.com>`_ . 
 
 Remarks on paragraph
 ====================
@@ -83,6 +78,11 @@ The above paragraph in the Google Docs.
 
 
 
+
+Subscription, Superscription
+****************************
+
+Not supported yet.
 
 Bullet List, Enumerated List
 ****************************
@@ -154,35 +154,35 @@ For example, in the Google Docs:
 
 It results:
 
-+----------------------------------------------+------------------------------------------+------------------------+
-| **Make all cells BOLD**                      | **would upgrade this row**               | **to be a header row** |
-+==============================================+==========================================+========================+
-|Normal cell text                              |                                          |Empty cell in my left   |
-+----------------------------------------------+------------------------------------------+------------------------+
-|Hyper link is fine                            |#. This is #1                             |                        |
-|                                              |#. This is #2                             |                        |
-|| Link to  `google <http://www.google.com>`_  |                                          |                        |
-|| Link to  `Facebook <http://facebook.com>`_  |   * This is #a                           |                        |
-|| Link to  `Apple <http://apple.com>`_        |   * This is #b                           |                        |
-|                                              |                                          |                        |
-|                                              |      #. This is #1                       |                        |
-|                                              |      #. This is #2                       |                        |
-|                                              |      #. This is #3                       |                        |
-|                                              |                                          |                        |
-|                                              |   * This is #c                           |                        |
-|                                              |                                          |                        |
-|                                              |#. This is #3                             |                        |
-+----------------------------------------------+------------------------------------------+------------------------+
-|But  image                                    | , column or row span is not exported yet.|                        |
-|                                              |                                          |                        |
-+----------------------------------------------+------------------------------------------+------------------------+
++----------------------------------------------+------------------------------------------+---------------------+
+|Make all cells BOLD                           | would upgrade this row                   | to be a header row  |
++==============================================+==========================================+=====================+
+|Normal cell text                              |                                          |Empty cell in my left|
++----------------------------------------------+------------------------------------------+---------------------+
+|Hyper link is fine                            |#. This is #1                             |                     |
+|                                              |#. This is #2                             |                     |
+|| Link to  `google <http://www.google.com>`_  |                                          |                     |
+|| Link to  `Facebook <http://facebook.com>`_  |   * This is #a                           |                     |
+|| Link to  `Apple <http://apple.com>`_        |   * This is #b                           |                     |
+|                                              |                                          |                     |
+|                                              |      #. This is #1                       |                     |
+|                                              |      #. This is #2                       |                     |
+|                                              |      #. This is #3                       |                     |
+|                                              |                                          |                     |
+|                                              |   * This is #c                           |                     |
+|                                              |                                          |                     |
+|                                              |#. This is #3                             |                     |
++----------------------------------------------+------------------------------------------+---------------------+
+|But  image                                    | , column or row span is not exported yet.|                     |
+|                                              |                                          |                     |
++----------------------------------------------+------------------------------------------+---------------------+
 
 --------
 
 Image
 *****
 
-Image in the Google Docs was exported to reST. 
+Image in the Google Docs was exported to reST. Chart  is image too, so it can be exported to reST.
 
 * Please set image to be “Inline” in Google Docs, like this:
 
@@ -206,5 +206,35 @@ Image in the Google Docs was exported to reST.
    #. If there is file extension (ex, .rst) in the name, that extension was omitted.
    #. If there is no file extension in the name, “_files” was appended to avoid naming\-conflict.
 
++-------------------+
+|.. class::         |
++-------------------+
+|   content of class|
++-------------------+
 
 
++---------------------------------------------------------------------+
+|.. py:function:: send_message(sender, [priority=1])                  |
++---------------------------------------------------------------------+
+|   Send a message to a recipient                                     |
++---------------------------------------------------------------------+
+|   :param str sender: The person sending the message                 |
++---------------------------------------------------------------------+
+|   :param priority: The priority of the message, can be a number 1\-5|
++---------------------------------------------------------------------+
+|   :type priority: integer or None                                   |
++---------------------------------------------------------------------+
+|   :return: the message id                                           |
++---------------------------------------------------------------------+
+|   :rtype: int                                                       |
++---------------------------------------------------------------------+
+|   :raises ValueError: if the message_body exceeds 160 characters    |
++---------------------------------------------------------------------+
+
+
+
+
+\`\`Thihs is a code\`\`
+
+.. rubric:: Footnotes
+.. [#f1]  This is a footnote
