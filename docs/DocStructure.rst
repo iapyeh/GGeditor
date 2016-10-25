@@ -29,18 +29,23 @@ Paragraph
 
 Any chunk of text with “Normal text” style is converted to reST paragraph.  No line break was inserted for a single paragraph. There is an empty line between every paragraph.
 
+For example, in the Google Docs:
+
+
+.. image:: DocStructure/img_1.png
+   :height: 285 px
+   :width: 697 px
+
+It results:
+
 For example, this is the second paragraph.
 
    Paragraph Indent is preserved. event it has indent only at the first line, the total paragraph got indent in generated reST.
 
       Nested indent paragraph is allowed like this paragraph. Its first line has 2 level of indent, the rest lines has 1 level of indent. In this case, this paragraph takes 2 level of indent.
 
-In Google Docs, it actually is like this:
 
 
-.. image:: DocStructure/img_1.png
-   :height: 285 px
-   :width: 697 px
 
 Bullet List, Enumerated List
 ****************************
@@ -77,6 +82,8 @@ How
 
       The term is a one\-line phrase, and the definition is one or more paragraphs or body elements, indented relative to  the term.
 
+--------
+
 Horizontal Line
 ***************
 
@@ -94,6 +101,15 @@ A Google Docs table was exported to a reST table with the following rules:
 * Nested table, image were not exported.
 * Text alignment, indent in cells were not exported. 
 * Line break was preserved. Which means, you got to break a very long sentence manually in order not to have a very long cell.
+
+For example, in the Google Docs:
+
+
+.. image:: DocStructure/img_3.png
+   :height: 317 px
+   :width: 697 px
+
+It results:
 
 +----------------------------------------------+---------------------------------------+---------------------+
 |Make all cells BOLD                           | would upgrade this row                | to be a header row  |
@@ -118,12 +134,7 @@ A Google Docs table was exported to a reST table with the following rules:
 |                                              |                                       |                     |
 +----------------------------------------------+---------------------------------------+---------------------+
 
-This is what the above table looks like in the Google Docs.
-
-
-.. image:: DocStructure/img_3.png
-   :height: 317 px
-   :width: 697 px
+--------
 
 Image
 *****
