@@ -42,6 +42,41 @@ In Google Docs, it actually is like this:
    :height: 285 px
    :width: 697 px
 
+Bullet List, Enumerated List
+****************************
+
+* Just use them as in Google Docs
+* Nested list is fine
+
+   * But the list style was depended on rendering.
+
+* Image 
+* Table in list item was not exported
+
+
+
+
+Definition lists:
+*****************
+
+Just use the indentation for definition content like this:
+
+
+.. image:: DocStructure/img_2.png
+   :height: 142 px
+   :width: 697 px
+
+It results:
+
+What 
+
+      Definition lists associate a term with a definition.
+      
+
+How
+
+      The term is a one\-line phrase, and the definition is one or more paragraphs or body elements, indented relative to  the term.
+
 Horizontal Line
 ***************
 
@@ -56,7 +91,7 @@ A Google Docs table was exported to a reST table with the following rules:
 
 * Text and hyperlink of text was exported.
 * Heading rows with all cell text to be bold were exported as header rows.
-* Nested table, list item, image were not exported.
+* Nested table, image were not exported.
 * Text alignment, indent in cells were not exported. 
 * Line break was preserved. Which means, you got to break a very long sentence manually in order not to have a very long cell.
 
@@ -86,15 +121,9 @@ A Google Docs table was exported to a reST table with the following rules:
 This is what the above table looks like in the Google Docs.
 
 
-.. image:: DocStructure/img_2.png
+.. image:: DocStructure/img_3.png
    :height: 317 px
    :width: 697 px
-
-List
-****
-
-Numbered List
-*************
 
 Image
 *****
@@ -102,7 +131,7 @@ Image
 * Please set image to be “Inline” in Google Docs, like this:
 
 
-.. image:: DocStructure/img_3.png
+.. image:: DocStructure/img_4.png
    :height: 60 px
    :width: 206 px
    :align: center
