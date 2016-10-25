@@ -9,6 +9,10 @@ Document Structure
 +----------------+-------------------+------+
 |Hierarchy       |Google Docs Heading|Markup|
 +================+===================+======+
+|Parts           |Title              |#     |
++----------------+-------------------+------+
+|Chapter         |Heading 1          |\*    |
++----------------+-------------------+------+
 |Section         |Heading 2          |=     |
 +----------------+-------------------+------+
 |Subsection      |Heading 3          |\-    |
@@ -52,7 +56,33 @@ A Google Docs table was exported to a reST table with the following rules:
 
 * Text and hyperlink of text was exported.
 
+* Heading rows with all cell text to be bold were exported as header rows.
+
 * Nested table, list item, image were not exported.
+
+* Text alignment, indent in cells were not exported. 
+
+* Line break was preserved. Which means, you got to break a very long sentence manually in order not to have a very long cell.
+
+
++----------------------+-------------------------------------------+---------------------+
+|Make all cells BOLD   | would upgrade this row                    | to be a header row  |
++======================+===========================================+=====================+
+|Normal cell text      |                                           |Empty cell in my left|
++----------------------+-------------------------------------------+---------------------+
+|Hyper link is fine    |Link to  `google <http://www.google.com>`_ |This is line 1       |
+|                      |                                           |This is line 2       |
+|                      |                                           |This is line 3       |
++----------------------+-------------------------------------------+---------------------+
+|But  image, list item,|column or row span does not exported       |                     |
++----------------------+-------------------------------------------+---------------------+
+
+This is what the above table looks like in the Google Docs.
+
+
+.. image:: DocStructure/img_2.png
+   :height: 169 px
+   :width: 697 px
 
 List
 ****
@@ -66,7 +96,7 @@ Image
 * Please set image to be “Inline” in Google Docs, like this:
 
 
-.. image:: DocStructure/img_2.png
+.. image:: DocStructure/img_3.png
    :height: 60 px
    :width: 206 px
    :align: center
