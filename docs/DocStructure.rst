@@ -70,11 +70,16 @@ A Google Docs table was exported to a reST table with the following rules:
 +===================+==================================================+=====================+
 |Normal cell text   |                                                  |Empty cell in my left|
 +-------------------+--------------------------------------------------+---------------------+
-|Hyper link is fine |Link to  `google <http://www.google.com>`_        |This is line 1       |
-|                   |                                                  |This is line 2       |
-|                   |                                                  |This is line 3       |
+|Hyper link is fine |Link to  `google <http://www.google.com>`_        |                     |
+|                   |                                                  |   * This is line 1  |
+|                   |                                                  |                     |
+|                   |                                                  |   * This is line 2  |
+|                   |                                                  |                     |
+|                   |                                                  |   * This is line 3  |
+|                   |                                                  |                     |
 +-------------------+--------------------------------------------------+---------------------+
 |But  image         | , list item, column or row span does not exported|                     |
+|                   |                                                  |                     |
 +-------------------+--------------------------------------------------+---------------------+
 
 This is what the above table looks like in the Google Docs.
