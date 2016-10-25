@@ -40,7 +40,7 @@ For example, in the Google Docs:
 
 
 .. image:: DocStructure/img_1.png
-   :height: 205 px
+   :height: 185 px
    :width: 697 px
 
 It results:
@@ -56,6 +56,13 @@ Remarks on paragraph
 
 * You don’t need to put a backslash for escaping special characters.
 * A link text is not to be bold and italic at the same time, and a bold text is not to be italic too.
+
+Literal Block, Quoted Block
+***************************
+
+   You can use the indentation in the Google Docs to have a paragraph with indentation. No double dot (::) is required at the end of previous paragraph. But if you do, like this paragraph, it will be reserved::
+
+      The quoted content.
 
 
 
