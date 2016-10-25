@@ -53,24 +53,30 @@ Table
 *****
 
 A Google Docs table was exported to a reST table with the following rules:
+
 * Text and hyperlink of text was exported.
 * Heading rows with all cell text to be bold were exported as header rows.
 * Nested table, list item, image were not exported.
 * Text alignment, indent in cells were not exported. 
 * Line break was preserved. Which means, you got to break a very long sentence manually in order not to have a very long cell.
 
-+-------------------+--------------------------------------------------+---------------------+
-|Make all cells BOLD| would upgrade this row                           | to be a header row  |
-+===================+==================================================+=====================+
-|Normal cell text   |                                                  |Empty cell in my left|
-+-------------------+--------------------------------------------------+---------------------+
-|Hyper link is fine |Link to  `google <http://www.google.com>`_        |   * This is line 1  |
-|                   |                                                  |   * This is line 2  |
-|                   |                                                  |   * This is line 3  |
-+-------------------+--------------------------------------------------+---------------------+
-|But  image         | , list item, column or row span does not exported|                     |
-|                   |                                                  |                     |
-+-------------------+--------------------------------------------------+---------------------+
++-------------------+-------------------------------------------+---------------------+
+|Make all cells BOLD| would upgrade this row                    | to be a header row  |
++===================+===========================================+=====================+
+|Normal cell text   |                                           |Empty cell in my left|
++-------------------+-------------------------------------------+---------------------+
+|Hyper link is fine |Link to  `google <http://www.google.com>`_ |                     |
+|                   |Link to  `Facebook <http://facebook.com>`_ |#. This is #1        |
+|                   |Link to  `Apple <http://apple.com>`_       |#. This is #2        |
+|                   |                                           |                     |
+|                   |                                           |   * This is #a      |
+|                   |                                           |   * This is #b      |
+|                   |                                           |                     |
+|                   |                                           |#. This is #3        |
++-------------------+-------------------------------------------+---------------------+
+|But  image         | , column or row span does not exported    |                     |
+|                   |                                           |                     |
++-------------------+-------------------------------------------+---------------------+
 
 This is what the above table looks like in the Google Docs.
 
@@ -103,6 +109,7 @@ Image
 * Image adjustments, border, cropping in Google Docs were dropped when exported to reST. Always the original image was exported.
 * Please be noted, currently the Github skipped :width:, :height:, :align:. you will see them be effective in the Sphinx (ReadTheDocs) only.
 * Images were saved into a subfolder. The naming rules for this subfolder are:
+
    * For document with Github binding, the binding name was used.
    * For document without Github binding, the document name was used.
    * If there is file extension (ex, .rst) in the name, that extension was omitted.
