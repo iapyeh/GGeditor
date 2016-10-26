@@ -29,6 +29,7 @@ what  [#f3]_ is that
  [#f4]_  at the end
 
 .. rubric:: Footnotes
+
 .. [#f1]  This is 1
 .. [#f2]  This is 2
 .. [#f3]  This is 3
