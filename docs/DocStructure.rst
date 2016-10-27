@@ -25,7 +25,7 @@ Document Structure
 +----------------+-------------------+------+
 |Subsubsubsection|Heading 5          |^     |
 +----------------+-------------------+------+
-|Paragraph       |Normal Text        |      |
+|Paragraph       ||icon|_            |      |
 +----------------+-------------------+------+
 
 Remarks on document structure
@@ -46,6 +46,9 @@ For example, in the Google Docs:
 .. image:: DocStructure/img_1.png
    :height: 185 px
    :width: 697 px
+
+
+.. |icon| image:: DocStructure/img_1.png
 
 It results:
 
