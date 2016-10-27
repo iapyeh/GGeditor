@@ -25,20 +25,21 @@ Document Structure
 +----------------+-------------------+------+
 |Subsubsubsection|Heading 5          |^     |
 +----------------+-------------------+------+
-|Paragraph       ||icon|_            |      |
+|Paragraph       | |icon|            |      |
 +----------------+-------------------+------+
 
 Remarks on document structure
 =============================
 
 * If you have unicode in heading text, such as CKJ characters, the markup in next line might be longer because it got length from bytes not words count.
+* this is |icon| in item list
 
 --------
 
 Paragraph
 *********
 
-Any chunk of text with “Normal text” |icon|_ style is converted to reST paragraph.  
+Any chunk of text with “Normal text” |icon| style is converted to reST paragraph.  
 
 For example, in the Google Docs:
 
