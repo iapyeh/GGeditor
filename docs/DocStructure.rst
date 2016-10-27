@@ -32,7 +32,7 @@ Remarks on document structure
 =============================
 
 * If you have unicode in heading text, such as CKJ characters, the markup in next line might be longer because it got length from bytes not words count.
-* this is |icon| in item list
+* this is |icon2| in item list
 
 --------
 
@@ -52,6 +52,11 @@ For example, in the Google Docs:
 .. |icon| image:: DocStructure/img_1.png
           :width: 100 px
           :height: 100 px
+
+.. |icon2| image:: DocStructure/img_1.png
+   :width: 100 px
+   :height: 100 px
+
 
 It results:
 
