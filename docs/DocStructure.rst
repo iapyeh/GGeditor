@@ -38,7 +38,7 @@ Remarks on document structure
 Paragraph
 *********
 
-Any chunk of text with “Normal text” style is converted to reST paragraph.  
+Any chunk of text with “Normal text” |icon|_ style is converted to reST paragraph.  
 
 For example, in the Google Docs:
 
