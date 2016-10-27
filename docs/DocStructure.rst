@@ -50,8 +50,8 @@ For example, in the Google Docs:
 
 
 .. |icon| image:: DocStructure/img_1.png
-   :width: 100 px
-   :height: 100 px
+          :width: 100 px
+          :height: 100 px
 
 It results:
 
