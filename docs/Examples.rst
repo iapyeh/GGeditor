@@ -21,7 +21,7 @@ what [#f2]_ is this
 
       what [#f3]_       is that
 
-a |IMG2| 
+|IMG2| 
 
 [#f4]_  at the end
 
@@ -32,10 +32,10 @@ a |IMG2|
 .. [#f3]  This is 3
 .. [#f4]  This is 4
 
-.. |IMG0| image:: Examples/img_0.png
+.. |IMG1| image:: Examples/img_1.png
    :height: 114 px
    :width: 197 px
 
-.. |IMG1| image:: Examples/img_1.png
+.. |IMG2| image:: Examples/img_2.png
    :height: 94 px
    :width: 124 px
