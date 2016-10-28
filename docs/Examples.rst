@@ -21,7 +21,7 @@ what [#f2]_ is this
 
       what [#f3]_       is that
 
- |IMG2| 
+a |IMG2| 
 
 [#f4]_  at the end
 
