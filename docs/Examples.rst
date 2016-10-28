@@ -32,10 +32,10 @@ what [#f2]_ is this
 .. [#f3]  This is 3
 .. [#f4]  This is 4
 
-.. |IMG1| image:: img_1.png
+.. |IMG1| image:: Examples/img_1.png
    :height: 114 px
    :width: 197 px
 
-.. |IMG2| image:: img_2.png
+.. |IMG2| image:: Examples/img_2.png
    :height: 94 px
    :width: 124 px
