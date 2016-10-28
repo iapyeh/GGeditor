@@ -21,16 +21,26 @@ what [#f2]_ is this
 
       what [#f3]_       is that
 
+* This is item 
+
+   #.    This is[#f4]_     sub 1
+   #.    This is sub 2
+
+* This[#f5]_  is item
+* Tins is item
+
 |IMG2| 
 
-[#f4]_  at the end
+[#f6]_  at the end
 
 .. rubric:: Footnotes
 
 .. [#f1]  This is 1
 .. [#f2]  This is 2
 .. [#f3]  This is 3
-.. [#f4]  This is 4
+.. [#f4]  This is sub 1
+.. [#f5]  This is in list item 
+.. [#f6]  This is 4
 
 .. |IMG1| image:: Examples/img_1.png
    :height: 114 px
