@@ -11,7 +11,7 @@ x\ :sup:`2`\  − 4x + 7
 
 \ *In mathematics*\ , a \ **polynomial**\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + 1.
 
-      In \ `mathematics`_\ , a polynomial is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + 1.
+      \ *In mathematics*\ , a \ **polynomial**\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + 1.
 
 
 .. _`expression`: https://en.wikipedia.org/wiki/Expression_(mathematics)
@@ -23,4 +23,3 @@ x\ :sup:`2`\  − 4x + 7
 .. _`multiplication`: https://en.wikipedia.org/wiki/Multiplication
 .. _`integer`: https://en.wikipedia.org/wiki/Integer
 .. _`exponents`: https://en.wikipedia.org/wiki/Exponentiation
-.. _`mathematics`: https://en.wikipedia.org/wiki/Mathematics
