@@ -7,10 +7,18 @@ Paragraphs
 
 A paragraph with links, bold text and italic text. As well as the same paragraph with indentation.
 
-The  *history*  of  `coffee`_  goes at least as far back as the 10th century, with a number of reports and legends surrounding its first use. **The native (undomesticated) origin of coffee**  is thought to have been  `Ethiopia`_ . 
+ *In mathematics* , a  **polynomial**  is an  `expression`_  consisting of  `variables`_  (or  `indeterminates`_ ) and  `coefficients`_ , that involves only the operations of  `addition`_ ,  `subtraction`_ ,  `multiplication`_ , and non\-negative  `integer`_   `exponents`_ . An example of a polynomial of a single indeterminate x is x2 − 4x + 7. An example in three variables is x3 + 2xyz2 − yz + 1.
 
-      The  *history*  of  `coffee`_  goes at least as far back as the 10th century, with a number of reports and legends surrounding its first use. **The native (undomesticated) origin of coffee**  is thought to have been  `Ethiopia`_ . 
+      In  `mathematics`_ , a polynomial is an  `expression`_  consisting of  `variables`_  (or  `indeterminates`_ ) and  `coefficients`_ , that involves only the operations of  `addition`_ ,  `subtraction`_ ,  `multiplication`_ , and non\-negative  `integer`_   `exponents`_ . An example of a polynomial of a single indeterminate x is x2 − 4x + 7. An example in three variables is x3 + 2xyz2 − yz + 1.
 
 
-.. _`coffee`: https://en.wikipedia.org/wiki/Coffee
-.. _`Ethiopia`: https://en.wikipedia.org/wiki/Ethiopia
+.. _`expression`: https://en.wikipedia.org/wiki/Expression_(mathematics)
+.. _`variables`: https://en.wikipedia.org/wiki/Variable_(mathematics)
+.. _`indeterminates`: https://en.wikipedia.org/wiki/Indeterminate_(variable)
+.. _`coefficients`: https://en.wikipedia.org/wiki/Coefficient
+.. _`addition`: https://en.wikipedia.org/wiki/Addition
+.. _`subtraction`: https://en.wikipedia.org/wiki/Subtraction
+.. _`multiplication`: https://en.wikipedia.org/wiki/Multiplication
+.. _`integer`: https://en.wikipedia.org/wiki/Integer
+.. _`exponents`: https://en.wikipedia.org/wiki/Exponentiation
+.. _`mathematics`: https://en.wikipedia.org/wiki/Mathematics
