@@ -21,6 +21,15 @@ Table
 *****
 
 
++-+-+-+
+|1|2|3|
++-+-+-+
+|4|5|6|
++-+-+-+
+|7|8|9|
++-+-+-+
+
+
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |\ *In mathematics*\ , \ |IMG5|\  a \ **polynomial**\ \ [#F5]_\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + T\ :sub:`ab`\ . |#. \ *In mathematics*\ , \ |IMG6|\  a \ **polynomial**\ \ [#F6]_\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + T\ :sub:`ab`\ . |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |#. \ *In mathematics*\ , \ |IMG7|\  a \ **polynomial**\ \ [#F7]_\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + T\ :sub:`ab`\ . |
