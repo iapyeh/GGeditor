@@ -7,7 +7,9 @@ Paragraphs
 
 A paragraph with links, bold text and italic text. As well as the same paragraph with indentation.
 
- *In mathematics* , a  **polynomial**  is an  `expression`_  consisting of  `variables`_  (or  `indeterminates`_ ) and  `coefficients`_ , that involves only the operations of  `addition`_ ,  `subtraction`_ ,  `multiplication`_ , and non\-negative  `integer`_   `exponents`_ . An example of a polynomial of a single indeterminate x is x2 − 4x + 7. An example in three variables is x3 + 2xyz2 − yz + 1.
+x2 − 4x + 7
+
+\ *In mathematics*\ , a \ **polynomial**\  is an  `expression`_  consisting of  `variables`_  (or  `indeterminates`_ ) and  `coefficients`_ , that involves only the operations of  `addition`_ ,  `subtraction`_ ,  `multiplication`_ , and non\-negative  `integer`_   `exponents`_ . An example of a polynomial of a single indeterminate x is x2 − 4x + 7. An example in three variables is x3 + 2xyz2 − yz + 1.
 
       In  `mathematics`_ , a polynomial is an  `expression`_  consisting of  `variables`_  (or  `indeterminates`_ ) and  `coefficients`_ , that involves only the operations of  `addition`_ ,  `subtraction`_ ,  `multiplication`_ , and non\-negative  `integer`_   `exponents`_ . An example of a polynomial of a single indeterminate x is x2 − 4x + 7. An example in three variables is x3 + 2xyz2 − yz + 1.
 
