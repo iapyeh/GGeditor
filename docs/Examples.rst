@@ -2,50 +2,9 @@
 Examples
 ########
 
-Here are some examples of GGeditor.
+Paragraphs
+**********
 
+The history of  `coffee <https://en.wikipedia.org/wiki/Coffee>`_  goes at least as far back as the 10th century, with a number of reports and legends surrounding its first use. The native (undomesticated) origin of coffee is thought to have been  `Ethiopia <https://en.wikipedia.org/wiki/Ethiopia>`_ . The earliest substantiated evidence of either coffee drinking or knowledge of the coffee tree is from the 15th century, in the  `Sufi <https://en.wikipedia.org/wiki/Sufi>`_  monasteries of  `Yemen <https://en.wikipedia.org/wiki/Yemen>`_ .
 
-+------------------------+-----------------------------+
-|Google Docs File        |Generated reST file in Github|
-+========================+=============================+
-|                        |                             |
-+------------------------+-----------------------------+
-|                        |                             |
-+------------------------+-----------------------------+
-|                        |                             |
-+------------------------+-----------------------------+
-|This is an  |IMG1| image|what [#f1]_ is this          |
-+------------------------+-----------------------------+
-
-what [#f2]_ is this
-
-      what [#f3]_       is that
-
-* This is item 
-
-   #.    This is[#f4]_     sub 1
-   #.    This is sub 2
-
-* This[#f5]_  is item
-* Tins is item
-
-|IMG2| 
-
-[#f6]_  at the end
-
-.. rubric:: Footnotes
-
-.. [#f1]  This is 1
-.. [#f2]  This is 2
-.. [#f3]  This is 3
-.. [#f4]  This is sub 1
-.. [#f5]  This is in list item 
-.. [#f6]  This is 4
-
-.. |IMG1| image:: Examples/img_1.png
-   :height: 114 px
-   :width: 197 px
-
-.. |IMG2| image:: Examples/img_2.png
-   :height: 94 px
-   :width: 124 px
+      The history of  `coffee <https://en.wikipedia.org/wiki/Coffee>`_  goes at least as far back as the 10th century, with a number of reports and legends surrounding its first use. The native (undomesticated) origin of coffee is thought to have been  `Ethiopia <https://en.wikipedia.org/wiki/Ethiopia>`_ . The earliest substantiated evidence of either coffee drinking or knowledge of the coffee tree is from the 15th century, in the  `Sufi <https://en.wikipedia.org/wiki/Sufi>`_  monasteries of  `Yemen <https://en.wikipedia.org/wiki/Yemen>`_ .
