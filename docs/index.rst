@@ -18,9 +18,8 @@ Features:
 #. List and nested list
 
 .. toctree::
-
-:maxdepth: 2
-
+   :maxdepth: 2
+   
    DocStructure
    Examples
 
