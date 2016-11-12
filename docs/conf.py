@@ -16,20 +16,20 @@ source_suffix = '.rst'
 master_doc = 'index'
 project = 'GGEditor'
 copyright = '2016, Yeh Hsin Yuan'
-exclude_patterns = ['_build']
-release = __version__
-version = '.'.join(release.split('.')[:1])
-last_stable = '1.0.0'
-rst_prolog = '''
-
-.. |last_stable| replace:: :GGeditor-doc:`{0}`
-'''.format(last_stable)
+#exclude_patterns = ['_build']
+#release = __version__
+#version = '.'.join(release.split('.')[:1])
+#last_stable = '1.0.0'
+#rst_prolog = '''
+#
+#.. |last_stable| replace:: :GGeditor-doc:`{0}`
+#'''.format(last_stable)
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
 extlinks = {
-    'GGeditor-doc':  ('http://docs.GGeditor.com/%s/', '')
+    #'GGeditor-doc':  ('http://docs.GGeditor.com/%s/', '')
 }
 
 # -- Options for HTML output ---------------------------------------------------
