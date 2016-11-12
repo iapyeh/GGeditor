@@ -12,8 +12,6 @@ __version__ = '1.0'
 # -- General configuration -----------------------------------------------------
 templates_path = ['_templates']
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks']
-source_suffix = '.rst'
-master_doc = 'index'
 project = 'GGEditor'
 copyright = '2016, Yeh Hsin Yuan'
 exclude_patterns = ['_build']
@@ -43,6 +41,8 @@ if not on_rtd:
     except ImportError:
         pass
 """
+source_suffix = '.rst'
+master_doc = 'index'
 html_static_path = ['static']
 """
 # Output file base name for HTML help builder.
