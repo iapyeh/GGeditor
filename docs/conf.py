@@ -14,12 +14,13 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks'
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'GGEditor'
-copyright = '2016, Hsin Yuan Yeh'
+copyright = '2016, Yeh Hsin Yuan'
 exclude_patterns = ['_build']
 release = __version__
 version = '.'.join(release.split('.')[:1])
 last_stable = '1.0.0'
 rst_prolog = '''
+
 .. |last_stable| replace:: :GGeditor-doc:`{0}`
 '''.format(last_stable)
 
@@ -65,15 +66,15 @@ def setup(app):
 
 # -- Options for LaTeX output --------------------------------------------------
 latex_documents = [
-    ('index', 'Chrolwer.tex', 'Chrolwer Documentation','Hsin Yuan Yeh','manual'),
+    #('index', 'Chrolwer.tex', 'Chrolwer Documentation','Hsin Yuan Yeh','manual'),
 ]
 
 # -- Options for manual page output --------------------------------------------
 man_pages = [
-    ('index', 'chrolwer', 'chrolwer documentation',
-     ['Hsin Yuan Yeh'], 1),
-    ('chrolwer-themes', 'chrolwer-themes', 'A theme manager for Chrolwer',
-     ['Hsin Yuan Yeh'], 1),
-    ('themes', 'chrolwer-theming', 'How to create themes for Chrolwer',
-     ['The Chrolwer contributors'], 1)
+    #('index', 'chrolwer', 'chrolwer documentation',
+    # ['Hsin Yuan Yeh'], 1),
+    #('chrolwer-themes', 'chrolwer-themes', 'A theme manager for Chrolwer',
+    # ['Hsin Yuan Yeh'], 1),
+    #('themes', 'chrolwer-theming', 'How to create themes for Chrolwer',
+    # ['The Chrolwer contributors'], 1)
 ]
