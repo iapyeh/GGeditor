@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+"""
 from __future__ import unicode_literals
 import sys, os
 
@@ -41,9 +42,9 @@ if not on_rtd:
         html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
     except ImportError:
         pass
-
+"""
 html_static_path = ['static']
-
+"""
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'GGeditordoc'
 
@@ -58,11 +59,12 @@ html_use_index = False
 # If true, links to the reST sources are added to the pages.
 html_show_sourcelink = False
 
-
+"""
 def setup(app):
     # overrides for wide tables in RTD theme
     app.add_stylesheet('theme_overrides.css')   # path relative to _static
 
+"""
 
 # -- Options for LaTeX output --------------------------------------------------
 latex_documents = [
@@ -78,3 +80,4 @@ man_pages = [
     #('themes', 'chrolwer-theming', 'How to create themes for Chrolwer',
     # ['The Chrolwer contributors'], 1)
 ]
+"""
