@@ -10,8 +10,8 @@ sys.path.append(os.path.abspath(os.pardir))
 __version__ = '1.0'
 
 # -- General configuration -----------------------------------------------------
-templates_path = ['_templates']
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks']
+#templates_path = ['_templates']
+#extensions = ['sphinx.ext.autodoc', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks']
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'GGEditor'
