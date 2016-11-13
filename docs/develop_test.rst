@@ -3,42 +3,37 @@ GGeditor
 ########
 
 
-.. Caution::
+.. caution::
 
-   a \ `link`_\  to google, a \*\ **polimonial**\  x\ :sup:`2`\ +y\ :sup:`2`\ =z\ :sup:`2`\ 
+   (content of caution)
 
 
 .. code::
 
-   $ pip install sphinx sphinx\-autobuild
+   def start(x):
+       go start
+       go end
    
-   $ pip install sphinx sphinx\-autobuild
+   def end(y)
+       go \ `end`_\  start
+       \ **go**\  end end
 
-this a 
-*******
+   def end(x):
+      go end start
+      go end end
 
-|re|
 
-+-+-+
-|1|2|
-+-+-+
-|3|4|
-+-+-+
+.. generic::
 
-\ |IMG1|\ 
-
-.. Attention::
-
-   (content of attention)dkjfdfa
+   def end(x):
+      go end start
    
-   kj
+      go end end
+
+this is a nother
 
 
 
 
 
-.. _`link`: http://www.google.com
-
-.. |IMG1| image:: develop_test/develop_test_1.png
-   :height: 88 px
-   :width: 254 px
+.. _`end`: http://www.google.com
