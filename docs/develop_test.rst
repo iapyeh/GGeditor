@@ -19,12 +19,47 @@ GGeditor
 
 .. Warning::
 
-   content of Warning
+   (content of warning)
 
 
 .. Error::
 
-   content of Error
+   (content of error)
+
+
+.. Attention::
+
+   content of Attention
+
+
+.. Admonition::
+
+   content of Admonition
+
+
+.. Caution::
+
+   content of Caution
+
+
+.. Danger::
+
+   content of Danger
+
+
+.. Hint::
+
+   content of Hint
+
+
+.. Important::
+
+   content of Important
+
+
+.. Tip::
+
+   content of Tip
 
 
 .. Note::
