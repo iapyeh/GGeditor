@@ -2,140 +2,39 @@
 GGeditor
 ########
 
-#. See `RFC 2822`__ for information about email headers.
+.. figure:: picture.png   :scale: 50 %   :alt: map to buried treasure
 
-   #. See `RFC 1822`__ for information about email headers.
-   #. See `RFC 3822`__ for information about email headers.
+   This is the caption of the figure (a simple paragraph).
 
-+---------------------------------------------------------+
-|See `RFC 3822`__ for information about email headers.⅋🉇.|
-+---------------------------------------------------------+
+   The legend consists of all elements after the caption.  In this   case, the legend consists of this paragraph and the following   table:
 
-
-.. Note::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-
-.. Warning::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-
-.. Error::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
+\ |IMG1|\ 
 
 .. Attention::
 
-   it can be accomplished with a "raw"\-derived role.
+   (content of attention)dkjfdfa
    
-   But the line block syntax should be considered first.
+   kj
 
 
-.. Caution::
+.. js:function:: $.getJSON(href, callback[, errback])
+   :param string href: An URI to the location of the resource.
+   :param callback: Gets called with the object.
+   :param errback: Gets called in case the request fails. And a lot of other text so we 
+   need multiple lines.
+   :throws SomeError: For whatever reason in that case.
+   :returns: Something.
 
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-
-.. Danger::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
+   this is content
 
 
-.. Hint::
+.. class::
 
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-
-.. Important::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-
-.. Tip::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-
-.. Note::
-
-   it can be accomplished with a "raw"\-derived role.
-   
-   But the line block syntax should be considered first.
-
-\`RFC 3822\`__
-
-+-----------------------------+--------------------------------------------------+
-|ええええ、だいぶショックかも…|광화문 현재상황.                                  |
-|                             |                                                  |
-|                             |너무 오래 않아서 엉덩이 차갑고 허리아픔. 그네밉다!|
-|                             |                                                  |
-|                             |그래도 100만이 같이 하는 중!                      |
-+-----------------------------+--------------------------------------------------+
-
-\ **\*2016\-11\-11**\  〔記者林惠琴、吳亮儀／綜合報導〕台灣學術論文遭撤案件屢傳，台北醫學大學及新光醫院近日也傳出有三篇論文被撤，曾兼任台北醫學大學副教授的新光醫院心臟內科主治醫師徐國基，分別在二○○九年、二○一一年與二○一二年發表的論文，都遭國際期刊《臨床科學》
-
-   2016\-11\-11 〔記者\ **林惠琴**\ 、\ *吳亮儀*\ ／綜合報導〕台灣學術論文遭撤案件屢傳，台北醫學大學及新光醫院近日也傳出有三篇論文被撤，曾兼任台北醫學大學副教授的新光醫院心臟內科主治醫師徐國基，分別在二○○九年、二○一一年與二○一二年發表的論文，都遭國際期刊《臨床科學》
-
-2016\-11\-11 〔記者林惠琴、吳亮儀／綜合報導〕台灣學術論文遭撤案件屢傳，台北醫學大學及新光醫院近日也傳出有三篇論文被撤，曾兼任台北醫學大學副教授的新光醫院心臟內科主治醫師徐國基，分別在二○○九年、二○一一年與二○一二年發表的論文，都遭國際期刊《臨床科學》
+   content of class
 
 
 
-
-
-
-
-
-+------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|header\*                      |標題 x\ :sup:`2`\ +y\ :sub:`2`\                                                                                                                                                                                                                            |\ `Search`_\                                                                                                                                                                                      |
-+==============================+===========================================================================================================================================================================================================================================================+==================================================================================================================================================================================================+
-|In mathematics,               |\ **In mathematics,**\                                                                                                                                                                                                                                     |In mathematics,                                                                                                                                                                                   |
-+------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ *In mathematics,*\          |ええええ、だいぶショックかも…                                                                                                                                                                                                                              |x \- 4x + 7                                                                                                                                                                                       |
-+------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|this is a very long paragraph |* 2016\-11\-11 〔記者林惠琴、吳亮儀／綜合報導〕台灣學術論文遭撤案件屢傳，台北醫學大學及新光醫院近日也傳出有三篇論文被撤，曾兼任台北醫學大學副教授的新光醫院心臟內科主治醫師徐國基，分別在二○○九年、二○一一年與二○一二年發表的論文，都遭國際期刊《臨床科學》|\ *In mathematics*\ , \ |IMG1|\  a \ **polynomial**\ \ [#F1]_\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the |
-|this is a very long paragraph |* 2016\-11\-11 〔記者林惠琴、吳亮儀／綜合報導〕台灣學術論文遭撤案件屢傳，台北醫學大學及新光醫院近日也傳出有三篇論文被撤，曾兼任台北醫學大學副教授的新光醫院心臟內科主治醫師徐國基，分別在二○○九年、二○一一年與二○一二年發表的論文，都遭國際期刊《臨床科學》|operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non\-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial                                           |
-|this is a very long paragraph |                                                                                                                                                                                                                                                           |of a single indeterminate                                                                                                                                                                         |
-|this is a very long paragraph |                                                                                                                                                                                                                                                           |x is x\ :sup:`2`\ − 4x + 7. An example in                                                                                                                                                         |
-|                              |                                                                                                                                                                                                                                                           |three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + T\ :sub:`ab`\ .                                                                                                                        |
-+------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-.. _`Search`: http://www.google.com
-.. _`expression`: https://en.wikipedia.org/wiki/Expression_(mathematics)
-.. _`variables`: https://en.wikipedia.org/wiki/Variable_(mathematics)
-.. _`indeterminates`: https://en.wikipedia.org/wiki/Indeterminate_(variable)
-.. _`coefficients`: https://en.wikipedia.org/wiki/Coefficient
-.. _`addition`: https://en.wikipedia.org/wiki/Addition
-.. _`subtraction`: https://en.wikipedia.org/wiki/Subtraction
-.. _`multiplication`: https://en.wikipedia.org/wiki/Multiplication
-.. _`integer`: https://en.wikipedia.org/wiki/Integer
-.. _`exponents`: https://en.wikipedia.org/wiki/Exponentiation
-
-
-.. rubric:: Footnotes
-
-.. [#f1]  Polynomial is poly+nomial
 
 .. |IMG1| image:: develop_test/develop_test_1.png
-   :height: 73 px
-   :width: 73 px
-   :target: http://www.google.com
+   :height: 88 px
+   :width: 254 px
