@@ -2,7 +2,9 @@
 GGeditor
 ########
 
-.. figure:: picture.png   :scale: 50 %   :alt: map to buried treasure
+.. figure:: develop_test/develop_test_1.png
+   :scale: 50 %   
+   :alt: map to buried treasure
 
    This is the caption of the figure (a simple paragraph).
 
