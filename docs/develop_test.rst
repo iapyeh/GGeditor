@@ -7,21 +7,39 @@ GGeditor
    #. See `RFC 1822`__ for information about email headers.
    #. See `RFC 3822`__ for information about email headers.
 
-+-----------------------------------------------------+
-|See `RFC 3822`__ for information about email headers.|
-+-----------------------------------------------------+
++---------------------------------------------------------+
+|See `RFC 3822`__ for information about email headers.⅋🉇.|
++---------------------------------------------------------+
 
-.. note::
+
+.. Note::
+
+   (empty)
+
+
+.. Warning::
+
+   content of Warning
+
+
+.. Error::
+
+   content of Error
+
+
+.. Note::
 
    it can be accomplished with a "raw"\-derived role.
-
+   
    But the line block syntax should be considered first.
 
 \`RFC 3822\`__
 
 +-----------------------------+--------------------------------------------------+
 |ええええ、だいぶショックかも…|광화문 현재상황.                                  |
+|                             |                                                  |
 |                             |너무 오래 않아서 엉덩이 차갑고 허리아픔. 그네밉다!|
+|                             |                                                  |
 |                             |그래도 100만이 같이 하는 중!                      |
 +-----------------------------+--------------------------------------------------+
 
