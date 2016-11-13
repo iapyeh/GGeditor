@@ -14,52 +14,65 @@ GGeditor
 
 .. Note::
 
-   (empty)
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Warning::
 
-   (content of warning)
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Error::
 
-   (content of error)
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Attention::
 
-   content of Attention
-
-
-.. Admonition::
-
-   content of Admonition
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Caution::
 
-   content of Caution
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Danger::
 
-   content of Danger
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Hint::
 
-   content of Hint
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Important::
 
-   content of Important
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Tip::
 
-   content of Tip
+   it can be accomplished with a "raw"\-derived role.
+   
+   But the line block syntax should be considered first.
 
 
 .. Note::
