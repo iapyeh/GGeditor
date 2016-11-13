@@ -2,19 +2,17 @@
 GGeditor
 ########
 
-.. figure:: develop_test/develop_test_1.png
-   :scale: 50 %   
-   :alt: map to buried treasure
 
-   This is the caption of the figure (a simple paragraph).
+.. Caution::
 
-   The legend consists of all elements after the caption.  In this   case, the legend consists of this paragraph and the following   table:
-   
-   +-+-+
-   |1|2|
-   +-+-+
-   |3|4|
-   +-+-+
+   a \ `link`_\  to google, a \*\ **polimonial**\  x\ :sup:`2`\ +y\ :sup:`2`\ =z\ :sup:`2`\ 
+
+
++-+-+
+|1|2|
++-+-+
+|3|4|
++-+-+
 
 \ |IMG1|\ 
 
@@ -42,6 +40,9 @@ GGeditor
 
 
 
+
+
+.. _`link`: http://www.google.com
 
 .. |IMG1| image:: develop_test/develop_test_1.png
    :height: 88 px
