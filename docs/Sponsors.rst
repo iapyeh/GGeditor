@@ -7,3 +7,8 @@ Sponsors
 Neusauber.com
 
 IIS, Academia Sinica
+
+.. seealso:
+
+    this is a content of see also
+
