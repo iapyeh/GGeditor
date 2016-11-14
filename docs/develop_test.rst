@@ -122,7 +122,7 @@ content
 +--------------------------------+----------------------------------------------------------------------------------------------------+------------------------+------+
 
 
-.. _bm.id.5s63cugwc4nd:
+.. _bookmark-id-5s63cugwc4nd:
 
 this is another link
 
@@ -132,7 +132,7 @@ this is a nother
 
 
 
-.. _`link to chapter2`: #bm.id.5s63cugwc4nd
+.. _`link to chapter2`: #bookmark-id-5s63cugwc4nd
 .. _`解析氣象局空氣污染擴散模式 `: http://www.iis.sinica.edu.tw/HTML/seminar/DJ160006_zh.html
 .. _`Collaborative Static and Mobile Smart Objects – Experimentation and Real\-Life Deployment `: http://www.iis.sinica.edu.tw/HTML/seminar/DJ160005_zh.html
 .. _`石佳艷 博士`: http://www.nes.uni-due.de/staff/shih/
