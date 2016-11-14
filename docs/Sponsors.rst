@@ -4,151 +4,25 @@
 Sponsors
 ########
 
+.. _h39333d6c6e523d6d25172c215019258:
+
 Neusauber.com
+*************
 
-IIS, Academia Sinica, 2016
+IIS, Academia Sinica
 
-.. seealso::
+* `p PORTMASK`: A hexadecimal bitmask of the ports to configure
+* `q NQ`: A number of queues (=ports) per lcore (default is 1)
+* `K PERIOD`: Heartbeat check period in ms(5ms default; 86400 max)
+* `T PERIOD`: statistics will be refreshed each PERIOD seconds (0 to disable, 10 default, 86400 maximum).
 
-    this is a content of see also
+To run the application in linuxapp environment with 4 lcores, 16 ports 8 RX queues per lcore and a ping interval of 10ms, issue the command:
 
-================================================
-LeanCloud-Python-SDK API 文档
-================================================
+.. code::
 
-.. toctree::
-  :maxdepth: 4
-
-leancloud
-=========
-
-.. autofunction:: leancloud.init
-
-.. autofunction:: leancloud.use_master_key
-
-.. autofunction:: leancloud.use_production
-
-.. autofunction:: leancloud.use_region
-
-.. autoclass:: leancloud.FriendshipQuery
-  :show-inheritance:
-  :members:
-  :undoc-members:
-
-.. autoclass:: leancloud.HttpsRedirectMiddleware
-  :show-inheritance:
-  :members:
-  :undoc-members:
-
-.. autoclass:: leancloud.LeanCloudError
-  :show-inheritance:
-  :members:
-  :undoc-members:
-
-.. autoclass:: leancloud.LeanCloudWarning
-  :show-inheritance:
-  :members:
-  :undoc-members:
-
-Object
-------
-
-.. autoclass:: leancloud.Object
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-User
-----
-
-.. autoclass:: leancloud.User
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-File
-----
-
-.. autoclass:: leancloud.File
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-Query
------
-.. autoclass:: leancloud.Query
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-Relation
---------
-
-.. autoclass:: leancloud.Relation
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-Role
-----
-
-.. autoclass:: leancloud.Role
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-ACL
----
-
-.. autoclass:: leancloud.ACL
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
+    ./build/l2fwd\-keepalive \-c f \-n 4 \-\- \-q 8 \-p ffff \-K 10
 
 
-GeoPoint
---------
+.. danger::
 
-.. autoclass:: leancloud.GeoPoint
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-Engine
-------
-
-.. autoclass:: leancloud.Engine
-  :show-inheritance:
-  :inherited-members:
-  :members:
-  :undoc-members:
-
-leancloud.push
-==============
-
-.. automodule:: leancloud.push
-  :members:
-  :undoc-members:
-  :show-inheritance:
-
-leancloud.cloudfunc
-===================
-
-.. automodule:: leancloud.cloudfunc
-  :members:
-  :undoc-members:
-  :show-inheritance:
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`
+    (content of danger)
