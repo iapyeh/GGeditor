@@ -24,7 +24,6 @@ Features:
 
     DocStructure
     Examples
-    index
     Sponsors
 
 .. _h2f757c91f4d563b302c2a7110276e5b:
