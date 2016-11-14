@@ -1,5 +1,12 @@
 GGeditor
 
+.. toctree::
+    :maxdepth: 2
+
+    DocStructure
+    Examples
+    Sponsors
+
 GGeditor is a \ `Google Docs Add\-on`_\  for editing reST file. That is, you edit the content in Google Docs and with GGeditor to convert it into \ `reST format`_\ . 
 
 The converted reST file can be downloaded or committed to Github. Once it was in the Github, it will be integrated with the sphinx service by\ `Read The Docs`_\ .
@@ -18,13 +25,6 @@ Features:
 #. Convert Google docs table into reST table.
 #. Convert inline links into reST link markup.
 #. List and nested list
-
-.. toctree::
-    :maxdepth: 2
-
-    DocStructure
-    Examples
-    Sponsors
 
 .. _h2f757c91f4d563b302c2a7110276e5b:
 
