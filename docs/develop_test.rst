@@ -18,7 +18,7 @@ G地商家，特惠Geditor
 
 .. caution::
 
-        @本版將免費提供淡水在地商家，特惠活動海報刊登。(每月1日、16日刊登) 1.請提供DM海報，私 ... 即時交通資訊網，網址是 http://www.dot.gov.taipei/lp.asp…。民眾進入新北市即時交通資訊網後，請點選左上方即時影像，即可進入路口監視系統
+        @本版將免費提供淡水在地商家，特惠活動海報刊登。(每月1日、16日刊登) 1.請提供DM海報，私 ... 即時交通資\ [#F1]_\     訊網，網址是 http://www.dot.gov.taipei/lp.asp…。\ `民眾`_\ 進入新北市即時交通資訊網後，請點選左上方\ `即時`_\ 影像，即可進入路口監視系統
 
 .. _h177c6c293a4192a7280a7b324d3662:
 
@@ -150,6 +150,8 @@ this is a nother
 
 
 .. _`link to chapter2`: #bookmark-id-5s63cugwc4nd
+.. _`民眾`: http://www.google.com
+.. _`即時`: #bookmark-id-5s63cugwc4nd
 .. _`解析氣象局空氣污染擴散模式 `: http://www.iis.sinica.edu.tw/HTML/seminar/DJ160006_zh.html
 .. _`Collaborative Static and Mobile Smart Objects – Experimentation and Real\-Life Deployment `: http://www.iis.sinica.edu.tw/HTML/seminar/DJ160005_zh.html
 .. _`石佳艷 博士`: http://www.nes.uni-due.de/staff/shih/
@@ -158,3 +160,8 @@ this is a nother
 .. _`CITI \-\- Learning to Segment Objects `: http://www.citi.sinica.edu.tw/HTML/seminars/IZ160003_zh.html
 .. _`應用邏輯討論會系列 (XXVI) \-\- Begging to Differ With Similarity Accounts of Counterfactuals `: http://www.iis.sinica.edu.tw/HTML/seminar/DJ150162_zh.html
 .. _`CITI \-\- Visual Learning and Inference without Much Supervision `: http://www.citi.sinica.edu.tw/HTML/seminars/IZ150046_zh.html
+
+
+.. rubric:: Footnotes
+
+.. [#f1]  footnote in caution
