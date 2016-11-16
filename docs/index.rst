@@ -17,10 +17,10 @@ GGeditor
 
 \ |IMG1|\ 
 
-.. _h2a295c550356a4d13352852183e3e9:
+.. _h6897050511836763421463e2b4b685:
 
-Features:
-*********
+Features
+********
 
 #. Easy start for reST beginners.
 #. Powered by the Google Docs. Almost what you see is what you get.
@@ -44,15 +44,28 @@ How to install
 
 \ |IMG2|\ 
 
+.. _h59e47f2a4a50742f566e3f654a4648:
+
 Related Works
+*************
 
 * \ `Gitbook`_\ : it has a markup editor
 * \ `Online reStructuredText editor`_\ 
+
+.. _h7c12a2e595c631221f363d4e55c21:
+
+Acknowledgments
+***************
+
+* Andrey Rublev as well as \ `all the contributors`_\  of the \ `Online reStructuredText editor`_\ , it is a great tool to know how the reST works.
+* \ `Readthedocs.org`_\ , it provides a great service, which encourage me to create the GGeditor. 
 
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
 .. _`Read The Docs`: https://readthedocs.org/
 .. _`Gitbook`: https://www.gitbook.com
 .. _`Online reStructuredText editor`: http://rst.ninjs.org/
+.. _`all the contributors`: https://github.com/anru/rsted/graphs/contributors
+.. _`Readthedocs.org`: https://readthedocs.org
 
 .. |IMG1| image:: index/index_1.png
    :height: 250 px
