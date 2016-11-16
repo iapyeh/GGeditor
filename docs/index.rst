@@ -1,4 +1,9 @@
+
+.. _h28105e656d4d48041184d771d3b4a1a:
+
 GGeditor
+########
+
 
 .. toctree::
     :maxdepth: 2
@@ -7,100 +12,51 @@ GGeditor
     Examples
     Sponsors
 
-GGeditor is a \ `Google Docs Add\-on`_\  for editing reST file. That is, you edit the content in Google Docs and with GGeditor to convert it into \ `reST format`_\ . 
+\ **GGeditor**\  is a Google Docs Add\-on for generating \ `reStructuredText`_\  file from the Google Docs. then, the generated reST file can be directly committed to the Github repository with the GGeditor. And then, the project in the \ `Read The Docs`_\  will be automatically updated.
 
-The converted reST file can be downloaded or committed to Github. Once it was in the Github, it will be integrated with the sphinx service by\ `Read The Docs`_\ .
+\ |IMG1|\ 
 
 .. _h2a295c550356a4d13352852183e3e9:
 
 Features:
-=========
+*********
 
 #. Easy start for reST beginners.
-#. Almost what you see is what you get.
-#. Binding with the Github file, one\-click to commit to the Github.
-#. Powered by the Google Docs, such as unicode symbols 💞 © ®, voice typing, charts,...etc
-#. Preview generated reST files and download it.
-#. Just copy and paste images, the reST Editor will handle them.
-#. Convert Google docs table into reST table.
-#. Convert inline links into reST link markup.
-#. List and nested list
+#. Powered by the Google Docs. Almost what you see is what you get.
+#. One\-click to commit to the Github repository.
+#. Preview the generated reST file.
+#. Support headings, bold, italic, hyperlink, subscript and superscript.
+#. Support footnotes, image, list item and table.
+#. Support full\-width characters (CKJ) content in table.
+#. Support internal links to bookmarks, headings and table of content.
+#. Support sphinx\-style table of content (.. doctree::).
+#. Support sphinx\-style admonitions.
 
-.. _h2f757c91f4d563b302c2a7110276e5b:
+.. _h131f586a50795a4822677d4166231766:
 
-Supported reST Features:
-========================
+How to install
+**************
 
-The supported reST features are documented below:
+#. Open a Google Docs document.
+#. On the menu item “Add\-ons”, click the “Get Add\-ons”
+#. In the search box, input “GGeditor”
 
-+----------------------------------------+-------------------------------------------------------+
-|Category                                |                                                       |
-+----------------------------------------+-------------------------------------------------------+
-|\ `Document structure and components`_\ |Paragraph headings, Table, List, Image                 |
-+----------------------------------------+-------------------------------------------------------+
-|Directive                               |Note, Warning, code block                              |
-+----------------------------------------+-------------------------------------------------------+
-|References and links                    |Reference in the same document and link to other pages.|
-+----------------------------------------+-------------------------------------------------------+
-|                                        |                                                       |
-+----------------------------------------+-------------------------------------------------------+
-
-.. _h19176e602c6c3f6828a7e207b523e9:
-
-Unsupported Google Docs Features:
-=================================
-
-The Google Docs is a powerful editor, not all features are supported to convert to reST markups. Below is the manifest (included but not limited to)
-
-* Charts
-* Comments
-* Drawings
-* List style
-* Math equations
-* Multi column
-* Page break
-* Page header and page footer
-* Page numbering
-
-.. _h65776f3b486b79192426655c476e97b:
-
-Known Issues:
-=============
-
-* When repository was renamed:
-
-    * If the repository or folder name of the binding file in Github was renamed, a re\-binding is required for committing.
-
-* Open hyperlink in a new tab:
-
-    * This is not supported. \ `Please see details here`_\ .
-
-* Only text is allowed in a list item. Text with hyperlink is fine.
-
-    * Image, table in a list item is not supported. If it does, it will be interpreted as outside the list.
-
-* Only text is allowed in a table cell. Text with hyperlink is fine.
-
-    * Image, nested table in a table cell is not supported.
-
-* Image subfolder naming scheme.
-
-    * If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”. 
-    * Which means if there is a file named “README” in the same folder of README.rst, confliction would happen.
-
-* When the binding file has changed
-
-    * If the binding file has changed, according to the new binding name, a new  image subfolder might be created. Which means the original image subfolder should be removed manually.
+\ |IMG2|\ 
 
 Related Works
 
 * \ `Gitbook`_\ : it has a markup editor
 * \ `Online reStructuredText editor`_\ 
 
-.. _`Google Docs Add\-on`: https://support.google.com/a/answer/4530135?hl=en
-.. _`reST format`: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+.. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
 .. _`Read The Docs`: https://readthedocs.org/
-.. _`Document structure and components`: https://docs.google.com/document/d/1i4w8GGc5oUVTZ9pr-ZyrFh95x95AImYU7kHpTjpLtuI/edit
-.. _`Please see details here`: https://github.com/sphinx-doc/sphinx/issues/1634
 .. _`Gitbook`: https://www.gitbook.com
 .. _`Online reStructuredText editor`: http://rst.ninjs.org/
+
+.. |IMG1| image:: index/index_1.png
+   :height: 250 px
+   :width: 504 px
+
+.. |IMG2| image:: index/index_2.png
+   :height: 213 px
+   :width: 326 px
