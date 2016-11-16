@@ -8,11 +8,11 @@ GGeditor
 .. toctree::
     :maxdepth: 2
 
-    DocStructure
+    User Guide
     Examples
+    DocStructure
     Limitations
     Sponsors
-    User Guide
 
 \ **GGeditor**\  is a Google Docs Add\-on for generating \ `reStructuredText`_\  file from the Google Docs. then, the generated reST file can be directly committed to the Github repository with the GGeditor. And then, the project in the \ `Read The Docs`_\  will be automatically updated.
 
