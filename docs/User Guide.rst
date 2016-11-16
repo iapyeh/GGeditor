@@ -20,10 +20,10 @@ Show Markup Panel
 Commit to Github
 ****************
 
-.. |IMG1| image:: User Guide/User Guide_1.png
+.. |IMG1| image:: User_Guide/User_Guide_1.png
    :height: 105 px
    :width: 402 px
 
-.. |IMG2| image:: User Guide/User Guide_2.png
+.. |IMG2| image:: User_Guide/User_Guide_2.png
    :height: 526 px
    :width: 340 px
