@@ -12,6 +12,7 @@ GGeditor
     Examples
     Limitations
     Sponsors
+    User Guide
 
 \ **GGeditor**\  is a Google Docs Add\-on for generating \ `reStructuredText`_\  file from the Google Docs. then, the generated reST file can be directly committed to the Github repository with the GGeditor. And then, the project in the \ `Read The Docs`_\  will be automatically updated.
 
@@ -43,6 +44,11 @@ How to install
 #. In the search box, input “GGeditor”
 
 \ |IMG2|\ 
+
+.. _h2c1d74277104e41780968148427e:
+
+
+
 
 .. _h59e47f2a4a50742f566e3f654a4648:
 
