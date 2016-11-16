@@ -50,13 +50,4 @@ Github related
 
     * If the binding file has changed, according to the new binding name, a new  image subfolder might be created. Which means the original image subfolder should be removed manually.
 
-.. _h1851781a7781866c373d74142e52a:
-
-Image subfolder naming scheme
-*****************************
-
-* If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”. 
-* Which means if there is a file named “README” in the same folder of README.rst, confliction would happen.
-
-
 .. _`Please see details here`: https://github.com/sphinx-doc/sphinx/issues/1634
