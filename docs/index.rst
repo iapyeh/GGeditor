@@ -14,7 +14,7 @@ GGeditor
     Limitations
     Sponsors
 
-\ **GGeditor**\  is a Google Docs Add\-on for generating \ `reStructuredText`_\  file from the Google Docs. then, the generated reST file can be directly committed to the Github repository with the GGeditor. And then, the project in the \ `Read The Docs`_\  will be automatically updated.
+\ **GGeditor**\  is a Google Docs Add\-on for generating \ `reStructuredText`_\  file from the Google Docs. The generated reST file can be directly committed to the Github repository with the GGeditor. Then, the project in the \ `Read The Docs`_\  will be automatically updated.
 
 \ |IMG1|\ 
 
@@ -23,16 +23,16 @@ GGeditor
 Features
 ********
 
-#. Easy start for reST beginners.
+#. Easy starting for reST beginners, even no idea about reST markups.
 #. Powered by the Google Docs. Almost what you see is what you get.
 #. One\-click to commit to the Github repository.
-#. Preview the generated reST file.
+#. Preview the generated reST file and download to local machine.
 #. Support headings, bold, italic, hyperlink, subscript and superscript.
 #. Support footnotes, image, list item and table.
-#. Support full\-width characters (CKJ) content in table.
-#. Support internal links to bookmarks, headings and table of content.
-#. Support sphinx\-style table of content (.. doctree::).
-#. Support sphinx\-style admonitions.
+#. Support full\-width characters (CKJ) in headings and table.
+#. Support internal links to bookmarks, headings and Google Docs native table of contents (in document table of contents).
+#. Support cross\-document table of content (.. doctree::) for the readthedocs.org.
+#. Support admonitions of the readthedocs.org.
 
 .. _h131f586a50795a4822677d4166231766:
 
@@ -41,14 +41,9 @@ How to install
 
 #. Open a Google Docs document.
 #. On the menu item “Add\-ons”, click the “Get Add\-ons”
-#. In the search box, input “GGeditor”
+#. In the search box, input “GGeditor”, then click on the GGeditor icon to install.
 
 \ |IMG2|\ 
-
-.. _h2c1d74277104e41780968148427e:
-
-
-
 
 .. _h59e47f2a4a50742f566e3f654a4648:
 
@@ -63,7 +58,7 @@ Related Works
 Acknowledgments
 ***************
 
-* Andrey Rublev as well as \ `all the contributors`_\  of the \ `Online reStructuredText editor`_\ , it is a great tool to know how the reST works.
+* Andrey Rublev as well as \ `all the contributors`_\  of the \ `Online reStructuredText editor`_\ , it is a great tool for beginner to learn the reST markups.
 * \ `Readthedocs.org`_\ , it provides a great service, which encourage me to create the GGeditor. 
 
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
