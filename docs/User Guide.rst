@@ -173,14 +173,16 @@ Committing
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
-.. _h72306e333411473b7a4727587594e19:
+.. _hb3e386c1329112c3f734c345c3396b:
 
-About Credentials
-=================
+About the Credentials
+=====================
 
-The credentials you given is not saved 
+The credentials you given is encrypted and kept in the Google App Script platform. No any other cloud server is built by the GGeditor.  If this checkbox is unchecked.
 
 \ |IMG13|\ 
+
+The credentials will be clean up. You just need to give the credentials every time for committing. Like the following image shows.
 
 \ |IMG14|\ 
 
