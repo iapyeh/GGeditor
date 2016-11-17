@@ -25,11 +25,11 @@ Most features are just using the Google Docs’ native features. Such as
 Inline Markups
 **************
 
-The table shows all the preserved inline markups of reST.
+Some inline reST markups can be used directly in the document. The table shows all the usable inline markups.
 
 
 +---------------------------+--------------------------------+
-|In the Google Docs document|In the rendered html page       |
+|In Google Docs document    |Rendered in html page           |
 +===========================+================================+
 |A \`single back-quote\`    |A `single back-quote`           |
 +---------------------------+--------------------------------+
@@ -37,15 +37,15 @@ The table shows all the preserved inline markups of reST.
 +---------------------------+--------------------------------+
 |A \|replacement\| markup   |A |replacement| markup\ [#F1]_\ |
 +---------------------------+--------------------------------+
-|A \*\*emphasis\*\* text    |A **emphasis** text             |
+|Text with \*\*emphasis\*\* |Text with **emphasis**          |
 +---------------------------+--------------------------------+
 
 .. |replacement| replace::   **replacement**
 
-.. _h19551a2a542b7a7919127f6f251b3817:
+.. _h6c5e5e24234f72422a2ce37561f2355:
 
-Show Markup Panel
-*****************
+Markup Panel
+************
 
 \ |IMG1|\ 
 
@@ -136,33 +136,27 @@ Conversion Tab
 
 The Conversion tab has two buttons. The “Generate reST” will trigger the generating process and show the result in the area below that button.
 
-The “Download” button let you download the generated reST and image in a zip file into your local PC.
+The “Download” button let you download the generated reST and images in a zip file into your local PC.
 
 .. _h76464c5c585d192b16121e3267e131:
 
 Commit to Github
 ****************
 
-.. _h5e152e7216e381865323d594b3a5:
+.. _h767f774b5346d4195e437b31414f59:
 
-Binding
-=======
+Binding the document to a file in repository
+============================================
 
-You got to provide your account and credentials for binding the document with a file in the Github repository. Here is the process:
-
-#. Provide your account information
-#. Click on “Login” button
-#. Select the repository
-#. Navigate to the folder where the target file is, then click on the target file
-#. Or, if you want to create a new file. Please
-
-    #. Navigate to the folder where the new file would be
-    #. Click on the “New File” item
-
-#. Fill the message dialog for committing
-#. Click “OK”
+You can provide your account and credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
 \ |IMG11|\ 
+
+If you want to commit to a new file. Please
+
+#. Navigate to the folder where the new file would be
+#. Click on the “New File” item
+#. Give the file name to create. The name will be suffix with “.rst” automatically.
 
 .. _h572153e49969743e69262f2d637743:
 
