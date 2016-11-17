@@ -69,28 +69,33 @@ You have to replace the name and content for your own purpose. One of the usage 
 |Here is your content                  |
 +--------------------------------------+
 
+Below is how it is rendered in a web page.
 
 .. admonition:: And, by the way...
 
     Here is your content
 
-``Table of Contents`` will insert a sphinx toctree, aka cross\-document table of contents. Usually, this is inserted into the ``index.rst``.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. You have to adjust their order manually.
+``Table of Contents`` will insert \ `a sphinx toctree`_\ , aka cross\-document table of contents. Usually, this is inserted into the ``index.rst``.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. You have to adjust their order manually.
 
 +----------------+
 |\.\. toctree\:\:|
 +----------------+
 |\:maxdepth\: 2  |
 +----------------+
+|User Guide      |
+|                |
 |DocStructure    |
 |                |
 |Examples        |
-|                |
-|index           |
 |                |
 |Limitations     |
 |                |
 |Sponsors        |
 +----------------+
+
+If a document was binding to a other name, the binding name will be used. The document containing the table is not in the list for preventing from infinite loop. You should add it back manually if that makes sense for you.
+
+You will see how it works in :ref:index
 
 .. _h5a807c1a4a7d71c65729517f5c5635:
 
@@ -113,6 +118,7 @@ Commit to Github
 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
+.. _`a sphinx toctree`: http://www.sphinx-doc.org/en/1.4.8/markup/toctree.html
 
 .. |IMG1| image:: User_Guide/User_Guide_1.png
    :height: 105 px
