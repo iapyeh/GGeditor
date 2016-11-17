@@ -53,7 +53,7 @@ Click on the admonition name, then it will be inserted as a table into your docu
 Directives
 ==========
 
-Directive is the generic form of admonition and many other reST Markups. `Generic directive` can be used for all kinds of directive. It will give you a table like this:
+Directive is the generic form of admonition and many other reST Markups. ``Generic directive`` can be used for all kinds of directive. It will give you a table like this:
 
 +-----------------+
 |\.\. name\:\:    |
@@ -74,10 +74,23 @@ You have to replace the name and content for your own purpose. One of the usage 
 
     Here is your content
 
-.. _h2c1d74277104e41780968148427e:
+``Table of Contents`` will insert a sphinx toctree, aka cross\-document table of contents. Usually, this is inserted into the ``index.rst``.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. You have to adjust their order manually.
 
-
-
++----------------+
+|\.\. toctree\:\:|
++----------------+
+|\:maxdepth\: 2  |
++----------------+
+|DocStructure    |
+|                |
+|Examples        |
+|                |
+|index           |
+|                |
+|Limitations     |
+|                |
+|Sponsors        |
++----------------+
 
 .. _h5a807c1a4a7d71c65729517f5c5635:
 
