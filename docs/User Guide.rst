@@ -178,13 +178,15 @@ Once you have build the binding, next time you can use the “Commit” button d
 About the Credentials
 =====================
 
-The credentials you given is encrypted and kept in the Google App Script platform. No any other cloud server is built by the GGeditor.  If this checkbox is unchecked.
+The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
 
 \ |IMG13|\ 
 
-The credentials will be clean up. You just need to give the credentials every time for committing. Like the following image shows.
-
 \ |IMG14|\ 
+
+You just need to give the credentials every time for committing. Like the following image shows.
+
+\ |IMG15|\ 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
@@ -240,13 +242,17 @@ The credentials will be clean up. You just need to give the credentials every ti
    :width: 664 px
 
 .. |IMG12| image:: User_Guide/User_Guide_12.png
-   :height: 220 px
-   :width: 384 px
+   :height: 232 px
+   :width: 584 px
 
 .. |IMG13| image:: User_Guide/User_Guide_13.png
    :height: 29 px
    :width: 213 px
 
 .. |IMG14| image:: User_Guide/User_Guide_14.png
+   :height: 38 px
+   :width: 128 px
+
+.. |IMG15| image:: User_Guide/User_Guide_15.png
    :height: 404 px
    :width: 688 px
