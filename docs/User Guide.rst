@@ -160,13 +160,18 @@ You got to provide your account and credentials for binding the document with a 
     #. Click on the “New File” item
 
 #. Fill the message dialog for committing
-#. Click 
+#. Click “OK”
+
+\ |IMG11|\ 
 
 .. _h572153e49969743e69262f2d637743:
 
 Committing
 ==========
 
+\ |IMG12|\ 
+
+Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
@@ -216,3 +221,11 @@ Committing
 .. |IMG10| image:: User_Guide/User_Guide_10.png
    :height: 482 px
    :width: 312 px
+
+.. |IMG11| image:: User_Guide/User_Guide_11.png
+   :height: 545 px
+   :width: 664 px
+
+.. |IMG12| image:: User_Guide/User_Guide_12.png
+   :height: 220 px
+   :width: 384 px
