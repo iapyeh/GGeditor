@@ -89,18 +89,18 @@
 
 .. _`醫療靈媒`: https://www.booklife.com.tw/%E9%86%AB%E7%99%82%E9%9D%88%E5%AA%92%EF%BC%9A%E6%85%A2%E6%80%A7%E8%88%87%E9%9B%A3%E8%A7%A3%E7%96%BE%E7%97%85%E8%83%8C%E5%BE%8C%E7%9A%84%E7%A5%95%E5%AF%86%EF%BC%8C%E4%BB%A5%E5%8F%8A%E5%81%A5%E5%BA%B7%E7%9A%84%E7%B5%82%E6%A5%B5%E4%B9%8B%E9%81%93/action-products_detail-lid-1-cid-5-sid-9-did-4602.htm
 
-.. |IMG1| image:: GGeditor_Development/GGeditor_Development_1.png
+.. |IMG1| image:: test_development/test_development_1.png
    :height: 26 px
    :width: 30 px
 
-.. |IMG2| image:: GGeditor_Development/GGeditor_Development_2.png
+.. |IMG2| image:: test_development/test_development_2.png
    :height: 26 px
    :width: 30 px
 
-.. |IMG3| image:: GGeditor_Development/GGeditor_Development_3.png
+.. |IMG3| image:: test_development/test_development_3.png
    :height: 26 px
    :width: 30 px
 
-.. |IMG4| image:: GGeditor_Development/GGeditor_Development_4.png
+.. |IMG4| image:: test_development/test_development_4.png
    :height: 336 px
    :width: 240 px
