@@ -41,19 +41,27 @@ This tab is for you to add admonitions, directives and cross\-document “table 
 
     Here is the content of this attention
 
-Click on the admonition name, then it will be inserted as a “table” into your document.  You can append extra words after the title, like this
+Click on the admonition name, then it will be inserted as a table into your document.
 
-.. Danger:: Wife is yelling
+Directive is the generic form of admonition. “Generic directive” can be used for all kinds of directive.
 
-    You are going to be GG
++-+
+| |
++-+
+| |
++-+
 
-Directive is the generic form of the admonition. “Generic directive” can be used for all kinds of directive.
+
+.. name:: 
+
+    (content of name)
+
+You
+
 
 .. admonition:: And, by the way...
 
     Here is your content
-
-You
 
 .. _h5a807c1a4a7d71c65729517f5c5635:
 
