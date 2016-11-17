@@ -1,22 +1,21 @@
 
-.. _h7a6941666312412f5d33487d7c4f3d7:
+.. _h177537546887b67276822514c66016:
 
-User Guide
+How to Use
 ##########
 
-Most features are just use the Google Docs’ native widgets. Such as
+Most features are just using the Google Docs’ native widgets. Such as
 
-* Paragraph and indentation
-* Headings
-* Bold and Italic font style, as well as subscript and superscript
-* List item and numbered list item
+* Paragraph heading and indentation
+* Bold , Italic, subscript and superscript
+* List and numbered list
 * Table
-* Image
-* Footnotes, hyperlinks and bookmarks
-* Google Docs’ intrinsic “Table of Content” (links to bookmarks and headings)
-* Unicode symbols
+* Image and chart
+* Footnote, hyperlink and bookmark
+* Table of contents (links to bookmarks and headings)
+* Horizontal line, special characters and CKJ full\-width characters
 
-Besides the features in the above list, there are two sub menu items in the menu item of the GGeditor. The “Show Markup Panel” and the “Commit to Github”.
+Besides the above list, there are “Show Markup Panel” and the “Commit to Github” on the Add\-ons/GGeditor menuitem.
 
 \ |IMG1|\ 
 
@@ -32,7 +31,29 @@ This panel helps you to insert special markups and convert the document into reS
 Markup Tab
 ==========
 
+This tab is for you to add admonitions, directives and cross\-document “table of contents”.
+
 \ |IMG2|\ 
+
+\ `Admonition`_\  is something like this:
+
+.. Attention:: 
+
+    Here is the content of this attention
+
+Click on the admonition name, then it will be inserted as a “table” into your document.  You can append extra words after the title, like this
+
+.. Danger:: Wife is yelling
+
+    You are going to be GG
+
+Directive is the generic form of the admonition. “Generic directive” can be used for all kinds of directive.
+
+.. admonition:: And, by the way...
+
+    Here is your content
+
+You
 
 .. _h5a807c1a4a7d71c65729517f5c5635:
 
@@ -41,7 +62,10 @@ Style Tab
 
 \ |IMG3|\ 
 
+.. _h6978575a60223f496c263254a447d32:
+
 Conversion Tab
+==============
 
 \ |IMG4|\ 
 
@@ -49,6 +73,9 @@ Conversion Tab
 
 Commit to Github
 ****************
+
+
+.. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 
 .. |IMG1| image:: User_Guide/User_Guide_1.png
    :height: 105 px
