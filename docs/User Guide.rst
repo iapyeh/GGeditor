@@ -28,35 +28,39 @@ Inline Markups
 The table shows all the preserved inline markups of reST.
 
 
-+---------------------------+----------------------------------+
-|A \`single back-quote\`    |A `single back-quote`             |
-+---------------------------+----------------------------------+
-|A \`\`double back-quote\`\`|A ``double back-quote``           |
-+---------------------------+----------------------------------+
-|A \|replacement\| markup   |A \|replacement\| markup\ [#F1]_\ |
-+---------------------------+----------------------------------+
-|A \*\*emphasis\*\* text    |A **emphasis** text               |
-+---------------------------+----------------------------------+
++---------------------------+--------------------------------+
+|In the Google Docs document|In the rendered html page       |
++===========================+================================+
+|A \`single back-quote\`    |A `single back-quote`           |
++---------------------------+--------------------------------+
+|A \`\`double back-quote\`\`|A ``double back-quote``         |
++---------------------------+--------------------------------+
+|A \|replacement\| markup   |A |replacement| markup\ [#F1]_\ |
++---------------------------+--------------------------------+
+|A \*\*emphasis\*\* text    |A **emphasis** text             |
++---------------------------+--------------------------------+
 
-Besides the above list, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menuitem.
-
-\ |IMG1|\ 
+.. |replacement| replace::   **replacement**
 
 .. _h19551a2a542b7a7919127f6f251b3817:
 
 Show Markup Panel
 *****************
 
-This panel helps you to insert special markups and convert the document into reST file. There are three tabs in the panel.
+\ |IMG1|\ 
+
+Besides the above list, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menuitem.
+
+This “Show Markup Panel” helps you to insert special markups and convert the document into reST file. There are three tabs in the panel.
 
 .. _h1953454269561c41621765787c257114:
 
 Markup Tab
 ==========
 
-This tab is for adding admonitions, directives and cross-document “table of contents”.
-
 \ |IMG2|\ 
+
+This tab is for adding admonitions, directives and cross-document “table of contents”.
 
 .. _h10487d767c3543552c4f797d453d593f:
 
@@ -88,7 +92,7 @@ Please be noted that “name” and “content” is required, arguments and opt
 
 \ |IMG5|\ 
 
-This is what the above table generated reST:
+This is the reST generated from the above table.
 
 \ |IMG6|\ 
 
@@ -115,13 +119,13 @@ You will see how it works in :ref:index
 Style Tab
 =========
 
-This panel help user to adding headings to paragraphs. The headings construct the structure of the document. This panel shows the mapping of terminology between the Google Docs and the reStructuredText specification.
-
 \ |IMG8|\ 
 
-The lower section “Paragraph” is for styling normal text. ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace. These two are usually used when you paste stuffs from other browser pages into the document.
+This panel help user to adding headings to paragraphs. The headings construct the structure of the document. This panel shows the mapping of terminology between the Google Docs and the reStructuredText specification.
 
 \ |IMG9|\ 
+
+The lower section “Paragraph” is for styling normal text. ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace. These two are usually used when you paste stuffs from other browser pages into the document.
 
 .. _h6978575a60223f496c263254a447d32:
 
@@ -130,10 +134,38 @@ Conversion Tab
 
 \ |IMG10|\ 
 
+The Conversion tab has two buttons. The “Generate reST” will trigger the generating process and show the result in the area below that button.
+
+The “Download” button let you download the generated reST and image in a zip file into your local PC.
+
 .. _h76464c5c585d192b16121e3267e131:
 
 Commit to Github
 ****************
+
+.. _h5e152e7216e381865323d594b3a5:
+
+Binding
+=======
+
+You got to provide your account and credentials for binding the document with a file in the Github repository. Here is the process:
+
+#. Provide your account information
+#. Click on “Login” button
+#. Select the repository
+#. Navigate to the folder where the target file is, then click on the target file
+#. Or, if you want to create a new file. Please
+
+    #. Navigate to the folder where the new file would be
+    #. Click on the “New File” item
+
+#. Fill the message dialog for committing
+#. Click 
+
+.. _h572153e49969743e69262f2d637743:
+
+Committing
+==========
 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
@@ -143,7 +175,7 @@ Commit to Github
 
 .. rubric:: Footnotes
 
-.. [#f1]  If you manually put a substitution markup, you got to provide the replacement markup manually too.
+.. [#f1]  If you manually put a substitution markup, you got to provide the replacement markup manu
 
 .. |IMG1| image:: User_Guide/User_Guide_1.png
    :height: 105 px
@@ -162,24 +194,24 @@ Commit to Github
    :width: 426 px
 
 .. |IMG5| image:: User_Guide/User_Guide_5.png
-   :height: 396 px
-   :width: 628 px
+   :height: 392 px
+   :width: 625 px
 
 .. |IMG6| image:: User_Guide/User_Guide_6.png
-   :height: 146 px
-   :width: 150 px
+   :height: 181 px
+   :width: 185 px
 
 .. |IMG7| image:: User_Guide/User_Guide_7.png
    :height: 153 px
    :width: 357 px
 
 .. |IMG8| image:: User_Guide/User_Guide_8.png
-   :height: 89 px
-   :width: 240 px
-
-.. |IMG9| image:: User_Guide/User_Guide_9.png
    :height: 326 px
    :width: 312 px
+
+.. |IMG9| image:: User_Guide/User_Guide_9.png
+   :height: 89 px
+   :width: 240 px
 
 .. |IMG10| image:: User_Guide/User_Guide_10.png
    :height: 482 px
