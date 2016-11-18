@@ -74,6 +74,10 @@ Below is the context for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell. Which is not desirable for the converted table of the GGeditor.
 
+.. Note:: 
+
+    Github has tool which can create plain text file (such as conf.py and Theme_overrides.css) very easily.
+
 .. _h222539617c7a7255301a60406d156810:
 
 Index.rst
