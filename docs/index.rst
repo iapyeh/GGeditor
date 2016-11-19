@@ -57,7 +57,7 @@ How to install
 How to Use
 **********
 
-Please refer to this article \ `How to Use`_\  .
+Please Refer to this article \ `How to Use`_\ 
 
 .. _h84e3b4616757118376d336e2e5d5d23:
 
