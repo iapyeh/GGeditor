@@ -90,11 +90,20 @@ This is the homepage of a project in the readthedocs.org. You can put anything y
 
 \ |IMG1|\ 
 
-If you still have no idea,  \ `here`_\  is the index.rst of the GGeditor for your reference.
+Then, the document would have a “toctree” table like this:
+
+\ |IMG2|\ 
+
+You can reference \ `the index.rst of the GGeditor`_\  for example.
+
 
 .. _`readthedocs.org`: https://readthedocs.org
-.. _`here`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
+.. _`the index.rst of the GGeditor`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
 
 .. |IMG1| image:: how2Readthedocs/how2Readthedocs_1.png
    :height: 493 px
    :width: 310 px
+
+.. |IMG2| image:: how2Readthedocs/how2Readthedocs_2.png
+   :height: 478 px
+   :width: 810 px
