@@ -52,6 +52,15 @@ How to install
 
 \ |IMG2|\ 
 
+.. _h177537546887b67276822514c66016:
+
+How to Use
+**********
+
+Please refer to this article :doc:`How to Use`
+
+.. _How to Use: UserGuide.html
+
 .. _h84e3b4616757118376d336e2e5d5d23:
 
 For reStructuredText Beginners
