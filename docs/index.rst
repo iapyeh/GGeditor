@@ -19,6 +19,11 @@ GGeditor
 
 \ |IMG1|\ 
 
+
+.. Hint:: 
+
+    You don’t need to trigger conversion before committing and downloading, the committing and downloading would do conversion at first.
+
 .. _h6897050511836763421463e2b4b685:
 
 Features
