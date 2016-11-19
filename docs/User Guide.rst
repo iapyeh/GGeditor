@@ -111,7 +111,10 @@ Below is how it is rendered in a web page.
 
     Here is your content
 
+.. _h36d46272a794b2f694b492933796e5e:
+
 Code
+----
 
 ``code`` is for holding sample codes.
 
