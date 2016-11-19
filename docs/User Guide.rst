@@ -80,7 +80,14 @@ Click on the admonition name, then it will be inserted as a table into your docu
 Directives
 ==========
 
-\ `Directive`_\  is the generic form of admonition and many other reST Markups. ``Generic directive`` can be used for all kinds of directive. It will give you a table like below, you should replace all the placeholder to fit your needs.
+\ `Directive`_\  is the generic form of admonition and many other reST Markups.
+
+.. _h13a5d3e27e111c18554152c6d123c:
+
+Generic Directive
+-----------------
+
+ ``Generic directive`` can be used for all kinds of directive. It will give you a table like below, you should replace all the placeholder to fit your needs.
 
 \ |IMG3|\ 
 
@@ -104,26 +111,39 @@ Below is how it is rendered in a web page.
 
     Here is your content
 
-``Table of Contents`` will insert \ `a sphinx toctree`_\ , aka cross-document table of contents. Usually, this is inserted into the ``index.rst``.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. You have to adjust their order manually. Below is an example:
+Code
+
+``code`` is for holding sample codes.
 
 \ |IMG7|\ 
+
+You can highlight your code by giving a language after \.\.code::, like this:
+
+\ |IMG8|\ 
+
+.. _ha1d6c3e373325355168491f521a78b:
+
+Table of Contents
+-----------------
+
+``Table of Contents`` will insert \ `a sphinx toctree`_\ , aka cross-document table of contents. Usually, this is inserted into the ``index.rst``.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. You have to adjust their order manually. Below is an example:
+
+\ |IMG9|\ 
 
 If a document was binding to another name, the binding name will be used. The document containing the table is not in the list for preventing from infinite loop while parsing. You should add it back manually if that makes sense for you.
 
 The “maxdepth:2” means to build the sidebar based on “Parts” and “Chapter”.
-
-You will see how it works in :ref:index
 
 .. _h5a807c1a4a7d71c65729517f5c5635:
 
 Style Tab
 =========
 
-\ |IMG8|\ 
+\ |IMG10|\ 
 
 This panel help user to adding headings to paragraphs. The headings construct the structure of the document. This panel shows the mapping of terminology between the Google Docs and the reStructuredText specification.
 
-\ |IMG9|\ 
+\ |IMG11|\ 
 
 The lower section “Paragraph” is for styling normal text. ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace. These two are usually used when you paste stuffs from other browser pages into the document.
 
@@ -132,7 +152,7 @@ The lower section “Paragraph” is for styling normal text. ``Paragraph Conten
 Conversion Tab
 ==============
 
-\ |IMG10|\ 
+\ |IMG12|\ 
 
 The Conversion tab has two buttons. The “Generate reST” will trigger the generating process and show the result in the area below that button.
 
@@ -150,7 +170,7 @@ Binding the document to a file in repository
 
 You can provide your account and credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG11|\ 
+\ |IMG13|\ 
 
 If you want to commit to a new file. Please
 
@@ -163,7 +183,7 @@ If you want to commit to a new file. Please
 Committing
 ==========
 
-\ |IMG12|\ 
+\ |IMG14|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
@@ -174,13 +194,13 @@ About the Credentials
 
 The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
 
-\ |IMG13|\ 
+\ |IMG15|\ 
 
-\ |IMG14|\ 
+\ |IMG16|\ 
 
 You just need to give the credentials every time for committing. Like the following image shows.
 
-\ |IMG15|\ 
+\ |IMG17|\ 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
@@ -216,37 +236,45 @@ You just need to give the credentials every time for committing. Like the follow
    :width: 185 px
 
 .. |IMG7| image:: User_Guide/User_Guide_7.png
+   :height: 68 px
+   :width: 560 px
+
+.. |IMG8| image:: User_Guide/User_Guide_8.png
+   :height: 108 px
+   :width: 558 px
+
+.. |IMG9| image:: User_Guide/User_Guide_9.png
    :height: 153 px
    :width: 357 px
 
-.. |IMG8| image:: User_Guide/User_Guide_8.png
+.. |IMG10| image:: User_Guide/User_Guide_10.png
    :height: 326 px
    :width: 312 px
 
-.. |IMG9| image:: User_Guide/User_Guide_9.png
+.. |IMG11| image:: User_Guide/User_Guide_11.png
    :height: 89 px
    :width: 240 px
 
-.. |IMG10| image:: User_Guide/User_Guide_10.png
+.. |IMG12| image:: User_Guide/User_Guide_12.png
    :height: 482 px
    :width: 312 px
 
-.. |IMG11| image:: User_Guide/User_Guide_11.png
+.. |IMG13| image:: User_Guide/User_Guide_13.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG12| image:: User_Guide/User_Guide_12.png
+.. |IMG14| image:: User_Guide/User_Guide_14.png
    :height: 232 px
    :width: 584 px
 
-.. |IMG13| image:: User_Guide/User_Guide_13.png
+.. |IMG15| image:: User_Guide/User_Guide_15.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG14| image:: User_Guide/User_Guide_14.png
+.. |IMG16| image:: User_Guide/User_Guide_16.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG15| image:: User_Guide/User_Guide_15.png
+.. |IMG17| image:: User_Guide/User_Guide_17.png
    :height: 404 px
    :width: 688 px
