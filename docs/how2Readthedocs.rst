@@ -38,7 +38,7 @@ Below is the context for you to copy and paste.
     project = 'CHANGE-THIS'
     copyright = '2016, CHANGE-THIS'
     # The name of the Pygments (syntax highlighting) style to use.
-    pygments_style = 'sphinx'
+    pygments_style = 'python'
     
     extlinks = {}
     
