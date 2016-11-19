@@ -57,9 +57,7 @@ How to install
 How to Use
 **********
 
-Please refer to this article :doc:`How to Use`
-
-.. _How to Use: UserGuide.html
+Please refer to this article \ `How to Use`_\  .
 
 .. _h84e3b4616757118376d336e2e5d5d23:
 
@@ -90,6 +88,7 @@ Acknowledgments
 
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
 .. _`Read The Docs`: https://readthedocs.org/
+.. _`How to Use`: User%20Guide.html
 .. _`Gitbook`: https://www.gitbook.com
 .. _`Online reStructuredText editor`: http://rst.ninjs.org/
 .. _`all the contributors`: https://github.com/bitwiseshiftleft/sjcl/graphs/contributors
