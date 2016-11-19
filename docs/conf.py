@@ -26,11 +26,11 @@ copyright = '2016, Yeh Hsin Yuan'
 #'''.format(last_stable)
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+#pygments_style = 'sphinx'
 
-extlinks = {
-    #'GGeditor-doc':  ('http://docs.GGeditor.com/%s/', '')
-}
+#extlinks = {
+#    #'GGeditor-doc':  ('http://docs.GGeditor.com/%s/', '')
+#}
 
 # -- Options for HTML output ---------------------------------------------------
 
