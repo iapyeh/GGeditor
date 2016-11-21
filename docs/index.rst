@@ -20,8 +20,7 @@ GGeditor
 
 \ |IMG1|\ 
 
-
-.. Hint:: 
+.. Note:: 
 
     You don’t need to trigger conversion before committing and downloading, the committing and downloading would do conversion at first.
 
@@ -57,22 +56,14 @@ How to install
 How to Use
 **********
 
-Please Refer to this article \ `How to Use`_\ 
+Please refer to this article\ `How to Use`_\ 
 
 .. _h84e3b4616757118376d336e2e5d5d23:
 
 For reStructuredText Beginners
 ******************************
 
-I guess that  you might feel a little bit of confusing if you just started your journey on reStructuredText. I wrote a chapter for you to help your documentation task to be quickly completed like the GGeditor. I spent over 2 months to tackle it. Now you have the GGeditor and this how-to chapter, You might accomplish it in several hours.
-
-.. _h59e47f2a4a50742f566e3f654a4648:
-
-Related Works
-*************
-
-* \ `Gitbook`_\ : it has a markup editor
-* \ `Online reStructuredText editor`_\ 
+If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the readthedocs.org website. I wrote a tutorial to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
 
 .. _h7c12a2e595c631221f363d4e55c21:
 
@@ -89,9 +80,8 @@ Acknowledgments
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
 .. _`Read The Docs`: https://readthedocs.org/
 .. _`How to Use`: User%20Guide.html
-.. _`Gitbook`: https://www.gitbook.com
-.. _`Online reStructuredText editor`: http://rst.ninjs.org/
 .. _`all the contributors`: https://github.com/bitwiseshiftleft/sjcl/graphs/contributors
+.. _`Online reStructuredText editor`: http://rst.ninjs.org/
 .. _`Readthedocs.org`: https://readthedocs.org
 .. _`octokat.js`: https://github.com/philschatz/octokat.js
 .. _`sjcl`: https://github.com/bitwiseshiftleft/sjcl
