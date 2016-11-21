@@ -1,10 +1,13 @@
 
-#. How to Use
+.. _h177537546887b67276822514c66016:
+
+How to Use
+**********
 
 .. _h2e2466207319265a2b484631c11587d:
 
 The Google Docs Native Features
-*******************************
+===============================
 
 Most features are just using the Google Docs’ native features. Such as
 
@@ -20,7 +23,7 @@ Most features are just using the Google Docs’ native features. Such as
 .. _h80352f65a46575c6a74721e3ddb6a:
 
 Inline Markups
-**************
+==============
 
 Some inline reST markups can be used directly in the document. The table shows all the usable inline markups.
 
@@ -42,7 +45,7 @@ Some inline reST markups can be used directly in the document. The table shows a
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
 Markup Panel
-************
+============
 
 \ |IMG1|\ 
 
@@ -53,7 +56,7 @@ This “Show Markup Panel” helps you to insert special markups and convert the
 .. _h10487d767c3543552c4f797d453d593f:
 
 Admonitions
-===========
+-----------
 
 \ |IMG2|\ 
 
@@ -68,7 +71,7 @@ There are 4 kinds of layout for 10 types of admonitions., please click on the ad
 .. _h5a3b1c203613551578563c31657026b:
 
 Directives
-==========
+----------
 
 \ |IMG3|\ 
 
@@ -77,7 +80,7 @@ Directives
 .. _h13a5d3e27e111c18554152c6d123c:
 
 Generic Directive
------------------
+~~~~~~~~~~~~~~~~~
 
  ``Generic directive`` can be used for all kinds of reST directive. It will give you a table as shown below, you should replace all the placeholder to fit your needs.
 
@@ -106,7 +109,7 @@ Below is how it is rendered in a web page.
 .. _h36d46272a794b2f694b492933796e5e:
 
 Code
-----
+~~~~
 
 ``code`` is for holding sample codes.
 
@@ -119,7 +122,7 @@ You can highlight your code by giving a language after \.\.code::, like this:
 .. _ha1d6c3e373325355168491f521a78b:
 
 Table of Contents
------------------
+~~~~~~~~~~~~~~~~~
 
 ``Table of Contents`` will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, this is inserted into the ``index.rst`` document.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. Please be noted that file suffix (such as .html) is not required for the document name in list. Also, you have to adjust their order manually to fit your documentation plan. Below is an example:
 
@@ -130,7 +133,7 @@ If a document is binding a file in Github repository, the file name in Github wi
 .. _h545b1150273f784141121a3967491529:
 
 Headings
---------
+~~~~~~~~
 
 \ |IMG11|\ 
 
@@ -139,7 +142,7 @@ The headings construct the structure of the document. If you put the cursor in a
 .. _h48253316368583f7c154246e606b2f:
 
 Text Style
-----------
+~~~~~~~~~~
 
 \ |IMG12|\ 
 
@@ -148,7 +151,7 @@ If you put the cursor in a paragraph you can change the text style of that parag
 .. _h742474725e04161204dc1d5b246619:
 
 Misc
-----
+~~~~
 
 This is a panel for feature that is not been classified to a  category.
 
@@ -168,7 +171,7 @@ This is a panel for feature that is not been classified to a  category.
 .. _h6978575a60223f496c263254a447d32:
 
 Conversion Tab
-==============
+--------------
 
 The Conversion tab has two buttons. 
 
@@ -183,12 +186,12 @@ The “Download” button let you download the generated reST and images in a zi
 .. _h76464c5c585d192b16121e3267e131:
 
 Commit to Github
-****************
+================
 
 .. _h767f774b5346d4195e437b31414f59:
 
 Binding the document to a file in repository
-============================================
+--------------------------------------------
 
 You can provide your account and credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
@@ -203,7 +206,7 @@ If you want to commit to a new file. Please
 .. _h572153e49969743e69262f2d637743:
 
 Committing
-==========
+----------
 
 \ |IMG17|\ 
 
@@ -220,7 +223,7 @@ If only the text content has been modified, you can uncheck “Commit images” 
 .. _hb3e386c1329112c3f734c345c3396b:
 
 About the Credentials
-=====================
+---------------------
 
 The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
 
