@@ -141,6 +141,8 @@ The headings construct the structure of the document. If you put the cursor in a
 Text Style
 ----------
 
+\ |IMG12|\ 
+
 If you put the cursor in a paragraph you can change the text style of that paragraph. The ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace (code style). These two are usually used when you paste stuffs from other browser pages into the document.
 
 .. _h742474725e04161204dc1d5b246619:
@@ -155,6 +157,8 @@ This is a panel for feature that is not been classified to a  category.
 +--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Add link to document|Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
 |                    |                                                                                                                                                                                                                                                                            |
+|                    |\ |IMG13|\                                                                                                                                                                                                                                                                  |
+|                    |                                                                                                                                                                                                                                                                            |
 |                    |Please be noted that                                                                                                                                                                                                                                                        |
 |                    |                                                                                                                                                                                                                                                                            |
 |                    |#. only files in the same folder of the current document will be listed.                                                                                                                                                                                                    |
@@ -168,11 +172,11 @@ Conversion Tab
 
 The Conversion tab has two buttons. 
 
-\ |IMG12|\ 
+\ |IMG14|\ 
 
 The “Generate reST” will trigger the generating process and show the result in the area below that button.
 
-\ |IMG13|\ 
+\ |IMG15|\ 
 
 The “Download” button let you download the generated reST and images in a zip file into your local PC.
 
@@ -188,7 +192,7 @@ Binding the document to a file in repository
 
 You can provide your account and credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG14|\ 
+\ |IMG16|\ 
 
 If you want to commit to a new file. Please
 
@@ -201,13 +205,17 @@ If you want to commit to a new file. Please
 Committing
 ==========
 
-\ |IMG15|\ 
+\ |IMG17|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
+\ |IMG18|\ 
+
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
-If you just edited the text content only, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
+\ |IMG19|\ 
+
+If only the text content has modified, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
 
 .. _hb3e386c1329112c3f734c345c3396b:
 
@@ -216,9 +224,9 @@ About the Credentials
 
 The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
 
-\ |IMG16|\ 
+\ |IMG20|\ 
 
-\ |IMG17|\ 
+\ |IMG21|\ 
 
 
 .. Caution:: 
@@ -227,7 +235,7 @@ The credentials you given is encrypted and kept in the Google App Script platfor
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
-\ |IMG18|\ 
+\ |IMG22|\ 
 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
@@ -284,29 +292,45 @@ You can give the credentials every time doing the committing. Like the following
    :width: 266 px
 
 .. |IMG12| image:: user_guide/user_guide_12.png
+   :height: 84 px
+   :width: 265 px
+
+.. |IMG13| image:: user_guide/user_guide_13.png
+   :height: 236 px
+   :width: 246 px
+
+.. |IMG14| image:: user_guide/user_guide_14.png
    :height: 36 px
    :width: 108 px
 
-.. |IMG13| image:: user_guide/user_guide_13.png
+.. |IMG15| image:: user_guide/user_guide_15.png
    :height: 38 px
    :width: 81 px
 
-.. |IMG14| image:: user_guide/user_guide_14.png
+.. |IMG16| image:: user_guide/user_guide_16.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG15| image:: user_guide/user_guide_15.png
+.. |IMG17| image:: user_guide/user_guide_17.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG16| image:: user_guide/user_guide_16.png
+.. |IMG18| image:: user_guide/user_guide_18.png
+   :height: 40 px
+   :width: 105 px
+
+.. |IMG19| image:: user_guide/user_guide_19.png
+   :height: 52 px
+   :width: 152 px
+
+.. |IMG20| image:: user_guide/user_guide_20.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG17| image:: user_guide/user_guide_17.png
+.. |IMG21| image:: user_guide/user_guide_21.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG18| image:: user_guide/user_guide_18.png
+.. |IMG22| image:: user_guide/user_guide_22.png
    :height: 404 px
    :width: 688 px
