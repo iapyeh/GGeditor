@@ -58,7 +58,7 @@
 
 ‧纈草根：放鬆迷走神經，降低與偏頭痛相關的高血壓。
 
-\ |IMG4|\ 
+\ |IMG2|\ 
 
 醫療靈媒　安東尼．威廉（Anthony William）
 
@@ -94,13 +94,5 @@
    :width: 30 px
 
 .. |IMG2| image:: develop_test/develop_test_2.png
-   :height: 26 px
-   :width: 30 px
-
-.. |IMG3| image:: develop_test/develop_test_3.png
-   :height: 26 px
-   :width: 30 px
-
-.. |IMG4| image:: develop_test/develop_test_4.png
    :height: 336 px
    :width: 240 px
