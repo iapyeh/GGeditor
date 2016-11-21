@@ -215,7 +215,7 @@ The “Rest Binding” is for rebinding the file in Github repository with this 
 
 \ |IMG19|\ 
 
-If only the text content has modified, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
+If only the text content has been modified, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
 
 .. _hb3e386c1329112c3f734c345c3396b:
 
