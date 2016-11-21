@@ -242,3 +242,87 @@ You can give the credentials every time doing the committing. Like the following
 .. rubric:: Footnotes
 
 .. [#f1]  If you manually put a substitution markup, you got to provide the replacement markup manu
+
+.. |IMG1| image:: user_guide/user_guide_1.png
+   :height: 105 px
+   :width: 402 px
+
+.. |IMG2| image:: user_guide/user_guide_2.png
+   :height: 216 px
+   :width: 280 px
+
+.. |IMG3| image:: user_guide/user_guide_3.png
+   :height: 166 px
+   :width: 276 px
+
+.. |IMG4| image:: user_guide/user_guide_4.png
+   :height: 156 px
+   :width: 458 px
+
+.. |IMG5| image:: user_guide/user_guide_5.png
+   :height: 280 px
+   :width: 426 px
+
+.. |IMG6| image:: user_guide/user_guide_6.png
+   :height: 364 px
+   :width: 773 px
+
+.. |IMG7| image:: user_guide/user_guide_7.png
+   :height: 130 px
+   :width: 140 px
+
+.. |IMG8| image:: user_guide/user_guide_8.png
+   :height: 68 px
+   :width: 560 px
+
+.. |IMG9| image:: user_guide/user_guide_9.png
+   :height: 108 px
+   :width: 558 px
+
+.. |IMG10| image:: user_guide/user_guide_10.png
+   :height: 153 px
+   :width: 357 px
+
+.. |IMG11| image:: user_guide/user_guide_11.png
+   :height: 133 px
+   :width: 266 px
+
+.. |IMG12| image:: user_guide/user_guide_12.png
+   :height: 84 px
+   :width: 265 px
+
+.. |IMG13| image:: user_guide/user_guide_13.png
+   :height: 236 px
+   :width: 246 px
+
+.. |IMG14| image:: user_guide/user_guide_14.png
+   :height: 36 px
+   :width: 108 px
+
+.. |IMG15| image:: user_guide/user_guide_15.png
+   :height: 38 px
+   :width: 81 px
+
+.. |IMG16| image:: user_guide/user_guide_16.png
+   :height: 545 px
+   :width: 664 px
+
+.. |IMG17| image:: user_guide/user_guide_17.png
+   :height: 232 px
+   :width: 584 px
+
+.. |IMG18| image:: user_guide/user_guide_18.png
+   :height: 40 px
+   :width: 105 px
+
+.. |IMG19| image:: user_guide/user_guide_19.png
+   :height: 29 px
+   :width: 213 px
+
+.. |IMG20| image:: user_guide/user_guide_20.png
+   :height: 38 px
+   :width: 128 px
+
+.. |IMG21| image:: user_guide/user_guide_21.png
+   :height: 404 px
+   :width: 688 px
