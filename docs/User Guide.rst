@@ -213,6 +213,10 @@ Once you have build the binding, next time you can use the “Commit” button d
 
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
+\ |IMG19|\ 
+
+If you just edited the text content only, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
+
 .. _hb3e386c1329112c3f734c345c3396b:
 
 About the Credentials
@@ -220,9 +224,9 @@ About the Credentials
 
 The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
 
-\ |IMG19|\ 
-
 \ |IMG20|\ 
+
+\ |IMG21|\ 
 
 
 .. Caution:: 
@@ -231,7 +235,7 @@ The credentials you given is encrypted and kept in the Google App Script platfor
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
-\ |IMG21|\ 
+\ |IMG22|\ 
 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
@@ -308,21 +312,25 @@ You can give the credentials every time doing the committing. Like the following
    :width: 664 px
 
 .. |IMG17| image:: user_guide/user_guide_17.png
-   :height: 232 px
-   :width: 584 px
+   :height: 304 px
+   :width: 600 px
 
 .. |IMG18| image:: user_guide/user_guide_18.png
    :height: 40 px
    :width: 105 px
 
 .. |IMG19| image:: user_guide/user_guide_19.png
+   :height: 52 px
+   :width: 152 px
+
+.. |IMG20| image:: user_guide/user_guide_20.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG20| image:: user_guide/user_guide_20.png
+.. |IMG21| image:: user_guide/user_guide_21.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG21| image:: user_guide/user_guide_21.png
+.. |IMG22| image:: user_guide/user_guide_22.png
    :height: 404 px
    :width: 688 px
