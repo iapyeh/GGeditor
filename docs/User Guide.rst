@@ -1,8 +1,8 @@
 
-.. _h426e715e40261e341c72511658305d4d:
+.. _h177537546887b67276822514c66016:
 
-How to Uses
-###########
+How to Use
+##########
 
 .. _h2e2466207319265a2b484631c11587d:
 
@@ -227,11 +227,10 @@ The credentials you given is encrypted and kept in the Google App Script platfor
 
 \ |IMG20|\ 
 
-+---+
-|   |
-+---+
-|   |
-+---+
+
+.. Caution:: 
+
+    The GGeditor will never sent you emails to request reset credentials or anything else.
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
