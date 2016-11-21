@@ -13,8 +13,6 @@ GGeditor
     how2Readthedocs
     DocStructure
     Limitations
-    Sponsors
-    
 
 \ **GGeditor**\  is a Google Docs Add-on for generating \ `reStructuredText`_\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ `Read The Docs`_\  got automatically updated.
 
@@ -22,7 +20,7 @@ GGeditor
 
 .. Note:: 
 
-    You don’t need to trigger conversion before committing and downloading, the committing and downloading would do conversion at first.
+    You don’t need to trigger conversion before committing and downloading, the committing and downloading would do conversion internally at first.
 
 .. _h6897050511836763421463e2b4b685:
 
@@ -37,8 +35,9 @@ Features
 #. Support footnotes, image, list item and table.
 #. Support full-width characters (CKJ) in headings and table.
 #. Support internal links to bookmarks, headings and Google Docs native table of contents (in document table of contents).
+#. Support relative links to other generated reST files of the Google Docs under the same folder and subfolders.
 #. Support cross-document table of content (.. doctree::) for the readthedocs.org.
-#. Support admonitions of the readthedocs.org.
+#. Support all style of admonitions of the readthedocs.org.
 
 .. _h131f586a50795a4822677d4166231766:
 
