@@ -85,10 +85,10 @@ Acknowledgments
 .. _`sjcl`: https://github.com/bitwiseshiftleft/sjcl
 .. _`Source document in the Google Docs`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
 
-.. |IMG1| image:: index/index_1.png
+.. |IMG1| image:: static/index_1.png
    :height: 250 px
    :width: 504 px
 
-.. |IMG2| image:: index/index_2.png
+.. |IMG2| image:: static/index_2.png
    :height: 213 px
    :width: 326 px
