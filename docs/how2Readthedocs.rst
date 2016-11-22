@@ -95,10 +95,10 @@ You can reference \ `the index.rst of the GGeditor`_\  for example.
 .. _`readthedocs.org`: https://readthedocs.org
 .. _`the index.rst of the GGeditor`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
 
-.. |IMG1| image:: static/how2readthedocs_1.png
+.. |IMG1| image:: static/how2Readthedocs_1.png
    :height: 493 px
    :width: 310 px
 
-.. |IMG2| image:: static/how2readthedocs_2.png
+.. |IMG2| image:: static/how2Readthedocs_2.png
    :height: 478 px
    :width: 810 px
