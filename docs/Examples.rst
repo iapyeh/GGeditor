@@ -198,6 +198,11 @@ Admonitions
         go \ `end`_\  start
         \ **go**\  end end
 
+.. _h36d46272a794b2f694b492933796e5e:
+
+Code
+====
+
 
 .. Code:: 
 
@@ -206,8 +211,8 @@ Admonitions
             go end
 
     def end(y)
-        go \ `end`_\  start
-        \ **go**\  end end
+        go end start
+        go end end
 
 .. _h2c1d74277104e41780968148427e:
 
