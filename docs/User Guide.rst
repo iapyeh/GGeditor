@@ -194,6 +194,9 @@ You can highlight your code by giving a language name after the \.\.code::, like
 
 \ |IMG12|\ 
 
+It is rendered as this:
+
+
 .. code:: python
 
     #!/usr/bin/env python
@@ -400,8 +403,8 @@ You can give the credentials every time doing the committing. Like the following
    :width: 560 px
 
 .. |IMG12| image:: static/User_Guide_12.png
-   :height: 108 px
-   :width: 558 px
+   :height: 205 px
+   :width: 956 px
 
 .. |IMG13| image:: static/User_Guide_13.png
    :height: 153 px
