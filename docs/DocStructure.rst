@@ -1,8 +1,8 @@
 
-.. _h175a7375257236303101b556d157551:
+.. _h4e5c2e76333b146f4e4a6c4e5311365f:
 
-Converting Rules:
-#################
+Converting Rules
+****************
 
 Version 1.0
 
@@ -33,6 +33,8 @@ Table of Supported Features
 +----------------+------------+------------+-------------+-------------+
 |Hyperlink       |Yes         |Yes         |Yes          |Yes          |
 +----------------+------------+------------+-------------+-------------+
+|Horizontal Line |Yes         |N/A         |N/A          |N/A          |
++----------------+------------+------------+-------------+-------------+
 |Link to bookmark|Yes         |Yes         |Yes          |Yes          |
 +----------------+------------+------------+-------------+-------------+
 |Link to headings|Yes         |Yes         |Yes          |Yes          |
@@ -44,6 +46,8 @@ Table of Supported Features
 |Image           |Yes         |Yes         |Yes          |Yes          |
 +----------------+------------+------------+-------------+-------------+
 |Image with link |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Chart           |Yes         |            |             |             |
 +----------------+------------+------------+-------------+-------------+
 |Admonition      |Yes         |No          |No           |No (Nested)  |
 +----------------+------------+------------+-------------+-------------+
@@ -61,7 +65,7 @@ Table of Supported Features
 .. _h64a67723216a45226c6e5434607343:
 
 Document Structure and Components
-#################################
+*********************************
 
 
 +----------------+-------------------+------+
@@ -69,11 +73,11 @@ Document Structure and Components
 +================+===================+======+
 |Parts           |Title              |#     |
 +----------------+-------------------+------+
-|Chapter         |Heading 1          |\*    |
+|Chapter         |Heading 1          |*     |
 +----------------+-------------------+------+
 |Section         |Heading 2          |=     |
 +----------------+-------------------+------+
-|Subsection      |Heading 3          |\-    |
+|Subsection      |Heading 3          |-     |
 +----------------+-------------------+------+
 |Subsubsection   |Heading 4          |~     |
 +----------------+-------------------+------+
@@ -85,7 +89,7 @@ Document Structure and Components
 .. _h2e201561772e25787b564d7c6271a:
 
 Remarks on document structure
-=============================
+-----------------------------
 
 * If you have unicode in heading text, such as CKJ characters, the markup in next line might be longer because it got length from bytes not words count.
 
@@ -93,7 +97,7 @@ Remarks on document structure
 .. _h251a32c3d67762dd2f79492e157c:
 
 Paragraph
-*********
+=========
 
 Any chunk of text with “Normal text” style is converted to reST paragraph.  
 
@@ -114,7 +118,7 @@ For example, this is the second paragraph.
 .. _h494d3b7d2d2d66434623e305f3b9d:
 
 Remarks on paragraph
-====================
+--------------------
 
 * You don’t need to put a backslash for escaping special characters.
 * A link text is not to be bold and italic at the same time, and a bold text is not to be italic too.
@@ -122,9 +126,9 @@ Remarks on paragraph
 .. _h6f5669738347e734b2391c49617a4c:
 
 Literal Block, Quoted Block
-***************************
+===========================
 
-You can use the indentation in the Google Docs to have a paragraph with indentation. No double\-colon (::) is required at the end of previous paragraph. But if you do put  double\-colon (::) at end , like this paragraph, the next paragraph would have 1 more level of indentation::
+You can use the indentation in the Google Docs to have a paragraph with indentation. No double-colon (::) is required at the end of previous paragraph. But if you do put  double-colon (::) at end , like this paragraph, the next paragraph would have 1 more level of indentation::
 
 The quoted content.
 
@@ -140,14 +144,14 @@ The above paragraph in the Google Docs.
 .. _h53282618624d66441b3356396b775f3f:
 
 Subscription, Superscription
-****************************
+============================
 
 Not supported yet.
 
 .. _h365552f4b3d1e5c62c7383180a9:
 
 Bullet List, Enumerated List
-****************************
+============================
 
 * Just use them as in Google Docs
 * Nested list is fine
@@ -172,7 +176,7 @@ The above list in the Google Docs:
 .. _h517d2944691c466b51131b41556f7f:
 
 Definition lists:
-*****************
+=================
 
 Just use the indentation for definition content like this:
 
@@ -186,13 +190,13 @@ What
 
 How
 
-        The term is a one\-line phrase, and the definition is one or more paragraphs or body elements, indented relative to  the term.
+        The term is a one-line phrase, and the definition is one or more paragraphs or body elements, indented relative to  the term.
 
 
 .. _h4f5f18773d527364050184c733e3b71:
 
 Horizontal Line
-***************
+===============
 
 Just insert a horizontal line in Google Docs, it was converted to reST. Like this:
 
@@ -200,7 +204,7 @@ Just insert a horizontal line in Google Docs, it was converted to reST. Like thi
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
 Table
-*****
+=====
 
 A Google Docs table was exported to a reST table with the following rules:
 
@@ -243,7 +247,7 @@ It results:
 .. _h425360541a6d36a14487962c584b8:
 
 Image
-*****
+=====
 
 Image in the Google Docs was exported to reST. Chart  is image too, so it can be exported to reST.
 
@@ -253,7 +257,7 @@ Image in the Google Docs was exported to reST. Chart  is image too, so it can be
 
 * Image with hyperlinks is exported to :target:.
 * Horizontal alignment (left, center and right) is exported to :align:
-* Image alt\-title was exported to reST :alt:, but alt\-description was not.
+* Image alt-title was exported to reST :alt:, but alt-description was not.
 * Resized dimension was exported to  :width: and :height:. 
 * Image adjustments, border, cropping in Google Docs were dropped when exported to reST. Always the original image was exported.
 * Please be noted, currently the Github skipped :width:, :height:, :align:. you will see them be effective in the Sphinx (ReadTheDocs) only.
@@ -263,21 +267,21 @@ Image in the Google Docs was exported to reST. Chart  is image too, so it can be
     #. For document with Github binding, the binding name was used.
     #. For document without Github binding, the document name was used.
     #. If there is file extension (ex, .rst) in the name, that extension was omitted.
-    #. If there is no file extension in the name, “_files” was appended to avoid naming\-conflict.
+    #. If there is no file extension in the name, “_files” was appended to avoid naming-conflict.
 
-.. class::
+.. class:: 
 
         content of class
 
 
-.. py:function:: send_message(sender, [priority=1])
+.. py:: function:: send_message(sender, [priority=1])
 
         Send a message to a recipient
     
 
         :param str sender: The person sending the message
 
-        :param priority: The priority of the message, can be a number 1\-5
+        :param priority: The priority of the message, can be a number 1-5
 
         :type priority: integer or None
 
@@ -292,16 +296,16 @@ Image in the Google Docs was exported to reST. Chart  is image too, so it can be
 
 
 
-``Thihs is a code`\`
+``Thihs is a code``
 
 .. _h1851781a7781866c373d74142e52a:
 
 Image subfolder naming scheme
-*****************************
+=============================
 
 * If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”. 
 * Which means if there is a file named “README” in the same folder of README.rst, confliction would happen.
-* Some special characters in name, such as space, \*, / are replaced with _
+* Some special characters in name, such as space, *, / are replaced with _
 
 .. _`link to the Google`: http://www.google.com
 .. _`google`: http://www.google.com
@@ -313,31 +317,31 @@ Image subfolder naming scheme
 
 .. [#f1]  This is a footnote
 
-.. |IMG1| image:: DocStructure/DocStructure_1.png
+.. |IMG1| image:: static/docstructure_1.png
    :height: 185 px
    :width: 697 px
 
-.. |IMG2| image:: DocStructure/DocStructure_2.png
+.. |IMG2| image:: static/docstructure_2.png
    :height: 178 px
    :width: 697 px
 
-.. |IMG3| image:: DocStructure/DocStructure_3.png
+.. |IMG3| image:: static/docstructure_3.png
    :height: 53 px
    :width: 44 px
 
-.. |IMG4| image:: DocStructure/DocStructure_4.png
+.. |IMG4| image:: static/docstructure_4.png
    :height: 142 px
    :width: 697 px
 
-.. |IMG5| image:: DocStructure/DocStructure_5.png
+.. |IMG5| image:: static/docstructure_5.png
    :height: 325 px
    :width: 697 px
 
-.. |IMG6| image:: DocStructure/DocStructure_6.png
+.. |IMG6| image:: static/docstructure_6.png
    :height: 53 px
    :width: 44 px
 
-.. |IMG7| image:: DocStructure/DocStructure_7.png
+.. |IMG7| image:: static/docstructure_7.png
    :height: 60 px
    :width: 206 px
    :align: center
