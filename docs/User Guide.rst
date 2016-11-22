@@ -4,12 +4,10 @@
 How to Use
 **********
 
-.. _h2c1d74277104e41780968148427e:
+.. _ha1d6c3e373325355168491f521a78b:
 
-
-
-
-`How to Use <#h177537546887b67276822514c66016>`_
+Table of Contents
+=================
 
     `The Google Docs Native Features <#h2e2466207319265a2b484631c11587d>`_
 
