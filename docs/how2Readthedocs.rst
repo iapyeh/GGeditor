@@ -10,7 +10,9 @@ This is a simple guideline to help GGeditor users to setup a basic project of th
 #. You got to have a theme_overrides.css in the “static” folder.
 #. You got to have a index.rst in the “docs” folder and it contains a “toctree” markups in the index.rst.
 
-That’s all. With the above 3 steps, you can create a project in the readthedocs.org and enjoy it. Well, be more details:
+That’s all. With the above 3 steps, you can go readthedocs.org  and create a project for your repository.
+
+Below, is the content of files:
 
 .. _h5dd7fe7f33697b5d497914774677:
 
@@ -93,10 +95,10 @@ You can reference \ `the index.rst of the GGeditor`_\  for example.
 .. _`readthedocs.org`: https://readthedocs.org
 .. _`the index.rst of the GGeditor`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
 
-.. |IMG1| image:: how2Readthedocs/how2Readthedocs_1.png
+.. |IMG1| image:: static/how2readthedocs_1.png
    :height: 493 px
    :width: 310 px
 
-.. |IMG2| image:: how2Readthedocs/how2Readthedocs_2.png
+.. |IMG2| image:: static/how2readthedocs_2.png
    :height: 478 px
    :width: 810 px
