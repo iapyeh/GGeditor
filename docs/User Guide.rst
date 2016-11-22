@@ -248,8 +248,6 @@ The credentials you given is encrypted and kept in the Google App Script platfor
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
-\ |IMG22|\ 
-
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
@@ -343,7 +341,3 @@ You can give the credentials every time doing the committing. Like the following
 .. |IMG21| image:: static/User_Guide_21.png
    :height: 38 px
    :width: 128 px
-
-.. |IMG22| image:: static/User_Guide_22.png
-   :height: 404 px
-   :width: 688 px
