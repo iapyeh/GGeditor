@@ -15,7 +15,7 @@ The Google Docs is a powerful editor, but not all features are supported to conv
 * Drawing objects. Because there is no API to get it as an image.
 * List styles. The list style is defined by the CSS settings in the html page.
 * Math equations. Because this is no API to get it as an image.
-* Multi\-columns. This is not supported by the reST.
+* Multi-columns. This is not supported by the reST.
 * Page break. This is not able to apply to a html page.
 * Page header and page footer. This is not supported by the reST.
 * Page numbering. This is not able to apply to a html page.
@@ -34,8 +34,9 @@ reST related
 
     * This is not supported. \ `Please see details here`_\ .
 
-* Table in a list item is not supported. It will be converted to a stand\-alone table.
+* Table in a list item is not supported. It will be converted to a stand-alone table.
 * Nested table in a table cell is not supported.
+* Video is not supported. Since the Google Docs does not allow to embed a video.
 
 .. _h69271f6b544a4942467e713a34332e47:
 
@@ -44,7 +45,7 @@ Github related
 
 * When repository was renamed:
 
-    * If the repository or folder name of the binding file in Github was renamed, a re\-binding is required for committing.
+    * If the repository or folder name of the binding file in Github was renamed, a re-binding is required for committing.
 
 * When the binding file has changed
 
