@@ -182,56 +182,56 @@ https://www.facebook.com/tam.sui.good/posts/876990639026705
 .. [#f9]  Polynomial is poly+nomial
 .. [#f10]  Polynomial is poly+nomial
 
-.. |IMG1| image:: examples/examples_1.png
+.. |IMG1| image:: static/examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG2| image:: examples/examples_2.png
+.. |IMG2| image:: static/examples_2.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG3| image:: examples/examples_3.png
+.. |IMG3| image:: static/examples_3.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG4| image:: examples/examples_4.png
+.. |IMG4| image:: static/examples_4.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG5| image:: examples/examples_5.png
+.. |IMG5| image:: static/examples_5.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG6| image:: examples/examples_6.png
+.. |IMG6| image:: static/examples_6.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG7| image:: examples/examples_7.png
+.. |IMG7| image:: static/examples_7.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG8| image:: examples/examples_8.png
+.. |IMG8| image:: static/examples_8.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG9| image:: examples/examples_9.png
+.. |IMG9| image:: static/examples_9.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG10| image:: examples/examples_10.png
+.. |IMG10| image:: static/examples_10.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG11| image:: examples/examples_11.png
+.. |IMG11| image:: static/examples_11.png
    :height: 150 px
    :width: 150 px
