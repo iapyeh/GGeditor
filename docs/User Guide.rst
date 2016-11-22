@@ -148,25 +148,31 @@ Text Style
 
 If you put the cursor in a paragraph you can change the text style of that paragraph. The ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace (code style). These two are usually used when you paste stuffs from other browser pages into the document.
 
-.. _h742474725e04161204dc1d5b246619:
+.. _hf552270633f3791039513f635f55:
 
-Misc
-~~~~
+Misc Utilities
+~~~~~~~~~~~~~~
 
 This is a panel for feature that is not been classified to a  category.
 
-+--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Name                |Description                                                                                                                                                                                                                                                                 |
-+--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Add link to document|Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
-|                    |                                                                                                                                                                                                                                                                            |
-|                    |\ |IMG13|\                                                                                                                                                                                                                                                                  |
-|                    |                                                                                                                                                                                                                                                                            |
-|                    |Please be noted that                                                                                                                                                                                                                                                        |
-|                    |                                                                                                                                                                                                                                                                            |
-|                    |#. only files in the same folder of the current document will be listed.                                                                                                                                                                                                    |
-|                    |#. The Google Docs does not allow relative URL, so the added URL will be a pseudo-URL which starts with “http://cross.document/”, please keep the pseudo header when you are manually editing it. The pseudo-URL will be converted to relative-URL when generating the reST.|
-+--------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Name                  |Description                                                                                                                                                                                                                                                                 |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Add link to document  |Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
+|                      |                                                                                                                                                                                                                                                                            |
+|                      |\ |IMG13|\                                                                                                                                                                                                                                                                  |
+|                      |                                                                                                                                                                                                                                                                            |
+|                      |Please be noted that                                                                                                                                                                                                                                                        |
+|                      |                                                                                                                                                                                                                                                                            |
+|                      |#. only files in the same folder of the current document will be listed.                                                                                                                                                                                                    |
+|                      |#. The Google Docs does not allow relative URL, so the added URL will be a pseudo-URL which starts with “http://cross.document/”, please keep the pseudo header when you are manually editing it. The pseudo-URL will be converted to relative-URL when generating the reST.|
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Upgrade all headings  |All the paragraphs with headings will increase one level of heading. That is, Heading 2 becomes Heading 1, and Heading 1 becomes Title. Heading 6 becomes Heading 5. Title keeps Title.                                                                                     |
+|                      |                                                                                                                                                                                                                                                                            |
+|                      |This is useful when you dealing with depth level about what will be listed on the sidebar of the readthedocs project.                                                                                                                                                       |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Downgrade all headings|All the paragraphs with headings will decrease one level of heading. That is, Heading 1 becomes Heading 2, and Title becomes Heading 1.  Heading 5 becomes Heading 6. Heading 6 keeps Heading 6.                                                                            |
++----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _h6978575a60223f496c263254a447d32:
 
@@ -220,6 +226,10 @@ The “Rest Binding” is for rebinding the file in Github repository with this 
 
 If only the text content has been modified, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
 
+.. Note:: 
+
+    The GGeditor will maintain image files it uploaded to the Github repository while committing. If you modified any image, no matter adding, replacement or deletion, you should check “Commit images”.
+
 .. _hb3e386c1329112c3f734c345c3396b:
 
 About the Credentials
@@ -250,90 +260,90 @@ You can give the credentials every time doing the committing. Like the following
 
 .. [#f1]  If you manually put a substitution markup, you got to provide the replacement markup manu
 
-.. |IMG1| image:: static/user_guide_1.png
+.. |IMG1| image:: static/User_Guide_1.png
    :height: 105 px
    :width: 402 px
 
-.. |IMG2| image:: static/user_guide_2.png
+.. |IMG2| image:: static/User_Guide_2.png
    :height: 216 px
    :width: 280 px
 
-.. |IMG3| image:: static/user_guide_3.png
+.. |IMG3| image:: static/User_Guide_3.png
    :height: 166 px
    :width: 276 px
 
-.. |IMG4| image:: static/user_guide_4.png
+.. |IMG4| image:: static/User_Guide_4.png
    :height: 156 px
    :width: 458 px
 
-.. |IMG5| image:: static/user_guide_5.png
+.. |IMG5| image:: static/User_Guide_5.png
    :height: 280 px
    :width: 426 px
 
-.. |IMG6| image:: static/user_guide_6.png
+.. |IMG6| image:: static/User_Guide_6.png
    :height: 364 px
    :width: 773 px
 
-.. |IMG7| image:: static/user_guide_7.png
+.. |IMG7| image:: static/User_Guide_7.png
    :height: 130 px
    :width: 140 px
 
-.. |IMG8| image:: static/user_guide_8.png
+.. |IMG8| image:: static/User_Guide_8.png
    :height: 68 px
    :width: 560 px
 
-.. |IMG9| image:: static/user_guide_9.png
+.. |IMG9| image:: static/User_Guide_9.png
    :height: 108 px
    :width: 558 px
 
-.. |IMG10| image:: static/user_guide_10.png
+.. |IMG10| image:: static/User_Guide_10.png
    :height: 153 px
    :width: 357 px
 
-.. |IMG11| image:: static/user_guide_11.png
+.. |IMG11| image:: static/User_Guide_11.png
    :height: 133 px
    :width: 266 px
 
-.. |IMG12| image:: static/user_guide_12.png
+.. |IMG12| image:: static/User_Guide_12.png
    :height: 84 px
    :width: 265 px
 
-.. |IMG13| image:: static/user_guide_13.png
+.. |IMG13| image:: static/User_Guide_13.png
    :height: 236 px
    :width: 246 px
 
-.. |IMG14| image:: static/user_guide_14.png
+.. |IMG14| image:: static/User_Guide_14.png
    :height: 36 px
    :width: 108 px
 
-.. |IMG15| image:: static/user_guide_15.png
+.. |IMG15| image:: static/User_Guide_15.png
    :height: 38 px
    :width: 81 px
 
-.. |IMG16| image:: static/user_guide_16.png
+.. |IMG16| image:: static/User_Guide_16.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG17| image:: static/user_guide_17.png
+.. |IMG17| image:: static/User_Guide_17.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG18| image:: static/user_guide_18.png
+.. |IMG18| image:: static/User_Guide_18.png
    :height: 40 px
    :width: 105 px
 
-.. |IMG19| image:: static/user_guide_19.png
+.. |IMG19| image:: static/User_Guide_19.png
    :height: 52 px
    :width: 152 px
 
-.. |IMG20| image:: static/user_guide_20.png
+.. |IMG20| image:: static/User_Guide_20.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG21| image:: static/user_guide_21.png
+.. |IMG21| image:: static/User_Guide_21.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG22| image:: static/user_guide_22.png
+.. |IMG22| image:: static/User_Guide_22.png
    :height: 404 px
    :width: 688 px
