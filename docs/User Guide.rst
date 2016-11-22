@@ -353,10 +353,12 @@ You can give the credentials every time doing the committing. Like the following
 
 \ |IMG25|\ 
 
+\ `Here is the source document of the Google Docs`_\ 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
 .. _`a sphinx toctree`: http://www.sphinx-doc.org/en/1.4.8/markup/toctree.html
+.. _`Here is the source document of the Google Docs`: https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing
 
 .. |IMG1| image:: static/User_Guide_1.png
    :height: 224 px
