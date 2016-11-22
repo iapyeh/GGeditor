@@ -188,6 +188,8 @@ Code
 
 \ |IMG11|\ 
 
+The content in a code directive can not be in bold or italic. Neither hyperlinks and images.
+
 You can highlight your code by giving a language name after the \.\.code::, like this:
 
 \ |IMG12|\ 
