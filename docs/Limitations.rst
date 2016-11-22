@@ -25,10 +25,10 @@ The Google Docs is a powerful editor, but not all features are supported to conv
 Known Issues:
 *************
 
-.. _h523d4e2aa4a407c262263331325295e:
+.. _h1f753e737333503f6591234143cc4:
 
-reST related
-============
+reStructuredText related
+========================
 
 * Open hyperlink in a new tab:
 
@@ -36,7 +36,7 @@ reST related
 
 * Table in a list item is not supported. It will be converted to a stand-alone table.
 * Nested table in a table cell is not supported.
-* Video is not supported. Since the Google Docs does not allow to embed a video.
+* Video is not supported. The Google Docs does not allow to embed videos neither.
 
 .. _h69271f6b544a4942467e713a34332e47:
 
