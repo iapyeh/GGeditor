@@ -11,27 +11,37 @@ Neusauber.com
 
 IIS, Academia Sinica, 2016
 
-.. hint::
 
-    #. ``p PORTMASK`\`: A hexadecimal bitmask of the ports to configure\ |IMG1|\ 
-    #. ``q NQ`\`: A number of queues (=ports) per lcore (default is 1)
-    #. ``K PERIOD`\`: Heartbeat check period in ms(5ms default; 86400 max)
-    #. ``T PERIOD`\`: statistics will be refreshed each PERIOD seconds (0 to disable, 10 default, 86400 maximum).
+.. code:: 
+
+    (content of code)
+
+
+.. name:: 
+
+    (content of name)
 
 To run the application in linuxapp environment with 4 lcores, 16 ports 8 RX queues per lcore and a ping interval of 10ms, issue the command:
 
 
-.. code::
+.. code:: 
 
-    ./build/l2fwd\-keepalive \-c f \-n 4 \-\- \-q 8 \-p ffff \-K 10
+    ./build/l2fwd-keepalive -c f -n 4 -- -q 8 -p ffff -K 10
 
+\ |IMG1|\ 
 
-.. danger::
+\ |IMG2|\ 
 
-    ./build/l2fwd\-keepalive \-c f \-n 4 \-\- \-q 8 \-p ffff \-K 10
+.. Danger:: 
 
-./build/l2fwd\-keepalive \-c f \-n 4 \-\- \-q 8 \-p ffff \-K 10
+    ./build/l2fwd-keepalive -c f -n 4 -- -q 8 -p ffff -K 10
 
-.. |IMG1| image:: Sponsors/Sponsors_1.png
-   :height: 92 px
-   :width: 86 px
+./build/l2fwd-keepalive -c f -n 4 -- -q 8 -p ffff -K 10
+
+.. |IMG1| image:: static/sponsors_1.png
+   :height: 206 px
+   :width: 272 px
+
+.. |IMG2| image:: static/sponsors_2.png
+   :height: 260 px
+   :width: 329 px
