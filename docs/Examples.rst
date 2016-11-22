@@ -188,6 +188,17 @@ Admonitions
     (content of warning)
 
 
+.. Note:: 
+
+        def start(x):
+            go start
+            go end
+
+    def end(y)
+        go \ `end`_\  start
+        \ **go**\  end end
+
+
 .. Code:: 
 
         def start(x):
