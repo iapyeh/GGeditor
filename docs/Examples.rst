@@ -226,19 +226,14 @@ Nested List Item
 
 * item 1
 
-    * item 1.1
-    * item 1.2
-    * item 1.3
+    #. item 1.1
+    #. item 1.2
 
-* item 2
+        * Item a
+        * Item b
+        * Item c
 
-    * item 2.1
-    * item 2.2
-
-* item 3
-
-    * item 3.1
-    * item 3.2
+    #. item 1.3
 
 .. _h5f19331f4a2f754d79529747f281b5e:
 
@@ -247,19 +242,19 @@ List Item with Text Styles
 
 * item 1
 
-    * item 1.\ :sup:`1`\ 
-    * \ *item*\  1.\ :sup:`12`\ 
-    * \ **item**\  1.\ :sub:`34`\ 
+    #. item 1.\ :sup:`1  `\ with superscript
+    #. \ *item*\  1.\ :sup:`12 `\ with superscript
+    #. \ **item**\  1.\ :sub:`34 `\ with subscript
 
 * item 2
 
-    * Item with \ `link`_\ 
-    * item with image \ |IMG14|\ 
+    #. Item with \ `link`_\ 
+    #. item with a image \ |IMG14|\ 
 
 * item 3
 
-    * item\ [#F11]_\  3.1
-    * item\ [#F12]_\  3.2
+    #. item\ [#F11]_\  with footnote
+    #. item\ [#F12]_\  with footnote
 
 \ `Here is the source document of the Google Docs`_\ 
 
