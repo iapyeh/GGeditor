@@ -94,12 +94,32 @@ Some inline reST markups can be used directly in the document. The table shows a
     
     You can directly put the replacement markup in Google Docs document like the last line.
 
+.. _h513c5b795d5d185d1c203d7e75205f41:
+
+Table
+=====
+
+The Google Docs table can be converted to the reStructruedText table. One thing has to mention is that, if you want to generate header rows in the reStructruedText table, you have to make all text in the rows to be bold.
+
+\ |IMG2|\ 
+
+This is the rendered table of the content in the above diagram:
+
+
++----------+----------+----------+
+|Header Row|Header Row|Header Row|
++==========+==========+==========+
+|Normal Row|Normal Row|Normal Row|
++----------+----------+----------+
+|Normal Row|Normal Row|Normal Row|
++----------+----------+----------+
+
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
 Markup Panel
 ============
 
-\ |IMG2|\ 
+\ |IMG3|\ 
 
 Besides the native features of the Google Docs, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menuitem. This “Show Markup Panel” helps you to insert special markups and convert the document into reST file. 
 
@@ -108,7 +128,7 @@ Besides the native features of the Google Docs, you have more features by click 
 Admonitions
 -----------
 
-\ |IMG3|\ 
+\ |IMG4|\ 
 
 \ `Admonition`_\  is something like this:
 
@@ -123,7 +143,7 @@ There are 4 kinds of layout for 10 types of admonitions. Please click on the adm
 Directives
 ----------
 
-\ |IMG4|\ 
+\ |IMG5|\ 
 
 \ `Directive`_\  is the generic form of admonition and many other reST Markups.
 
@@ -134,23 +154,23 @@ Generic Directive
 
  ``Generic directive`` can be used for all kinds of reST directive. It will give you a table as shown below, you should replace all the placeholder to fit your needs.
 
-\ |IMG5|\ 
+\ |IMG6|\ 
 
 The following table is an example of the directive ``toctree``.
 
-\ |IMG6|\ 
+\ |IMG7|\ 
 
 Please be noted that “name” and “content” are required for a directive, arguments and options are optional. If there is no options, the content can be in the 2nd row. If there is more than one options, these options should be put line by line in 2nd row, or row by row. See the diagram below for illustration. 
 
-\ |IMG7|\ 
+\ |IMG8|\ 
 
 This is the reST generated from the above table.
 
-\ |IMG8|\ 
+\ |IMG9|\ 
 
 You have to replace the name and content for your own purpose. One of the usage is to create customized admonition. The following directive table will create a ``And, by the way…`` dialog for you.
 
-\ |IMG9|\ 
+\ |IMG10|\ 
 
 Below is how it is rendered in the web page.
 
@@ -166,11 +186,11 @@ Code
 
 ``code`` is for holding sample codes.
 
-\ |IMG10|\ 
+\ |IMG11|\ 
 
 You can highlight your code by giving a language name after the \.\.code::, like this:
 
-\ |IMG11|\ 
+\ |IMG12|\ 
 
 .. _ha1d6c3e373325355168491f521a78b:
 
@@ -179,7 +199,7 @@ Table of Contents
 
 ``Table of Contents`` will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, this is inserted into the ``index.rst`` document.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. Please be noted that file suffix (such as .html) is not required for the document name in list. Also, you have to adjust their order manually to fit your documentation plan. Below is an example:
 
-\ |IMG12|\ 
+\ |IMG13|\ 
 
 If a document is binding a file in Github repository, the file name in Github will be used. The document which contains this toctree table is not in the list for preventing from infinite loop while parsing. You should add it back manually if that makes sense for you.
 
@@ -188,7 +208,7 @@ If a document is binding a file in Github repository, the file name in Github wi
 Headings
 ~~~~~~~~
 
-\ |IMG13|\ 
+\ |IMG14|\ 
 
 The headings construct the structure of the document. If you put the cursor in a paragraph you can set the heading for that paragraph with this panel. You can click on the upper parts (such as Part, Chapter) or use the native heading tools of the Google Docs. The lower parts of this panel shows the relative headings in the Google Docs.
 
@@ -197,7 +217,7 @@ The headings construct the structure of the document. If you put the cursor in a
 Text Style
 ~~~~~~~~~~
 
-\ |IMG14|\ 
+\ |IMG15|\ 
 
 If you put the cursor in a paragraph you can change the text style of that paragraph. The ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace (code style). These two are usually used when you paste stuffs from other browser pages into the document.
 
@@ -213,7 +233,7 @@ This is a panel for feature that is not been classified to a  category.
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Add link to document  |Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
 |                      |                                                                                                                                                                                                                                                                            |
-|                      |\ |IMG15|\                                                                                                                                                                                                                                                                  |
+|                      |\ |IMG16|\                                                                                                                                                                                                                                                                  |
 |                      |                                                                                                                                                                                                                                                                            |
 |                      |Please be noted that                                                                                                                                                                                                                                                        |
 |                      |                                                                                                                                                                                                                                                                            |
@@ -234,11 +254,11 @@ Conversion Tab
 
 The Conversion tab has two buttons. 
 
-\ |IMG16|\ 
+\ |IMG17|\ 
 
 The “Generate reST” will trigger the generating process and show the result in the area below that button.
 
-\ |IMG17|\ 
+\ |IMG18|\ 
 
 The “Download” button let you download the generated reST and images in a zip file into your local PC.
 
@@ -254,7 +274,7 @@ Binding the document to a file in repository
 
 You can provide your account and credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG18|\ 
+\ |IMG19|\ 
 
 If you want to commit to a new file. Please
 
@@ -267,15 +287,15 @@ If you want to commit to a new file. Please
 Committing
 ----------
 
-\ |IMG19|\ 
+\ |IMG20|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
-\ |IMG20|\ 
+\ |IMG21|\ 
 
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
-\ |IMG21|\ 
+\ |IMG22|\ 
 
 If only the text content has been modified, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
 
@@ -290,9 +310,9 @@ About the Credentials
 
 The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
 
-\ |IMG22|\ 
-
 \ |IMG23|\ 
+
+\ |IMG24|\ 
 
 
 .. Caution:: 
@@ -301,7 +321,7 @@ The credentials you given is encrypted and kept in the Google App Script platfor
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
-\ |IMG24|\ 
+\ |IMG25|\ 
 
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
@@ -313,93 +333,97 @@ You can give the credentials every time doing the committing. Like the following
    :width: 522 px
 
 .. |IMG2| image:: static/User_Guide_2.png
+   :height: 266 px
+   :width: 457 px
+
+.. |IMG3| image:: static/User_Guide_3.png
    :height: 105 px
    :width: 402 px
 
-.. |IMG3| image:: static/User_Guide_3.png
+.. |IMG4| image:: static/User_Guide_4.png
    :height: 216 px
    :width: 280 px
 
-.. |IMG4| image:: static/User_Guide_4.png
+.. |IMG5| image:: static/User_Guide_5.png
    :height: 166 px
    :width: 276 px
 
-.. |IMG5| image:: static/User_Guide_5.png
+.. |IMG6| image:: static/User_Guide_6.png
    :height: 156 px
    :width: 458 px
 
-.. |IMG6| image:: static/User_Guide_6.png
+.. |IMG7| image:: static/User_Guide_7.png
    :height: 280 px
    :width: 426 px
 
-.. |IMG7| image:: static/User_Guide_7.png
+.. |IMG8| image:: static/User_Guide_8.png
    :height: 364 px
    :width: 773 px
 
-.. |IMG8| image:: static/User_Guide_8.png
+.. |IMG9| image:: static/User_Guide_9.png
    :height: 130 px
    :width: 140 px
 
-.. |IMG9| image:: static/User_Guide_9.png
+.. |IMG10| image:: static/User_Guide_10.png
    :height: 93 px
    :width: 496 px
 
-.. |IMG10| image:: static/User_Guide_10.png
+.. |IMG11| image:: static/User_Guide_11.png
    :height: 68 px
    :width: 560 px
 
-.. |IMG11| image:: static/User_Guide_11.png
+.. |IMG12| image:: static/User_Guide_12.png
    :height: 108 px
    :width: 558 px
 
-.. |IMG12| image:: static/User_Guide_12.png
+.. |IMG13| image:: static/User_Guide_13.png
    :height: 153 px
    :width: 357 px
 
-.. |IMG13| image:: static/User_Guide_13.png
+.. |IMG14| image:: static/User_Guide_14.png
    :height: 133 px
    :width: 266 px
 
-.. |IMG14| image:: static/User_Guide_14.png
+.. |IMG15| image:: static/User_Guide_15.png
    :height: 84 px
    :width: 265 px
 
-.. |IMG15| image:: static/User_Guide_15.png
+.. |IMG16| image:: static/User_Guide_16.png
    :height: 236 px
    :width: 246 px
 
-.. |IMG16| image:: static/User_Guide_16.png
+.. |IMG17| image:: static/User_Guide_17.png
    :height: 36 px
    :width: 108 px
 
-.. |IMG17| image:: static/User_Guide_17.png
+.. |IMG18| image:: static/User_Guide_18.png
    :height: 38 px
    :width: 81 px
 
-.. |IMG18| image:: static/User_Guide_18.png
+.. |IMG19| image:: static/User_Guide_19.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG19| image:: static/User_Guide_19.png
+.. |IMG20| image:: static/User_Guide_20.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG20| image:: static/User_Guide_20.png
+.. |IMG21| image:: static/User_Guide_21.png
    :height: 40 px
    :width: 105 px
 
-.. |IMG21| image:: static/User_Guide_21.png
+.. |IMG22| image:: static/User_Guide_22.png
    :height: 52 px
    :width: 152 px
 
-.. |IMG22| image:: static/User_Guide_22.png
+.. |IMG23| image:: static/User_Guide_23.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG23| image:: static/User_Guide_23.png
+.. |IMG24| image:: static/User_Guide_24.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG24| image:: static/User_Guide_24.png
+.. |IMG25| image:: static/User_Guide_25.png
    :height: 404 px
    :width: 688 px
