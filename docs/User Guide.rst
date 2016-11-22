@@ -28,19 +28,25 @@ Inline Markups
 Some inline reST markups can be used directly in the document. The table shows all the usable inline markups.
 
 
-+---------------------------+--------------------------------+
-|In Google Docs document    |Rendered in html page           |
-+===========================+================================+
-|A \`single back-quote\`    |A `single back-quote`           |
-+---------------------------+--------------------------------+
-|A \`\`double back-quote\`\`|A ``double back-quote``         |
-+---------------------------+--------------------------------+
-|A \|replacement\| markup   |A |replacement| markup\ [#F1]_\ |
-+---------------------------+--------------------------------+
-|Text with \*\*emphasis\*\* |Text with **emphasis**          |
-+---------------------------+--------------------------------+
++---------------------------+-----------------------+
+|In Google Docs document    |Rendered in html page  |
++===========================+=======================+
+|A \`single back-quote\`    |A `single back-quote`  |
++---------------------------+-----------------------+
+|A \`\`double back-quote\`\`|A ``double back-quote``|
++---------------------------+-----------------------+
+|A \|replacement\| markup   |A |replacement| markup |
++---------------------------+-----------------------+
+|Text with \*\*emphasis\*\* |Text with **emphasis** |
++---------------------------+-----------------------+
 
-.. |replacement| replace::   **replacement**
+.. |replacement| replace::   **replaced**
+
+
+.. Hint:: 
+
+    If you manually put a substitution markup, you got to provide the replacement markup manu. The above table is generated from the content below:
+    
 
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
@@ -254,11 +260,6 @@ You can give the credentials every time doing the committing. Like the following
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
 .. _`a sphinx toctree`: http://www.sphinx-doc.org/en/1.4.8/markup/toctree.html
-
-
-.. rubric:: Footnotes
-
-.. [#f1]  If you manually put a substitution markup, you got to provide the replacement markup manu
 
 .. |IMG1| image:: static/User_Guide_1.png
    :height: 105 px
