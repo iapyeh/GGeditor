@@ -4,6 +4,59 @@
 Examples
 ********
 
+
++----------------+------------+------------+-------------+-------------+
+|Features        |In Paragraph|In List Item|In Table Cell|In Admonition|
++================+============+============+=============+=============+
+|Normal Text     |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Text alignment  |No          |No          |No           |No           |
++----------------+------------+------------+-------------+-------------+
+|Background Color|No          |No          |No           |No           |
++----------------+------------+------------+-------------+-------------+
+|Indentation     |Yes         |N/A         |             |No           |
++----------------+------------+------------+-------------+-------------+
+|Headings        |Yes         |N/A         |N/A          |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Bold            |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Italic          |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Subscript       |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Superscript     |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Hyperlink       |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Horizontal Line |Yes         |N/A         |N/A          |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Link to bookmark|Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Link to headings|Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Footnote        |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Inline markup   |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Image           |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Image with link |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Chart           |Yes         |            |             |             |
++----------------+------------+------------+-------------+-------------+
+|Admonition      |Yes         |No          |No           |No (Nested)  |
++----------------+------------+------------+-------------+-------------+
+|List item       |Yes         |Yes(Nested) |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Table           |Yes         |No          |No (Nested)  |No           |
++----------------+------------+------------+-------------+-------------+
+|Column span     |N/A         |N/A         |No           |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Rowspan         |N/A         |N/A         |No           |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Table of Content|Yes         |No          |No           |No           |
++----------------+------------+------------+-------------+-------------+
+
 .. _h1f81a111a3e4cd44467728753e5f73:
 
 Paragraphs
@@ -19,6 +72,8 @@ The next paragraph contains links, bold, italic, subscript and superscript text,
 \ [#F2]_\ 
          \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz +  T\ :sub:`ab`\ .
 
+        
+
 .. _h3f7b121e3b34193166765e7a56202b48:
 
 List Item
@@ -27,36 +82,15 @@ List Item
 * \ *In mathematics*\ , \ |IMG3|\  a \ **polynomial**\ \ [#F3]_\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + T\ :sub:`ab`\ . 
 * \ *In mathematics*\ , \ |IMG4|\  a \ **polynomial**\ \ [#F4]_\  is an \ `expression`_\  consisting of \ `variables`_\  (or \ `indeterminates`_\ ) and \ `coefficients`_\ , that involves only the operations of \ `addition`_\ , \ `subtraction`_\ , \ `multiplication`_\ , and non-negative \ `integer`_\  \ `exponents`_\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz + T\ :sub:`ab`\ . 
 
-.. _h1e7b7c356c1a63272445567d455a317e:
-
-Nested List Item
-================
-
-* item 1
-
-    * item 1.1
-    * item 1.2
-    * item 1.3
-
-* item 2
-
-    * item 2.1
-    * item 2.2
-
-* item 3
-
-    * item 3.1
-    * item 3.2
-
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
 Table
 =====
 
-.. _h2c1d74277104e41780968148427e:
+.. _h32215632614d203792b5070562b64f:
 
-
-
+Simple Table
+------------
 
 
 +---------------------+--------------------------------+----------------+
@@ -66,6 +100,11 @@ Table
 +---------------------+--------------------------------+----------------+
 |\ *In mathematics,*\ |In mathematics,                 |                |
 +---------------------+--------------------------------+----------------+
+
+.. _h5a6e575f7c1d332d6350624c6c73387:
+
+Complex Table
+-------------
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -83,6 +122,20 @@ Image
 =====
 
 \ |IMG11|\ 
+
+.. _h263145716057721248918325a5e5b:
+
+Image with link
+===============
+
+\ |IMG12|\ 
+
+.. _h1d36783e12317e2c015132250725e7b:
+
+Chart
+=====
+
+\ |IMG13|\ 
 
 .. _h10487d767c3543552c4f797d453d593f:
 
@@ -145,15 +198,53 @@ Admonitions
         go \ `end`_\  start
         \ **go**\  end end
 
-https://www.facebook.com/tam.sui.good/posts/876990639026705
+.. _h2c1d74277104e41780968148427e:
 
-\ `Translate this page`_\ 
 
-@本版將免費提供淡水在地商家，特惠活動海報刊登。(每月1日、16日刊登) 1.請提供DM海報，私 ... 即時交通資訊網，網址是 http://www.dot.gov.taipei/lp.asp…。民眾進入新北市即時交通資訊網後，請點選左上方即時影像，即可進入路口監視系統::
 
-    def start(x):
 
-        go start
+.. _h1e7b7c356c1a63272445567d455a317e:
+
+Nested List Item
+================
+
+* item 1
+
+    * item 1.1
+    * item 1.2
+    * item 1.3
+
+* item 2
+
+    * item 2.1
+    * item 2.2
+
+* item 3
+
+    * item 3.1
+    * item 3.2
+
+.. _h5f19331f4a2f754d79529747f281b5e:
+
+List Item with Text Styles
+==========================
+
+* item 1
+
+    * item 1.\ :sup:`1`\ 
+    * \ *item*\  1.\ :sup:`12`\ 
+    * \ **item**\  1.\ :sub:`34`\ 
+
+* item 2
+
+    * Item with \ `link`_\ 
+    * item with image \ |IMG14|\ 
+
+* item 3
+
+    * item\ [#F11]_\  3.1
+    * item\ [#F12]_\  3.2
+
 
 .. _`expression`: https://en.wikipedia.org/wiki/Expression_(mathematics)
 .. _`variables`: https://en.wikipedia.org/wiki/Variable_(mathematics)
@@ -166,7 +257,7 @@ https://www.facebook.com/tam.sui.good/posts/876990639026705
 .. _`exponents`: https://en.wikipedia.org/wiki/Exponentiation
 .. _`Search`: http://www.google.com
 .. _`end`: http://www.google.com
-.. _`Translate this page`: https://translate.google.com.tw/translate?hl=en&sl=zh-TW&u=https://www.facebook.com/tam.sui.good/posts/876990639026705&prev=search
+.. _`link`: http://www.google.com
 
 
 .. rubric:: Footnotes
@@ -181,6 +272,8 @@ https://www.facebook.com/tam.sui.good/posts/876990639026705
 .. [#f8]  Polynomial is poly+nomial
 .. [#f9]  Polynomial is poly+nomial
 .. [#f10]  Polynomial is poly+nomial
+.. [#f11]  This is a footnote of a list item
+.. [#f12]  This is another footnote of a list item
 
 .. |IMG1| image:: static/Examples_1.png
    :height: 73 px
@@ -235,3 +328,17 @@ https://www.facebook.com/tam.sui.good/posts/876990639026705
 .. |IMG11| image:: static/Examples_11.png
    :height: 150 px
    :width: 150 px
+
+.. |IMG12| image:: static/Examples_12.png
+   :height: 150 px
+   :width: 150 px
+   :target: http://www.google.com
+
+.. |IMG13| image:: static/Examples_13.png
+   :height: 370 px
+   :width: 600 px
+   :alt: Points scored
+
+.. |IMG14| image:: static/Examples_14.png
+   :height: 72 px
+   :width: 70 px
