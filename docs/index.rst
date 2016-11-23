@@ -8,6 +8,7 @@ GGeditor
 .. toctree:: 
     :maxdepth: 2
 
+    Tutorial
     User Guide
     Examples
     how2Readthedocs
@@ -74,6 +75,7 @@ Acknowledgments
 * Bitwiseshiftleft as well as \ `all the contributors`_\  of the \ `sjcl`_\  projects. The sjcl.js is used for credentials encryption.
 
 \ `Source document in the Google Docs`_\ 
+
 
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
 .. _`Read The Docs`: https://readthedocs.org/
