@@ -28,7 +28,7 @@ It’s done for the “Tutorial” document. But we also want this “Tutorial�
 #. Commit the index.rst to the Github. 
 #. Because the index.rst has already binded, we just need to click on the “Commit” button.
 
-It’s done for the index.rst. If a document already has binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the “Tutorial” is online. We don’t need to do anything on the Github and the readthedocs. Because the readthedocs will automatically trigger a rebuild process when your repository has new committing.
+It’s done for updating the index.rst. If a document already has a binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the content of this new document “Tutorial” is on the project site of the readthedocs.org. We don’t need to do anything on the Github or the readthedocs.org. Because the readthedocs.org will automatically rebuild your project site when the corresponding repository move forward.
 
 Here is the video of this tutorial:
 
@@ -39,6 +39,7 @@ Here is the video of this tutorial:
 
     #. When you name the Google Docs document, the name need not with suffix  “.rst”.
     #. But the binding file in the Github repository do need with suffix “.rst”. It will be automatically appended when the GGeditor created it. If you manually created the binding file, please name it with suffix “.rst”.
+    #. in this tutorial video, the committing of index.rst does not also commit images. That is because the changes include text part only.  By unchecking the “Commit images” option, the committing only updates the generated reStructuredText content of the index.rst. Which makes the time of committing being shorter.
 
 \ `The source document of this page in the Google Docs`_\ 
 
