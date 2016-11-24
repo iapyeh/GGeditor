@@ -4,13 +4,18 @@
 Tutorial
 ********
 
-This is the flow to work with the GGeditor to build your documentations in the Github:
+The GGeditor assumes a scenario that
+
+#. you already have a project repository in the Github, and
+#. you already have a project in the readthedocs.org which corresponds to that repository. 
+
+Because that the Github and the readthedocs.org accept reStructuredText or markup formats only. You have to build the documentation in markup or reStructuredText formats. But you are suffering on creating document with markup or reStructuredText formats.
+
+This is the flow chart of working with the GGeditor to build your documentations:
 
 \ |IMG1|\ 
 
-The GGeditor assumes a scenario that you already have a project repository in the Github, and you have already created a project in the readthedocs.org for that repository. Your want to build the whole documentation for your project in markup or reStructuredText format. But you are suffering on creating document with markup or reStructuredText format.
-
-Here are the guidelines of what in this tutorial :
+This tutorial would not go through all the possible routes in the flow chart. Here are the guidelines of what in this tutorial :
 
 #. The tutorial will start from creating a new document in the Google Docs.
 #. The new file will be named “Tutorial”. It has a heading, an image and an admonition which is created from the sidebar of the GGeditor.
