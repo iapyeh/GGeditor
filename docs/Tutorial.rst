@@ -4,11 +4,11 @@
 Tutorial
 ********
 
-This is the diagram of the flow to build your Github document with the GGeditor of the Google Docs :
+This is the flow to work with the GGeditor to build your documentations in the Github:
 
 \ |IMG1|\ 
 
-The GGeditor assumes a scenario that you already have a project repository in the Github. And you have already create a project in the readthedocs.org for that repository. Your want to build the whole documentation for your project in markup or reStructuredText format. But you are suffering on creating document with markup or reStructuredText.
+The GGeditor assumes a scenario that you already have a project repository in the Github, and you have already created a project in the readthedocs.org for that repository. Your want to build the whole documentation for your project in markup or reStructuredText format. But you are suffering on creating document with markup or reStructuredText format.
 
 Here are the guidelines of what in this tutorial :
 
@@ -17,17 +17,23 @@ Here are the guidelines of what in this tutorial :
 #. The new file will be commit to the Github repository, in this demo, it is the repository of the GGeditor.
 #. Because this is a new file, a process will be initiated for binding. It includes to login, navigate, create new file and commit.
 
-It’s done. But we also want this “Tutorial” to be listed on the menu in the readthedocs project site. We got to add an item within the “toctree” in the index.rst. So there are extra steps for this new file:
+It’s done for the “Tutorial” document. But we also want this “Tutorial” to be listed on the menu in the readthedocs project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
 
-#. Open the index.rst and add “Tutorial” in the table of toctree.
+#. Open the index.rst and add the new filename (“Tutorial”) in the table of toctree.
 #. Commit the index.rst to the Github. 
-#. Because the index.rst has already binded before, so we just need to click on the “Commit” button.
+#. Because the index.rst has already binded, we just need to click on the “Commit” button.
 
-It’s done. If a document already has binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the “Tutorial” is online. We don’t need to do anything on the Github and the readthedocs. Because the readthedocs will automatically trigger a rebuild process when your repository has new committing.
+It’s done for the index.rst. If a document already has binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the “Tutorial” is online. We don’t need to do anything on the Github and the readthedocs. Because the readthedocs will automatically trigger a rebuild process when your repository has new committing.
 
 Here is the video of this tutorial:
 
 \ |IMG2|\ 
+
+
+.. Note:: 
+
+    #. When you name the Google Docs document, the name need not with suffix  “.rst”.
+    #. But the binding file in the Github repository do need with suffix “.rst”. It will be automatically appended when the GGeditor created it. If you manually created the binding file, please name it with suffix “.rst”.
 
 \ `The source document of this page in the Google Docs`_\ 
 
