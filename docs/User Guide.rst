@@ -186,11 +186,11 @@ It is rendered like this:
 Table of Contents
 ~~~~~~~~~~~~~~~~~
 
-In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated table are:
+In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
 
-#. All the documents with suffix .rst in the same folder.
-#. If a document has binded to a file, the filename in Github will be used. Even the source document is not with suffix “.rst”.
-#. The document which contains this toctree table is not in the list. This is for preventing from infinite loop while parsing by the readthedocs. You should add it back manually if that makes sense for you.
+#. All the documents with suffix .rst in the same folder of this document. Even the document is not binded to a file in the Github.
+#. If a document has binded to a file in the Github, the filename will be used. Even the source document is not with suffix “.rst”.
+#. The current document is excluded. This is for preventing from falling into an infinite loop while the readthedocs parsing this table. You should add it back manually if that makes sense for you.
 
  Here is an example of what it looks like:
 
