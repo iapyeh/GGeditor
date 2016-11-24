@@ -290,7 +290,7 @@ List Item with Text Styles
     #. item\ [#F11]_\  with footnote
     #. item\ [#F12]_\  with footnote
 
-\ `Here is the source document of the Google Docs`_\ 
+\ `Here is the source document of this page in the Google Docs`_\ 
 
 
 .. _`expression`: https://en.wikipedia.org/wiki/Expression_(mathematics)
@@ -305,7 +305,7 @@ List Item with Text Styles
 .. _`Search`: http://www.google.com
 .. _`end`: http://www.google.com
 .. _`link`: http://www.google.com
-.. _`Here is the source document of the Google Docs`: https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing
+.. _`Here is the source document of this page in the Google Docs`: https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing
 
 
 .. rubric:: Footnotes
