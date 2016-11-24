@@ -4,10 +4,41 @@
 Examples
 ********
 
-.. _h2f53596b5c94e4f13444a141f6d6632:
+This is the native Table of Contents of the Google Docs. This is a kind of in-document table of contents.
 
-Supported Features List
-=======================
+`Examples <#h17cf336a3119355a1c01f75426961>`_
+
+    `Supported Features List of the GGeditor <#h7d2c3d74f4f672d4f5a723b4c2f4f13>`_
+
+    `Paragraphs <#h1f81a111a3e4cd44467728753e5f73>`_
+
+    `List Item <#h3f7b121e3b34193166765e7a56202b48>`_
+
+    `Table <#h513c5b795d5d185d1c203d7e75205f41>`_
+
+    `Simple Table <#h32215632614d203792b5070562b64f>`_
+
+    `Complex Table <#h5a6e575f7c1d332d6350624c6c73387>`_
+
+    `Image <#h425360541a6d36a14487962c584b8>`_
+
+    `Image with link <#h263145716057721248918325a5e5b>`_
+
+    `Chart <#h1d36783e12317e2c015132250725e7b>`_
+
+    `Admonitions <#h10487d767c3543552c4f797d453d593f>`_
+
+    `Code <#h36d46272a794b2f694b492933796e5e>`_
+
+    `Nested List Item <#h1e7b7c356c1a63272445567d455a317e>`_
+
+    `List Item with Text Styles <#h5f19331f4a2f754d79529747f281b5e>`_
+
+
+.. _h7d2c3d74f4f672d4f5a723b4c2f4f13:
+
+Supported Features List of the GGeditor
+=======================================
 
 
 +----------------+------------+------------+-------------+-------------+
@@ -261,6 +292,7 @@ List Item with Text Styles
 
 \ `Here is the source document of the Google Docs`_\ 
 
+
 .. _`expression`: https://en.wikipedia.org/wiki/Expression_(mathematics)
 .. _`variables`: https://en.wikipedia.org/wiki/Variable_(mathematics)
 .. _`indeterminates`: https://en.wikipedia.org/wiki/Indeterminate_(variable)
@@ -351,8 +383,8 @@ List Item with Text Styles
    :target: http://www.google.com
 
 .. |IMG13| image:: static/Examples_13.png
-   :height: 370 px
-   :width: 600 px
+   :height: 266 px
+   :width: 432 px
    :alt: Points scored
 
 .. |IMG14| image:: static/Examples_14.png
