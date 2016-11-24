@@ -9,13 +9,13 @@ The GGeditor assumes a scenario that
 #. you already have a project repository in the Github, and
 #. you already have a project in the readthedocs.org which corresponds to that repository. 
 
-Because that the Github and the readthedocs.org accept reStructuredText or markup formats only. You have to build the documentation in markup or reStructuredText formats. But you are suffering on creating document with markup or reStructuredText formats.
+Because the Github and the readthedocs.org accept reStructuredText or markup formats only. You have to build documentation in markup or reStructuredText formats. But you are suffering on creating document with markup or reStructuredText formats.
 
-This is the flow chart of working with the GGeditor to build your documentations:
+This is the flow chart of working with the GGeditor to build your documentation:
 
 \ |IMG1|\ 
 
-This tutorial would not go through all the possible routes in the flow chart. Here are the guidelines of what in this tutorial :
+This tutorial would only go through the longest route in the flow chart. Here are the sequences of what are been demonstrated in this tutorial :
 
 #. The tutorial will start from creating a new document in the Google Docs.
 #. The new file will be named “Tutorial”. It has a heading, an image and an admonition which is created from the sidebar of the GGeditor.
