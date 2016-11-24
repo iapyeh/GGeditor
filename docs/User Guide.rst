@@ -186,11 +186,17 @@ It is rendered like this:
 Table of Contents
 ~~~~~~~~~~~~~~~~~
 
-In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row by the GGeditor. Please be noted that file suffix (.html or .rst) is omitted. Also, you have to change their order manually. Here is an example:
+In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated table are:
+
+#. All the documents with suffix .rst in the same folder.
+#. If a document has binded to a file, the filename in Github will be used. Even the source document is not with suffix “.rst”.
+#. The document which contains this toctree table is not in the list. This is for preventing from infinite loop while parsing by the readthedocs. You should add it back manually if that makes sense for you.
+
+ Here is an example of what it looks like:
 
 \ |IMG13|\ 
 
-If a document has binded to a file, the filename in Github will be used. The document which contains this toctree table is not in the list for preventing from infinite loop while parsing by the readthedocs. You should add it back manually if that makes sense for you.
+Please be noted that file suffix (.html or .rst) is omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ `the source document of the index.rst`_\  of the GGeditor for an example.
 
 .. _h545b1150273f784141121a3967491529:
 
@@ -328,6 +334,7 @@ You can give the credentials every time doing the committing. Like the following
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
 .. _`a sphinx toctree`: http://www.sphinx-doc.org/en/1.4.8/markup/toctree.html
+.. _`the source document of the index.rst`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
 .. _`Here is the source document of the Google Docs`: https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing
 
 .. |IMG1| image:: static/User_Guide_1.png
