@@ -4,55 +4,12 @@
 How to Use
 **********
 
-.. _ha1d6c3e373325355168491f521a78b:
-
-Table of Contents
-=================
-
-    `The Google Docs Native Features <#h2e2466207319265a2b484631c11587d>`_
-
-    `Inline Markups <#h80352f65a46575c6a74721e3ddb6a>`_
-
-    `Markup Panel <#h6c5e5e24234f72422a2ce37561f2355>`_
-
-    `Admonitions <#h10487d767c3543552c4f797d453d593f>`_
-
-    `Directives <#h5a3b1c203613551578563c31657026b>`_
-
-        `Generic Directive <#h13a5d3e27e111c18554152c6d123c>`_
-
-        `Code <#h36d46272a794b2f694b492933796e5e>`_
-
-        `Table of Contents <#ha1d6c3e373325355168491f521a78b>`_
-
-        `Headings <#h545b1150273f784141121a3967491529>`_
-
-        `Text Style <#h48253316368583f7c154246e606b2f>`_
-
-        `Misc Utilities <#hf552270633f3791039513f635f55>`_
-
-    `Conversion Tab <#h6978575a60223f496c263254a447d32>`_
-
-    `Commit to Github <#h76464c5c585d192b16121e3267e131>`_
-
-    `Binding the document to a file in repository <#h767f774b5346d4195e437b31414f59>`_
-
-    `Committing <#h572153e49969743e69262f2d637743>`_
-
-    `About the Credentials <#hb3e386c1329112c3f734c345c3396b>`_
-
-
-.. _h2c1d74277104e41780968148427e:
-
-
-
-
 .. _h2e2466207319265a2b484631c11587d:
 
 The Google Docs Native Features
 ===============================
 
-Most features are just using the Google Docs’ native features. Such as
+You can use the following list native features of the Google Docs to build your content for generating reStructuredText format.
 
 * Paragraph heading and indentation
 * Bold , Italic, subscript and superscript
@@ -61,14 +18,14 @@ Most features are just using the Google Docs’ native features. Such as
 * Image and chart
 * Footnote, hyperlink and bookmark
 * Table of contents (links to bookmarks and headings)
-* Horizontal line, special characters and CKJ full-width characters
+* Special characters and CKJ full-width characters
 
 .. _h80352f65a46575c6a74721e3ddb6a:
 
 Inline Markups
 ==============
 
-Some inline reST markups can be used directly in the document. The table shows all the usable inline markups.
+Some inline reStructuredText markups can be used directly in the document. The table demonstrates the usage example of these inline markups.
 
 
 +---------------------------+-----------------------+
@@ -88,22 +45,22 @@ Some inline reST markups can be used directly in the document. The table shows a
 
 .. Hint:: 
 
-    If you manually put a substitution markup, you got to provide the replacement markup manually. The above table is generated from the content below:
+    If you manually put a substitution markup, you got to provide the replacement markup manually. Below is the source of above table, you can put the replacement markup. The last line shows an example of inline replacement markup.
     
     \ |IMG1|\ 
     
-    You can directly put the replacement markup in Google Docs document like the last line.
+    
 
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
 Table
 =====
 
-The Google Docs table can be converted to the reStructruedText table. One thing has to mention is that, if you want to generate header rows in the reStructruedText table, you have to make all text in the rows to be bold.
+The Google Docs native table can be converted to reStructruedText table. One thing has to mention is that, if you want to generate header rows in the generated reStructruedText table, you have to make all text in the header rows to be bold.
 
 \ |IMG2|\ 
 
-This is the rendered table of the content in the above diagram:
+This is the rendered table of the above content.
 
 
 +----------+----------+----------+
@@ -121,7 +78,9 @@ Markup Panel
 
 \ |IMG3|\ 
 
-Besides the native features of the Google Docs, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menuitem. This “Show Markup Panel” helps you to insert special markups and convert the document into reST file. 
+Besides the native features, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menuitem.
+
+The “Show Markup Panel” helps you to insert special markups, to see the converted content in reStructuredText, or to download the generated files.
 
 .. _h10487d767c3543552c4f797d453d593f:
 
@@ -136,7 +95,7 @@ Admonitions
 
     Here is the content of this attention
 
-There are 4 kinds of layout for 10 types of admonitions. Please click on the admonition name, then it will be inserted as a table into your document. 
+The GGeditor try to set the look-and-feel of admonitions to be as close as possible to what they are in the readthedocs.org. There are 4 kinds of layout for 10 types of admonitions. Please click on the admonition name to insert them into your document.
 
 .. _h5a3b1c203613551578563c31657026b:
 
@@ -190,11 +149,11 @@ Code
 
 The content in a code directive can not be in bold or italic. Neither hyperlinks and images.
 
-You can highlight your code by giving a language name after the \.\.code::, like this:
+You can highlight your code by giving a language name after the \.\.code::, like this: (there is a space in front of “python”)
 
 \ |IMG12|\ 
 
-It is rendered as this:
+It is rendered like this:
 
 
 .. code:: python
@@ -227,11 +186,11 @@ It is rendered as this:
 Table of Contents
 ~~~~~~~~~~~~~~~~~
 
-``Table of Contents`` will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, this is inserted into the ``index.rst`` document.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row. Please be noted that file suffix (such as .html) is not required for the document name in list. Also, you have to adjust their order manually to fit your documentation plan. Below is an example:
+In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  All the documents with suffix .rst in the same folder will be inserted into the 3rd row by the GGeditor. Please be noted that file suffix (.html or .rst) is omitted. Also, you have to change their order manually. Here is an example:
 
 \ |IMG13|\ 
 
-If a document is binding a file in Github repository, the file name in Github will be used. The document which contains this toctree table is not in the list for preventing from infinite loop while parsing. You should add it back manually if that makes sense for you.
+If a document has binded to a file, the filename in Github will be used. The document which contains this toctree table is not in the list for preventing from infinite loop while parsing by the readthedocs. You should add it back manually if that makes sense for you.
 
 .. _h545b1150273f784141121a3967491529:
 
@@ -249,18 +208,18 @@ Text Style
 
 \ |IMG15|\ 
 
-If you put the cursor in a paragraph you can change the text style of that paragraph. The ``Paragraph Content`` is for resetting style to normal text, ``Directive Content`` is for setting style to monospace (code style). These two are usually used when you paste stuffs from other browser pages into the document.
+By putting the cursor in a paragraph you can change the text style of that paragraph. The `Paragraph Content` is for normal text, `Directive Content` is for code style (monospace). These two are usually used when you paste stuffs from other browser pages into your document.
 
 .. _hf552270633f3791039513f635f55:
 
 Misc Utilities
 ~~~~~~~~~~~~~~
 
-This is a panel for feature that is not been classified to a  category.
+This is a panel for features that are not been classified to the above categories.
 
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |Name                  |Description                                                                                                                                                                                                                                                                 |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++======================+============================================================================================================================================================================================================================================================================+
 |Add link to document  |Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
 |                      |                                                                                                                                                                                                                                                                            |
 |                      |\ |IMG16|\                                                                                                                                                                                                                                                                  |
@@ -290,7 +249,7 @@ The “Generate reST” will trigger the generating process and show the result 
 
 \ |IMG18|\ 
 
-The “Download” button let you download the generated reST and images in a zip file into your local PC.
+The “Download” button let you download the generated reStructuredText file and images in a zip file into your local PC.
 
 .. _h76464c5c585d192b16121e3267e131:
 
@@ -302,7 +261,7 @@ Commit to Github
 Binding the document to a file in repository
 --------------------------------------------
 
-You can provide your account and credentials for binding the document to a file in the Github repository. Here is the process diagram:
+You can provide your account credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
 \ |IMG19|\ 
 
@@ -311,6 +270,16 @@ If you want to commit to a new file. Please
 #. Navigate to the folder where the new file would be
 #. Click on the “New File” item
 #. Give the file name to create. The name will be suffix with “.rst” automatically.
+
+
+.. Hint:: 
+
+    While doing any clicking, ONE click is enough. No need to do “Double-Clicking”.
+
+.. _h2c1d74277104e41780968148427e:
+
+
+
 
 .. _h572153e49969743e69262f2d637743:
 
@@ -354,6 +323,7 @@ You can give the credentials every time doing the committing. Like the following
 \ |IMG25|\ 
 
 \ `Here is the source document of the Google Docs`_\ 
+
 
 .. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
 .. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
@@ -401,12 +371,12 @@ You can give the credentials every time doing the committing. Like the following
    :width: 496 px
 
 .. |IMG11| image:: static/User_Guide_11.png
-   :height: 68 px
-   :width: 560 px
+   :height: 90 px
+   :width: 753 px
 
 .. |IMG12| image:: static/User_Guide_12.png
-   :height: 205 px
-   :width: 956 px
+   :height: 221 px
+   :width: 753 px
 
 .. |IMG13| image:: static/User_Guide_13.png
    :height: 153 px
