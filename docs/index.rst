@@ -74,7 +74,7 @@ Acknowledgments
 * \ `Pelican project`_\  as well as \ `all the contributes`_\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
 * Andrey Rublev as well as \ `all the contributors`_\  of the \ `Online reStructuredText editor`_\ , it is a great tool for beginner to learn the reST markups.
 * \ `Readthedocs.org`_\ , it provides a great service, which encourage me to create the GGeditor.
-* Philip Schatz as well as \ `all the contributors`_\  of the  \ `octokat.js`_\  project. The Github-related implementation is based on their great works.
+* Philip Schatz as well as \ `all the contributors`_\  of the  \ `octokat.js`_\  project. The Github-related implementation is based on this wonderful tool.
 * Bitwiseshiftleft as well as \ `all the contributors`_\  of the \ `sjcl`_\  projects. The sjcl.js is used for credentials encryption.
 
 \ `Source document in the Google Docs`_\ 
