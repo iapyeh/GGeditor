@@ -22,13 +22,24 @@ This tutorial would only go through the longest route in the flow chart. Here ar
 #. The new file will be commit to the Github repository, in this demo, it is the repository of the GGeditor.
 #. Because this is a new file, a process will be initiated for binding. It includes to login, navigate, create new file and commit.
 
-It’s done for the “Tutorial” document. But we also want this “Tutorial” to be listed on the menu in the readthedocs project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
+It’s done for the “Tutorial” document.
+
+
+.. Warning:: 
+
+    For CKJ users: (繁體中文、简体中文、한국어、日本語)
+    
+    English document name is strongly suggested for naming your documents. Especially those documents with images. Because a image got pathname from its hosting document. By naming document in English, it would reduce the risk of parsing failure in the readthedocs.org.
+
+But we also want this “Tutorial” to be listed on the menu in the readthedocs project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
 
 #. Open the index.rst and add the new filename (“Tutorial”) in the table of toctree.
 #. Commit the index.rst to the Github. 
 #. Because the index.rst has already binded, we just need to click on the “Commit” button.
 
-It’s done for updating the index.rst. If a document already has a binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the content of this new document “Tutorial” is on the project site of the readthedocs.org. We don’t need to do anything on the Github or the readthedocs.org. Because the readthedocs.org will automatically rebuild your project site when the corresponding repository move forward.
+It’s done for updating the index.rst. 
+
+If a document already has a binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the content of this new document “Tutorial” is on the project site of the readthedocs.org. We don’t need to do anything on the Github or the readthedocs.org. Because the readthedocs.org will automatically rebuild your project site when the corresponding repository move forward.
 
 Here is the video of this tutorial:
 
