@@ -34,12 +34,11 @@ It’s done for the “Tutorial” document.
 Because we also want the document “Tutorial”  to be listed on the menu in the readthedocs project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
 
 #. Open the index.rst and add the new filename (“Tutorial”) in the table of toctree.
-#. Commit the index.rst to the Github. 
-#. Because the index.rst has already binded, we just need to click on the “Commit” button.
+#. Commit the index.rst to the Github.  Because the index.rst has already binded, we just need to click the “Commit” button.
 
 It’s done for updating the index.rst. 
 
-If a document already has a binding file, the process is simple --  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs. You will see the content of this new document “Tutorial” is on the project site of the readthedocs.org. We don’t need to do anything on the Github or the readthedocs.org. Because the readthedocs.org will automatically rebuild your project site when the corresponding repository move forward.
+If a document already has a binding file, the process is simple, just to  open, edit and commit. This tutorial ends up by checking the project site in reatthedocs.org. You will see the content of this new document “Tutorial” is on the project site of the readthedocs.org. We don’t need to do anything on the Github or the readthedocs.org. Because the readthedocs.org will automatically rebuild your project site when the corresponding repository move forward.
 
 Here is the video of this tutorial:
 
