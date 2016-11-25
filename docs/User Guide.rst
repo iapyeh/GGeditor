@@ -71,6 +71,19 @@ This is the rendered table of the above content.
 |Normal Row|Normal Row|Normal Row|
 +----------+----------+----------+
 
+.. _h425360541a6d36a14487962c584b8:
+
+Image
+=====
+
+Images and Charts in the Google Docs document are able to be converted to the generated reStructuredText file bundles. Here is the naming rules:
+
+#. A folder named “static” will be created if necessary in the same folder of the document.
+#. All the images in the document will be stored in the “static” in PNG format. 
+#. The image name is the document name + underscore + sequence number + ‘.png’
+
+No matter how images in the document were modified, these images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be chronical.
+
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
 Markup Panel
