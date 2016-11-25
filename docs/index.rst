@@ -71,6 +71,7 @@ If you are a beginner of the reStructuredText and you feel a little bit of confu
 Acknowledgments
 ***************
 
+* \ `Pelican project`_\  as well as \ `all the contributes`_\ . Pelican lead me to the world of markup.
 * Andrey Rublev as well as \ `all the contributors`_\  of the \ `Online reStructuredText editor`_\ , it is a great tool for beginner to learn the reST markups.
 * \ `Readthedocs.org`_\ , it provides a great service, which encourage me to create the GGeditor.
 * Philip Schatz as well as \ `all the contributors`_\  of the  \ `octokat.js`_\  project. The Github-related implementation is based on their great works.
@@ -83,6 +84,8 @@ Acknowledgments
 .. _`Read The Docs`: https://readthedocs.org/
 .. _`How to Use`: User%20Guide.html
 .. _`Here is the quick guide for reStructuredText beginners.`: how2Readthedocs.html
+.. _`Pelican project`: https://github.com/getpelican/pelican
+.. _`all the contributes`: https://github.com/getpelican/pelican/graphs/contributors
 .. _`all the contributors`: https://github.com/bitwiseshiftleft/sjcl/graphs/contributors
 .. _`Online reStructuredText editor`: http://rst.ninjs.org/
 .. _`Readthedocs.org`: https://readthedocs.org
