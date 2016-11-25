@@ -71,7 +71,7 @@ If you are a beginner of the reStructuredText and you feel a little bit of confu
 Acknowledgments
 ***************
 
-* \ `Pelican project`_\  as well as \ `all the contributes`_\ . Pelican lead me to the world of markup.
+* \ `Pelican project`_\  as well as \ `all the contributes`_\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
 * Andrey Rublev as well as \ `all the contributors`_\  of the \ `Online reStructuredText editor`_\ , it is a great tool for beginner to learn the reST markups.
 * \ `Readthedocs.org`_\ , it provides a great service, which encourage me to create the GGeditor.
 * Philip Schatz as well as \ `all the contributors`_\  of the  \ `octokat.js`_\  project. The Github-related implementation is based on their great works.
