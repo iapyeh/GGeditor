@@ -62,7 +62,9 @@ Please refer to this article \ `How to Use`_\
 For reStructuredText Beginners
 ******************************
 
-If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the readthedocs.org website. I wrote a tutorial to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
+If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the readthedocs.org website. I wrote a quick guide to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
+
+\ `Here is the quick guide for reStructuredText beginners.`_\ 
 
 .. _h7c12a2e595c631221f363d4e55c21:
 
@@ -80,6 +82,7 @@ Acknowledgments
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
 .. _`Read The Docs`: https://readthedocs.org/
 .. _`How to Use`: User%20Guide.html
+.. _`Here is the quick guide for reStructuredText beginners.`: how2Readthedocs.html
 .. _`all the contributors`: https://github.com/bitwiseshiftleft/sjcl/graphs/contributors
 .. _`Online reStructuredText editor`: http://rst.ninjs.org/
 .. _`Readthedocs.org`: https://readthedocs.org
