@@ -76,13 +76,19 @@ This is the rendered table of the above content.
 Image
 =====
 
-Images and Charts in the Google Docs document are able to be converted to the generated reStructuredText file bundles. Here is the naming rules:
+Images and charts in the Google Docs document are able to be converted to the generated reStructuredText file bundles. Here is the naming rules:
 
 #. A folder named “static” will be created if necessary in the same folder of the document.
-#. All the images in the document will be stored in the “static” in PNG format. 
+#. All the images in the document will be stored in the “static” folder in PNG format. 
 #. The image name is the document name + underscore + sequence number + ‘.png’
 
 No matter how images in the document were modified, these images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be chronical.
+
+.. Warning:: 
+
+    For CKJ users: (繁體中文、简体中文、한국어、日本語)
+    
+    English document name is strongly suggested for naming your documents. Especially those documents with images. Because a image got pathname from its hosting document. By naming document in English, it would reduce the risk of parsing failure in the readthedocs.org.
 
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
