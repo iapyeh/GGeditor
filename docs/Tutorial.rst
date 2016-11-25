@@ -29,9 +29,9 @@ It’s done for the “Tutorial” document.
 
     For CKJ users: (繁體中文、简体中文、한국어、日本語)
     
-    English document name is strongly suggested for naming your documents. Especially those documents with images. Because a image got pathname from its hosting document. By naming document in English, it would reduce the risk of parsing failure in the readthedocs.org.
+    English document name is strongly suggested for naming your documents. Especially when the document contains images. Because images got pathname from their hosting document. Naming document in English would reduce risk of parsing failure in the readthedocs.org.
 
-But we also want this “Tutorial” to be listed on the menu in the readthedocs project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
+Because we also want the document “Tutorial”  to be listed on the menu in the readthedocs project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
 
 #. Open the index.rst and add the new filename (“Tutorial”) in the table of toctree.
 #. Commit the index.rst to the Github. 
