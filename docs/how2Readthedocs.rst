@@ -40,7 +40,7 @@ Below is the context for you to copy and paste.
     project = 'CHANGE-THIS'
     copyright = '2016, CHANGE-THIS'
     # The name of the Pygments (syntax highlighting) style to use.
-    pygments_style = 'python'
+    pygments_style = 'sphinx'
     
     extlinks = {}
     
@@ -90,6 +90,7 @@ Then, the document would have a “toctree” table like this:
 \ |IMG2|\ 
 
 You can reference \ `the index.rst of the GGeditor`_\  for example.
+
 
 
 .. _`readthedocs.org`: https://readthedocs.org
