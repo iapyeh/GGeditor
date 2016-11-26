@@ -44,8 +44,8 @@ html_theme = 'default'
 #        pass
 
 html_static_path = ['static']
-#latex_documents = []
-language = 'zh_TW'
+latex_documents = []
+
 """
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'GGeditordoc'
