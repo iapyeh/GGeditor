@@ -1,7 +1,7 @@
 
 .. _h1a461f6b1275321a16291dd169a6c:
 
-\ |IMG1|\Limitations
+\ |IMG1|\|LINK1|
 ######################
 
 .. _h19176e602c6c3f6828a7e207b523e9:
@@ -50,3 +50,7 @@ Github related
 .. |IMG1| image:: static/Limitations_1.png
    :height: 181 px
    :width: 181 px
+
+.. |LINK1|  raw:: html
+   <a href="http://www.google.com" target="_blank">Limitations</a>
+
