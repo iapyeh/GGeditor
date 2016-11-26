@@ -4,7 +4,7 @@
 How-to the Readthedocs
 **********************
 
-This is a simple guideline to help GGeditor users to setup a basic project of the \ `readthedocs.org`_\ . I have no idea if this is the best practice, it just works for me.
+This is a simple guideline to help GGeditor users to setup a basic project of the \ |LINK1|\ . I have no idea if this is the best practice, it just works for me.
 
 #. You got to create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
 #. You got to insert markups of “toctree” table in the index.rst.
@@ -114,12 +114,18 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell. Which is not desirable for the converted table of the GGeditor.
 
-You can reference \ `the index.rst of the GGeditor`_\  for example.
+You can reference \ |LINK2|\  for example.
 
 
 
-.. _`readthedocs.org`: https://readthedocs.org
-.. _`the index.rst of the GGeditor`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
+.. |LINK1| raw:: html
+
+    <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the index.rst of the GGeditor</a>
+
 
 .. |IMG1| image:: static/how2Readthedocs_1.png
    :height: 348 px
