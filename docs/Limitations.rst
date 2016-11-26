@@ -11,6 +11,8 @@ Unsupported Google Docs Features:
 
 The Google Docs is a powerful editor, but not all features are supported to convert to reST markups. Below is the list (included but not limited to)
 
+--------
+
 * Comments. This is not supported by the reST.
 * Drawing objects. Because there is no API to get it as an image.
 * List styles. The list style is defined by the CSS settings in the html page.
