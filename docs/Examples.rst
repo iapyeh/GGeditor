@@ -221,17 +221,6 @@ Admonitions
 
     (content of warning)
 
-
-.. Note:: 
-
-        def start(x):
-            go start
-            go end
-
-    def end(y)
-        go \ |LINK92|\  start
-        \ **go**\  end end
-
 .. _h36d46272a794b2f694b492933796e5e:
 
 Code
@@ -282,7 +271,7 @@ List Item with Text Styles
 
 * item 2
 
-    #. Item with \ |LINK93|\ 
+    #. Item with \ |LINK92|\ 
     #. item with a image \ |IMG14|\ 
 
 * item 3
@@ -290,7 +279,7 @@ List Item with Text Styles
     #. item\ [#F11]_\  with footnote
     #. item\ [#F12]_\  with footnote
 
-\ |LINK94|\ 
+\ |LINK93|\ 
 
 
 .. |LINK1| raw:: html
@@ -659,13 +648,9 @@ List Item with Text Styles
 
 .. |LINK92| raw:: html
 
-    <a href="http://www.google.com" target="_blank">end</a>
-
-.. |LINK93| raw:: html
-
     <a href="http://www.google.com" target="_blank">link</a>
 
-.. |LINK94| raw:: html
+.. |LINK93| raw:: html
 
     <a href="https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing" target="_blank">Here is the source document of this page in the Google Docs</a>
 
