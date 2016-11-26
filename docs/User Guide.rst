@@ -78,7 +78,7 @@ This is the rendered table of the above content.
 
 .. Hint:: 
 
-    You can set background-color for header rows by assign CSS in the /docs/static/theme_overrides.css. For example:
+    You can set background-color for header rows by assign CSS in the /docs/static/theme_overrides.css. For example\:
     
     .wy-table-responsive table th {
        background-color: #f0f0f0;
