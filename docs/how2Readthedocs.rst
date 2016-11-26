@@ -114,10 +114,6 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell. Which is not desirable for the converted table of the GGeditor.
 
-.. Note:: 
-
-    Github has tool which can create plain text file (such as conf.py and Theme_overrides.css) very easily.
-
 You can reference \ `the index.rst of the GGeditor`_\  for example.
 
 
