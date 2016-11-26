@@ -82,59 +82,59 @@ Acknowledgments
 
 .. |LINK1| raw:: html
 
-<a href="https://en.wikipedia.org/wiki/ReStructuredText" target="_blank">reStructuredText</a>
+    <a href="https://en.wikipedia.org/wiki/ReStructuredText" target="_blank">reStructuredText</a>
 
 .. |LINK2| raw:: html
 
-<a href="https://readthedocs.org/" target="_blank">Read The Docs</a>
+    <a href="https://readthedocs.org/" target="_blank">Read The Docs</a>
 
 .. |LINK3| raw:: html
 
-<a href="User%20Guide.html">How to Use</a>
+    <a href="User%20Guide.html">How to Use</a>
 
 .. |LINK4| raw:: html
 
-<a href="how2Readthedocs.html">Here is the quick guide for reStructuredText beginners.</a>
+    <a href="how2Readthedocs.html">Here is the quick guide for reStructuredText beginners.</a>
 
 .. |LINK5| raw:: html
 
-<a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
+    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
 
 .. |LINK6| raw:: html
 
-<a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
+    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
 
 .. |LINK7| raw:: html
 
-<a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK8| raw:: html
 
-<a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
+    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
 
 .. |LINK9| raw:: html
 
-<a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
+    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
 
 .. |LINK10| raw:: html
 
-<a href="https://github.com/philschatz/octokat.js/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/philschatz/octokat.js/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK11| raw:: html
 
-<a href="https://github.com/philschatz/octokat.js" target="_blank">octokat.js</a>
+    <a href="https://github.com/philschatz/octokat.js" target="_blank">octokat.js</a>
 
 .. |LINK12| raw:: html
 
-<a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK13| raw:: html
 
-<a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
 
 .. |LINK14| raw:: html
 
-<a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">Source document in the Google Docs</a>
+    <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">Source document in the Google Docs</a>
 
 
 .. |IMG1| image:: static/index_1.png
