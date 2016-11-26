@@ -44,7 +44,7 @@ html_theme = 'default'
 #        pass
 
 html_static_path = ['static']
-latex_documents = []
+#latex_documents = []
 language = 'zh_TW'
 """
 # Output file base name for HTML help builder.
