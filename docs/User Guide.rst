@@ -20,6 +20,10 @@ You can use the following list native features of the Google Docs to build your 
 * Table of contents (links to bookmarks and headings)
 * Special characters and CKJ full-width characters
 
+.. Note:: 
+
+    A hyperlink will be opened in a new window(tab) if its url is of format “scheme://…”, such as http://, https://, etc.
+
 .. _h80352f65a46575c6a74721e3ddb6a:
 
 Inline Markups
