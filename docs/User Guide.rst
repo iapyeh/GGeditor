@@ -90,6 +90,11 @@ No matter how images in the document were modified, these images will be re-gene
     
     English document name is strongly suggested for naming your documents. Especially those documents with images. Because a image got pathname from its hosting document. By naming document in English, it would reduce the risk of parsing failure in the readthedocs.org.
 
+
+.. Note:: 
+
+    Currently, it seems that the sphinx parser has problem on parsing :align: of an image markup, image horizontal alignment is not supported yet. 
+
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
 Markup Panel
