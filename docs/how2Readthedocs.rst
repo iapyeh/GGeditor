@@ -106,7 +106,7 @@ Below is the context for you to copy and paste.
 
 .. Tip:: 
 
-    To utilize the full power of the Sphinx, you can consult this document.
+    To utilize the full power of the Sphinx, you can consult \ |LINK2|\ .
 
 .. _h4a47434f5c5745347cc5f1b4d2d5023:
 
@@ -127,7 +127,7 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell. Which is not desirable for the converted table of the GGeditor.
 
-You can reference \ |LINK2|\  for example.
+You can reference \ |LINK3|\  for example.
 
 
 
@@ -136,6 +136,10 @@ You can reference \ |LINK2|\  for example.
     <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
 
 .. |LINK2| raw:: html
+
+    <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
+
+.. |LINK3| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the index.rst of the GGeditor</a>
 
