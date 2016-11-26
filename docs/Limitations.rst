@@ -53,7 +53,7 @@ Github related
 
 .. |LINK1| raw:: html
 
-    <a href="http://www.google.com" target="_blank">google</a>
+    <a href="http://www.google.com" target="_blank">谷歌google</a>
 
 
 .. |IMG1| image:: static/Limitations_1.png
