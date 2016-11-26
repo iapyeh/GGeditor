@@ -76,10 +76,12 @@ Below is the context for you to copy and paste.
     __version__ = '1.0'
     
     # -- General configuration -----------------------------------------------------
+    
     source_suffix = '.rst'
     master_doc = 'index'
     project = 'CHANGE-THIS'
     copyright = '2016, CHANGE-THIS'
+    
     # The name of the Pygments (syntax highlighting) style to use.
     pygments_style = 'sphinx'
     
@@ -94,6 +96,12 @@ Below is the context for you to copy and paste.
     def setup(app):
         # overrides for wide tables in RTD theme
         app.add_stylesheet('theme_overrides.css') # path relative to static
+    
+    “””
+      You might want to set “latex_documents = []” if you use CKJ characters in your document.
+      Because the sphinx parser of the readthedocs.org complains about unicode when generate Latex documents with CKJ characters.
+    “””
+    #latex_documents = []
 
 .. _h4a47434f5c5745347cc5f1b4d2d5023:
 
