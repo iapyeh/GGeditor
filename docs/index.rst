@@ -77,7 +77,16 @@ Acknowledgments
 * Philip Schatz as well as \ `all the contributors`_\  of the  \ `octokat.js`_\  project. The Github-related implementation is based on this wonderful tool.
 * Bitwiseshiftleft as well as \ `all the contributors`_\  of the \ `sjcl`_\  projects. The sjcl.js is used for credentials encryption.
 
+
 \ `Source document in the Google Docs`_\ 
+
+
+|clearfloat|
+
+
+.. |clearfloat|  raw:: html
+
+    <a href="http://www.google.com" target="blank">Google</a>
 
 
 .. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
