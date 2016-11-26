@@ -103,6 +103,11 @@ Below is the context for you to copy and paste.
     “””
     #latex_documents = []
 
+
+.. Tip:: 
+
+    To utilize the full power of the Sphinx, you can consult this document.
+
 .. _h4a47434f5c5745347cc5f1b4d2d5023:
 
 Step 4: theme_overrides.css
