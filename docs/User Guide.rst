@@ -356,7 +356,7 @@ You can give the credentials every time doing the committing. Like the following
 
 \ |IMG25|\ 
 
-\ |LINK5|\ 
+\ |LINK5|\  
 
 
 .. |LINK1| raw:: html
@@ -377,7 +377,7 @@ You can give the credentials every time doing the committing. Like the following
 
 .. |LINK5| raw:: html
 
-    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Here is the source document of the Google Docs</a>
+    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Here is the source document of this page</a>
 
 
 .. |IMG1| image:: static/User_Guide_1.png
