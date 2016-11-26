@@ -113,7 +113,7 @@ Admonitions
 
 \ |IMG4|\ 
 
-\ `Admonition`_\  is something like this:
+\ |LINK1|\  is something like this:
 
 .. Attention:: 
 
@@ -128,7 +128,7 @@ Directives
 
 \ |IMG5|\ 
 
-\ `Directive`_\  is the generic form of admonition and many other reST Markups.
+\ |LINK2|\  is the generic form of admonition and many other reST Markups.
 
 .. _h13a5d3e27e111c18554152c6d123c:
 
@@ -210,7 +210,7 @@ It is rendered like this:
 Table of Contents
 ~~~~~~~~~~~~~~~~~
 
-In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
+In the panel, the Table of Contents will insert \ |LINK3|\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
 
 #. All the documents with suffix .rst in the same folder of this document. Even the document is not binded to a file in the Github.
 #. If a document has binded to a file in the Github, the filename will be used. Even the source document is not with suffix “.rst”.
@@ -220,7 +220,7 @@ In the panel, the Table of Contents will insert \ `a sphinx toctree`_\ , aka cro
 
 \ |IMG13|\ 
 
-Please be noted that file suffix (.html or .rst) is omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ `the source document of the index.rst`_\  of the GGeditor for an example.
+Please be noted that file suffix (.html or .rst) is omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ |LINK4|\  of the GGeditor for an example.
 
 .. _h545b1150273f784141121a3967491529:
 
@@ -352,14 +352,29 @@ You can give the credentials every time doing the committing. Like the following
 
 \ |IMG25|\ 
 
-\ `Here is the source document of the Google Docs`_\ 
+\ |LINK5|\ 
 
 
-.. _`Admonition`: http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions
-.. _`Directive`: http://docutils.sourceforge.net/docs/ref/rst/directives.html
-.. _`a sphinx toctree`: http://www.sphinx-doc.org/en/1.4.8/markup/toctree.html
-.. _`the source document of the index.rst`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
-.. _`Here is the source document of the Google Docs`: https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing
+.. |LINK1| raw:: html
+
+    <a href="http://read-the-docs.readthedocs.io/en/latest/_themes/sphinx_rtd_theme/demo_docs/source/demo.html?highlight=ADMONITION#admonitions" target="_blank">Admonition</a>
+
+.. |LINK2| raw:: html
+
+    <a href="http://docutils.sourceforge.net/docs/ref/rst/directives.html" target="_blank">Directive</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://www.sphinx-doc.org/en/1.4.8/markup/toctree.html" target="_blank">a sphinx toctree</a>
+
+.. |LINK4| raw:: html
+
+    <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the source document of the index.rst</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Here is the source document of the Google Docs</a>
+
 
 .. |IMG1| image:: static/User_Guide_1.png
    :height: 224 px
