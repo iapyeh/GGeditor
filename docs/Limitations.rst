@@ -1,7 +1,7 @@
 
 .. _h1a461f6b1275321a16291dd169a6c:
 
-\ |IMG1|\|LINK1|
+\ |IMG1|\ |LINK1|
 ######################
 
 .. _h19176e602c6c3f6828a7e207b523e9:
@@ -24,6 +24,7 @@ The Google Docs is a powerful editor, but not all features are supported to conv
 
 Known Issues:
 *************
+|LINK1|
 
 .. _h1f753e737333503f6591234143cc4:
 
