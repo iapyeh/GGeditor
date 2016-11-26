@@ -1,8 +1,9 @@
+\ |IMG1|\ 
 
 .. _h1a461f6b1275321a16291dd169a6c:
 
-\ |IMG1|\ |LINK1|
-######################
+Limitations
+###########
 
 .. _h19176e602c6c3f6828a7e207b523e9:
 
@@ -24,7 +25,8 @@ The Google Docs is a powerful editor, but not all features are supported to conv
 
 Known Issues:
 *************
-|LINK1|
+
+\ |LINK1|\ 
 
 .. _h1f753e737333503f6591234143cc4:
 
@@ -48,10 +50,12 @@ Github related
 
     * If the binding file has changed, according to the new binding name, a new  image subfolder might be created. Which means the original image subfolder should be removed manually.
 
+
+.. |LINK1| raw:: html
+
+    <a href="http://www.google.com" target="_blank">google</a>
+
+
 .. |IMG1| image:: static/Limitations_1.png
    :height: 181 px
    :width: 181 px
-
-.. |LINK1|  raw:: html
-   <a href="http://www.google.com" target="_blank">Limitations</a>
-
