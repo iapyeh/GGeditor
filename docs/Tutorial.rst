@@ -51,11 +51,14 @@ Here is the video of this tutorial:
     #. But the binding file in the Github repository do need with suffix “.rst”. It will be automatically appended when the GGeditor created it. If you manually created the binding file, please name it with suffix “.rst”.
     #. in this tutorial video, the committing of index.rst does not also commit images. That is because the changes include text part only.  By unchecking the “Commit images” option, the committing only updates the generated reStructuredText content of the index.rst. Which makes the time of committing being shorter.
 
-\ `The source document of this page in the Google Docs`_\ 
+\ |LINK1|\ 
 
 
 
-.. _`The source document of this page in the Google Docs`: https://docs.google.com/document/d/1V2Xync2yY9YYDHX6NJ5HXMekSnIIBi5035ephlAdJxA/edit?usp=sharing
+.. |LINK1| raw:: html
+
+    <a href="https://docs.google.com/document/d/1V2Xync2yY9YYDHX6NJ5HXMekSnIIBi5035ephlAdJxA/edit?usp=sharing" target="_blank">The source document of this page in the Google Docs</a>
+
 
 .. |IMG1| image:: static/Tutorial_1.png
    :height: 464 px
