@@ -6,23 +6,31 @@ How-to the Readthedocs
 
 This is a simple guideline to help GGeditor users to setup a basic project of the \ `readthedocs.org`_\ . I have no idea if this is the best practice, it just works for me.
 
-#. You got to have a index.rst in the “docs” folder
+#. You got to create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
 #. You got to insert markups of “toctree” table in the index.rst.
 #. You got to have a conf.py in the “docs” folder.
 #. You got to have a file named “theme_overrides.css” in the “docs/static” folder.
 
 That’s all. With the above 4 steps, you can go readthedocs.org  and create a project for your repository.
 
-.. _h341e5179157a606f5e6b5f5570287f2c:
+.. _h467c3456c435f3c292f45222c3d4910:
 
-Step 1: create the docs/index.rst
-=================================
+Step 1: Binding to the docs/index.rst
+=====================================
 
-If the “docs” folder does not exist in your Github repository, you can create the docs/index.rst directly by binding to “docs/index.rst” in the dialog of “New File”.
+You can bind the Google Docs document with the GGeditor by menu item “Add-ons/GGeditor/Commit to Github”. Than select your repository, docs folder and the index.rst file in the dialog.
+
+If the “index.rst” file does not existed in your Github repository, you can navigate to the “docs” folder, then click “New File” and input “index.rst”. The GGeditor will create it.
 
 \ |IMG1|\ 
 
+ Or select “New File” to create.
+
 \ |IMG2|\ 
+
+If even the “docs” folder does not exist yet in your Github repository, you can input “docs/index.rst” as the name in the dialog of the “New File”. Like this:
+
+\ |IMG3|\ 
 
 .. _h195ff4c157e501d115f391d4e173b36:
 
@@ -33,11 +41,11 @@ The index.rst is the homepage of your project in the readthedocs.org. You can pu
 
 #. Insert a “Table of Contents” from the “GGeditor Markup Panel / Markup / Directives”
 
-\ |IMG3|\ 
+\ |IMG4|\ 
 
 Then, the document would have a “toctree” table like this:
 
-\ |IMG4|\ 
+\ |IMG5|\ 
 
 .. _h7f1657c7763721b311b652230436640:
 
@@ -46,11 +54,11 @@ Step 3: conf.py
 
 The Github allows user to create a new file in the repository page:
 
-\ |IMG5|\ 
+\ |IMG6|\ 
 
 Then input the path and filename for your new file (docs/conf.py).
 
-\ |IMG6|\ 
+\ |IMG7|\ 
 
 Below is the context for you to copy and paste.
 
@@ -94,7 +102,7 @@ Step 4: theme_overrides.css
 
 You can use the same way to create a new “theme_overrides.css” in the “docs/static” folder. Like this:
 
-\ |IMG7|\ 
+\ |IMG8|\ 
 
 Below is the content of the theme_overrides.css for you to copy and paste.
 
@@ -118,29 +126,33 @@ You can reference \ `the index.rst of the GGeditor`_\  for example.
 .. _`the index.rst of the GGeditor`: https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing
 
 .. |IMG1| image:: static/how2Readthedocs_1.png
-   :height: 434 px
-   :width: 524 px
+   :height: 348 px
+   :width: 613 px
 
 .. |IMG2| image:: static/how2Readthedocs_2.png
-   :height: 396 px
-   :width: 664 px
+   :height: 234 px
+   :width: 465 px
 
 .. |IMG3| image:: static/how2Readthedocs_3.png
+   :height: 240 px
+   :width: 468 px
+
+.. |IMG4| image:: static/how2Readthedocs_4.png
    :height: 493 px
    :width: 310 px
 
-.. |IMG4| image:: static/how2Readthedocs_4.png
+.. |IMG5| image:: static/how2Readthedocs_5.png
    :height: 478 px
    :width: 810 px
 
-.. |IMG5| image:: static/how2Readthedocs_5.png
+.. |IMG6| image:: static/how2Readthedocs_6.png
    :height: 218 px
    :width: 1025 px
 
-.. |IMG6| image:: static/how2Readthedocs_6.png
+.. |IMG7| image:: static/how2Readthedocs_7.png
    :height: 149 px
    :width: 418 px
 
-.. |IMG7| image:: static/how2Readthedocs_7.png
+.. |IMG8| image:: static/how2Readthedocs_8.png
    :height: 149 px
    :width: 626 px
