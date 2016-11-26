@@ -1,9 +1,9 @@
-\ |IMG1|\ 
+
 
 .. _h1a461f6b1275321a16291dd169a6c:
 
-Limitations
-###########
+\ |IMG1|\ Limitations
+#####################
 
 .. _h19176e602c6c3f6828a7e207b523e9:
 
@@ -23,8 +23,8 @@ The Google Docs is a powerful editor, but not all features are supported to conv
 
 .. _h65776f3b486b79192426655c476e97b:
 
-Known Issues:
-*************
+Known Issues:\ |LINK1|\
+***********************
 
 \ |LINK1|\ 
 
