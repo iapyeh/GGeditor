@@ -30,10 +30,6 @@ Known Issues:
 reStructuredText related
 ========================
 
-* Open hyperlink in a new tab:
-
-    * This is not supported. \ `Please see details here`_\ .
-
 * Table in a list item is not supported. It will be converted to a stand-alone table.
 * Nested table in a table cell is not supported.
 * Video is not supported. The Google Docs does not allow to embed videos neither.
@@ -50,5 +46,3 @@ Github related
 * When the binding file has changed
 
     * If the binding file has changed, according to the new binding name, a new  image subfolder might be created. Which means the original image subfolder should be removed manually.
-
-.. _`Please see details here`: https://github.com/sphinx-doc/sphinx/issues/1634
