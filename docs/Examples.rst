@@ -78,7 +78,7 @@ Supported Features List of the GGeditor
 +----------------+------------+------------+-------------+-------------+
 |Image with link |Yes         |Yes         |Yes          |Yes          |
 +----------------+------------+------------+-------------+-------------+
-|Chart           |Yes         |            |             |             |
+|Chart           |Yes         |Yes         |Yes          |Yes          |
 +----------------+------------+------------+-------------+-------------+
 |Admonition      |Yes         |No          |No           |No (Nested)  |
 +----------------+------------+------------+-------------+-------------+
@@ -104,7 +104,7 @@ The next paragraph contains links, bold, italic, subscript and superscript text,
 
         \ *In mathematics*\ , \ |IMG2|\          a \ **polynomial**\  is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ :sup:`2`\  − 4x + 7. An example in three variables is x\ :sup:`3`\  + 2xyz\ :sup:`2`\  − yz +  T\ :sub:`ab`\ .
 
-        
+--------
 
 .. _h3f7b121e3b34193166765e7a56202b48:
 
@@ -652,7 +652,7 @@ List Item with Text Styles
 
 .. |LINK93| raw:: html
 
-    <a href="https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing" target="_blank">Here is the source document of this page in the Google Docs</a>
+    <a href="https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing" target="_blank">Here is the source document of this page</a>
 
 
 
