@@ -1,3 +1,4 @@
+\ |IMG1|\ 
 
 .. _h1a461f6b1275321a16291dd169a6c:
 
@@ -46,3 +47,7 @@ Github related
 * When the binding file has changed
 
     * If the binding file has changed, according to the new binding name, a new  image subfolder might be created. Which means the original image subfolder should be removed manually.
+
+.. |IMG1| image:: static/Limitations_1.png
+   :height: 181 px
+   :width: 181 px
