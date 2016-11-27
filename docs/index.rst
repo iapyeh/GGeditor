@@ -7,6 +7,7 @@ GGeditor
 
 .. toctree:: 
     :maxdepth: 2
+    :hidden:
 
     Tutorial
     User Guide
@@ -14,7 +15,7 @@ GGeditor
     how2Readthedocs
     Limitations
 
-\ **GGeditor**\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  got automatically updated.
+\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  got automatically updated.
 
 \ |IMG1|\ 
 
@@ -28,7 +29,7 @@ Features
 ********
 
 #. Easy starting for reST beginners, even no idea about reST markups.
-#. Powered by the Google Docs. Almost what you see is what you get.
+#. Powered by the Google Docs. Almost what you see is what you get. As well as the coordination of team works.
 #. One-click to commit to the Github repository.
 #. Preview the generated reST file and download to local machine.
 #. Support headings, bold, italic, hyperlink, subscript and superscript.
@@ -78,6 +79,9 @@ Acknowledgments
 * Bitwiseshiftleft as well as \ |LINK12|\  of the \ |LINK13|\  projects. The sjcl.js is used for credentials encryption.
 
 \ |LINK14|\ 
+
+
+.. |STYLE0| replace:: **GGeditor**
 
 
 .. |LINK1| raw:: html
