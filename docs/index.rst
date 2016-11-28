@@ -45,7 +45,8 @@ Features
 How to install
 **************
 
-#. Open a Google Docs document.
+\ |LINK3|\ , or in a Google Docs Document:
+
 #. On the menu item “Add-ons”, click the “Get Add-ons”
 #. In the search box, input “GGeditor”, then click on the GGeditor icon to install.
 
@@ -56,7 +57,7 @@ How to install
 How to Use
 **********
 
-Please refer to this article \ |LINK3|\ 
+Please refer to this article \ |LINK4|\ 
 
 .. _h84e3b4616757118376d336e2e5d5d23:
 
@@ -65,20 +66,20 @@ For reStructuredText Beginners
 
 If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the readthedocs.org website. I wrote a quick guide to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
 
-\ |LINK4|\ 
+\ |LINK5|\ 
 
 .. _h7c12a2e595c631221f363d4e55c21:
 
 Acknowledgments
 ***************
 
-* \ |LINK5|\  as well as \ |LINK6|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
-* Andrey Rublev as well as \ |LINK7|\  of the \ |LINK8|\ , it is a great tool for beginner to learn the reST markups.
-* \ |LINK9|\ , it provides a great service, which encourage me to create the GGeditor.
-* Philip Schatz as well as \ |LINK10|\  of the  \ |LINK11|\  project. The Github-related implementation is based on this wonderful tool.
-* Bitwiseshiftleft as well as \ |LINK12|\  of the \ |LINK13|\  projects. The sjcl.js is used for credentials encryption.
+* \ |LINK6|\  as well as \ |LINK7|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
+* Andrey Rublev as well as \ |LINK8|\  of the \ |LINK9|\ , it is a great tool for beginner to learn the reST markups.
+* \ |LINK10|\ , it provides a great service, which encourage me to create the GGeditor.
+* Philip Schatz as well as \ |LINK11|\  of the  \ |LINK12|\  project. The Github-related implementation is based on this wonderful tool.
+* Bitwiseshiftleft as well as \ |LINK13|\  of the \ |LINK14|\  projects. The sjcl.js is used for credentials encryption.
 
-\ |LINK14|\ 
+\ |LINK15|\ 
 
 
 .. |STYLE0| replace:: **GGeditor**
@@ -94,49 +95,53 @@ Acknowledgments
 
 .. |LINK3| raw:: html
 
-    <a href="User%20Guide.html">How to Use</a>
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Click this link to the Google Docs Add-on page</a>
 
 .. |LINK4| raw:: html
 
-    <a href="how2Readthedocs.html">Here is the quick guide for reStructuredText beginners.</a>
+    <a href="User%20Guide.html">How to Use</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
+    <a href="how2Readthedocs.html">Here is the quick guide for reStructuredText beginners.</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
+    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
 
 .. |LINK8| raw:: html
 
-    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
+    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK9| raw:: html
 
-    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
+    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://github.com/philschatz/octokat.js/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://github.com/philschatz/octokat.js" target="_blank">octokat.js</a>
+    <a href="https://github.com/philschatz/octokat.js/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK12| raw:: html
 
-    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/philschatz/octokat.js" target="_blank">octokat.js</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK14| raw:: html
+
+    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
+
+.. |LINK15| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">Source document in the Google Docs</a>
 
@@ -146,5 +151,5 @@ Acknowledgments
    :width: 504 px
 
 .. |IMG2| image:: static/index_2.png
-   :height: 213 px
-   :width: 326 px
+   :height: 157 px
+   :width: 697 px
