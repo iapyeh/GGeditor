@@ -15,6 +15,8 @@ GGeditor
     how2Readthedocs
     Limitations
 
+GGeditor hope to help you to focus on writing your idea instead of marking them up.
+
 \ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  got automatically updated.
 
 \ |IMG1|\ 
