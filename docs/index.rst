@@ -37,7 +37,7 @@ Features
 #. Support full-width characters (CKJ) in headings and table.
 #. Support internal links to bookmarks, headings and Google Docs native table of contents (in document table of contents).
 #. Support relative links to other generated reST files of the Google Docs under the same folder and subfolders.
-#. Support cross-document table of content (.. doctree::) for the readthedocs.org.
+#. Support cross-document table of content (.. toctree::) for the readthedocs.org.
 #. Support all style of admonitions of the readthedocs.org.
 
 .. _h131f586a50795a4822677d4166231766:
@@ -75,8 +75,8 @@ Acknowledgments
 
 * Andrey Rublev as well as \ |LINK6|\  of the \ |LINK7|\ , it is a great tool for beginner to learn the reST markups.
 * Bitwiseshiftleft as well as \ |LINK8|\  of the \ |LINK9|\  projects. The sjcl.js is used for credentials encryption.
-* \ |LINK10|\ . Hard to be briefly described. Anyway, thanks to their excellent AR series.
-* Philip Schatz as well as \ |LINK11|\  of the  \ |LINK12|\  project. The Github-related implementation is based on this wonderful tool.
+* \ |LINK10|\ . Hard to be briefly described. In short, its excellent AR series let me have time to work on this project.
+* Philip Schatz as well as \ |LINK11|\  of the  \ |LINK12|\  project. The Github-related implementation is on this wonderful tool.
 * \ |LINK13|\  as well as \ |LINK14|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
 * \ |LINK15|\ , it provides a great service, which encourage me to create the GGeditor.
 
