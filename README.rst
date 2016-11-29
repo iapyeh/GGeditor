@@ -4,7 +4,9 @@
 GGeditor
 ********
 
-\ **GGeditor**\  is a Google Docs Add-on for generating \ `reStructuredText`_\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ `Read The Docs`_\  got automatically updated.
+GGeditor hope to help you to focus on writing your idea instead of marking them up.
+
+\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  got automatically updated.
 
 \ |IMG1|\ 
 
@@ -30,12 +32,24 @@ Features
 More Information
 ================
 
-Please refer to \ `the GGeditor documentation site`_\ .
+Please refer to \ |LINK3|\ .
 
 
-.. _`reStructuredText`: https://en.wikipedia.org/wiki/ReStructuredText
-.. _`Read The Docs`: https://readthedocs.org/
-.. _`the GGeditor documentation site`: http://ggeditor.readthedocs.io/en/latest/index.html
+.. |STYLE0| replace:: **GGeditor**
+
+
+.. |LINK1| raw:: html
+
+    <a href="https://en.wikipedia.org/wiki/ReStructuredText" target="_blank">reStructuredText</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://readthedocs.org/" target="_blank">Read The Docs</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">the GGeditor documentation site</a>
+
 
 .. |IMG1| image:: static/README_1.png
    :height: 250 px
