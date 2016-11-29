@@ -64,12 +64,7 @@ Below is the content for you to copy and paste.
 
 The following is a SQL statement.
 
-.. code-block:: sql
-   :linenos:
-
-   SELECT * FROM mytable
-
-.. code-block:: python
+.. code:: python
     :linenos:
 
     # -*- coding: utf-8 -*-
