@@ -60,7 +60,7 @@ Then input the path and file name for your new file (docs/conf.py).
 
 \ |IMG7|\ 
 
-Below is the context for you to copy and paste.
+Below is the content for you to copy and paste.
 
 .. code:: python
 
