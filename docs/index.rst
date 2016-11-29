@@ -59,10 +59,10 @@ How to Use
 
 Please refer to this article \ |LINK4|\ 
 
-.. _h84e3b4616757118376d336e2e5d5d23:
+.. _h11806048484a3a454a71736b276e3bb:
 
-For reStructuredText Beginners
-******************************
+For  reStructuredText Beginners
+*******************************
 
 If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the readthedocs.org website. I wrote a quick guide to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
 
@@ -73,13 +73,14 @@ If you are a beginner of the reStructuredText and you feel a little bit of confu
 Acknowledgments
 ***************
 
-* \ |LINK6|\  as well as \ |LINK7|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
-* Andrey Rublev as well as \ |LINK8|\  of the \ |LINK9|\ , it is a great tool for beginner to learn the reST markups.
-* \ |LINK10|\ , it provides a great service, which encourage me to create the GGeditor.
+* Andrey Rublev as well as \ |LINK6|\  of the \ |LINK7|\ , it is a great tool for beginner to learn the reST markups.
+* Bitwiseshiftleft as well as \ |LINK8|\  of the \ |LINK9|\  projects. The sjcl.js is used for credentials encryption.
+* \ |LINK10|\ . Hard to be briefly described. Anyway, thanks to their excellent AR series.
 * Philip Schatz as well as \ |LINK11|\  of the  \ |LINK12|\  project. The Github-related implementation is based on this wonderful tool.
-* Bitwiseshiftleft as well as \ |LINK13|\  of the \ |LINK14|\  projects. The sjcl.js is used for credentials encryption.
+* \ |LINK13|\  as well as \ |LINK14|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
+* \ |LINK15|\ , it provides a great service, which encourage me to create the GGeditor.
 
-\ |LINK15|\ 
+\ |LINK16|\ 
 
 
 .. |STYLE0| replace:: **GGeditor**
@@ -107,23 +108,23 @@ Acknowledgments
 
 .. |LINK6| raw:: html
 
-    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
+    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
+    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK9| raw:: html
 
-    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
+    <a href="http://neusauber.com" target="_blank">Neusauber.com</a>
 
 .. |LINK11| raw:: html
 
@@ -135,13 +136,17 @@ Acknowledgments
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
+    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
 
 .. |LINK15| raw:: html
+
+    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
+
+.. |LINK16| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">Source document in the Google Docs</a>
 
