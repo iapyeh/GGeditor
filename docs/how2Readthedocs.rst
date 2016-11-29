@@ -64,7 +64,7 @@ Below is the content for you to copy and paste.
 
 The following is a SQL statement.
 
-.. code:: python
+.. code-block:: python
     :linenos:
 
     # -*- coding: utf-8 -*-
