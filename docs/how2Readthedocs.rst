@@ -62,7 +62,8 @@ Then input the path and file name for your new file (docs/conf.py).
 
 Below is the content for you to copy and paste.
 
-.. code-block:: python
+.. highlight:: python
+   :linenothreshold: 5
 
     # -*- coding: utf-8 -*-
     
