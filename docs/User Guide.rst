@@ -12,7 +12,7 @@ The Google Docs Native Features
 You can use the following list native features of the Google Docs to build your content for generating reStructuredText format.
 
 * Paragraph heading and indentation
-* Bold , Italic, subscript and superscript
+* Bold, Italic, subscript and superscript
 * List and numbered list
 * Table
 * Image and chart
@@ -22,7 +22,7 @@ You can use the following list native features of the Google Docs to build your 
 
 .. Note:: 
 
-    A hyperlink will be opened in a new window(tab) if its url is of format “scheme://…”, such as http://, https://, etc.
+    A hyperlink will be opened in a new window(tab) if its URL is of format “scheme://…”, like http://, https://, etc.
 
 .. _h80352f65a46575c6a74721e3ddb6a:
 
@@ -33,7 +33,7 @@ Some inline reStructuredText markups can be used directly in the document. The t
 
 
 +---------------------------+-----------------------+
-|In Google Docs document    |Rendered in html page  |
+|\ |STYLE0|\                |\ |STYLE1|\            |
 +===========================+=======================+
 |A \`single back-quote\`    |A `single back-quote`  |
 +---------------------------+-----------------------+
@@ -60,29 +60,29 @@ Some inline reStructuredText markups can be used directly in the document. The t
 Table
 =====
 
-The Google Docs native table can be converted to reStructruedText table. One thing has to mention is that, if you want to generate header rows in the generated reStructruedText table, you have to make all text in the header rows to be bold.
+The Google Docs native table can be converted to reStructuredText table. One thing must mention is that, if you want to generate header rows in the generated reStructuredText table, you have to make all text in the header rows to be bold.
 
 \ |IMG2|\ 
 
 This is the rendered table of the above content.
 
 
-+----------+----------+----------+
-|Header Row|Header Row|Header Row|
-+==========+==========+==========+
-|Normal Row|Normal Row|Normal Row|
-+----------+----------+----------+
-|Normal Row|Normal Row|Normal Row|
-+----------+----------+----------+
++------------+------------+------------+
+|\ |STYLE2|\ |\ |STYLE3|\ |\ |STYLE4|\ |
++============+============+============+
+|Normal Row  |Normal Row  |Normal Row  |
++------------+------------+------------+
+|Normal Row  |Normal Row  |Normal Row  |
++------------+------------+------------+
 
 
 .. Hint:: 
 
-    You can set background-color for header rows by assign CSS in the /docs/static/theme_overrides.css. For example
+    You can set background-color for header rows by assign CSS in the /docs/static/theme_overrides.css. For example:
     
-        \.wy\-table\-responsive table th {
-           background-color\: #f0f0f0;
-        }
+    .wy-table-responsive table th {
+       background-color: #f0f0f0;
+    }
 
 .. _h425360541a6d36a14487962c584b8:
 
@@ -95,18 +95,18 @@ Images and charts in the Google Docs document are able to be converted to the ge
 #. All the images in the document will be stored in the “static” folder in PNG format. 
 #. The image name is the document name + underscore + sequence number + ‘.png’
 
-No matter how images in the document were modified, these images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be chronical.
+All images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be constant.
 
 .. Warning:: 
 
     For CKJ users: (繁體中文、简体中文、한국어、日本語)
     
-    English document name is strongly suggested for naming your documents. Especially those documents with images. Because a image got pathname from its hosting document. By naming document in English, it would reduce the risk of parsing failure in the readthedocs.org.
+    English document name is strongly suggested for naming your documents. Especially those documents with images because an image got pathname from its hosting document. By naming document in English, it would reduce the risk of parsing failure in the readthedocs.org.
 
 
 .. Note:: 
 
-    Currently, it seems that the sphinx parser has problem on parsing :align: of an image markup, image horizontal alignment is not supported yet. 
+    Currently, it seems the sphinx parser has problem on parsing :align: of an image markup, image horizontal alignment is not supported yet. 
 
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
@@ -115,7 +115,7 @@ Markup Panel
 
 \ |IMG3|\ 
 
-Besides the native features, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menuitem.
+Besides the native features, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menu item.
 
 The “Show Markup Panel” helps you to insert special markups, to see the converted content in reStructuredText, or to download the generated files.
 
@@ -156,7 +156,7 @@ The following table is an example of the directive ``toctree``.
 
 \ |IMG7|\ 
 
-Please be noted that “name” and “content” are required for a directive, arguments and options are optional. If there is no options, the content can be in the 2nd row. If there is more than one options, these options should be put line by line in 2nd row, or row by row. See the diagram below for illustration. 
+Please be noted “name” and “content” are required for a directive, arguments and options are optional. If there are no options, the content can be in the 2nd row. If there is more than one options, these options should be put line by line in 2nd row, or row by row. See the diagram below for illustration. 
 
 \ |IMG8|\ 
 
@@ -184,7 +184,7 @@ Code
 
 \ |IMG11|\ 
 
-The content in a code directive can not be in bold or italic. Neither hyperlinks and images.
+The content in a code directive cannot be in bold or italic. Neither hyperlinks and images.
 
 You can highlight your code by giving a language name after the \.\.code::, like this: (there is a space in front of “python”)
 
@@ -225,15 +225,15 @@ Table of Contents
 
 In the panel, the Table of Contents will insert \ |LINK3|\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
 
-#. All the documents with suffix .rst in the same folder of this document. Even the document is not binded to a file in the Github.
-#. If a document has binded to a file in the Github, the filename will be used. Even the source document is not with suffix “.rst”.
+#. All the documents with suffix .rst in the same folder of this document. Even the document is not binding to a file in the Github.
+#. If a document is binding to a file in the Github, the filename will be used. Even the source document is not with suffix “.rst”.
 #. The current document is excluded. This is for preventing from falling into an infinite loop while the readthedocs parsing this table. You should add it back manually if that makes sense for you.
 
  Here is an example of what it looks like:
 
 \ |IMG13|\ 
 
-Please be noted that file suffix (.html or .rst) is omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ |LINK4|\  of the GGeditor for an example.
+Please be noted the file suffix (.html or .rst) has been omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ |LINK4|\  of the GGeditor for an example.
 
 .. _h545b1150273f784141121a3967491529:
 
@@ -242,7 +242,7 @@ Headings
 
 \ |IMG14|\ 
 
-The headings construct the structure of the document. If you put the cursor in a paragraph you can set the heading for that paragraph with this panel. You can click on the upper parts (such as Part, Chapter) or use the native heading tools of the Google Docs. The lower parts of this panel shows the relative headings in the Google Docs.
+The headings construct the structure of the document. If you put the cursor in a paragraph you can set the heading for that paragraph with this panel. You can click on the upper parts (like Part, Chapter) or use the native heading tools of the Google Docs. The lower parts of this panel shows the relative headings in the Google Docs.
 
 .. _h48253316368583f7c154246e606b2f:
 
@@ -261,13 +261,13 @@ Misc Utilities
 This is a panel for features that are not been classified to the above categories.
 
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Name                  |Description                                                                                                                                                                                                                                                                 |
+|\ |STYLE5|\           |\ |STYLE6|\                                                                                                                                                                                                                                                                 |
 +======================+============================================================================================================================================================================================================================================================================+
 |Add link to document  |Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
 |                      |                                                                                                                                                                                                                                                                            |
 |                      |\ |IMG16|\                                                                                                                                                                                                                                                                  |
 |                      |                                                                                                                                                                                                                                                                            |
-|                      |Please be noted that                                                                                                                                                                                                                                                        |
+|                      |Please be noted:                                                                                                                                                                                                                                                            |
 |                      |                                                                                                                                                                                                                                                                            |
 |                      |#. only files in the same folder of the current document will be listed.                                                                                                                                                                                                    |
 |                      |#. The Google Docs does not allow relative URL, so the added URL will be a pseudo-URL which starts with “http://cross.document/”, please keep the pseudo header when you are manually editing it. The pseudo-URL will be converted to relative-URL when generating the reST.|
@@ -339,7 +339,7 @@ The “Rest Binding” is for rebinding the file in Github repository with this 
 
 \ |IMG22|\ 
 
-If only the text content has been modified, you can uncheck “Commit images” to exclude images from committing. This would speed up the committing process.
+If only the text content has been modified, you can un-check the “Commit images” to exclude images from committing. This would speed up the committing process.
 
 .. Note:: 
 
@@ -350,7 +350,7 @@ If only the text content has been modified, you can uncheck “Commit images” 
 About the Credentials
 ---------------------
 
-The credentials you given is encrypted and kept in the Google App Script platform. No any cloud server is built by the GGeditor.  You can uncheck “Remeber Github Credentials” checkbox or “Reset Credentials” button to clean up the stored credentials.
+Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor.  You can un-check the “Remeber Github Credentials” checkbox or the “Reset Credentials” button to clean up the stored credentials.
 
 \ |IMG23|\ 
 
@@ -359,13 +359,28 @@ The credentials you given is encrypted and kept in the Google App Script platfor
 
 .. Caution:: 
 
-    The GGeditor will never sent you emails to request reset credentials or anything else.
+    The GGeditor will never sent you email to request reset credentials or anything else.
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
 \ |IMG25|\ 
 
 \ |LINK5|\  
+
+
+.. |STYLE0| replace:: **In Google Docs document**
+
+.. |STYLE1| replace:: **Rendered in HTML page**
+
+.. |STYLE2| replace:: **Header Row**
+
+.. |STYLE3| replace:: **Header Row**
+
+.. |STYLE4| replace:: **Header Row**
+
+.. |STYLE5| replace:: **Name**
+
+.. |STYLE6| replace:: **Description**
 
 
 .. |LINK1| raw:: html
