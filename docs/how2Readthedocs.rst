@@ -4,7 +4,7 @@
 How-to the Readthedocs
 **********************
 
-This is a simple guideline to help GGeditor users to setup a basic project of the \ |LINK1|\ . I have no idea if this is the best practice, it just works for me.
+This is a simple guideline to help GGeditor users to set up a basic project of the \ |LINK1|\ . I have no idea if this is the best practice, it just works for me.
 
 #. You got to create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
 #. You got to insert markups of “toctree” table in the index.rst.
@@ -18,9 +18,9 @@ That’s all. With the above 4 steps, you can go readthedocs.org  and create a p
 Step 1: Binding to the docs/index.rst
 =====================================
 
-You can bind the Google Docs document with the GGeditor by menu item “Add-ons/GGeditor/Commit to Github”. Than select your repository, docs folder and the index.rst file in the dialog.
+You can bind the Google Docs document with the GGeditor by menu item “Add-ons/GGeditor/Commit to Github”. Then select your repository, docs folder and the index.rst file in the dialog.
 
-If the “index.rst” file does not existed in your Github repository, you can navigate to the “docs” folder, then click “New File” and input “index.rst”. The GGeditor will create it.
+If the “index.rst” file does not exist in your Github repository, you can navigate to the “docs” folder, then click “New File” and input “index.rst”. The GGeditor will create it.
 
 \ |IMG1|\ 
 
@@ -56,7 +56,7 @@ The Github allows user to create a new file in the repository page:
 
 \ |IMG6|\ 
 
-Then input the path and filename for your new file (docs/conf.py).
+Then input the path and file name for your new file (docs/conf.py).
 
 \ |IMG7|\ 
 
@@ -125,7 +125,7 @@ Below is the content of the theme_overrides.css for you to copy and paste.
        white-space: inherit;
     }
 
-Because the standard theme set the white-space to be “no-wrap” for table cell. Which is not desirable for the converted table of the GGeditor.
+Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
 You can reference \ |LINK3|\  for example.
 
