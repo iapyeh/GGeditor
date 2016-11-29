@@ -63,6 +63,7 @@ Then input the path and file name for your new file (docs/conf.py).
 Below is the content for you to copy and paste.
 
 .. code:: python
+    :linenos:
 
     # -*- coding: utf-8 -*-
     
