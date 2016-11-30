@@ -11,7 +11,6 @@ GGeditor
 
     Tutorial
     User Guide
-    Examples
     how2Readthedocs
     Limitations
 
