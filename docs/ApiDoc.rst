@@ -140,7 +140,8 @@ Create the apidocsample.rst in the "docs"
 
 Commit the conf.py and the apidocsample.rst, then that's done. You can see the api document at the RTD by this URL:
 
-http://<project-name>.readthedocs.io/en/latest/apidocsample.html
+http://<project-name>.readthedocs.io/en/latest/<rst-filename>.html, in this demo case, it is http://ggeditor.readthedocs.io/en/latest/apidocsample.html
+
 
 .. Hint:: 
 
