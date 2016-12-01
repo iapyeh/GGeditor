@@ -7,6 +7,7 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 sys.path.append(os.path.abspath(os.pardir))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','backend'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','http_prompt'))
 
 __version__ = '1.0'
 
