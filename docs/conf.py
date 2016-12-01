@@ -6,6 +6,7 @@ import sys, os
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 sys.path.append(os.path.abspath(os.pardir))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','backend'))
 
 __version__ = '1.0'
 
