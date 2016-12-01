@@ -14,7 +14,7 @@ GGeditor
     Examples
     how2Readthedocs
     Limitations
-    source/backend
+    api/backend
 
 GGeditor hopes to help you to focus on writing your idea instead of marking them up.
 

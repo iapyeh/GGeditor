@@ -23,13 +23,11 @@ latex_documents = []
 
 def run_apidoc(_):
     from sphinx.apidoc import main
-    import os
-    import sys
     parentFolder = os.path.join(os.path.dirname(__file__), '..')
-    sys.path.append(parentFolder)
     cur_dir = os.path.abspath(os.path.dirname(__file__))
+    sys.path.append(parentFolder)
     module = os.path.join(parentFolder,'backend')
-    output_path = os.path.join(cur_dir, 'source')
+    output_path = os.path.join(cur_dir, 'api')
     main(['-e','-f','-o', output_path, module])
 
 def setup(app):
