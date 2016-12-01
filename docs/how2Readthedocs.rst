@@ -1,17 +1,17 @@
 
-.. _h7f551d34286643173b507b745668a4f:
+.. _h5d65792d7c3a8577b1553f3f4f58:
 
-How-to the Readthedocs
-**********************
+How to the Readthedocs (RTD)
+****************************
 
-This is a simple guideline to help GGeditor users to set up a basic project of the \ |LINK1|\ . I have no idea if this is the best practice, it just works for me.
+This is a simple guideline to help GGeditor users to set up a basic project of the RTD. I have no idea if this is the best practice, it just works for me.
 
 #. You got to create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
 #. You got to insert markups of “toctree” table in the index.rst.
 #. You got to have a conf.py in the “docs” folder.
 #. You got to have a file named “theme_overrides.css” in the “docs/static” folder.
 
-That’s all. With the above 4 steps, you can go readthedocs.org  and create a project for your repository.
+That’s all. With the above 4 steps, you can go the RTD and create a project for your repository.
 
 .. _h467c3456c435f3c292f45222c3d4910:
 
@@ -37,7 +37,7 @@ If even the “docs” folder does not exist yet in your Github repository, you 
 Step 2: insert toctree markup to the index.rst
 ==============================================
 
-The index.rst is the homepage of your project in the readthedocs.org. You can put anything you want. But you should not miss the awesome feature - the sidebar of “table of contents” for your documentation. Just simply do this in the GGeditor markup panel:
+The index.rst is the homepage of your project in the RTD. You can put anything you want. But you should not miss the awesome feature - the sidebar of “table of contents” for your documentation. Just simply do this in the GGeditor markup panel:
 
 #. Insert a “Table of Contents” from the “GGeditor Markup Panel / Markup / Directives”
 
@@ -107,7 +107,7 @@ Below is the content for you to copy and paste.
 
 .. Tip:: 
 
-    To utilize the full power of the Sphinx, you can consult \ |LINK2|\ .
+    To utilize the full power of the Sphinx, you can consult \ |LINK1|\ .
 
 .. _h4a47434f5c5745347cc5f1b4d2d5023:
 
@@ -128,19 +128,15 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
-You can reference \ |LINK3|\  for example.
+You can reference \ |LINK2|\  for example.
 
 
 
 .. |LINK1| raw:: html
 
-    <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
-
-.. |LINK2| raw:: html
-
     <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
 
-.. |LINK3| raw:: html
+.. |LINK2| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the index.rst of the GGeditor</a>
 
