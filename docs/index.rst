@@ -19,7 +19,7 @@ GGeditor
 
 GGeditor hopes to help you to focus on writing your idea instead of marking them up.
 
-\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  got automatically updated.
+\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  (RTD) got automatically updated.
 
 \ |IMG1|\ 
 
@@ -41,8 +41,8 @@ Features
 #. Support full-width characters (CKJ) in headings and table.
 #. Support internal links to bookmarks, headings and Google Docs native table of contents (in document table of contents).
 #. Support relative links to other generated reST files of the Google Docs under the same folder and subfolders.
-#. Support cross-document table of content (.. toctree::) for the readthedocs.org.
-#. Support all style of admonitions of the readthedocs.org.
+#. Support cross-document table of content (.. toctree::) for the RTD.
+#. Support all style of admonitions of the RTD.
 
 .. _h131f586a50795a4822677d4166231766:
 
@@ -68,7 +68,7 @@ Please refer to this article \ |LINK4|\
 For  reStructuredText Beginners
 *******************************
 
-If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the readthedocs.org website. I wrote a quick guide to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
+If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the RTD website. I wrote a quick guide to help your task to be quickly completed with the GGeditor. I was struggling on the reST for 2 months . Now with the GGeditor and this tutorial, you might get it done in several hours, I hope.
 
 \ |LINK5|\ 
 
@@ -96,7 +96,7 @@ Acknowledgments
 
 .. |LINK2| raw:: html
 
-    <a href="https://readthedocs.org/" target="_blank">Read The Docs</a>
+    <a href="https://readthedocs.org/" target="_blank">Readthedocs.org</a>
 
 .. |LINK3| raw:: html
 
