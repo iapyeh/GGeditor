@@ -4,7 +4,9 @@
 How to the Readthedocs (RTD)
 ****************************
 
-This is a simple guideline to help GGeditor users to set up a basic project of the RTD. I have no idea if this is the best practice, it just works for me.
+The \ |LINK1|\  is an awesom place to host your documentation of projects in the Github as well as other repositories.
+
+This is a simple guideline to help the GGeditor users to set up a basic project of the RTD. I have no idea if this is the best practice, it just works for me.
 
 #. You got to create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
 #. You got to insert markups of “toctree” table in the index.rst.
@@ -12,6 +14,8 @@ This is a simple guideline to help GGeditor users to set up a basic project of t
 #. You got to have a file named “theme_overrides.css” in the “docs/static” folder.
 
 That’s all. With the above 4 steps, you can go the RTD and create a project for your repository.
+
+Below, I will show you how to do these steps with the GGeditor.
 
 .. _h467c3456c435f3c292f45222c3d4910:
 
@@ -107,7 +111,7 @@ Below is the content for you to copy and paste.
 
 .. Tip:: 
 
-    To utilize the full power of the Sphinx, you can consult \ |LINK1|\ .
+    To utilize the full power of the Sphinx, you can consult \ |LINK2|\ .
 
 .. _h4a47434f5c5745347cc5f1b4d2d5023:
 
@@ -128,15 +132,19 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
-You can reference \ |LINK2|\  for example.
+You can reference \ |LINK3|\  for example.
 
 
 
 .. |LINK1| raw:: html
 
-    <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
+    <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
 
 .. |LINK2| raw:: html
+
+    <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
+
+.. |LINK3| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the index.rst of the GGeditor</a>
 
