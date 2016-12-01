@@ -70,7 +70,8 @@ def run_apidoc(_):
     cur_dir = os.path.abspath(os.path.dirname(__file__))
     module = os.path.join(parentFolder,'backend')
     output_path = os.path.join(cur_dir, 'source')
-    main(['-e', '-o', output_path, module, '--force'])
+    #main(['-e', '-o', output_path, module, '--force'])
+    main(['-o', output_path, module, '--force'])
 
 def setup(app):
     # overrides for wide tables in RTD theme
