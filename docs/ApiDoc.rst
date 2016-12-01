@@ -4,37 +4,106 @@
 How to Create API Docs
 **********************
 
-.. _h7e6c19301b527f27134346047387722:
+.. _h4c525118060635e4b6959584f2f3435:
 
-Manually
-========
+Create API document for a python module
+=======================================
 
-.. _h745e1e562295d71429135181e4a5c:
+.. _h547a1e3306f3d91f375c20216815:
 
-1. Write Inline Document
-------------------------
+Scenario
+--------
 
-\ |LINK1|\ 
+We have a python module "backend". And suppose that scripts in the backend follows the \ |LINK1|\ .
 
-.. _h1d755b425f387a13327793f2f664e:
+.. _h7a2e78741a2351e456f44714e35538:
 
-2. Create API Docs for a Python script
---------------------------------------
-
-Support we are going to create the document for script "backend/apidocsample.py"
-
-.. _h973462d7b46a1e2d193f3a23774ab:
-
-Modify conf.py
-~~~~~~~~~~~~~~
+1.  Modify the conf.py
+~~~~~~~~~~~~~~~~~~~~~~
 
 in the "docs/conf.py"\ [#F1]_\ , 
 
 #. append a line to insert the backend to sys.path
 #. ensure the autodoc and napoleon are in the extensions
+#. add a subroutine named run_apidoc
+#. add a callback to builder-inited by app.connect
 
 
-.. code:: python
+.. code-block:: python
+    :linenos:
+
+    import sys, os
+    
+    # append the next line to conf.py
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','backend'))
+    
+    # ensure the autodoc and napoleon are in the extensions
+    extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon']
+    
+    def run_apidoc(_):
+        from sphinx.apidoc import main
+        parentFolder = os.path.join(os.path.dirname(__file__), '..')
+        cur_dir = os.path.abspath(os.path.dirname(__file__))
+        sys.path.append(parentFolder)
+        # change "backend" to your module name
+        module = os.path.join(parentFolder,'backend')
+        output_path = os.path.join(cur_dir, 'api')
+        main(['-e','-f','-o', output_path, module])
+    
+    def setup(app):
+        # overrides for wide tables in RTD theme
+        app.add_stylesheet('theme_overrides.css')   # path relative to _static
+        # trigger the run_apidoc
+        app.connect('builder-inited', run_apidoc)
+    
+
+.. _h1a1a795c227a5a253f613e8433d361:
+
+2. Modify the index.rst
+~~~~~~~~~~~~~~~~~~~~~~~
+
+This step is optional. Suppose we hope the generated api document can be accessed from the menu on the left side, we have to modify the toctree table in the index.rst. Like this:
+
+\ |IMG1|\ 
+
+3. Done
+
+Commit the conf.py and the index.rst, then that's done. You can see the api document at readthedocs.org by this URL:
+
+http://<project-name>.readthedocs.io/en/latest/api/<module-name>.html, in this demo case, this is 
+
+http://ggeditor.readthedocs.io/en/latest/api/backend.html
+
+.. _h7673574b773f1b7a512a1d6957245829:
+
+Create API document for a python script
+=======================================
+
+.. _h547a1e3306f3d91f375c20216815:
+
+Scenario
+--------
+
+We have a python script "backend/apidocsample.py". And suppose that this script follows the \ |LINK2|\ .
+
+.. _h4a147a424a522934355c4c74751f2a2:
+
+Process
+-------
+
+.. _h7a2e78741a2351e456f44714e35538:
+
+1.  Modify the conf.py
+~~~~~~~~~~~~~~~~~~~~~~
+
+in the "docs/conf.py"\ [#F2]_\ , 
+
+#. append a line to insert the backend to sys.path
+#. ensure the autodoc and napoleon are in the extensions
+
+
+.. code-block:: python
+    :linenos:
 
     import sys, os
     
@@ -44,12 +113,12 @@ in the "docs/conf.py"\ [#F1]_\ ,
     # ensure the autodoc and napoleon are in the extensions
     extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon']
 
-.. _h4d2033204b2247687d5f365f20731441:
+.. _hb4a132b7e60292339252f1532303836:
 
-Create apidocsample.rst
-~~~~~~~~~~~~~~~~~~~~~~~
+2. Create the apidocsample.rst
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create the  apidocsample.rst in the "docs"
+Create the apidocsample.rst in the "docs"
 
 .. code:: 
 
@@ -64,14 +133,26 @@ Create the  apidocsample.rst in the "docs"
 .. _h732845536db30978122116f26674:
 
 3. Done
--------
+~~~~~~~
 
-That's all. Then you can see the api document at readthedocs.org by this URL:
+Commit the conf.py and the apidocsample.rst, then that's done. You can see the api document at readthedocs.org by this URL:
 
 http://<project-name>.readthedocs.io/en/latest/apidocsample.html
 
+.. Hint:: 
+
+    The key ideas are:
+    
+    #. The python script (apidocsample.py) should be able to import by the sphinx builder, so sys.path should be updated in the conf.py.
+    #. apidocsample.rst in the docs folder is a placeholder-like file which triggers the sphinx builder to lookup apidocsample.py and collects markups from it.
+
+
 
 .. |LINK1| raw:: html
+
+    <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">Google Python Style Guide</a>
+
+.. |LINK2| raw:: html
 
     <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">Google Python Style Guide</a>
 
@@ -80,3 +161,8 @@ http://<project-name>.readthedocs.io/en/latest/apidocsample.html
 .. rubric:: Footnotes
 
 .. [#f1]  More on http://www.sphinx-doc.org/en/1.4.8/config.html#build-config
+.. [#f2]  More on http://www.sphinx-doc.org/en/1.4.8/config.html#build-config
+
+.. |IMG1| image:: static/ApiDoc_1.png
+   :height: 274 px
+   :width: 240 px
