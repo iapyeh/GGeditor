@@ -71,7 +71,7 @@ This step is optional. Suppose we hope the generated api document can be accesse
 3. Done
 ~~~~~~~
 
-Commit the conf.py and the index.rst, then that's done. You can see the api document at readthedocs.org by this URL:
+Commit the conf.py and the index.rst, then that's done. You can see the api document at the readthedocs.org (RTD)  by this URL:
 
 http://<project-name>.readthedocs.io/en/latest/api/<module-name>.html, in this demo case, this is 
 
@@ -138,7 +138,7 @@ Create the apidocsample.rst in the "docs"
 3. Done
 ~~~~~~~
 
-Commit the conf.py and the apidocsample.rst, then that's done. You can see the api document at readthedocs.org by this URL:
+Commit the conf.py and the apidocsample.rst, then that's done. You can see the api document at the RTD by this URL:
 
 http://<project-name>.readthedocs.io/en/latest/apidocsample.html
 
