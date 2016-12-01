@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-from __future__ import unicode_literals
 import sys, os
 
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
