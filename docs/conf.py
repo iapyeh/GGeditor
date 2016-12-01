@@ -11,7 +11,7 @@ __version__ = '1.0'
 
 # -- General configuration -----------------------------------------------------
 #templates_path = ['_templates']
-#extensions = ['sphinx.ext.autodoc', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon']# 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks']
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'GGEditor'
