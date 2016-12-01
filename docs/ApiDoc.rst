@@ -23,10 +23,10 @@ We have a python module "backend". And suppose that scripts in the backend follo
 
 in the "docs/conf.py"\ [#F1]_\ , 
 
-#. append a line to insert the backend to sys.path
-#. ensure the autodoc and napoleon are in the extensions
-#. add a subroutine named run_apidoc
-#. add a callback to builder-inited by app.connect
+#. append a line to insert the backend to sys.path (Line #4)
+#. ensure the autodoc and napoleon are in the extensions (Line #7)
+#. add a subroutine named run_apidoc (Line #9-17)
+#. add a callback to builder-inited by app.connect (Line #23)
 
 
 .. code-block:: python
@@ -34,7 +34,7 @@ in the "docs/conf.py"\ [#F1]_\ ,
 
     import sys, os
     
-    # append the next line to conf.py
+    # append the next line to conf.py, should change "backend" to your module name
     sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','backend'))
     
     # ensure the autodoc and napoleon are in the extensions
@@ -52,7 +52,7 @@ in the "docs/conf.py"\ [#F1]_\ ,
     
     def setup(app):
         # overrides for wide tables in RTD theme
-        app.add_stylesheet('theme_overrides.css')   # path relative to _static
+        app.add_stylesheet('theme_overrides.css')
         # trigger the run_apidoc
         app.connect('builder-inited', run_apidoc)
     
@@ -66,7 +66,10 @@ This step is optional. Suppose we hope the generated api document can be accesse
 
 \ |IMG1|\ 
 
+.. _h732845536db30978122116f26674:
+
 3. Done
+~~~~~~~
 
 Commit the conf.py and the index.rst, then that's done. You can see the api document at readthedocs.org by this URL:
 
@@ -96,10 +99,10 @@ Process
 1.  Modify the conf.py
 ~~~~~~~~~~~~~~~~~~~~~~
 
-in the "docs/conf.py"\ [#F2]_\ , 
+in the "docs/conf.py", 
 
-#. append a line to insert the backend to sys.path
-#. ensure the autodoc and napoleon are in the extensions
+#. append a line to insert the backend to sys.path (Line #4)
+#. ensure the autodoc and napoleon are in the extensions (Line #7)
 
 
 .. code-block:: python
@@ -161,7 +164,6 @@ http://<project-name>.readthedocs.io/en/latest/apidocsample.html
 .. rubric:: Footnotes
 
 .. [#f1]  More on http://www.sphinx-doc.org/en/1.4.8/config.html#build-config
-.. [#f2]  More on http://www.sphinx-doc.org/en/1.4.8/config.html#build-config
 
 .. |IMG1| image:: static/ApiDoc_1.png
    :height: 274 px
