@@ -4,7 +4,6 @@ on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 sys.path.append(os.path.abspath(os.pardir))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','backend'))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__),'..','http_prompt'))
 
 __version__ = '1.0'
 
@@ -68,7 +67,7 @@ def run_apidoc(_):
     import sys
     sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
     cur_dir = os.path.abspath(os.path.dirname(__file__))
-    module = '.'
+    module = 'backend'
     output_path = os.path.join(cur_dir, 'source')
     main(['-e', '-o', output_path, module, '--force'])
 
