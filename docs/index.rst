@@ -2,7 +2,7 @@
 .. _h28105e656d4d48041184d771d3b4a1a:
 
 GGeditor
-########
+********
 
 
 .. toctree:: 
@@ -30,7 +30,7 @@ GGeditor hopes to help you to focus on writing your idea instead of marking them
 .. _h6897050511836763421463e2b4b685:
 
 Features
-********
+========
 
 #. Easy starting for reST beginners, even no idea about reST markups.
 #. Powered by the Google Docs. Almost what you see is what you get. As well as the coordination of team works.
@@ -47,7 +47,7 @@ Features
 .. _h131f586a50795a4822677d4166231766:
 
 How to install
-**************
+==============
 
 \ |LINK3|\ , or in a Google Docs Document:
 
@@ -59,14 +59,14 @@ How to install
 .. _h177537546887b67276822514c66016:
 
 How to Use
-**********
+==========
 
 Please refer to this article \ |LINK4|\ 
 
 .. _h84e3b4616757118376d336e2e5d5d23:
 
 For reStructuredText Beginners
-******************************
+==============================
 
 If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the RTD website. I wrote two quick guides to help your task to be quickly completed with the GGeditor. 
 
@@ -83,7 +83,7 @@ I was struggling on writing reStructuredText for a long time . Now, with the GGe
 .. _h7c12a2e595c631221f363d4e55c21:
 
 Acknowledgments
-***************
+===============
 
 * Andrey Rublev as well as \ |LINK7|\  of the \ |LINK8|\ , it is a great tool for beginner to learn the reST markups.
 * Bitwiseshiftleft as well as \ |LINK9|\  of the \ |LINK10|\  projects. The sjcl.js is used for credentials encryption.
@@ -92,7 +92,19 @@ Acknowledgments
 * \ |LINK14|\  as well as \ |LINK15|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
 * \ |LINK16|\  (RTD), it provides a great service, which encourage me to create the GGeditor.
 
-\ |LINK17|\ 
+.. _h4a6049483e752949322f585c69102a2a:
+
+Appreciation for You
+====================
+
+It would really help us if you had a second to
+
+* \ |LINK17|\ 
+* Or \ |LINK18|\ 
+
+that helps us keep momentun on GGeditor.
+
+\ |LINK19|\ 
 
 
 .. |STYLE0| replace:: **GGeditor**
@@ -163,6 +175,14 @@ Acknowledgments
     <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
 
 .. |LINK17| raw:: html
+
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Leave a Google Docs store rating</a>
+
+.. |LINK18| raw:: html
+
+    <a href="https://github.com/iapyeh/GGeditor" target="_blank">star GGeditor on Github</a>
+
+.. |LINK19| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">Source document in the Google Docs</a>
 
