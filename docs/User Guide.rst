@@ -96,7 +96,7 @@ Images and charts in the Google Docs document are able to be converted to the ge
 #. All the images in the document will be stored in the “static” folder in PNG format. 
 #. The image name is the document name + underscore + sequence number + ‘.png’
 
-All images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be constant.
+Images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be constant.
 
 .. Warning:: 
 
@@ -133,7 +133,7 @@ Admonitions
 
     Here is the content of this attention
 
-The GGeditor try to set the look-and-feel of admonitions to be as close as possible to what they are in the readthedocs.org. There are 4 kinds of layout for 10 types of admonitions. Please click on the admonition name to insert them into your document.
+The GGeditor try to set the look-and-feel of admonitions to be as close as possible to what they are in the readthedocs.org (RTD). There are 4 kinds of layout for 10 types of admonitions. Please click on the admonition name to insert them into your document.
 
 .. _h5a3b1c203613551578563c31657026b:
 
@@ -219,16 +219,23 @@ It is rendered like this:
     
     os.system('git clean -fd')
 
+.. _h19332e5f3041595843151e66556b374:
+
+Code with line number
+~~~~~~~~~~~~~~~~~~~~~
+
+This will insert a "code-block" directive. This feature is almost the same as the "code" but it accepts an option ":linenos". So the line number will also be rendered. Because the "code-block" should have a argument by the specification, a placeholder "python" has been appended. This argument can be replaced but not been removed.
+
 .. _ha1d6c3e373325355168491f521a78b:
 
 Table of Contents
 ~~~~~~~~~~~~~~~~~
 
-In the panel, the Table of Contents will insert \ |LINK3|\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
+The Table of Contents will insert \ |LINK3|\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
 
 #. All the documents with suffix .rst in the same folder of this document. Even the document is not binding to a file in the Github.
 #. If a document is binding to a file in the Github, the filename will be used. Even the source document is not with suffix “.rst”.
-#. The current document is excluded. This is for preventing from falling into an infinite loop while the readthedocs parsing this table. You should add it back manually if that makes sense for you.
+#. The current document is excluded. This is for preventing from falling into an infinite loop while the RTD parsing this table. You should add it back manually if that makes sense for you.
 
  Here is an example of what it looks like:
 
@@ -254,46 +261,35 @@ Text Style
 
 By putting the cursor in a paragraph you can change the text style of that paragraph. The `Paragraph Content` is for normal text, `Directive Content` is for code style (monospace). These two are usually used when you paste stuffs from other browser pages into your document.
 
-.. _hf552270633f3791039513f635f55:
+.. _h6a6d21367d4a577c6e29134f4b4566:
 
-Misc Utilities
-~~~~~~~~~~~~~~
+Upgrade all headings
+~~~~~~~~~~~~~~~~~~~~
 
-This is a panel for features that are not been classified to the above categories.
+All the paragraphs with headings will increase one level of heading. That is, Heading 2 becomes Heading 1, and Heading 1 becomes Title. Heading 6 becomes Heading 5. Title keeps Title. 
 
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ |STYLE5|\           |\ |STYLE6|\                                                                                                                                                                                                                                                                 |
-+======================+============================================================================================================================================================================================================================================================================+
-|Add link to document  |Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:                                                                                                              |
-|                      |                                                                                                                                                                                                                                                                            |
-|                      |\ |IMG16|\                                                                                                                                                                                                                                                                  |
-|                      |                                                                                                                                                                                                                                                                            |
-|                      |Please be noted:                                                                                                                                                                                                                                                            |
-|                      |                                                                                                                                                                                                                                                                            |
-|                      |#. only files in the same folder of the current document will be listed.                                                                                                                                                                                                    |
-|                      |#. The Google Docs does not allow relative URL, so the added URL will be a pseudo-URL which starts with “http://cross.document/”, please keep the pseudo header when you are manually editing it. The pseudo-URL will be converted to relative-URL when generating the reST.|
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Upgrade all headings  |All the paragraphs with headings will increase one level of heading. That is, Heading 2 becomes Heading 1, and Heading 1 becomes Title. Heading 6 becomes Heading 5. Title keeps Title.                                                                                     |
-|                      |                                                                                                                                                                                                                                                                            |
-|                      |This is useful when you dealing with depth level about what will be listed on the sidebar of the readthedocs project.                                                                                                                                                       |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|Downgrade all headings|All the paragraphs with headings will decrease one level of heading. That is, Heading 1 becomes Heading 2, and Title becomes Heading 1.  Heading 5 becomes Heading 6. Heading 6 keeps Heading 6.                                                                            |
-+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+This is useful when you dealing with depth level about what will be listed on the sidebar of your project site in the RTD.
 
-.. _h6978575a60223f496c263254a447d32:
+.. _h718131c7b26674c67184b5c254e2418:
 
-Conversion Tab
---------------
+Downgrade all headings
+~~~~~~~~~~~~~~~~~~~~~~
 
-The Conversion tab has two buttons. 
+All the paragraphs with headings will decrease one level of heading. That is, Heading 1 becomes Heading 2, and Title becomes Heading 1.  Heading 5 becomes Heading 6. Heading 6 keeps Heading 6.
 
-\ |IMG17|\ 
+.. _h2b1187163654202538b4a3d40663:
 
-The “Generate reST” will trigger the generating process and show the result in the area below that button.
+Add link to another document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-\ |IMG18|\ 
+Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:
 
-The “Download” button let you download the generated reStructuredText file and images in a zip file into your local PC.
+\ |IMG16|\ 
+
+Please be noted:
+
+#. only files in the same folder of the current document will be listed.
+#. The Google Docs does not allow relative URL, so the added URL will be a pseudo-URL which starts with “http://cross.document/”, please keep the pseudo header when you are manually editing it. The pseudo-URL will be converted to relative-URL when generating the reST.
 
 .. _h76464c5c585d192b16121e3267e131:
 
@@ -307,7 +303,7 @@ Binding the document to a file in repository
 
 You can provide your account credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG19|\ 
+\ |IMG17|\ 
 
 If you want to commit to a new file. Please
 
@@ -330,15 +326,15 @@ If you want to commit to a new file. Please
 Committing
 ----------
 
-\ |IMG20|\ 
+\ |IMG18|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
-\ |IMG21|\ 
+\ |IMG19|\ 
 
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
-\ |IMG22|\ 
+\ |IMG20|\ 
 
 If only the text content has been modified, you can un-check the “Commit images” to exclude images from committing. This would speed up the committing process.
 
@@ -351,11 +347,11 @@ If only the text content has been modified, you can un-check the “Commit image
 About the Credentials
 ---------------------
 
-Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor.  You can un-check the “Remeber Github Credentials” checkbox or the “Reset Credentials” button to clean up the stored credentials.
+Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor.  You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
 
-\ |IMG23|\ 
+\ |IMG21|\ 
 
-\ |IMG24|\ 
+\ |IMG22|\ 
 
 
 .. Caution:: 
@@ -364,9 +360,65 @@ Given credentials is encrypted and kept in the Google App Script platform. None 
 
 You can give the credentials every time doing the committing. Like the following image shows.
 
-\ |IMG25|\ 
+\ |IMG23|\ 
 
-\ |LINK5|\  
+.. _h3b4f503332637854223493a2d2f21b:
+
+Conversion
+==========
+
+\ |IMG24|\ 
+
+When you open the conversion dialog, the conversion process will be starting. When the conversion has completed, you can copy the generated reStructuredText content to clipboard by "Copy to Clipboard" button, or download the generated reStructuredText content as well as images by the "Download" button.
+
+.. _h7271646e36a33751612c195c3e53e:
+
+Conversion Rules
+----------------
+
+What been converted depends on selection and the cursor position, rules are:
+
+#. If there are selections, the top elements of every selected one are converted. Which means if a paragraph is partially selected, whole the paragraph is converted.
+#. If there is no selection and the cursor is in a table, that table is converted
+#. Otherwise, the whole document is converted
+
+The conversion message on the right side are indications, for
+
++-----------+---------------------------------------------------------------------------------------------------------------+
+|\ |IMG25|\ |Menas the whole document is converted to the reStructuredText format                                           |
++-----------+---------------------------------------------------------------------------------------------------------------+
+|\ |IMG26|\ |Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)|
++-----------+---------------------------------------------------------------------------------------------------------------+
+|\ |IMG27|\ |Means only the selection was converted to the reStructuredText format.  (partial conversion)                   |
++-----------+---------------------------------------------------------------------------------------------------------------+
+
+.. _h5782051373e754c6735481f7d792d67:
+
+Why Partial Conversion
+----------------------
+
+The idea for partial conversion is mainly for creating comments in a source code. In your source code scripts, you can write the comments for functions, classes, modules, packages in reStructuredText format. The RTD will generate API documents from your souce code. This "\ |LINK5|\ " has more.
+
+.. _h6f1f457d4147275ff141e245c44e79:
+
+Dowload
+-------
+
+What been converted depends on selection and the cursor position, rules are:
+
+#. When partially converted, a selection.zip will be created with the partial reStructuredText and images (if any).
+#. If whole document is converted, a <document-name>.zip will be created with all generated reStructuredText and images (if any).
+
+.. _hb512c40675e711967718345c60723c:
+
+Generate Document
+-----------------
+
+\ |IMG28|\ 
+
+When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
+
+\ |LINK6|\  
 
 
 .. |STYLE0| replace:: **In Google Docs document**
@@ -378,10 +430,6 @@ You can give the credentials every time doing the committing. Like the following
 .. |STYLE3| replace:: **Header Row**
 
 .. |STYLE4| replace:: **Header Row**
-
-.. |STYLE5| replace:: **Name**
-
-.. |STYLE6| replace:: **Description**
 
 
 .. |LINK1| raw:: html
@@ -401,6 +449,10 @@ You can give the credentials every time doing the committing. Like the following
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the source document of the index.rst</a>
 
 .. |LINK5| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">How to Create API Docs</a>
+
+.. |LINK6| raw:: html
 
     <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Here is the source document of this page</a>
 
@@ -470,37 +522,49 @@ You can give the credentials every time doing the committing. Like the following
    :width: 246 px
 
 .. |IMG17| image:: static/User_Guide_17.png
-   :height: 36 px
-   :width: 108 px
-
-.. |IMG18| image:: static/User_Guide_18.png
-   :height: 38 px
-   :width: 81 px
-
-.. |IMG19| image:: static/User_Guide_19.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG20| image:: static/User_Guide_20.png
+.. |IMG18| image:: static/User_Guide_18.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG21| image:: static/User_Guide_21.png
+.. |IMG19| image:: static/User_Guide_19.png
    :height: 40 px
    :width: 105 px
 
-.. |IMG22| image:: static/User_Guide_22.png
+.. |IMG20| image:: static/User_Guide_20.png
    :height: 52 px
    :width: 152 px
 
-.. |IMG23| image:: static/User_Guide_23.png
+.. |IMG21| image:: static/User_Guide_21.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG24| image:: static/User_Guide_24.png
+.. |IMG22| image:: static/User_Guide_22.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG25| image:: static/User_Guide_25.png
+.. |IMG23| image:: static/User_Guide_23.png
    :height: 404 px
    :width: 688 px
+
+.. |IMG24| image:: static/User_Guide_24.png
+   :height: 161 px
+   :width: 726 px
+
+.. |IMG25| image:: static/User_Guide_25.png
+   :height: 42 px
+   :width: 174 px
+
+.. |IMG26| image:: static/User_Guide_26.png
+   :height: 42 px
+   :width: 168 px
+
+.. |IMG27| image:: static/User_Guide_27.png
+   :height: 36 px
+   :width: 186 px
+
+.. |IMG28| image:: static/User_Guide_28.png
+   :height: 40 px
+   :width: 148 px
