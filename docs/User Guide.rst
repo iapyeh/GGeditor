@@ -342,6 +342,13 @@ If only the text content has been modified, you can un-check the “Commit image
 
     The GGeditor will maintain image files it uploaded to the Github repository while committing. If you modified any image, no matter adding, replacement or deletion, you should check “Commit images”.
 
+
+.. Attention:: 
+
+    If you have a fat document like this one "How to User", which has lots of images to upload, you might experience broken images in its coresponding html page in your RTD web site. It is because the RTD re-generating the html when uploading is still on going. In that case, you have to wait longer for the RTD to release its lock of building or enforce the RTD to build again from your administration page.
+    
+    By the way, if you see an obsoleted image the reason might be that the RTD set cache time longer. In that case, you can clear the browser cache or check the Github repository for figuring what happened.
+
 .. _hb3e386c1329112c3f734c345c3396b:
 
 About the Credentials
@@ -382,15 +389,19 @@ What been converted depends on selection and the cursor position, rules are:
 #. If there is no selection and the cursor is in a table, that table is converted
 #. Otherwise, the whole document is converted
 
-The conversion message on the right side are indications, for
+The conversion message on the right side are indications. Thre are three kinds of message:
 
-+-----------+---------------------------------------------------------------------------------------------------------------+
-|\ |IMG25|\ |Menas the whole document is converted to the reStructuredText format                                           |
-+-----------+---------------------------------------------------------------------------------------------------------------+
-|\ |IMG26|\ |Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)|
-+-----------+---------------------------------------------------------------------------------------------------------------+
-|\ |IMG27|\ |Means only the selection was converted to the reStructuredText format.  (partial conversion)                   |
-+-----------+---------------------------------------------------------------------------------------------------------------+
+\ |IMG25|\ 
+
+Menas the whole document is converted to the reStructuredText format.
+
+\ |IMG26|\ 
+
+Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
+
+\ |IMG27|\ 
+
+Means only the selection was converted to the reStructuredText format.  (partial conversion)
 
 .. _h5782051373e754c6735481f7d792d67:
 
