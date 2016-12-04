@@ -408,7 +408,7 @@ Means only the selection was converted to the reStructuredText format.  (partial
 Why Partial Conversion
 ----------------------
 
-The idea for partial conversion is mainly for creating comments in a source code. In your source code scripts, you can write the comments for functions, classes, modules, packages in reStructuredText format. The RTD will generate API documents from your souce code. This "\ |LINK5|\ " has more.
+The idea for partial conversion is mainly for creating comments in a source code. In your source code scripts, you can have comments for functions, classes, modules, packages in reStructuredText format. The RTD can automatically generate API documents from souce codes. This "\ |LINK5|\ " has more.
 
 .. _h6f1f457d4147275ff141e245c44e79:
 
