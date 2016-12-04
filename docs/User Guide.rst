@@ -19,6 +19,7 @@ You can use the following list native features of the Google Docs to build your 
 * Footnote, hyperlink and bookmark
 * Table of contents (links to bookmarks and headings)
 * Special characters and CKJ full-width characters
+* Horizontal line
 
 .. Note:: 
 
