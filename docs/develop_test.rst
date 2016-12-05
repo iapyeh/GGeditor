@@ -8,24 +8,36 @@ GGEditor Development
 * \ |LINK2|\  to the GGeditor’s repository in the Github
 * \ |LINK3|\  to the ``User Guide``
 
+.. _h753b28271020522c1ef40bf593a32:
 
-+------------+--------------------------------------+
-|\ |STYLE0|\ |\ |STYLE1|\                           |
-+============+======================================+
-|No prefix   |                                      |
-+------------+--------------------------------------+
-|#           |Pyth\*on                              |
-+------------+--------------------------------------+
-|\*          |Javascript, C++, \*\* Java \*\*, … etc|
-+------------+--------------------------------------+
-|//          |Javascript, C++, Java, ... etc        |
-+------------+--------------------------------------+
-|Ask         |whatever you say                      |
-+------------+--------------------------------------+
+Add-ons Menu item of GGeditor
+=============================
+
+.. _h761ab401543201137a78553757464:
+
+\ |IMG1|\ 
+==========
+
+You can access the following features from the add-on menu item of GGeditor.
+
+
++---------+--------------------------------------+
+|Options  |Note                                  |
++=========+======================================+
+|No prefix|                                      |
++---------+--------------------------------------+
+|#        |Pyth\*on                              |
++---------+--------------------------------------+
+|\*       |Javascript, C++, \*\* Java \*\*, … etc|
++---------+--------------------------------------+
+|//       |Javascript, C++, Java, ... etc        |
++---------+--------------------------------------+
+|Ask      |whatever you say                      |
++---------+--------------------------------------+
 
 
 +---------------------------+-----------------------+
-|\ |STYLE2|\                |\ |STYLE3|\            |
+|In Google Docs document    |Rendered in HTML page  |
 +===========================+=======================+
 |A \`single back-quote\`    |A `single back-quote`  |
 +---------------------------+-----------------------+
@@ -75,8 +87,8 @@ para1
 * \ |LINK4|\  to the GGeditor’s documentation in the readthedocs.org
 * \ |LINK5|\  to the GGeditor’s repository in the Github
 * \ |LINK6|\  to the User Guide
-* \ |IMG1|\ 
 * \ |IMG2|\ 
+* \ |IMG3|\ 
 
 +-+-+-+
 |a|b|c|
@@ -84,7 +96,7 @@ para1
 |f|d|d|
 +-+-+-+
 
-\ |IMG3|\ 
+\ |IMG4|\ 
 
 
 .. code-block:: python
@@ -96,16 +108,7 @@ para1
     |HELLO    |WORLD    |
     +---------+---------+
 
-\ |IMG4|\ 
-
-
-.. |STYLE0| replace:: **Options**
-
-.. |STYLE1| replace:: **Note**
-
-.. |STYLE2| replace:: **In Google Docs document**
-
-.. |STYLE3| replace:: **Rendered in HTML page**
+\ |IMG5|\ 
 
 
 .. |LINK1| raw:: html
@@ -134,18 +137,22 @@ para1
 
 
 .. |IMG1| image:: static/develop_test_1.png
+   :height: 170 px
+   :width: 524 px
+
+.. |IMG2| image:: static/develop_test_2.png
    :height: 125 px
    :width: 264 px
    :target: http://www.google.com
 
-.. |IMG2| image:: static/develop_test_1.png
+.. |IMG3| image:: static/develop_test_2.png
    :height: 36 px
    :width: 77 px
 
-.. |IMG3| image:: static/develop_test_2.png
+.. |IMG4| image:: static/develop_test_3.png
    :height: 285 px
    :width: 369 px
 
-.. |IMG4| image:: static/develop_test_2.png
+.. |IMG5| image:: static/develop_test_3.png
    :height: 196 px
    :width: 254 px
