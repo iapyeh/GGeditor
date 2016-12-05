@@ -33,19 +33,17 @@ Inline Markups
 Some inline reStructuredText markups can be used directly in the document. The table demonstrates the usage example of these inline markups.
 
 
-+-------------------------------+--------------------------+
-|\ |STYLE0|\                    |\ |STYLE1|\               |
-+===============================+==========================+
-|A \`single back-quote\`        |A `single back-quote`     |
-+-------------------------------+--------------------------+
-|A \`\`double back-quote\`\`    |A ``double back-quote``   |
-+-------------------------------+--------------------------+
-|A \|replacement\| markup       |A |replacement| markup    |
-+-------------------------------+--------------------------+
-|Text with \\*\\*emphasis\\*\\* |Text with \*\*emphasis\*\*|
-+-------------------------------+--------------------------+
++---------------------------+-----------------------+
+|\ |STYLE0|\                |\ |STYLE1|\            |
++===========================+=======================+
+|A \`single back-quote\`    |A `single back-quote`  |
++---------------------------+-----------------------+
+|A \`\`double back-quote\`\`|A ``double back-quote``|
++---------------------------+-----------------------+
+|A \|replacement\| markup   |A |replacement| markup |
++---------------------------+-----------------------+
 
-.. |replacement| replace::   \*\*replaced\*\*
+.. |replacement| replace::   **replaced**
 
 
 .. Hint:: 
@@ -107,7 +105,7 @@ Images will be re-generated if “Commit images” was checked. That is, the map
 
 .. Note:: 
 
-    Currently, it seems the sphinx parser has problem on parsing :align: of an image markup, image horizontal alignment is not supported yet. 
+    Currently, it seems the sphinx parser has problem on parsing :align: of an image markup, so image horizontal alignment is not supported yet. 
 
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
@@ -419,7 +417,7 @@ This button will copy the generated reStructureText to system clipboard (pastebo
 +------------+------------------------------+
 |#           |Python                        |
 +------------+------------------------------+
-|\\*         |Javascript, C++, Java, … etc  |
+|\*          |Javascript, C++, Java, … etc  |
 +------------+------------------------------+
 |//          |Javascript, C++, Java, ... etc|
 +------------+------------------------------+
