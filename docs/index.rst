@@ -92,6 +92,19 @@ Acknowledgments
 * \ |LINK14|\  as well as \ |LINK15|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
 * \ |LINK16|\  (RTD), it provides a great service, which encourage me to create the GGeditor.
 
+.. _h15145c6c7955717d53774846404a3864:
+
+Release Note
+============
+
+
+.. admonition:: Dec 6, 2016
+
+    #. Support partial conversion for selectd elements and table. (new feature)
+    #. Same image used multiple times is now only one copy been uploaded. (new feature)
+    #. Conversion features has an individual dialog. (improvment)
+    #. Downloaded zip file now got file name from binding file. (bug fix)
+
 .. _h4a6049483e752949322f585c69102a2a:
 
 Appreciation for You
