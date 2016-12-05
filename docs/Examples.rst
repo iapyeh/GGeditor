@@ -245,7 +245,7 @@ Custom Admonition
 
 .. admonition:: My Admonition
 
-    this is \ |STYLE62|\ in the first row
+    this is \ |STYLE62|\ and\ |STYLE63|\ in the first row
 
     this is a \ |LINK91|\  in the second row
 
@@ -272,9 +272,9 @@ List Item with Text Styles
 
 * item 1
 
-    #. item 1.\ |STYLE63|\ with superscript
-    #. \ |STYLE64|\  1.\ |STYLE65|\ with superscript
-    #. \ |STYLE66|\  1.\ |STYLE67|\ with subscript
+    #. item 1.\ |STYLE64|\ with superscript
+    #. \ |STYLE65|\  1.\ |STYLE66|\ with superscript
+    #. \ |STYLE67|\  1.\ |STYLE68|\ with subscript
 
 * item 2
 
@@ -413,17 +413,19 @@ List Item with Text Styles
 
 .. |STYLE61| replace:: :sub:`ab`
 
-.. |STYLE62| replace:: **bold text**
+.. |STYLE62| replace:: **bold text **
 
-.. |STYLE63| replace:: :sup:`1`
+.. |STYLE63| replace:: *italic text*
 
-.. |STYLE64| replace:: *item*
+.. |STYLE64| replace:: :sup:`1  `
 
-.. |STYLE65| replace:: :sup:`12`
+.. |STYLE65| replace:: *item*
 
-.. |STYLE66| replace:: **item**
+.. |STYLE66| replace:: :sup:`12 `
 
-.. |STYLE67| replace:: :sub:`34`
+.. |STYLE67| replace:: **item**
+
+.. |STYLE68| replace:: :sub:`34 `
 
 
 .. |LINK1| raw:: html
