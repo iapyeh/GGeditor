@@ -104,14 +104,12 @@ Images will be re-generated if “Commit images” was checked. That is, the map
 
     Currently, it seems the sphinx parser has problem on parsing :align: of an image markup, so image horizontal alignment is not supported yet. 
 
-.. _h753b28271020522c1ef40bf593a32:
+.. _h15691d2ce397119197a3a1434795f3e:
 
-Add-ons Menu item of GGeditor
+Add-ons Menu Item of GGeditor
 =============================
 
-.. _h80796f6531d141926653d426622443a:
-
-\ |IMG3|\ ==========
+\ |IMG3|\ 
 
 You can access the following features from the add-on menu item of GGeditor.
 
@@ -358,7 +356,8 @@ About the Credentials
 
 Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor. 
 
-\ |IMG21|\ \ |IMG22|\ 
+\ |IMG21|\ 
+\ |IMG22|\ 
 
 Credentials is optional. You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
 
@@ -389,11 +388,14 @@ What been converted depends on selection and the cursor position, rules are:
 
 The conversion message on the right side are indications. Thre are three kinds of message:
 
-\ |IMG24|\ Menas the whole document is converted to the reStructuredText format.
+\ |IMG24|\ 
+Menas the whole document is converted to the reStructuredText format.
 
-\ |IMG25|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
+\ |IMG25|\ 
+Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
 
-\ |IMG26|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
+\ |IMG26|\ 
+Means only the selection was converted to the reStructuredText format.  (partial conversion)
 
 .. _h5782051373e754c6735481f7d792d67:
 
