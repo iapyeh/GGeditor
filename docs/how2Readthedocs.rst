@@ -8,10 +8,10 @@ The \ |LINK1|\  is an awesom place to host your documentation of projects in the
 
 This is a simple guideline to help the GGeditor users to set up a basic project of the RTD. I have no idea if this is the best practice, it just works for me.
 
-#. You got to create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
-#. You got to insert markups of “toctree” table in the index.rst.
-#. You got to have a conf.py in the “docs” folder.
-#. You got to have a file named “theme_overrides.css” in the “docs/static” folder.
+#. Create a Google Docs document and bind it to the “docs/index.rst” in the Github repository.
+#. Insert markups of “toctree” table into index.rst.
+#. Create "docs/conf.py" on Github
+#. Create "docs/static/theme_overrides.css” on Github
 
 That’s all. With the above 4 steps, you can go the RTD and create a project for your repository.
 
@@ -69,7 +69,7 @@ Below is the content for you to copy and paste.
 .. code-block:: python
     :linenos:
 
-    # -*- coding: utf-8 -*-
+    # -\*- coding: utf-8 -\*-
     
     from __future__ import unicode_literals
     import sys, os
