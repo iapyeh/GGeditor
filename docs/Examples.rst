@@ -228,6 +228,7 @@ Code block with line number
 
 
 .. Code-block:: python
+    :linenos:
 
     #!/usr/bin/env python
     
