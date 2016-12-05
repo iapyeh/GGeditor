@@ -100,9 +100,9 @@ Paragraphs
 
 The next paragraph contains links, bold, italic, subscript and superscript text, clickable inline image . As well as a paragraph of the same content with indentation.
 
-In mathematics, \ |IMG1|\  a polynomial\ [#F1]_\  is an \ |LINK1|\  consisting of \ |LINK2|\  (or \ |LINK3|\ ) and \ |LINK4|\ , that involves only the operations of \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , and non-negative \ |LINK8|\  \ |LINK9|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE0|\  − 4x + 7. An example in three variables is x\ |STYLE1|\  + 2xyz\ |STYLE2|\  − yz + T\ |STYLE3|\ . 
+\ |STYLE0|\ , \ |IMG1|\  a \ |STYLE1|\ \ [#F1]_\  is an \ |LINK1|\  consisting of \ |LINK2|\  (or \ |LINK3|\ ) and \ |LINK4|\ , that involves only the operations of \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , and non-negative \ |LINK8|\  \ |LINK9|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE2|\  − 4x + 7. An example in three variables is x\ |STYLE3|\  + 2xyz\ |STYLE4|\  − yz + T\ |STYLE5|\ . 
 
-        In mathematics, \ |IMG2|\          a polynomial is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE4|\  − 4x + 7. An example in three variables is x\ |STYLE5|\  + 2xyz\ |STYLE6|\  − yz +  T\ |STYLE7|\ .
+        \ |STYLE6|\ , \ |IMG2|\          a \ |STYLE7|\  is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE8|\  − 4x + 7. An example in three variables is x\ |STYLE9|\  + 2xyz\ |STYLE10|\  − yz +  T\ |STYLE11|\ .
 
 --------
 
@@ -111,8 +111,8 @@ In mathematics, \ |IMG1|\  a polynomial\ [#F1]_\  is an \ |LINK1|\  consisting o
 List Item
 =========
 
-* In mathematics, \ |IMG3|\  a polynomial\ [#F3]_\  is an \ |LINK19|\  consisting of \ |LINK20|\  (or \ |LINK21|\ ) and \ |LINK22|\ , that involves only the operations of \ |LINK23|\ , \ |LINK24|\ , \ |LINK25|\ , and non-negative \ |LINK26|\  \ |LINK27|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE8|\  − 4x + 7. An example in three variables is x\ |STYLE9|\  + 2xyz\ |STYLE10|\  − yz + T\ |STYLE11|\ . 
-* In mathematics, \ |IMG4|\  a polynomial\ [#F4]_\  is an \ |LINK28|\  consisting of \ |LINK29|\  (or \ |LINK30|\ ) and \ |LINK31|\ , that involves only the operations of \ |LINK32|\ , \ |LINK33|\ , \ |LINK34|\ , and non-negative \ |LINK35|\  \ |LINK36|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE12|\  − 4x + 7. An example in three variables is x\ |STYLE13|\  + 2xyz\ |STYLE14|\  − yz + T\ |STYLE15|\ . 
+* \ |STYLE12|\ , \ |IMG3|\  a \ |STYLE13|\ \ [#F3]_\  is an \ |LINK19|\  consisting of \ |LINK20|\  (or \ |LINK21|\ ) and \ |LINK22|\ , that involves only the operations of \ |LINK23|\ , \ |LINK24|\ , \ |LINK25|\ , and non-negative \ |LINK26|\  \ |LINK27|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE14|\  − 4x + 7. An example in three variables is x\ |STYLE15|\  + 2xyz\ |STYLE16|\  − yz + T\ |STYLE17|\ . 
+* \ |STYLE18|\ , \ |IMG4|\  a \ |STYLE19|\ \ [#F4]_\  is an \ |LINK28|\  consisting of \ |LINK29|\  (or \ |LINK30|\ ) and \ |LINK31|\ , that involves only the operations of \ |LINK32|\ , \ |LINK33|\ , \ |LINK34|\ , and non-negative \ |LINK35|\  \ |LINK36|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE20|\  − 4x + 7. An example in three variables is x\ |STYLE21|\  + 2xyz\ |STYLE22|\  − yz + T\ |STYLE23|\ . 
 
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
@@ -125,13 +125,13 @@ Simple Table
 ------------
 
 
-+---------------+----------------------------------+-----------------+
-|header\*       |標題 x\ |STYLE16|\ +y\ |STYLE17|\ |\ |LINK37|\      |
-+===============+==================================+=================+
-|In mathematics,|In mathematics,                   |In mathe\*matics,|
-+---------------+----------------------------------+-----------------+
-|In mathematics,|In mathematics,                   |                 |
-+---------------+----------------------------------+-----------------+
++---------------+---------------+-----------------+
+|header\*       |標題 x2+y2     |Search           |
++===============+===============+=================+
+|In mathematics,|\ |STYLE24|\   |In mathe\*matics,|
++---------------+---------------+-----------------+
+|\ |STYLE25|\   |In mathematics,|                 |
++---------------+---------------+-----------------+
 
 .. _h5a6e575f7c1d332d6350624c6c73387:
 
@@ -139,14 +139,14 @@ Complex Table
 -------------
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|In mathematics, \ |IMG5|\  a polynomial\ [#F5]_\  is an \ |LINK38|\  consisting of \ |LINK39|\  (or \ |LINK40|\ ) and \ |LINK41|\ , that involves only the operations of \ |LINK42|\ , \ |LINK43|\ , \ |LINK44|\ , and non-negative \ |LINK45|\  \ |LINK46|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE18|\  − 4x + 7. An example in three variables is x\ |STYLE19|\  + 2xyz\ |STYLE20|\  − yz + T\ |STYLE21|\ . |#. In mathematics, \ |IMG6|\  a polynomial\ [#F6]_\  is an \ |LINK47|\  consisting of \ |LINK48|\  (or \ |LINK49|\ ) and \ |LINK50|\ , that involves only the operations of \ |LINK51|\ , \ |LINK52|\ , \ |LINK53|\ , and non-negative \ |LINK54|\  \ |LINK55|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE22|\  − 4x + 7. An example in three variables is x\ |STYLE23|\  + 2xyz\ |STYLE24|\  − yz + T\ |STYLE25|\ . |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                             |#. In mathematics, \ |IMG7|\  a polynomial\ [#F7]_\  is an \ |LINK56|\  consisting of \ |LINK57|\  (or \ |LINK58|\ ) and \ |LINK59|\ , that involves only the operations of \ |LINK60|\ , \ |LINK61|\ , \ |LINK62|\ , and non-negative \ |LINK63|\  \ |LINK64|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE26|\  − 4x + 7. An example in three variables is x\ |STYLE27|\  + 2xyz\ |STYLE28|\  − yz + T\ |STYLE29|\ . |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|In mathematics, \ |IMG8|\  a polynomial\ [#F8]_\  is an \ |LINK65|\  consisting of \ |LINK66|\  (or \ |LINK67|\ ) and \ |LINK68|\ , that involves only the operations of \ |LINK69|\ , \ |LINK70|\ , \ |LINK71|\ , and non-negative \ |LINK72|\  \ |LINK73|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE30|\  − 4x + 7. An example in three variables is x\ |STYLE31|\  + 2xyz\ |STYLE32|\  − yz + T\ |STYLE33|\ . |* In mathematics, \ |IMG9|\  a polynomial\ [#F9]_\  is an \ |LINK74|\  consisting of \ |LINK75|\  (or \ |LINK76|\ ) and \ |LINK77|\ , that involves only the operations of \ |LINK78|\ , \ |LINK79|\ , \ |LINK80|\ , and non-negative \ |LINK81|\  \ |LINK82|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE34|\  − 4x + 7. An example in three variables is x\ |STYLE35|\  + 2xyz\ |STYLE36|\  − yz + T\ |STYLE37|\ .  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                             |In mathematics, \ |IMG10|\  a polynomial\ [#F10]_\  is an \ |LINK83|\  consisting of \ |LINK84|\  (or \ |LINK85|\ ) and \ |LINK86|\ , that involves only the operations of \ |LINK87|\ , \ |LINK88|\ , \ |LINK89|\ , and non-negative \ |LINK90|\  \ |LINK91|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE38|\  − 4x + 7. An example in three variables is x\ |STYLE39|\  + 2xyz\ |STYLE40|\  − yz + T\ |STYLE41|\ .  |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|\ |STYLE26|\ , \ |IMG5|\  a \ |STYLE27|\ \ [#F5]_\  is an \ |LINK37|\  consisting of \ |LINK38|\  (or \ |LINK39|\ ) and \ |LINK40|\ , that involves only the operations of \ |LINK41|\ , \ |LINK42|\ , \ |LINK43|\ , and non-negative \ |LINK44|\  \ |LINK45|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE28|\  − 4x + 7. An example in three variables is x\ |STYLE29|\  + 2xyz\ |STYLE30|\  − yz + T\ |STYLE31|\ . |#. \ |STYLE32|\ , \ |IMG6|\  a \ |STYLE33|\ \ [#F6]_\  is an \ |LINK46|\  consisting of \ |LINK47|\  (or \ |LINK48|\ ) and \ |LINK49|\ , that involves only the operations of \ |LINK50|\ , \ |LINK51|\ , \ |LINK52|\ , and non-negative \ |LINK53|\  \ |LINK54|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE34|\  − 4x + 7. An example in three variables is x\ |STYLE35|\  + 2xyz\ |STYLE36|\  − yz + T\ |STYLE37|\ . |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                               |#. \ |STYLE38|\ , \ |IMG7|\  a \ |STYLE39|\ \ [#F7]_\  is an \ |LINK55|\  consisting of \ |LINK56|\  (or \ |LINK57|\ ) and \ |LINK58|\ , that involves only the operations of \ |LINK59|\ , \ |LINK60|\ , \ |LINK61|\ , and non-negative \ |LINK62|\  \ |LINK63|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE40|\  − 4x + 7. An example in three variables is x\ |STYLE41|\  + 2xyz\ |STYLE42|\  − yz + T\ |STYLE43|\ . |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|\ |STYLE44|\ , \ |IMG8|\  a \ |STYLE45|\ \ [#F8]_\  is an \ |LINK64|\  consisting of \ |LINK65|\  (or \ |LINK66|\ ) and \ |LINK67|\ , that involves only the operations of \ |LINK68|\ , \ |LINK69|\ , \ |LINK70|\ , and non-negative \ |LINK71|\  \ |LINK72|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE46|\  − 4x + 7. An example in three variables is x\ |STYLE47|\  + 2xyz\ |STYLE48|\  − yz + T\ |STYLE49|\ . |* \ |STYLE50|\ , \ |IMG9|\  a \ |STYLE51|\ \ [#F9]_\  is an \ |LINK73|\  consisting of \ |LINK74|\  (or \ |LINK75|\ ) and \ |LINK76|\ , that involves only the operations of \ |LINK77|\ , \ |LINK78|\ , \ |LINK79|\ , and non-negative \ |LINK80|\  \ |LINK81|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE52|\  − 4x + 7. An example in three variables is x\ |STYLE53|\  + 2xyz\ |STYLE54|\  − yz + T\ |STYLE55|\ .  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                               |\ |STYLE56|\ , \ |IMG10|\  a \ |STYLE57|\ \ [#F10]_\  is an \ |LINK82|\  consisting of \ |LINK83|\  (or \ |LINK84|\ ) and \ |LINK85|\ , that involves only the operations of \ |LINK86|\ , \ |LINK87|\ , \ |LINK88|\ , and non-negative \ |LINK89|\  \ |LINK90|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE58|\  − 4x + 7. An example in three variables is x\ |STYLE59|\  + 2xyz\ |STYLE60|\  − yz + T\ |STYLE61|\ .  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _h425360541a6d36a14487962c584b8:
 
@@ -245,9 +245,9 @@ Custom Admonition
 
 .. admonition:: My Admonition
 
-    this is content in the first row
+    this is \ |STYLE62|\  in the first row
 
-    this is \ |LINK92|\  in the second row
+    this is \ |LINK91|\  in the second row
 
 .. _h1e7b7c356c1a63272445567d455a317e:
 
@@ -272,13 +272,13 @@ List Item with Text Styles
 
 * item 1
 
-    #. item 1.\ |STYLE42|\ with superscript
-    #. item 1.\ |STYLE43|\ with superscript
-    #. item 1.\ |STYLE44|\ with subscript
+    #. item 1.\ |STYLE63|\ with superscript
+    #. \ |STYLE64|\  1.\ |STYLE65|\ with superscript
+    #. \ |STYLE66|\  1.\ |STYLE67|\ with subscript
 
 * item 2
 
-    #. Item with \ |LINK93|\ 
+    #. Item with \ |LINK92|\ 
     #. item with a image \ |IMG14|\ 
 
 * item 3
@@ -286,24 +286,24 @@ List Item with Text Styles
     #. item\ [#F11]_\  with footnote
     #. item\ [#F12]_\  with footnote
 
-\ |LINK94|\ 
+\ |LINK93|\ 
 
 
-.. |STYLE0| replace:: :sup:`2`
+.. |STYLE0| replace:: *In mathematics*
 
-.. |STYLE1| replace:: :sup:`3`
+.. |STYLE1| replace:: **polynomial**
 
 .. |STYLE2| replace:: :sup:`2`
 
-.. |STYLE3| replace:: :sub:`ab`
+.. |STYLE3| replace:: :sup:`3`
 
 .. |STYLE4| replace:: :sup:`2`
 
-.. |STYLE5| replace:: :sup:`3`
+.. |STYLE5| replace:: :sub:`ab`
 
-.. |STYLE6| replace:: :sup:`2`
+.. |STYLE6| replace:: *In mathematics*
 
-.. |STYLE7| replace:: :sub:`ab`
+.. |STYLE7| replace:: **polynomial**
 
 .. |STYLE8| replace:: :sup:`2`
 
@@ -313,49 +313,49 @@ List Item with Text Styles
 
 .. |STYLE11| replace:: :sub:`ab`
 
-.. |STYLE12| replace:: :sup:`2`
+.. |STYLE12| replace:: *In mathematics*
 
-.. |STYLE13| replace:: :sup:`3`
+.. |STYLE13| replace:: **polynomial**
 
 .. |STYLE14| replace:: :sup:`2`
 
-.. |STYLE15| replace:: :sub:`ab`
+.. |STYLE15| replace:: :sup:`3`
 
 .. |STYLE16| replace:: :sup:`2`
 
-.. |STYLE17| replace:: :sub:`2`
+.. |STYLE17| replace:: :sub:`ab`
 
-.. |STYLE18| replace:: :sup:`2`
+.. |STYLE18| replace:: *In mathematics*
 
-.. |STYLE19| replace:: :sup:`3`
+.. |STYLE19| replace:: **polynomial**
 
 .. |STYLE20| replace:: :sup:`2`
 
-.. |STYLE21| replace:: :sub:`ab`
+.. |STYLE21| replace:: :sup:`3`
 
 .. |STYLE22| replace:: :sup:`2`
 
-.. |STYLE23| replace:: :sup:`3`
+.. |STYLE23| replace:: :sub:`ab`
 
-.. |STYLE24| replace:: :sup:`2`
+.. |STYLE24| replace:: **In mathematics,**
 
-.. |STYLE25| replace:: :sub:`ab`
+.. |STYLE25| replace:: *In mathematics,*
 
-.. |STYLE26| replace:: :sup:`2`
+.. |STYLE26| replace:: *In mathematics*
 
-.. |STYLE27| replace:: :sup:`3`
+.. |STYLE27| replace:: **polynomial**
 
 .. |STYLE28| replace:: :sup:`2`
 
-.. |STYLE29| replace:: :sub:`ab`
+.. |STYLE29| replace:: :sup:`3`
 
 .. |STYLE30| replace:: :sup:`2`
 
-.. |STYLE31| replace:: :sup:`3`
+.. |STYLE31| replace:: :sub:`ab`
 
-.. |STYLE32| replace:: :sup:`2`
+.. |STYLE32| replace:: *In mathematics*
 
-.. |STYLE33| replace:: :sub:`ab`
+.. |STYLE33| replace:: **polynomial**
 
 .. |STYLE34| replace:: :sup:`2`
 
@@ -365,19 +365,65 @@ List Item with Text Styles
 
 .. |STYLE37| replace:: :sub:`ab`
 
-.. |STYLE38| replace:: :sup:`2`
+.. |STYLE38| replace:: *In mathematics*
 
-.. |STYLE39| replace:: :sup:`3`
+.. |STYLE39| replace:: **polynomial**
 
 .. |STYLE40| replace:: :sup:`2`
 
-.. |STYLE41| replace:: :sub:`ab`
+.. |STYLE41| replace:: :sup:`3`
 
-.. |STYLE42| replace:: :sup:`1`
+.. |STYLE42| replace:: :sup:`2`
 
-.. |STYLE43| replace:: :sup:`12`
+.. |STYLE43| replace:: :sub:`ab`
 
-.. |STYLE44| replace:: :sub:`34`
+.. |STYLE44| replace:: *In mathematics*
+
+.. |STYLE45| replace:: **polynomial**
+
+.. |STYLE46| replace:: :sup:`2`
+
+.. |STYLE47| replace:: :sup:`3`
+
+.. |STYLE48| replace:: :sup:`2`
+
+.. |STYLE49| replace:: :sub:`ab`
+
+.. |STYLE50| replace:: *In mathematics*
+
+.. |STYLE51| replace:: **polynomial**
+
+.. |STYLE52| replace:: :sup:`2`
+
+.. |STYLE53| replace:: :sup:`3`
+
+.. |STYLE54| replace:: :sup:`2`
+
+.. |STYLE55| replace:: :sub:`ab`
+
+.. |STYLE56| replace:: *In mathematics*
+
+.. |STYLE57| replace:: **polynomial**
+
+.. |STYLE58| replace:: :sup:`2`
+
+.. |STYLE59| replace:: :sup:`3`
+
+.. |STYLE60| replace:: :sup:`2`
+
+.. |STYLE61| replace:: :sub:`ab`
+
+.. |STYLE62| replace:: **content**
+
+.. |STYLE63| replace:: :sup:`1`
+
+.. |STYLE64| replace:: *item*
+
+.. |STYLE65| replace:: :sup:`12`
+
+.. |STYLE66| replace:: **item**
+
+.. |STYLE67| replace:: :sub:`34`
 
 
 .. |LINK1| raw:: html
@@ -526,233 +572,229 @@ List Item with Text Styles
 
 .. |LINK37| raw:: html
 
-    <a href="http://www.google.com" target="_blank">Search</a>
+    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
 
 .. |LINK38| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
 
 .. |LINK39| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
 
 .. |LINK40| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
+    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
 
 .. |LINK41| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
+    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
 
 .. |LINK42| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
+    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
 
 .. |LINK43| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
+    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
 
 .. |LINK44| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
+    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
 
 .. |LINK45| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
+    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
 
 .. |LINK46| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
+    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
 
 .. |LINK47| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
 
 .. |LINK48| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
 
 .. |LINK49| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
+    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
 
 .. |LINK50| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
+    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
 
 .. |LINK51| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
+    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
 
 .. |LINK52| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
+    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
 
 .. |LINK53| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
+    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
 
 .. |LINK54| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
+    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
 
 .. |LINK55| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
+    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
 
 .. |LINK56| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
 
 .. |LINK57| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
 
 .. |LINK58| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
+    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
 
 .. |LINK59| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
+    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
 
 .. |LINK60| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
+    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
 
 .. |LINK61| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
+    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
 
 .. |LINK62| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
+    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
 
 .. |LINK63| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
+    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
 
 .. |LINK64| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
+    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
 
 .. |LINK65| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
 
 .. |LINK66| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
 
 .. |LINK67| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
+    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
 
 .. |LINK68| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
+    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
 
 .. |LINK69| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
+    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
 
 .. |LINK70| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
+    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
 
 .. |LINK71| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
+    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
 
 .. |LINK72| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
+    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
 
 .. |LINK73| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
+    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
 
 .. |LINK74| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
 
 .. |LINK75| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
 
 .. |LINK76| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
+    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
 
 .. |LINK77| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
+    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
 
 .. |LINK78| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
+    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
 
 .. |LINK79| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
+    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
 
 .. |LINK80| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
+    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
 
 .. |LINK81| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
+    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
 
 .. |LINK82| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
+    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
 
 .. |LINK83| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
 
 .. |LINK84| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
 
 .. |LINK85| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
+    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
 
 .. |LINK86| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
+    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
 
 .. |LINK87| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
+    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
 
 .. |LINK88| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
+    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
 
 .. |LINK89| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
+    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
 
 .. |LINK90| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
+    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
 
 .. |LINK91| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
+    <a href="http://www.google.com" target="_blank">content</a>
 
 .. |LINK92| raw:: html
 
-    <a href="http://www.google.com" target="_blank">content</a>
-
-.. |LINK93| raw:: html
-
     <a href="http://www.google.com" target="_blank">link</a>
 
-.. |LINK94| raw:: html
+.. |LINK93| raw:: html
 
     <a href="https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing" target="_blank">Here is the source document of this page</a>
 
