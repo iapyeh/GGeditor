@@ -224,7 +224,36 @@ It is rendered like this:
 Code with line number
 ~~~~~~~~~~~~~~~~~~~~~
 
+\ |IMG13|\ 
+
 This will insert a "code-block" directive. This feature render the given content with line numbers. The ":linenos" option should not be removed. Because the "code-block" should have an argument for programming language of the given content, a placeholder "python" has been appended as default. This argument can be replaced but shall not been removed.
+
+
+.. code-block:: python
+    :linenos:
+
+    #!/usr/bin/env python
+    
+    """
+    Twisted moved the C{twisted} hierarchy to the C{src} hierarchy, but C{git}
+    doesn't know how to track moves of directories, only files.  Therefore any
+    files added in branches after this move will be added into ./twisted/ and need
+    to be moved over into 
+    """
+    
+    import os
+    from twisted.python.filepath import FilePath
+    
+    here = FilePath(__file__).parent().parent()
+    fromPath = here.child("twisted")
+    toPath = here.child("src")
+    
+    for fn in fromPath.walk():
+        if fn.isfile():
+            os.system("git mv {it} src/{it}"
+                      .format(it="/".join(fn.segmentsFrom(here))))
+    
+    os.system('git clean -fd')
 
 .. _ha1d6c3e373325355168491f521a78b:
 
@@ -239,7 +268,7 @@ The Table of Contents will insert \ |LINK3|\ , aka cross-document table of conte
 
  Here is an example of what it looks like:
 
-\ |IMG13|\ 
+\ |IMG14|\ 
 
 Please be noted the file suffix (.html or .rst) has been omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ |LINK4|\  of the GGeditor for an example.
 
@@ -248,7 +277,7 @@ Please be noted the file suffix (.html or .rst) has been omitted. Also, you have
 Headings
 ~~~~~~~~
 
-\ |IMG14|\ 
+\ |IMG15|\ 
 
 The headings construct the structure of the document. If you put the cursor in a paragraph you can set the heading for that paragraph with this panel. You can click on the upper parts (like Part, Chapter) or use the native heading tools of the Google Docs. The lower parts of this panel shows the relative headings in the Google Docs.
 
@@ -257,7 +286,7 @@ The headings construct the structure of the document. If you put the cursor in a
 Text Style
 ~~~~~~~~~~
 
-\ |IMG15|\ 
+\ |IMG16|\ 
 
 By putting the cursor in a paragraph you can change the text style of that paragraph. The `Paragraph Content` is for normal text, `Directive Content` is for code style (monospace). These two are usually used when you paste stuffs from other browser pages into your document.
 
@@ -284,7 +313,7 @@ Add link to another document
 
 Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:
 
-\ |IMG16|\ 
+\ |IMG17|\ 
 
 Please be noted:
 
@@ -303,7 +332,7 @@ Binding the document to a file in repository
 
 You can provide your account credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG17|\ 
+\ |IMG18|\ 
 
 If you want to commit to a new file. Please
 
@@ -326,15 +355,15 @@ If you want to commit to a new file. Please
 Committing
 ----------
 
-\ |IMG18|\ 
+\ |IMG19|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
-\ |IMG19|\ 
+\ |IMG20|\ 
 
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
-\ |IMG20|\ 
+\ |IMG21|\ 
 
 If only the text content has been modified, you can un-check the “Commit images” to exclude images from committing. This would speed up the committing process.
 
@@ -356,7 +385,7 @@ About the Credentials
 
 Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor. 
 
-\ |IMG21|\ \ |IMG22|\ 
+\ |IMG22|\ \ |IMG23|\ 
 
 Credentials is optional. You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
 
@@ -370,7 +399,7 @@ Credentials is optional. You can un-check the “Remeber Github Credentials” c
 Conversion
 ==========
 
-\ |IMG23|\ 
+\ |IMG24|\ 
 
 When you open the conversion dialog, the conversion process will be starting. When the conversion has completed, you can copy the generated reStructuredText content to clipboard by "Copy to Clipboard" button, or download the generated reStructuredText content as well as images by the "Download" button.
 
@@ -387,11 +416,11 @@ What been converted depends on selection and the cursor position, rules are:
 
 The conversion message on the right side are indications. Thre are three kinds of message:
 
-\ |IMG24|\ Menas the whole document is converted to the reStructuredText format.
+\ |IMG25|\ Menas the whole document is converted to the reStructuredText format.
 
-\ |IMG25|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
+\ |IMG26|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
 
-\ |IMG26|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
+\ |IMG27|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
 
 .. _h5782051373e754c6735481f7d792d67:
 
@@ -405,7 +434,7 @@ The idea for partial conversion is mainly for creating comments in a source code
 Copy to Clipboard
 -----------------
 
-\ |IMG27|\ 
+\ |IMG28|\ 
 
 (This feature is specially for API writers, so it is only visible for partial conversion)
 
@@ -431,7 +460,7 @@ This button will copy the generated reStructureText to system clipboard (pastebo
 Dowload
 -------
 
-\ |IMG28|\ 
+\ |IMG29|\ 
 
 What been converted depends on selection and the cursor position, rules are:
 
@@ -443,7 +472,7 @@ What been converted depends on selection and the cursor position, rules are:
 Generate Document
 -----------------
 
-\ |IMG29|\ 
+\ |IMG30|\ 
 
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
@@ -524,69 +553,73 @@ When partial content is converted only, like table or selection, The "Generate D
    :width: 753 px
 
 .. |IMG13| image:: static/User_Guide_13.png
+   :height: 140 px
+   :width: 1025 px
+
+.. |IMG14| image:: static/User_Guide_14.png
    :height: 153 px
    :width: 357 px
 
-.. |IMG14| image:: static/User_Guide_14.png
+.. |IMG15| image:: static/User_Guide_15.png
    :height: 133 px
    :width: 266 px
 
-.. |IMG15| image:: static/User_Guide_15.png
+.. |IMG16| image:: static/User_Guide_16.png
    :height: 84 px
    :width: 265 px
 
-.. |IMG16| image:: static/User_Guide_16.png
+.. |IMG17| image:: static/User_Guide_17.png
    :height: 236 px
    :width: 246 px
 
-.. |IMG17| image:: static/User_Guide_17.png
+.. |IMG18| image:: static/User_Guide_18.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG18| image:: static/User_Guide_18.png
+.. |IMG19| image:: static/User_Guide_19.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG19| image:: static/User_Guide_19.png
+.. |IMG20| image:: static/User_Guide_20.png
    :height: 40 px
    :width: 105 px
 
-.. |IMG20| image:: static/User_Guide_20.png
+.. |IMG21| image:: static/User_Guide_21.png
    :height: 52 px
    :width: 152 px
 
-.. |IMG21| image:: static/User_Guide_21.png
+.. |IMG22| image:: static/User_Guide_22.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG22| image:: static/User_Guide_22.png
+.. |IMG23| image:: static/User_Guide_23.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG23| image:: static/User_Guide_23.png
+.. |IMG24| image:: static/User_Guide_24.png
    :height: 165 px
    :width: 746 px
 
-.. |IMG24| image:: static/User_Guide_24.png
+.. |IMG25| image:: static/User_Guide_25.png
    :height: 42 px
    :width: 174 px
 
-.. |IMG25| image:: static/User_Guide_25.png
+.. |IMG26| image:: static/User_Guide_26.png
    :height: 42 px
    :width: 168 px
 
-.. |IMG26| image:: static/User_Guide_26.png
+.. |IMG27| image:: static/User_Guide_27.png
    :height: 36 px
    :width: 186 px
 
-.. |IMG27| image:: static/User_Guide_27.png
+.. |IMG28| image:: static/User_Guide_28.png
    :height: 36 px
    :width: 220 px
 
-.. |IMG28| image:: static/User_Guide_28.png
+.. |IMG29| image:: static/User_Guide_29.png
    :height: 38 px
    :width: 84 px
 
-.. |IMG29| image:: static/User_Guide_29.png
+.. |IMG30| image:: static/User_Guide_30.png
    :height: 40 px
    :width: 148 px
