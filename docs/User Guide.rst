@@ -33,19 +33,19 @@ Inline Markups
 Some inline reStructuredText markups can be used directly in the document. The table demonstrates the usage example of these inline markups.
 
 
-+---------------------------+-----------------------+
-|\ |STYLE0|\                |\ |STYLE1|\            |
-+===========================+=======================+
-|A \`single back-quote\`    |A `single back-quote`  |
-+---------------------------+-----------------------+
-|A \`\`double back-quote\`\`|A ``double back-quote``|
-+---------------------------+-----------------------+
-|A \|replacement\| markup   |A |replacement| markup |
-+---------------------------+-----------------------+
-|Text with \*\*emphasis\*\* |Text with **emphasis** |
-+---------------------------+-----------------------+
++-------------------------------+--------------------------+
+|\ |STYLE0|\                    |\ |STYLE1|\               |
++===============================+==========================+
+|A \`single back-quote\`        |A `single back-quote`     |
++-------------------------------+--------------------------+
+|A \`\`double back-quote\`\`    |A ``double back-quote``   |
++-------------------------------+--------------------------+
+|A \|replacement\| markup       |A |replacement| markup    |
++-------------------------------+--------------------------+
+|Text with \\*\\*emphasis\\*\\* |Text with \*\*emphasis\*\*|
++-------------------------------+--------------------------+
 
-.. |replacement| replace::   **replaced**
+.. |replacement| replace::   \*\*replaced\*\*
 
 
 .. Hint:: 
@@ -419,7 +419,7 @@ This button will copy the generated reStructureText to system clipboard (pastebo
 +------------+------------------------------+
 |#           |Python                        |
 +------------+------------------------------+
-|\*          |Javascript, C++, Java, … etc  |
+|\\*         |Javascript, C++, Java, … etc  |
 +------------+------------------------------+
 |//          |Javascript, C++, Java, ... etc|
 +------------+------------------------------+
@@ -435,8 +435,8 @@ Dowload
 
 What been converted depends on selection and the cursor position, rules are:
 
-#. When partially converted, a selection.zip will be created with the partial reStructuredText and images (if any).
-#. If whole document is converted, a <document-name>.zip will be created with all generated reStructuredText and images (if any).
+#. When partially converted, a  <document-name>_selection.zip or  <document-name>_table.zip will be created with the partially generated reStructuredText content and images (if any).
+#. If whole document is converted, a <document-name>.zip will be created with whole generated reStructuredText content and images (if any).
 
 .. _hb512c40675e711967718345c60723c:
 
