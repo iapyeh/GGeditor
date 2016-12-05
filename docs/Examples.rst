@@ -41,57 +41,57 @@ Supported Features List of the GGeditor
 =======================================
 
 
-+----------------+------------+------------+------------+------------+
-|\ |STYLE0|\     |\ |STYLE1|\ |\ |STYLE2|\ |\ |STYLE3|\ |\ |STYLE4|\ |
-+================+============+============+============+============+
-|Normal Text     |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Text alignment  |No          |No          |No          |No          |
-+----------------+------------+------------+------------+------------+
-|Background Color|No          |No          |No          |No          |
-+----------------+------------+------------+------------+------------+
-|Indentation     |Yes         |N/A         |            |No          |
-+----------------+------------+------------+------------+------------+
-|Headings        |Yes         |N/A         |N/A         |N/A         |
-+----------------+------------+------------+------------+------------+
-|Bold            |Yes         |Yes         |Yes         |No          |
-+----------------+------------+------------+------------+------------+
-|Italic          |Yes         |Yes         |Yes         |No          |
-+----------------+------------+------------+------------+------------+
-|Subscript       |Yes         |Yes         |Yes         |No          |
-+----------------+------------+------------+------------+------------+
-|Superscript     |Yes         |Yes         |Yes         |No          |
-+----------------+------------+------------+------------+------------+
-|Hyperlink       |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Horizontal Line |Yes         |N/A         |N/A         |N/A         |
-+----------------+------------+------------+------------+------------+
-|Link to bookmark|Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Link to headings|Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Footnote        |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Inline markup   |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Image           |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Image with link |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Chart           |Yes         |Yes         |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Admonition      |Yes         |No          |No          |No (Nested) |
-+----------------+------------+------------+------------+------------+
-|List item       |Yes         |Yes(Nested) |Yes         |Yes         |
-+----------------+------------+------------+------------+------------+
-|Table           |Yes         |No          |No (Nested) |No          |
-+----------------+------------+------------+------------+------------+
-|Column span     |N/A         |N/A         |No          |N/A         |
-+----------------+------------+------------+------------+------------+
-|Rowspan         |N/A         |N/A         |No          |N/A         |
-+----------------+------------+------------+------------+------------+
-|Table of Content|Yes         |No          |No          |No          |
-+----------------+------------+------------+------------+------------+
++----------------+------------+------------+-------------+-------------+
+|Features        |In Paragraph|In List Item|In Table Cell|In Admonition|
++================+============+============+=============+=============+
+|Normal Text     |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Text alignment  |No          |No          |No           |No           |
++----------------+------------+------------+-------------+-------------+
+|Background Color|No          |No          |No           |No           |
++----------------+------------+------------+-------------+-------------+
+|Indentation     |Yes         |N/A         |             |No           |
++----------------+------------+------------+-------------+-------------+
+|Headings        |Yes         |N/A         |N/A          |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Bold            |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Italic          |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Subscript       |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Superscript     |Yes         |Yes         |Yes          |No           |
++----------------+------------+------------+-------------+-------------+
+|Hyperlink       |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Horizontal Line |Yes         |N/A         |N/A          |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Link to bookmark|Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Link to headings|Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Footnote        |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Inline markup   |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Image           |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Image with link |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Chart           |Yes         |Yes         |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Admonition      |Yes         |No          |No           |No (Nested)  |
++----------------+------------+------------+-------------+-------------+
+|List item       |Yes         |Yes(Nested) |Yes          |Yes          |
++----------------+------------+------------+-------------+-------------+
+|Table           |Yes         |No          |No (Nested)  |No           |
++----------------+------------+------------+-------------+-------------+
+|Column span     |N/A         |N/A         |No           |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Rowspan         |N/A         |N/A         |No           |N/A          |
++----------------+------------+------------+-------------+-------------+
+|Table of Content|Yes         |No          |No           |No           |
++----------------+------------+------------+-------------+-------------+
 
 .. _h1f81a111a3e4cd44467728753e5f73:
 
@@ -100,9 +100,9 @@ Paragraphs
 
 The next paragraph contains links, bold, italic, subscript and superscript text, clickable inline image . As well as a paragraph of the same content with indentation.
 
-\ |STYLE5|\ , \ |IMG1|\  a \ |STYLE6|\ \ [#F1]_\  is an \ |LINK1|\  consisting of \ |LINK2|\  (or \ |LINK3|\ ) and \ |LINK4|\ , that involves only the operations of \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , and non-negative \ |LINK8|\  \ |LINK9|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE7|\  − 4x + 7. An example in three variables is x\ |STYLE8|\  + 2xyz\ |STYLE9|\  − yz + T\ |STYLE10|\ . 
+In mathematics, \ |IMG1|\  a polynomial\ [#F1]_\  is an \ |LINK1|\  consisting of \ |LINK2|\  (or \ |LINK3|\ ) and \ |LINK4|\ , that involves only the operations of \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , and non-negative \ |LINK8|\  \ |LINK9|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE0|\  − 4x + 7. An example in three variables is x\ |STYLE1|\  + 2xyz\ |STYLE2|\  − yz + T\ |STYLE3|\ . 
 
-        \ |STYLE11|\ , \ |IMG2|\          a \ |STYLE12|\  is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE13|\  − 4x + 7. An example in three variables is x\ |STYLE14|\  + 2xyz\ |STYLE15|\  − yz +  T\ |STYLE16|\ .
+        In mathematics, \ |IMG2|\          a polynomial is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE4|\  − 4x + 7. An example in three variables is x\ |STYLE5|\  + 2xyz\ |STYLE6|\  − yz +  T\ |STYLE7|\ .
 
 --------
 
@@ -111,8 +111,8 @@ The next paragraph contains links, bold, italic, subscript and superscript text,
 List Item
 =========
 
-* \ |STYLE17|\ , \ |IMG3|\  a \ |STYLE18|\ \ [#F3]_\  is an \ |LINK19|\  consisting of \ |LINK20|\  (or \ |LINK21|\ ) and \ |LINK22|\ , that involves only the operations of \ |LINK23|\ , \ |LINK24|\ , \ |LINK25|\ , and non-negative \ |LINK26|\  \ |LINK27|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE19|\  − 4x + 7. An example in three variables is x\ |STYLE20|\  + 2xyz\ |STYLE21|\  − yz + T\ |STYLE22|\ . 
-* \ |STYLE23|\ , \ |IMG4|\  a \ |STYLE24|\ \ [#F4]_\  is an \ |LINK28|\  consisting of \ |LINK29|\  (or \ |LINK30|\ ) and \ |LINK31|\ , that involves only the operations of \ |LINK32|\ , \ |LINK33|\ , \ |LINK34|\ , and non-negative \ |LINK35|\  \ |LINK36|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE25|\  − 4x + 7. An example in three variables is x\ |STYLE26|\  + 2xyz\ |STYLE27|\  − yz + T\ |STYLE28|\ . 
+* In mathematics, \ |IMG3|\  a polynomial\ [#F3]_\  is an \ |LINK19|\  consisting of \ |LINK20|\  (or \ |LINK21|\ ) and \ |LINK22|\ , that involves only the operations of \ |LINK23|\ , \ |LINK24|\ , \ |LINK25|\ , and non-negative \ |LINK26|\  \ |LINK27|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE8|\  − 4x + 7. An example in three variables is x\ |STYLE9|\  + 2xyz\ |STYLE10|\  − yz + T\ |STYLE11|\ . 
+* In mathematics, \ |IMG4|\  a polynomial\ [#F4]_\  is an \ |LINK28|\  consisting of \ |LINK29|\  (or \ |LINK30|\ ) and \ |LINK31|\ , that involves only the operations of \ |LINK32|\ , \ |LINK33|\ , \ |LINK34|\ , and non-negative \ |LINK35|\  \ |LINK36|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE12|\  − 4x + 7. An example in three variables is x\ |STYLE13|\  + 2xyz\ |STYLE14|\  − yz + T\ |STYLE15|\ . 
 
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
@@ -125,13 +125,13 @@ Simple Table
 ------------
 
 
-+---------------+----------------------------------------------------+-----------------+
-|\ |STYLE29|\   |\ |STYLE30|\ \ |STYLE31|\ \ |STYLE32|\ \ |STYLE33|\ |\ |LINK37|\      |
-+===============+====================================================+=================+
-|In mathematics,|\ |STYLE34|\                                        |In mathe\*matics,|
-+---------------+----------------------------------------------------+-----------------+
-|\ |STYLE35|\   |In mathematics,                                     |                 |
-+---------------+----------------------------------------------------+-----------------+
++---------------+----------------------------------+-----------------+
+|header\*       |標題 x\ |STYLE16|\ +y\ |STYLE17|\ |\ |LINK37|\      |
++===============+==================================+=================+
+|In mathematics,|In mathematics,                   |In mathe\*matics,|
++---------------+----------------------------------+-----------------+
+|In mathematics,|In mathematics,                   |                 |
++---------------+----------------------------------+-----------------+
 
 .. _h5a6e575f7c1d332d6350624c6c73387:
 
@@ -139,14 +139,14 @@ Complex Table
 -------------
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ |STYLE36|\ , \ |IMG5|\  a \ |STYLE37|\ \ [#F5]_\  is an \ |LINK38|\  consisting of \ |LINK39|\  (or \ |LINK40|\ ) and \ |LINK41|\ , that involves only the operations of \ |LINK42|\ , \ |LINK43|\ , \ |LINK44|\ , and non-negative \ |LINK45|\  \ |LINK46|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE38|\  − 4x + 7. An example in three variables is x\ |STYLE39|\  + 2xyz\ |STYLE40|\  − yz + T\ |STYLE41|\ . |#. \ |STYLE42|\ , \ |IMG6|\  a \ |STYLE43|\ \ [#F6]_\  is an \ |LINK47|\  consisting of \ |LINK48|\  (or \ |LINK49|\ ) and \ |LINK50|\ , that involves only the operations of \ |LINK51|\ , \ |LINK52|\ , \ |LINK53|\ , and non-negative \ |LINK54|\  \ |LINK55|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE44|\  − 4x + 7. An example in three variables is x\ |STYLE45|\  + 2xyz\ |STYLE46|\  − yz + T\ |STYLE47|\ . |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |#. \ |STYLE48|\ , \ |IMG7|\  a \ |STYLE49|\ \ [#F7]_\  is an \ |LINK56|\  consisting of \ |LINK57|\  (or \ |LINK58|\ ) and \ |LINK59|\ , that involves only the operations of \ |LINK60|\ , \ |LINK61|\ , \ |LINK62|\ , and non-negative \ |LINK63|\  \ |LINK64|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE50|\  − 4x + 7. An example in three variables is x\ |STYLE51|\  + 2xyz\ |STYLE52|\  − yz + T\ |STYLE53|\ . |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ |STYLE54|\ , \ |IMG8|\  a \ |STYLE55|\ \ [#F8]_\  is an \ |LINK65|\  consisting of \ |LINK66|\  (or \ |LINK67|\ ) and \ |LINK68|\ , that involves only the operations of \ |LINK69|\ , \ |LINK70|\ , \ |LINK71|\ , and non-negative \ |LINK72|\  \ |LINK73|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE56|\  − 4x + 7. An example in three variables is x\ |STYLE57|\  + 2xyz\ |STYLE58|\  − yz + T\ |STYLE59|\ . |* \ |STYLE60|\ , \ |IMG9|\  a \ |STYLE61|\ \ [#F9]_\  is an \ |LINK74|\  consisting of \ |LINK75|\  (or \ |LINK76|\ ) and \ |LINK77|\ , that involves only the operations of \ |LINK78|\ , \ |LINK79|\ , \ |LINK80|\ , and non-negative \ |LINK81|\  \ |LINK82|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE62|\  − 4x + 7. An example in three variables is x\ |STYLE63|\  + 2xyz\ |STYLE64|\  − yz + T\ |STYLE65|\ .  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |\ |STYLE66|\ , \ |IMG10|\  a \ |STYLE67|\ \ [#F10]_\  is an \ |LINK83|\  consisting of \ |LINK84|\  (or \ |LINK85|\ ) and \ |LINK86|\ , that involves only the operations of \ |LINK87|\ , \ |LINK88|\ , \ |LINK89|\ , and non-negative \ |LINK90|\  \ |LINK91|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE68|\  − 4x + 7. An example in three variables is x\ |STYLE69|\  + 2xyz\ |STYLE70|\  − yz + T\ |STYLE71|\ .  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|In mathematics, \ |IMG5|\  a polynomial\ [#F5]_\  is an \ |LINK38|\  consisting of \ |LINK39|\  (or \ |LINK40|\ ) and \ |LINK41|\ , that involves only the operations of \ |LINK42|\ , \ |LINK43|\ , \ |LINK44|\ , and non-negative \ |LINK45|\  \ |LINK46|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE18|\  − 4x + 7. An example in three variables is x\ |STYLE19|\  + 2xyz\ |STYLE20|\  − yz + T\ |STYLE21|\ . |#. In mathematics, \ |IMG6|\  a polynomial\ [#F6]_\  is an \ |LINK47|\  consisting of \ |LINK48|\  (or \ |LINK49|\ ) and \ |LINK50|\ , that involves only the operations of \ |LINK51|\ , \ |LINK52|\ , \ |LINK53|\ , and non-negative \ |LINK54|\  \ |LINK55|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE22|\  − 4x + 7. An example in three variables is x\ |STYLE23|\  + 2xyz\ |STYLE24|\  − yz + T\ |STYLE25|\ . |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                             |#. In mathematics, \ |IMG7|\  a polynomial\ [#F7]_\  is an \ |LINK56|\  consisting of \ |LINK57|\  (or \ |LINK58|\ ) and \ |LINK59|\ , that involves only the operations of \ |LINK60|\ , \ |LINK61|\ , \ |LINK62|\ , and non-negative \ |LINK63|\  \ |LINK64|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE26|\  − 4x + 7. An example in three variables is x\ |STYLE27|\  + 2xyz\ |STYLE28|\  − yz + T\ |STYLE29|\ . |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|In mathematics, \ |IMG8|\  a polynomial\ [#F8]_\  is an \ |LINK65|\  consisting of \ |LINK66|\  (or \ |LINK67|\ ) and \ |LINK68|\ , that involves only the operations of \ |LINK69|\ , \ |LINK70|\ , \ |LINK71|\ , and non-negative \ |LINK72|\  \ |LINK73|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE30|\  − 4x + 7. An example in three variables is x\ |STYLE31|\  + 2xyz\ |STYLE32|\  − yz + T\ |STYLE33|\ . |* In mathematics, \ |IMG9|\  a polynomial\ [#F9]_\  is an \ |LINK74|\  consisting of \ |LINK75|\  (or \ |LINK76|\ ) and \ |LINK77|\ , that involves only the operations of \ |LINK78|\ , \ |LINK79|\ , \ |LINK80|\ , and non-negative \ |LINK81|\  \ |LINK82|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE34|\  − 4x + 7. An example in three variables is x\ |STYLE35|\  + 2xyz\ |STYLE36|\  − yz + T\ |STYLE37|\ .  |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                             |In mathematics, \ |IMG10|\  a polynomial\ [#F10]_\  is an \ |LINK83|\  consisting of \ |LINK84|\  (or \ |LINK85|\ ) and \ |LINK86|\ , that involves only the operations of \ |LINK87|\ , \ |LINK88|\ , \ |LINK89|\ , and non-negative \ |LINK90|\  \ |LINK91|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE38|\  − 4x + 7. An example in three variables is x\ |STYLE39|\  + 2xyz\ |STYLE40|\  − yz + T\ |STYLE41|\ .  |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _h425360541a6d36a14487962c584b8:
 
@@ -234,13 +234,20 @@ Code
             go end
 
     def end(y)
-        go \ |LINK92|\  start
+        go end start
         go end end
 
-.. _h2c1d74277104e41780968148427e:
+.. _h584616187e1a7c33197e463470237f12:
+
+Custom Admonition
+=================
 
 
+.. admonition:: My Admonition
 
+    this is content in the first row
+
+    this is \ |LINK92|\  in the second row
 
 .. _h1e7b7c356c1a63272445567d455a317e:
 
@@ -265,9 +272,9 @@ List Item with Text Styles
 
 * item 1
 
-    #. item 1.\ |STYLE72|\ with superscript
-    #. \ |STYLE73|\  1.\ |STYLE74|\ with superscript
-    #. \ |STYLE75|\  1.\ |STYLE76|\ with subscript
+    #. item 1.\ |STYLE42|\ with superscript
+    #. item 1.\ |STYLE43|\ with superscript
+    #. item 1.\ |STYLE44|\ with subscript
 
 * item 2
 
@@ -282,81 +289,81 @@ List Item with Text Styles
 \ |LINK94|\ 
 
 
-.. |STYLE0| replace:: **Features**
+.. |STYLE0| replace:: :sup:`2`
 
-.. |STYLE1| replace:: **In Paragraph**
+.. |STYLE1| replace:: :sup:`3`
 
-.. |STYLE2| replace:: **In List Item**
+.. |STYLE2| replace:: :sup:`2`
 
-.. |STYLE3| replace:: **In Table Cell**
+.. |STYLE3| replace:: :sub:`ab`
 
-.. |STYLE4| replace:: **In Admonition**
+.. |STYLE4| replace:: :sup:`2`
 
-.. |STYLE5| replace:: *In mathematics*
+.. |STYLE5| replace:: :sup:`3`
 
-.. |STYLE6| replace:: **polynomial**
+.. |STYLE6| replace:: :sup:`2`
 
-.. |STYLE7| replace:: :sup:`2`
+.. |STYLE7| replace:: :sub:`ab`
 
-.. |STYLE8| replace:: :sup:`3`
+.. |STYLE8| replace:: :sup:`2`
 
-.. |STYLE9| replace:: :sup:`2`
+.. |STYLE9| replace:: :sup:`3`
 
-.. |STYLE10| replace:: :sub:`ab`
+.. |STYLE10| replace:: :sup:`2`
 
-.. |STYLE11| replace:: *In mathematics*
+.. |STYLE11| replace:: :sub:`ab`
 
-.. |STYLE12| replace:: **polynomial**
+.. |STYLE12| replace:: :sup:`2`
 
-.. |STYLE13| replace:: :sup:`2`
+.. |STYLE13| replace:: :sup:`3`
 
-.. |STYLE14| replace:: :sup:`3`
+.. |STYLE14| replace:: :sup:`2`
 
-.. |STYLE15| replace:: :sup:`2`
+.. |STYLE15| replace:: :sub:`ab`
 
-.. |STYLE16| replace:: :sub:`ab`
+.. |STYLE16| replace:: :sup:`2`
 
-.. |STYLE17| replace:: *In mathematics*
+.. |STYLE17| replace:: :sub:`2`
 
-.. |STYLE18| replace:: **polynomial**
+.. |STYLE18| replace:: :sup:`2`
 
-.. |STYLE19| replace:: :sup:`2`
+.. |STYLE19| replace:: :sup:`3`
 
-.. |STYLE20| replace:: :sup:`3`
+.. |STYLE20| replace:: :sup:`2`
 
-.. |STYLE21| replace:: :sup:`2`
+.. |STYLE21| replace:: :sub:`ab`
 
-.. |STYLE22| replace:: :sub:`ab`
+.. |STYLE22| replace:: :sup:`2`
 
-.. |STYLE23| replace:: *In mathematics*
+.. |STYLE23| replace:: :sup:`3`
 
-.. |STYLE24| replace:: **polynomial**
+.. |STYLE24| replace:: :sup:`2`
 
-.. |STYLE25| replace:: :sup:`2`
+.. |STYLE25| replace:: :sub:`ab`
 
-.. |STYLE26| replace:: :sup:`3`
+.. |STYLE26| replace:: :sup:`2`
 
-.. |STYLE27| replace:: :sup:`2`
+.. |STYLE27| replace:: :sup:`3`
 
-.. |STYLE28| replace:: :sub:`ab`
+.. |STYLE28| replace:: :sup:`2`
 
-.. |STYLE29| replace:: **header\***
+.. |STYLE29| replace:: :sub:`ab`
 
-.. |STYLE30| replace:: **標題 x**
+.. |STYLE30| replace:: :sup:`2`
 
-.. |STYLE31| replace:: :sup:`2`
+.. |STYLE31| replace:: :sup:`3`
 
-.. |STYLE32| replace:: **+y**
+.. |STYLE32| replace:: :sup:`2`
 
-.. |STYLE33| replace:: :sub:`2`
+.. |STYLE33| replace:: :sub:`ab`
 
-.. |STYLE34| replace:: **In mathematics,**
+.. |STYLE34| replace:: :sup:`2`
 
-.. |STYLE35| replace:: *In mathematics,*
+.. |STYLE35| replace:: :sup:`3`
 
-.. |STYLE36| replace:: *In mathematics*
+.. |STYLE36| replace:: :sup:`2`
 
-.. |STYLE37| replace:: **polynomial**
+.. |STYLE37| replace:: :sub:`ab`
 
 .. |STYLE38| replace:: :sup:`2`
 
@@ -366,75 +373,11 @@ List Item with Text Styles
 
 .. |STYLE41| replace:: :sub:`ab`
 
-.. |STYLE42| replace:: *In mathematics*
+.. |STYLE42| replace:: :sup:`1`
 
-.. |STYLE43| replace:: **polynomial**
+.. |STYLE43| replace:: :sup:`12`
 
-.. |STYLE44| replace:: :sup:`2`
-
-.. |STYLE45| replace:: :sup:`3`
-
-.. |STYLE46| replace:: :sup:`2`
-
-.. |STYLE47| replace:: :sub:`ab`
-
-.. |STYLE48| replace:: *In mathematics*
-
-.. |STYLE49| replace:: **polynomial**
-
-.. |STYLE50| replace:: :sup:`2`
-
-.. |STYLE51| replace:: :sup:`3`
-
-.. |STYLE52| replace:: :sup:`2`
-
-.. |STYLE53| replace:: :sub:`ab`
-
-.. |STYLE54| replace:: *In mathematics*
-
-.. |STYLE55| replace:: **polynomial**
-
-.. |STYLE56| replace:: :sup:`2`
-
-.. |STYLE57| replace:: :sup:`3`
-
-.. |STYLE58| replace:: :sup:`2`
-
-.. |STYLE59| replace:: :sub:`ab`
-
-.. |STYLE60| replace:: *In mathematics*
-
-.. |STYLE61| replace:: **polynomial**
-
-.. |STYLE62| replace:: :sup:`2`
-
-.. |STYLE63| replace:: :sup:`3`
-
-.. |STYLE64| replace:: :sup:`2`
-
-.. |STYLE65| replace:: :sub:`ab`
-
-.. |STYLE66| replace:: *In mathematics*
-
-.. |STYLE67| replace:: **polynomial**
-
-.. |STYLE68| replace:: :sup:`2`
-
-.. |STYLE69| replace:: :sup:`3`
-
-.. |STYLE70| replace:: :sup:`2`
-
-.. |STYLE71| replace:: :sub:`ab`
-
-.. |STYLE72| replace:: :sup:`1`
-
-.. |STYLE73| replace:: *item*
-
-.. |STYLE74| replace:: :sup:`12`
-
-.. |STYLE75| replace:: **item**
-
-.. |STYLE76| replace:: :sub:`34`
+.. |STYLE44| replace:: :sub:`34`
 
 
 .. |LINK1| raw:: html
@@ -803,7 +746,7 @@ List Item with Text Styles
 
 .. |LINK92| raw:: html
 
-    <a href="http://www.google.com" target="_blank">end</a>
+    <a href="http://www.google.com" target="_blank">content</a>
 
 .. |LINK93| raw:: html
 
