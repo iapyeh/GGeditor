@@ -245,9 +245,9 @@ Custom Admonition
 
 .. admonition:: My Admonition
 
-    this is \ |STYLE62|\  in the first row
+    this is \ |STYLE62|\ in the first row
 
-    this is \ |LINK91|\  in the second row
+    this is a \ |LINK91|\  in the second row
 
 .. _h1e7b7c356c1a63272445567d455a317e:
 
@@ -413,7 +413,7 @@ List Item with Text Styles
 
 .. |STYLE61| replace:: :sub:`ab`
 
-.. |STYLE62| replace:: **content**
+.. |STYLE62| replace:: **bold text**
 
 .. |STYLE63| replace:: :sup:`1`
 
@@ -788,7 +788,7 @@ List Item with Text Styles
 
 .. |LINK91| raw:: html
 
-    <a href="http://www.google.com" target="_blank">content</a>
+    <a href="http://www.google.com" target="_blank">link</a>
 
 .. |LINK92| raw:: html
 
