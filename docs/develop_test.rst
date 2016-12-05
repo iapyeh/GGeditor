@@ -24,6 +24,25 @@ GGEditor Development
 +------------+--------------------------------------+
 
 
++---------------------------+-----------------------+
+|\ |STYLE2|\                |\ |STYLE3|\            |
++===========================+=======================+
+|A \`single back-quote\`    |A `single back-quote`  |
++---------------------------+-----------------------+
+|A \|replacement\| markup   |A |replacement2| markup|
++---------------------------+-----------------------+
+|A \`\`double back-quote\`\`|A ``double back-quote``|
++---------------------------+-----------------------+
+|A \|replacement\| markup   |A |replacement| markup |
++---------------------------+-----------------------+
+|A \|replacement\| markup   |A |replacement2| markup|
++---------------------------+-----------------------+
+
+.. |replacement| replace::   **replaced**
+
+.. |replacement2| replace::   **replaced2**
+
+
 .. name:: argument
     :option: value
     :option: value
@@ -83,6 +102,10 @@ para1
 .. |STYLE0| replace:: **Options**
 
 .. |STYLE1| replace:: **Note**
+
+.. |STYLE2| replace:: **In Google Docs document**
+
+.. |STYLE3| replace:: **Rendered in HTML page**
 
 
 .. |LINK1| raw:: html
