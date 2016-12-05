@@ -405,9 +405,9 @@ The idea for partial conversion is mainly for creating comments in a source code
 Copy to Clipboard
 -----------------
 
-(This feature is specially for API writers, so it is only visible for partial conversion)
-
 \ |IMG27|\ 
+
+(This feature is specially for API writers, so it is only visible for partial conversion)
 
 This button will copy the generated reStructureText to system clipboard (pasteboard). For convenience to paste as a block of comment in source code, you can assign a prefix for every copied line. The options are:
 
