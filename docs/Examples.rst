@@ -125,13 +125,13 @@ Simple Table
 ------------
 
 
-+---------------+----------------------------------------------------+----------------+
-|\ |STYLE29|\   |\ |STYLE30|\ \ |STYLE31|\ \ |STYLE32|\ \ |STYLE33|\ |\ |LINK37|\     |
-+===============+====================================================+================+
-|In mathematics,|\ |STYLE34|\                                        |In mathe*matics,|
-+---------------+----------------------------------------------------+----------------+
-|\ |STYLE35|\   |In mathematics,                                     |                |
-+---------------+----------------------------------------------------+----------------+
++---------------+----------------------------------------------------+-----------------+
+|\ |STYLE29|\   |\ |STYLE30|\ \ |STYLE31|\ \ |STYLE32|\ \ |STYLE33|\ |\ |LINK37|\      |
++===============+====================================================+=================+
+|In mathematics,|\ |STYLE34|\                                        |In mathe\*matics,|
++---------------+----------------------------------------------------+-----------------+
+|\ |STYLE35|\   |In mathematics,                                     |                 |
++---------------+----------------------------------------------------+-----------------+
 
 .. _h5a6e575f7c1d332d6350624c6c73387:
 
@@ -340,7 +340,7 @@ List Item with Text Styles
 
 .. |STYLE28| replace:: :sub:`ab`
 
-.. |STYLE29| replace:: **header***
+.. |STYLE29| replace:: **header\***
 
 .. |STYLE30| replace:: **標題 x**
 
@@ -835,65 +835,65 @@ List Item with Text Styles
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG2| image:: static/Examples_2.png
+.. |IMG2| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG3| image:: static/Examples_3.png
+.. |IMG3| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG4| image:: static/Examples_4.png
+.. |IMG4| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG5| image:: static/Examples_5.png
+.. |IMG5| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG6| image:: static/Examples_6.png
+.. |IMG6| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG7| image:: static/Examples_7.png
+.. |IMG7| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG8| image:: static/Examples_8.png
+.. |IMG8| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG9| image:: static/Examples_9.png
+.. |IMG9| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG10| image:: static/Examples_10.png
+.. |IMG10| image:: static/Examples_1.png
    :height: 73 px
    :width: 73 px
    :target: http://www.google.com
 
-.. |IMG11| image:: static/Examples_11.png
+.. |IMG11| image:: static/Examples_1.png
    :height: 150 px
    :width: 150 px
 
-.. |IMG12| image:: static/Examples_12.png
+.. |IMG12| image:: static/Examples_1.png
    :height: 150 px
    :width: 150 px
    :target: http://www.google.com
 
-.. |IMG13| image:: static/Examples_13.png
+.. |IMG13| image:: static/Examples_2.png
    :height: 266 px
    :width: 432 px
    :alt: Points scored
 
-.. |IMG14| image:: static/Examples_14.png
+.. |IMG14| image:: static/Examples_3.png
    :height: 72 px
    :width: 70 px
