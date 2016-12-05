@@ -100,13 +100,9 @@ Paragraphs
 
 The next paragraph contains links, bold, italic, subscript and superscript text, clickable inline image . As well as a paragraph of the same content with indentation.
 
-\ |STYLE0|\ , 
-\ |IMG1|\ 
- a \ |STYLE1|\ \ [#F1]_\  is an \ |LINK1|\  consisting of \ |LINK2|\  (or \ |LINK3|\ ) and \ |LINK4|\ , that involves only the operations of \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , and non-negative \ |LINK8|\  \ |LINK9|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE2|\  − 4x + 7. An example in three variables is x\ |STYLE3|\  + 2xyz\ |STYLE4|\  − yz + T\ |STYLE5|\ . 
+\ |STYLE0|\ , \ |IMG1|\  a \ |STYLE1|\ \ [#F1]_\  is an \ |LINK1|\  consisting of \ |LINK2|\  (or \ |LINK3|\ ) and \ |LINK4|\ , that involves only the operations of \ |LINK5|\ , \ |LINK6|\ , \ |LINK7|\ , and non-negative \ |LINK8|\  \ |LINK9|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE2|\  − 4x + 7. An example in three variables is x\ |STYLE3|\  + 2xyz\ |STYLE4|\  − yz + T\ |STYLE5|\ . 
 
-        \ |STYLE6|\ , 
-\ |IMG2|\ 
-         a \ |STYLE7|\  is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE8|\  − 4x + 7. An example in three variables is x\ |STYLE9|\  + 2xyz\ |STYLE10|\  − yz +  T\ |STYLE11|\ .
+        \ |STYLE6|\ , \ |IMG2|\          a \ |STYLE7|\  is an \ |LINK10|\  consisting of \ |LINK11|\  (or \ |LINK12|\ ) and \ |LINK13|\ , that involves only the operations of \ |LINK14|\ , \ |LINK15|\ , \ |LINK16|\ , and non-negative\ [#F2]_\          \ |LINK17|\  \ |LINK18|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE8|\  − 4x + 7. An example in three variables is x\ |STYLE9|\  + 2xyz\ |STYLE10|\  − yz +  T\ |STYLE11|\ .
 
 --------
 
