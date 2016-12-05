@@ -354,27 +354,23 @@ If only the text content has been modified, you can un-check the “Commit image
 About the Credentials
 ---------------------
 
-Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor.  You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
+Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor. 
 
-\ |IMG21|\ 
+\ |IMG21|\ \ |IMG22|\ 
 
-\ |IMG22|\ 
+Credentials is optional. You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
 
 
 .. Caution:: 
 
     The GGeditor will never sent you email to request reset credentials or anything else.
 
-You can give the credentials every time doing the committing. Like the following image shows.
-
-\ |IMG23|\ 
-
 .. _h3b4f503332637854223493a2d2f21b:
 
 Conversion
 ==========
 
-\ |IMG24|\ 
+\ |IMG23|\ 
 
 When you open the conversion dialog, the conversion process will be starting. When the conversion has completed, you can copy the generated reStructuredText content to clipboard by "Copy to Clipboard" button, or download the generated reStructuredText content as well as images by the "Download" button.
 
@@ -391,17 +387,11 @@ What been converted depends on selection and the cursor position, rules are:
 
 The conversion message on the right side are indications. Thre are three kinds of message:
 
-\ |IMG25|\ 
+\ |IMG24|\ Menas the whole document is converted to the reStructuredText format.
 
-Menas the whole document is converted to the reStructuredText format.
+\ |IMG25|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
 
-\ |IMG26|\ 
-
-Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
-
-\ |IMG27|\ 
-
-Means only the selection was converted to the reStructuredText format.  (partial conversion)
+\ |IMG26|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
 
 .. _h5782051373e754c6735481f7d792d67:
 
@@ -410,10 +400,38 @@ Why Partial Conversion
 
 The idea for partial conversion is mainly for creating comments in a source code. In your source code scripts, you can have comments for functions, classes, modules, packages in reStructuredText format. The RTD can automatically generate API documents from souce codes. This "\ |LINK5|\ " has more.
 
+.. _h95148cc6506117925452e78c21:
+
+Copy to Clipboard
+-----------------
+
+(This feature is specially for API writers, so it is only visible for partial conversion)
+
+\ |IMG27|\ 
+
+This button will copy the generated reStructureText to system clipboard (pasteboard). For convenience to paste as a block of comment in source code, you can assign a prefix for every copied line. The options are:
+
+
++------------+------------------------------+
+|\ |STYLE5|\ |\ |STYLE6|\                   |
++============+==============================+
+|No prefix   |                              |
++------------+------------------------------+
+|#           |Python                        |
++------------+------------------------------+
+|*           |Javascript, C++, Java, … etc  |
++------------+------------------------------+
+|//          |Javascript, C++, Java, ... etc|
++------------+------------------------------+
+|Ask         |whatever you say              |
++------------+------------------------------+
+
 .. _h6f1f457d4147275ff141e245c44e79:
 
 Dowload
 -------
+
+\ |IMG28|\ 
 
 What been converted depends on selection and the cursor position, rules are:
 
@@ -425,7 +443,7 @@ What been converted depends on selection and the cursor position, rules are:
 Generate Document
 -----------------
 
-\ |IMG28|\ 
+\ |IMG29|\ 
 
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
@@ -441,6 +459,10 @@ When partial content is converted only, like table or selection, The "Generate D
 .. |STYLE3| replace:: **Header Row**
 
 .. |STYLE4| replace:: **Header Row**
+
+.. |STYLE5| replace:: **Options**
+
+.. |STYLE6| replace:: **Note**
 
 
 .. |LINK1| raw:: html
@@ -549,33 +571,37 @@ When partial content is converted only, like table or selection, The "Generate D
    :width: 152 px
 
 .. |IMG21| image:: static/User_Guide_21.png
-   :height: 29 px
-   :width: 213 px
-
-.. |IMG22| image:: static/User_Guide_22.png
    :height: 38 px
    :width: 128 px
 
+.. |IMG22| image:: static/User_Guide_22.png
+   :height: 29 px
+   :width: 213 px
+
 .. |IMG23| image:: static/User_Guide_23.png
-   :height: 404 px
-   :width: 688 px
+   :height: 165 px
+   :width: 746 px
 
 .. |IMG24| image:: static/User_Guide_24.png
-   :height: 161 px
-   :width: 726 px
-
-.. |IMG25| image:: static/User_Guide_25.png
    :height: 42 px
    :width: 174 px
 
-.. |IMG26| image:: static/User_Guide_26.png
+.. |IMG25| image:: static/User_Guide_25.png
    :height: 42 px
    :width: 168 px
 
-.. |IMG27| image:: static/User_Guide_27.png
+.. |IMG26| image:: static/User_Guide_26.png
    :height: 36 px
    :width: 186 px
 
+.. |IMG27| image:: static/User_Guide_27.png
+   :height: 36 px
+   :width: 220 px
+
 .. |IMG28| image:: static/User_Guide_28.png
+   :height: 38 px
+   :width: 84 px
+
+.. |IMG29| image:: static/User_Guide_29.png
    :height: 40 px
    :width: 148 px
