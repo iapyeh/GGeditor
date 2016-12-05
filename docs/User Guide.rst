@@ -30,7 +30,7 @@ You can use the following list native features of the Google Docs to build your 
 Inline Markups
 ==============
 
-Some inline reStructuredText markups can be used directly in the document. The table demonstrates the usage example of these inline markups.
+Some inline reStructuredText markups can be used directly in the document. The table below shows the usage example of these inline markups.
 
 
 +---------------------------+-----------------------+
@@ -45,14 +45,11 @@ Some inline reStructuredText markups can be used directly in the document. The t
 
 .. |replacement| replace::   **replaced**
 
+That is converted from the source content in document:
 
-.. Hint:: 
+\ |IMG1|\ 
 
-    If you manually put a substitution markup, you got to provide the replacement markup manually. Below is the source of above table, you can put the replacement markup. The last line shows an example of inline replacement markup.
-    
-    \ |IMG1|\ 
-    
-    
+Please noted that if you manually put a substitution markup, you got to provide correct replacement markup manually too. Otherwise, the sphinx parser will raise exception. 
 
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
@@ -489,8 +486,8 @@ When partial content is converted only, like table or selection, The "Generate D
 
 
 .. |IMG1| image:: static/User_Guide_1.png
-   :height: 224 px
-   :width: 522 px
+   :height: 192 px
+   :width: 536 px
 
 .. |IMG2| image:: static/User_Guide_2.png
    :height: 266 px
