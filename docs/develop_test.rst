@@ -6,7 +6,22 @@ GGEditor Development
 
 * \ |LINK1|\  to the GGeditor’s documentation in the readthedocs.org
 * \ |LINK2|\  to the GGeditor’s repository in the Github
-* \ |LINK3|\  to the User Guide
+* \ |LINK3|\  to the ``User Guide``
+
+
++------------+--------------------------------------+
+|\ |STYLE0|\ |\ |STYLE1|\                           |
++============+======================================+
+|No prefix   |                                      |
++------------+--------------------------------------+
+|#           |Pyth\*on                              |
++------------+--------------------------------------+
+|\*          |Javascript, C++, \*\* Java \*\*, … etc|
++------------+--------------------------------------+
+|//          |Javascript, C++, Java, ... etc        |
++------------+--------------------------------------+
+|Ask         |whatever you say                      |
++------------+--------------------------------------+
 
 
 .. name:: argument
@@ -50,6 +65,8 @@ para1
 |f|d|d|
 +-+-+-+
 
+\ |IMG3|\ 
+
 
 .. code-block:: python
     :linenos:
@@ -60,6 +77,12 @@ para1
     |HELLO    |WORLD    |
     +---------+---------+
 
+\ |IMG4|\ 
+
+
+.. |STYLE0| replace:: **Options**
+
+.. |STYLE1| replace:: **Note**
 
 
 .. |LINK1| raw:: html
@@ -95,3 +118,11 @@ para1
 .. |IMG2| image:: static/develop_test_1.png
    :height: 36 px
    :width: 77 px
+
+.. |IMG3| image:: static/develop_test_2.png
+   :height: 285 px
+   :width: 369 px
+
+.. |IMG4| image:: static/develop_test_2.png
+   :height: 196 px
+   :width: 254 px
