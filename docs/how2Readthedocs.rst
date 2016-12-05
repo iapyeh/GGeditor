@@ -1,10 +1,10 @@
 
-.. _h5d65792d7c3a8577b1553f3f4f58:
+.. _h31232e4764c5e5a6a673749697b8027:
 
-How to the Readthedocs (RTD)
-****************************
+How to the Readthedocs
+**********************
 
-The \ |LINK1|\  is an awesom place to host your documentation of projects in the Github as well as other repositories.
+The \ |LINK1|\  (RTD) is an awesom place to host your documentation of projects in the Github as well as other repositories.
 
 This is a simple guideline to help the GGeditor users to set up a basic project of the RTD. I have no idea if this is the best practice, it just works for me.
 
@@ -50,6 +50,8 @@ The index.rst is the homepage of your project in the RTD. You can put anything y
 Then, the document would have a “toctree” table like this:
 
 \ |IMG5|\ 
+
+You can reference \ |LINK2|\  for example.
 
 .. _h7f1657c7763721b311b652230436640:
 
@@ -111,7 +113,7 @@ Below is the content for you to copy and paste.
 
 .. Tip:: 
 
-    To utilize the full power of the Sphinx, you can consult \ |LINK2|\ .
+    To utilize the full power of the Sphinx, you can consult \ |LINK3|\ .
 
 .. _h4a47434f5c5745347cc5f1b4d2d5023:
 
@@ -132,8 +134,6 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
-You can reference \ |LINK3|\  for example.
-
 
 
 .. |LINK1| raw:: html
@@ -142,40 +142,40 @@ You can reference \ |LINK3|\  for example.
 
 .. |LINK2| raw:: html
 
-    <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
+    <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the index.rst of the GGeditor</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">the index.rst of the GGeditor</a>
+    <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
 
 
 .. |IMG1| image:: static/how2Readthedocs_1.png
-   :height: 348 px
-   :width: 613 px
+   :height: 285 px
+   :width: 502 px
 
 .. |IMG2| image:: static/how2Readthedocs_2.png
-   :height: 234 px
-   :width: 465 px
+   :height: 180 px
+   :width: 357 px
 
 .. |IMG3| image:: static/how2Readthedocs_3.png
-   :height: 240 px
-   :width: 468 px
+   :height: 186 px
+   :width: 364 px
 
 .. |IMG4| image:: static/how2Readthedocs_4.png
    :height: 493 px
    :width: 310 px
 
 .. |IMG5| image:: static/how2Readthedocs_5.png
-   :height: 478 px
-   :width: 810 px
+   :height: 274 px
+   :width: 232 px
 
 .. |IMG6| image:: static/how2Readthedocs_6.png
-   :height: 218 px
-   :width: 1025 px
+   :height: 178 px
+   :width: 838 px
 
 .. |IMG7| image:: static/how2Readthedocs_7.png
-   :height: 149 px
-   :width: 418 px
+   :height: 110 px
+   :width: 310 px
 
 .. |IMG8| image:: static/how2Readthedocs_8.png
    :height: 149 px
