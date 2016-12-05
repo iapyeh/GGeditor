@@ -10,57 +10,57 @@ Date: Nov 16, 2016
 
 Table of Supported Features
 
-+----------------+------------+------------+-------------+-------------+
-|Features        |In Paragraph|In List Item|In Table Cell|In Admonition|
-+================+============+============+=============+=============+
-|Normal Text     |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Text alignment  |No          |No          |No           |No           |
-+----------------+------------+------------+-------------+-------------+
-|Background Color|No          |No          |No           |No           |
-+----------------+------------+------------+-------------+-------------+
-|Indentation     |Yes         |N/A         |             |No           |
-+----------------+------------+------------+-------------+-------------+
-|Headings        |Yes         |N/A         |N/A          |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Bold            |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Italic          |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Subscript       |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Superscript     |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Hyperlink       |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Horizontal Line |Yes         |N/A         |N/A          |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Link to bookmark|Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Link to headings|Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Footnote        |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Inline markup   |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Image           |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Image with link |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Chart           |Yes         |            |             |             |
-+----------------+------------+------------+-------------+-------------+
-|Admonition      |Yes         |No          |No           |No (Nested)  |
-+----------------+------------+------------+-------------+-------------+
-|List item       |Yes         |Yes(Nested) |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Table           |Yes         |No          |No (Nested)  |No           |
-+----------------+------------+------------+-------------+-------------+
-|Column span     |N/A         |N/A         |No           |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Rowspan         |N/A         |N/A         |No           |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Table of Content|Yes         |No          |No           |No           |
-+----------------+------------+------------+-------------+-------------+
++----------------+------------+------------+------------+------------+
+|\ |STYLE0|\     |\ |STYLE1|\ |\ |STYLE2|\ |\ |STYLE3|\ |\ |STYLE4|\ |
++================+============+============+============+============+
+|Normal Text     |Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Text alignment  |No          |No          |No          |No          |
++----------------+------------+------------+------------+------------+
+|Background Color|No          |No          |No          |No          |
++----------------+------------+------------+------------+------------+
+|Indentation     |Yes         |N/A         |            |No          |
++----------------+------------+------------+------------+------------+
+|Headings        |Yes         |N/A         |N/A         |N/A         |
++----------------+------------+------------+------------+------------+
+|Bold            |Yes         |Yes         |Yes         |No          |
++----------------+------------+------------+------------+------------+
+|Italic          |Yes         |Yes         |Yes         |No          |
++----------------+------------+------------+------------+------------+
+|Subscript       |Yes         |Yes         |Yes         |No          |
++----------------+------------+------------+------------+------------+
+|Superscript     |Yes         |Yes         |Yes         |No          |
++----------------+------------+------------+------------+------------+
+|Hyperlink       |Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Horizontal Line |Yes         |N/A         |N/A         |N/A         |
++----------------+------------+------------+------------+------------+
+|Link to bookmark|Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Link to headings|Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Footnote        |Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Inline markup   |Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Image           |Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Image with link |Yes         |Yes         |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Chart           |Yes         |            |            |            |
++----------------+------------+------------+------------+------------+
+|Admonition      |Yes         |No          |No          |No (Nested) |
++----------------+------------+------------+------------+------------+
+|List item       |Yes         |Yes(Nested) |Yes         |Yes         |
++----------------+------------+------------+------------+------------+
+|Table           |Yes         |No          |No (Nested) |No          |
++----------------+------------+------------+------------+------------+
+|Column span     |N/A         |N/A         |No          |N/A         |
++----------------+------------+------------+------------+------------+
+|Rowspan         |N/A         |N/A         |No          |N/A         |
++----------------+------------+------------+------------+------------+
+|Table of Content|Yes         |No          |No          |No          |
++----------------+------------+------------+------------+------------+
 
 .. _h64a67723216a45226c6e5434607343:
 
@@ -68,23 +68,23 @@ Document Structure and Components
 *********************************
 
 
-+----------------+-------------------+------+
-|Hierarchy       |Google Docs Heading|Markup|
-+================+===================+======+
-|Parts           |Title              |#     |
-+----------------+-------------------+------+
-|Chapter         |Heading 1          |*     |
-+----------------+-------------------+------+
-|Section         |Heading 2          |=     |
-+----------------+-------------------+------+
-|Subsection      |Heading 3          |-     |
-+----------------+-------------------+------+
-|Subsubsection   |Heading 4          |~     |
-+----------------+-------------------+------+
-|Subsubsubsection|Heading 5          |^     |
-+----------------+-------------------+------+
-|Paragraph       |Normal Text        |      |
-+----------------+-------------------+------+
++----------------+------------+------------+
+|\ |STYLE5|\     |\ |STYLE6|\ |\ |STYLE7|\ |
++================+============+============+
+|Parts           |Title       |#           |
++----------------+------------+------------+
+|Chapter         |Heading 1   |\*          |
++----------------+------------+------------+
+|Section         |Heading 2   |=           |
++----------------+------------+------------+
+|Subsection      |Heading 3   |-           |
++----------------+------------+------------+
+|Subsubsection   |Heading 4   |~           |
++----------------+------------+------------+
+|Subsubsubsection|Heading 5   |^           |
++----------------+------------+------------+
+|Paragraph       |Normal Text |            |
++----------------+------------+------------+
 
 .. _h2e201561772e25787b564d7c6271a:
 
@@ -93,6 +93,7 @@ Remarks on document structure
 
 * If you have unicode in heading text, such as CKJ characters, the markup in next line might be longer because it got length from bytes not words count.
 
+--------
 
 .. _h251a32c3d67762dd2f79492e157c:
 
@@ -109,11 +110,9 @@ It results:
 
 For example, this is the second paragraph.
 
-        \ **Paragraph Indent is preserved**\ .  The indentation level depends on the second line.  This paragraph is of 1 level of indentation. 
+        \ |STYLE8|\ .  The indentation level depends on the second line.  This paragraph is of 1 level of indentation. 
 
-        \ *This paragraph is of 2 level of indentation in italic*\ 
-\ [#F1]_\ 
-        . Hyperlinks are supported. You can create a link like this: \ `link to the Google`_\ . 
+        \ |STYLE9|\ \ [#F1]_\         . Hyperlinks are supported. You can create a link like this: \ |LINK1|\ . 
 
 .. _h494d3b7d2d2d66434623e305f3b9d:
 
@@ -163,10 +162,9 @@ Bullet List, Enumerated List
 
 The above list in the Google Docs:
 
-.. _h2c1d74277104e41780968148427e:
+.. _h6a7f23367b2f433469314f47392f697a:
 
-
-
+\ |IMG4|\ ==========
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -180,7 +178,7 @@ Definition lists:
 
 Just use the indentation for definition content like this:
 
-\ |IMG4|\ 
+\ |IMG5|\ 
 
 It results:
 
@@ -192,6 +190,7 @@ How
 
         The term is a one-line phrase, and the definition is one or more paragraphs or body elements, indented relative to  the term.
 
+--------
 
 .. _h4f5f18773d527364050184c733e3b71:
 
@@ -200,6 +199,7 @@ Horizontal Line
 
 Just insert a horizontal line in Google Docs, it was converted to reST. Like this:
 
+--------
 
 .. _h513c5b795d5d185d1c203d7e75205f41:
 
@@ -217,32 +217,33 @@ A Google Docs table was exported to a reST table with the following rules:
 
 For example, in the Google Docs:
 
-\ |IMG5|\ 
+\ |IMG6|\ 
 
 It results:
 
-+------------------------+------------------------------------------+---------------------+
-|Make all cells BOLD     | would upgrade this row                   | to be a header row  |
-+========================+==========================================+=====================+
-|Normal cell text        |                                          |Empty cell in my left|
-+------------------------+------------------------------------------+---------------------+
-|Hyper link is fine      |#. This is #1                             |                     |
-|                        |#. This is #2                             |                     |
-|Link to \ `google`_\    |                                          |                     |
-|Link to \ `Facebook`_\  |    * This is #a                          |                     |
-|Link to \ `Apple`_\     |    * This is #b                          |                     |
-|                        |                                          |                     |
-|                        |        #. This is #1                     |                     |
-|                        |        #. This is #2                     |                     |
-|                        |        #. This is #3                     |                     |
-|                        |                                          |                     |
-|                        |    * This is #c                          |                     |
-|                        |                                          |                     |
-|                        |#. This is #3                             |                     |
-+------------------------+------------------------------------------+---------------------+
-|But  image \ |IMG6|\    | , column or row span is not exported yet.|                     |
-+------------------------+------------------------------------------+---------------------+
++---------------------+------------------------------------------+---------------------+
+|\ |STYLE10|\         |\ |STYLE11|\                              |\ |STYLE12|\         |
++=====================+==========================================+=====================+
+|Normal cell text     |                                          |Empty cell in my left|
++---------------------+------------------------------------------+---------------------+
+|Hyper link is fine   |#. This is #1                             |                     |
+|                     |#. This is #2                             |                     |
+|Link to \ |LINK2|\   |                                          |                     |
+|Link to \ |LINK3|\   |    * This is #a                          |                     |
+|Link to \ |LINK4|\   |    * This is #b                          |                     |
+|                     |                                          |                     |
+|                     |        #. This is #1                     |                     |
+|                     |        #. This is #2                     |                     |
+|                     |        #. This is #3                     |                     |
+|                     |                                          |                     |
+|                     |    * This is #c                          |                     |
+|                     |                                          |                     |
+|                     |#. This is #3                             |                     |
++---------------------+------------------------------------------+---------------------+
+|But  image \ |IMG7|\ | , column or row span is not exported yet.|                     |
++---------------------+------------------------------------------+---------------------+
 
+--------
 
 .. _h425360541a6d36a14487962c584b8:
 
@@ -253,7 +254,7 @@ Image in the Google Docs was exported to reST. Chart  is image too, so it can be
 
 * Please set image to be “Inline” in Google Docs, like this:
 
-\ |IMG7|\ 
+\ |IMG8|\ 
 
 * Image with hyperlinks is exported to :target:.
 * Horizontal alignment (left, center and right) is exported to :align:
@@ -305,43 +306,86 @@ Image subfolder naming scheme
 
 * If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”. 
 * Which means if there is a file named “README” in the same folder of README.rst, confliction would happen.
-* Some special characters in name, such as space, *, / are replaced with _
+* Some special characters in name, such as space, \*, / are replaced with _
 
-.. _`link to the Google`: http://www.google.com
-.. _`google`: http://www.google.com
-.. _`Facebook`: http://facebook.com
-.. _`Apple`: http://apple.com
+
+.. |STYLE0| replace:: **Features**
+
+.. |STYLE1| replace:: **In Paragraph**
+
+.. |STYLE2| replace:: **In List Item**
+
+.. |STYLE3| replace:: **In Table Cell**
+
+.. |STYLE4| replace:: **In Admonition**
+
+.. |STYLE5| replace:: **Hierarchy**
+
+.. |STYLE6| replace:: **Google Docs Heading**
+
+.. |STYLE7| replace:: **Markup**
+
+.. |STYLE8| replace:: **Paragraph Indent is preserved**
+
+.. |STYLE9| replace:: *This paragraph is of 2 level of indentation in italic*
+
+.. |STYLE10| replace:: **Make all cells BOLD**
+
+.. |STYLE11| replace:: **would upgrade this row**
+
+.. |STYLE12| replace:: **to be a header row**
+
+
+.. |LINK1| raw:: html
+
+    <a href="http://www.google.com" target="_blank">link to the Google</a>
+
+.. |LINK2| raw:: html
+
+    <a href="http://www.google.com" target="_blank">google</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://facebook.com" target="_blank">Facebook</a>
+
+.. |LINK4| raw:: html
+
+    <a href="http://apple.com" target="_blank">Apple</a>
+
 
 
 .. rubric:: Footnotes
 
 .. [#f1]  This is a footnote
 
-.. |IMG1| image:: static/docstructure_1.png
+.. |IMG1| image:: static/DocStructure_1.png
    :height: 185 px
    :width: 697 px
 
-.. |IMG2| image:: static/docstructure_2.png
+.. |IMG2| image:: static/DocStructure_2.png
    :height: 178 px
    :width: 697 px
 
-.. |IMG3| image:: static/docstructure_3.png
+.. |IMG3| image:: static/DocStructure_3.png
    :height: 53 px
    :width: 44 px
 
-.. |IMG4| image:: static/docstructure_4.png
+.. |IMG4| image:: static/DocStructure_4.png
+   :height: 202 px
+   :width: 697 px
+
+.. |IMG5| image:: static/DocStructure_5.png
    :height: 142 px
    :width: 697 px
 
-.. |IMG5| image:: static/docstructure_5.png
+.. |IMG6| image:: static/DocStructure_6.png
    :height: 325 px
    :width: 697 px
 
-.. |IMG6| image:: static/docstructure_6.png
+.. |IMG7| image:: static/DocStructure_3.png
    :height: 53 px
    :width: 44 px
 
-.. |IMG7| image:: static/docstructure_7.png
+.. |IMG8| image:: static/DocStructure_7.png
    :height: 60 px
    :width: 206 px
-   :align: center
