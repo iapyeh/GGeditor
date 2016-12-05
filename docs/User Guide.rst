@@ -224,7 +224,7 @@ It is rendered like this:
 Code with line number
 ~~~~~~~~~~~~~~~~~~~~~
 
-This will insert a "code-block" directive. This feature is almost the same as the "code" but it accepts an option ":linenos". So the line number will also be rendered. Because the "code-block" should have a argument by the specification, a placeholder "python" has been appended. This argument can be replaced but not been removed.
+This will insert a "code-block" directive. This feature render the given content with line numbers. The ":linenos" option should not be removed. Because the "code-block" should have an argument for programming language of the given content, a placeholder "python" has been appended as default. This argument can be replaced but shall not been removed.
 
 .. _ha1d6c3e373325355168491f521a78b:
 
