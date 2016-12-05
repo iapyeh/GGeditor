@@ -221,13 +221,13 @@ Admonitions
 
     (content of warning)
 
-.. _h36d46272a794b2f694b492933796e5e:
+.. _h447662145f7692285c35327713294c:
 
-Code
-====
+Code block with line number
+===========================
 
 
-.. Code:: 
+.. Code-block:: python
 
     #!/usr/bin/env python
     
