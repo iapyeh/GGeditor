@@ -34,7 +34,7 @@ Some inline reStructuredText markups can be used directly in the document. The t
 
 
 +---------------------------+-----------------------+
-|\ |STYLE0|\                |\ |STYLE1|\            |
+|In Google Docs document    |Rendered in HTML page  |
 +===========================+=======================+
 |A \`single back-quote\`    |A `single back-quote`  |
 +---------------------------+-----------------------+
@@ -63,13 +63,13 @@ The Google Docs native table can be converted to reStructuredText table. One thi
 This is the rendered table of the above content.
 
 
-+------------+------------+------------+
-|\ |STYLE2|\ |\ |STYLE3|\ |\ |STYLE4|\ |
-+============+============+============+
-|Normal Row  |Normal Row  |Normal Row  |
-+------------+------------+------------+
-|Normal Row  |Normal Row  |Normal Row  |
-+------------+------------+------------+
++----------+----------+----------+
+|Header Row|Header Row|Header Row|
++==========+==========+==========+
+|Normal Row|Normal Row|Normal Row|
++----------+----------+----------+
+|Normal Row|Normal Row|Normal Row|
++----------+----------+----------+
 
 
 .. Hint:: 
@@ -407,19 +407,19 @@ Copy to Clipboard
 This button will copy the generated reStructureText to system clipboard (pasteboard). For convenience to paste as a block of comment in source code, you can assign a prefix for every copied line. The options are:
 
 
-+------------+------------------------------+
-|\ |STYLE5|\ |\ |STYLE6|\                   |
-+============+==============================+
-|No prefix   |                              |
-+------------+------------------------------+
-|#           |Python                        |
-+------------+------------------------------+
-|\*          |Javascript, C++, Java, … etc  |
-+------------+------------------------------+
-|//          |Javascript, C++, Java, ... etc|
-+------------+------------------------------+
-|Ask         |whatever you say              |
-+------------+------------------------------+
++---------+------------------------------+
+|Options  |Note                          |
++=========+==============================+
+|No prefix|                              |
++---------+------------------------------+
+|#        |Python                        |
++---------+------------------------------+
+|\*       |Javascript, C++, Java, … etc  |
++---------+------------------------------+
+|//       |Javascript, C++, Java, ... etc|
++---------+------------------------------+
+|Ask      |whatever you say              |
++---------+------------------------------+
 
 .. _h6f1f457d4147275ff141e245c44e79:
 
@@ -443,21 +443,6 @@ Generate Document
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
 \ |LINK6|\  
-
-
-.. |STYLE0| replace:: **In Google Docs document**
-
-.. |STYLE1| replace:: **Rendered in HTML page**
-
-.. |STYLE2| replace:: **Header Row**
-
-.. |STYLE3| replace:: **Header Row**
-
-.. |STYLE4| replace:: **Header Row**
-
-.. |STYLE5| replace:: **Options**
-
-.. |STYLE6| replace:: **Note**
 
 
 .. |LINK1| raw:: html
