@@ -104,14 +104,21 @@ Images will be re-generated if “Commit images” was checked. That is, the map
 
     Currently, it seems the sphinx parser has problem on parsing :align: of an image markup, so image horizontal alignment is not supported yet. 
 
+.. _h753b28271020522c1ef40bf593a32:
+
+Add-ons Menu item of GGeditor
+=============================
+
+.. _h80796f6531d141926653d426622443a:
+
+\ |IMG3|\ ==========
+
+You can access the following features from the add-on menu item of GGeditor.
+
 .. _h6c5e5e24234f72422a2ce37561f2355:
 
 Markup Panel
 ============
-
-\ |IMG3|\ 
-
-Besides the native features, you have more features by click the ``Show Markup Panel`` or the ``Commit to Github`` on the Add-ons/GGeditor menu item.
 
 The “Show Markup Panel” helps you to insert special markups, to see the converted content in reStructuredText, or to download the generated files.
 
@@ -479,8 +486,8 @@ When partial content is converted only, like table or selection, The "Generate D
    :width: 457 px
 
 .. |IMG3| image:: static/User_Guide_3.png
-   :height: 105 px
-   :width: 402 px
+   :height: 170 px
+   :width: 524 px
 
 .. |IMG4| image:: static/User_Guide_4.png
    :height: 216 px
