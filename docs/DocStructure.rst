@@ -135,10 +135,7 @@ The above paragraph in the Google Docs.
 
 \ |IMG2|\ 
 
-.. _h2c1d74277104e41780968148427e:
-
-
-
+--------
 
 .. _h53282618624d66441b3356396b775f3f:
 
@@ -162,14 +159,9 @@ Bullet List, Enumerated List
 
 The above list in the Google Docs:
 
-.. _h6a7f23367b2f433469314f47392f697a:
+\ |IMG4|\ 
 
-\ |IMG4|\ ==========
-
-.. _h2c1d74277104e41780968148427e:
-
-
-
+--------
 
 .. _h517d2944691c466b51131b41556f7f:
 
