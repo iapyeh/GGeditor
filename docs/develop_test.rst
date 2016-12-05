@@ -1,34 +1,97 @@
-\ **GGEditor Development**\ 
 
-* \ `Link`_\  to the GGeditor documentation in the readthedocs.org
-* \ `Link`_\  to the GGeditor documentation in the Github
-* \ `Link`_\  to the User Guide of the GGeditor (Lots of usage example)
+.. _h6a486b4240423657f1f2b16423f36:
+
+GGEditor Development
+********************
+
+* \ |LINK1|\  to the GGeditor’s documentation in the readthedocs.org
+* \ |LINK2|\  to the GGeditor’s repository in the Github
+* \ |LINK3|\  to the User Guide
 
 
-.. Hint:: 
+.. name:: argument
+    :option: value
+    :option: value
 
-    If you manually put a substitution markup, you got to provide the replacement markup manu. The above table is generated from the content below:\ |IMG1|\ 
+    content
 
 
 .. code:: 
 
-    var body = DocumentApp.getActiveDocument().getBody();
-    
-     // Create a two-dimensional array containing the cell contents.
-     var cells = [
-       ['Row 1, Cell 1', 'Row 1, Cell 2'],
-       ['Row 2, Cell 1', 'Row 2, Cell 2']
-     ];
-    
-     // Build a table from the array.
-     body.appendTable(cells);
-    
     
 
 
+.. code-block:: python
+    :linenos:
 
-.. _`Link`: https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing
+    
+
+
+.. toctree:: 
+    :maxdepth: 2
+    :hidden:
+
+    (content of code)
+
+.. _h63c7227b562f5f1a54714740535836:
+
+para1
+*****
+
+* \ |LINK4|\  to the GGeditor’s documentation in the readthedocs.org
+* \ |LINK5|\  to the GGeditor’s repository in the Github
+* \ |LINK6|\  to the User Guide
+* \ |IMG1|\ 
+* \ |IMG2|\ 
+
++-+-+-+
+|a|b|c|
++-+-+-+
+|f|d|d|
++-+-+-+
+
+
+.. code-block:: python
+    :linenos:
+
+    +---------+---------+
+    |標題列   |標題列   |
+    +=========+=========+
+    |HELLO    |WORLD    |
+    +---------+---------+
+
+
+
+.. |LINK1| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">Link</a>
+
+.. |LINK2| raw:: html
+
+    <a href="https://github.com/iapyeh/GGeditor" target="_blank">Link</a>
+
+.. |LINK3| raw:: html
+
+    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Link</a>
+
+.. |LINK4| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">Link</a>
+
+.. |LINK5| raw:: html
+
+    <a href="https://github.com/iapyeh/GGeditor" target="_blank">Link</a>
+
+.. |LINK6| raw:: html
+
+    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Link</a>
+
 
 .. |IMG1| image:: static/develop_test_1.png
-   :height: 224 px
-   :width: 522 px
+   :height: 125 px
+   :width: 264 px
+   :target: http://www.google.com
+
+.. |IMG2| image:: static/develop_test_1.png
+   :height: 36 px
+   :width: 77 px
