@@ -201,7 +201,7 @@ that helps us keep momentun on GGeditor.
 
 
 .. |IMG1| image:: static/index_1.png
-   :align: center
+   :align: middle
    :height: 250 px
    :width: 504 px
 
