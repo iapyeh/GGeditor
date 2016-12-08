@@ -131,6 +131,14 @@ Below is the content of the theme_overrides.css for you to copy and paste.
     .wy-table-responsive table td, .wy-table-responsive table th {
        white-space: inherit;
     }
+    
+    .wy-table-responsive table th {
+       background-color: #f0f0f0;
+    }
+    
+    .line-block, .docutils.footnote {
+        line-height: 24px;
+    }
 
 Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
