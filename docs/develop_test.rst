@@ -1,158 +1,98 @@
 
-.. _h6a486b4240423657f1f2b16423f36:
+.. _h2c1d74277104e41780968148427e:
 
-GGEditor Development
-********************
 
-* \ |LINK1|\  to the GGeditor’s documentation in the readthedocs.org
-* \ |LINK2|\  to the GGeditor’s repository in the Github
-* \ |LINK3|\  to the ``User Guide``
 
-.. _h753b28271020522c1ef40bf593a32:
 
-Add-ons Menu item of GGeditor
-=============================
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
+.. _hc446611b54b3080663873375a615b:
+
+Test
+####
 
 .. _h761ab401543201137a78553757464:
 
-\ |IMG1|\ 
-==========
-
-You can access the following features from the add-on menu item of GGeditor.
+\ |IMG1|\ ==========
 
 
-+---------+--------------------------------------+
-|Options  |Note                                  |
-+=========+======================================+
-|No prefix|                                      |
-+---------+--------------------------------------+
-|#        |Pyth\*on                              |
-+---------+--------------------------------------+
-|\*       |Javascript, C++, \*\* Java \*\*, … etc|
-+---------+--------------------------------------+
-|//       |Javascript, C++, Java, ... etc        |
-+---------+--------------------------------------+
-|Ask      |whatever you say                      |
-+---------+--------------------------------------+
+.. Attention:: 
+
+    (content of Attention)
 
 
-+---------------------------+-----------------------+
-|In Google Docs document    |Rendered in HTML page  |
-+===========================+=======================+
-|A \`single back-quote\`    |A `single back-quote`  |
-+---------------------------+-----------------------+
-|A \|replacement\| markup   |A |replacement2| markup|
-+---------------------------+-----------------------+
-|A \`\`double back-quote\`\`|A ``double back-quote``|
-+---------------------------+-----------------------+
-|A \|replacement\| markup   |A |replacement| markup |
-+---------------------------+-----------------------+
-|A \|replacement\| markup   |A |replacement2| markup|
-+---------------------------+-----------------------+
+.. Caution:: 
 
-.. |replacement| replace::   **replaced**
-
-.. |replacement2| replace::   **replaced2**
+    (content of Caution)
 
 
-.. name:: argument
-    :option: value
-    :option: value
+.. Warning:: 
 
-    content
+    (content of Warning)
 
 
-.. code:: 
+.. Danger:: 
 
+    (content of Danger)
+
+
+.. Error:: 
+
+    (content of Error)
+
+
+.. Hint:: 
+
+    (content of Hint)
+
+
+.. Important:: 
+
+    (content of Important)
+
+
+.. Tip:: 
+
+    (content of Tip)
+
+
+.. Note:: 
+
+    (content of Note)
+
+
+.. seealso:: 
+
+    (content of See also)
+
+
+.. admonition:: Change-me
+
+    (content of Change-me)
+    (content of Change-me)
+    (content of Change-me)
+    (content of Change-me)
     
 
-
-.. code-block:: python
-    :linenos:
-
-    
+.. _h2c1d74277104e41780968148427e:
 
 
-.. toctree:: 
-    :maxdepth: 2
-    :hidden:
-
-    (content of code)
-
-.. _h63c7227b562f5f1a54714740535836:
-
-para1
-*****
-
-* \ |LINK4|\  to the GGeditor’s documentation in the readthedocs.org
-* \ |LINK5|\  to the GGeditor’s repository in the Github
-* \ |LINK6|\  to the User Guide
-* \ |IMG2|\ 
-* \ |IMG3|\ 
-
-+-+-+-+
-|a|b|c|
-+-+-+-+
-|f|d|d|
-+-+-+-+
-
-\ |IMG4|\ 
 
 
-.. code-block:: python
-    :linenos:
+.. _h3f12453542177d82f2d5e35105a7a44:
 
-    +---------+---------+
-    |標題列   |標題列   |
-    +=========+=========+
-    |HELLO    |WORLD    |
-    +---------+---------+
+Changes
+=======
 
-\ |IMG5|\ 
-
-
-.. |LINK1| raw:: html
-
-    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">Link</a>
-
-.. |LINK2| raw:: html
-
-    <a href="https://github.com/iapyeh/GGeditor" target="_blank">Link</a>
-
-.. |LINK3| raw:: html
-
-    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Link</a>
-
-.. |LINK4| raw:: html
-
-    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">Link</a>
-
-.. |LINK5| raw:: html
-
-    <a href="https://github.com/iapyeh/GGeditor" target="_blank">Link</a>
-
-.. |LINK6| raw:: html
-
-    <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Link</a>
+#. (improvement) Create new file in github failed if the new path has new folder great than 1 level, ex, create docs/blog/technical/how2pythondocs.py in docs/ where blog/technical is not existed yet
+#. (bugfixing) Insert link to another document failed for binded documents if binding path is different document path
+#. (limitation) Internal link to heading does not work. Currently there is no API to identifiy the target heading element. Please use “Bookmark“ instead.
+#. Add custom admonition template
 
 
 .. |IMG1| image:: static/develop_test_1.png
-   :height: 170 px
-   :width: 524 px
-
-.. |IMG2| image:: static/develop_test_2.png
-   :height: 125 px
-   :width: 264 px
-   :target: http://www.google.com
-
-.. |IMG3| image:: static/develop_test_2.png
-   :height: 36 px
-   :width: 77 px
-
-.. |IMG4| image:: static/develop_test_3.png
-   :height: 285 px
-   :width: 369 px
-
-.. |IMG5| image:: static/develop_test_3.png
-   :height: 196 px
-   :width: 254 px
+   :height: 94 px
+   :width: 82 px
