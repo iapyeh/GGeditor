@@ -142,6 +142,12 @@ Below is the content of the theme_overrides.css for you to copy and paste.
 
 Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
+.. _h75806e5b20e4a7914e303d7d471969:
+
+Next Step:
+==========
+
+\ |LINK4|\  to create a project for your reStructuredText files in the Github repository.
 
 
 .. |LINK1| raw:: html
@@ -155,6 +161,10 @@ Because the standard theme set the white-space to be “no-wrap” for table cel
 .. |LINK3| raw:: html
 
     <a href="http://www.sphinx-doc.org/en/1.4.8/config.html#options-for-html-output" target="_blank">this document</a>
+
+.. |LINK4| raw:: html
+
+    <a href="https://readthedocs.org" target="_blank">Go readthedocs.org</a>
 
 
 .. |IMG1| image:: static/how2Readthedocs_1.png
