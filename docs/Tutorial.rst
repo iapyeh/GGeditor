@@ -7,6 +7,7 @@ Tutorial
 The GGeditor assumes a scenario that
 
 #. You already have a project repository in the Github, and
+
 #. You already have a project in the readthedocs.org which corresponds to that repository. 
 
 Because the Github and the readthedocs.org accept reStructuredText or markup formats only. You have to build documentation in markup or reStructuredText formats. But you are suffering on creating document with markup or reStructuredText formats.
@@ -18,14 +19,17 @@ This is the flow chart of working with the GGeditor to build your documentation:
 This tutorial would only go through the longest route in the flow chart. Here are the sequences of what are been demonstrated in this tutorial :
 
 #. The tutorial will start from creating a new document in the Google Docs.
+
 #. The new file will be named “Tutorial”. It has a heading, an image and an admonition created from the sidebar of the GGeditor.
+
 #. The new file will be commit to the Github repository, in this demo, it is the repository of the GGeditor.
+
 #. Because this is a new file, a process will be initiated for binding. It includes to log-in, navigate, create new file and commit.
 
 It’s done for the “Tutorial” document.
 
 
-.. Warning:: 
+..  Warning:: 
 
     For CKJ users: (繁體中文、简体中文、한국어、日本語)
     
@@ -34,6 +38,7 @@ It’s done for the “Tutorial” document.
 We also want the document “Tutorial”  to be listed on the menu in the readthedocs.org project site. We have to add an item within the “toctree” in the index.rst. So there are extra steps when a new file was created:
 
 #. Open the index.rst and add the new filename (“Tutorial”) in the table of toctree.
+
 #. Commit the index.rst to the Github.  Because the index.rst already has a binding file, we just need to click the “Commit” button.
 
 It’s done for updating the index.rst. 
@@ -45,14 +50,18 @@ Here is the video of this tutorial:
 \ |IMG2|\ 
 
 
-.. Note:: 
+..  Note:: 
 
     #. When you name the Google Docs document, the name need not with suffix  “.rst”.
+    
     #. But the binding file in the Github repository do need with suffix “.rst”. It will be automatically appended when the GGeditor created it. If you manually created the binding file, please name it with suffix “.rst”.
+    
     #. in this tutorial video, the committing of index.rst does not also commit images. That is because the changes include text part only.  By un-checking the “Commit images” option, the committing only updates the generated reStructuredText content of the index.rst. That makes the time of committing being shorter.
 
 \ |LINK1|\ 
 
+
+.. bottom of content
 
 
 .. |LINK1| raw:: html
