@@ -24,8 +24,11 @@ We have a python module "backend". And suppose that scripts in the backend follo
 in the "docs/conf.py"\ [#F1]_\ , 
 
 #. append a line to insert the backend to sys.path (Line #4)
+
 #. ensure the autodoc and napoleon are in the extensions (Line #7)
+
 #. add a subroutine named run_apidoc (Line #9-17)
+
 #. add a callback to builder-inited by app.connect (Line #23)
 
 
@@ -102,6 +105,7 @@ Process
 in the "docs/conf.py", 
 
 #. append a line to insert the backend to sys.path (Line #4)
+
 #. ensure the autodoc and napoleon are in the extensions (Line #7)
 
 
@@ -143,13 +147,16 @@ Commit the conf.py and the apidocsample.rst, then that's done. You can see the a
 http://<project-name>.readthedocs.io/en/latest/<rst-filename>.html, in this demo case, it is http://ggeditor.readthedocs.io/en/latest/apidocsample.html
 
 
-.. Hint:: 
+..  Hint:: 
 
     The key ideas are:
     
     #. The python script (apidocsample.py) should be able to import by the sphinx builder, so sys.path should be updated in the conf.py.
+    
     #. apidocsample.rst in the docs folder is a placeholder-like file which triggers the sphinx builder to lookup apidocsample.py and collects markups from it.
 
+
+.. bottom of content
 
 
 .. |LINK1| raw:: html
