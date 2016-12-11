@@ -4,8 +4,6 @@
 Examples
 ********
 
-New feature test
-
 This is the native Table of Contents of the Google Docs. This is a kind of in-document table of contents.
 
 | `Examples <#h17cf336a3119355a1c01f75426961>`_
@@ -100,6 +98,7 @@ List Item
 =========
 
 * \ |STYLE12|\ , \ |IMG3|\  a \ |STYLE13|\ \ [#F3]_\  is an \ |LINK19|\  consisting of \ |LINK20|\  (or \ |LINK21|\ ) and \ |LINK22|\ , that involves only the operations of \ |LINK23|\ , \ |LINK24|\ , \ |LINK25|\ , and non-negative \ |LINK26|\  \ |LINK27|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE14|\  − 4x + 7. An example in three variables is x\ |STYLE15|\  + 2xyz\ |STYLE16|\  − yz + T\ |STYLE17|\ . 
+
 * \ |STYLE18|\ , \ |IMG4|\  a \ |STYLE19|\ \ [#F4]_\  is an \ |LINK28|\  consisting of \ |LINK29|\  (or \ |LINK30|\ ) and \ |LINK31|\ , that involves only the operations of \ |LINK32|\ , \ |LINK33|\ , \ |LINK34|\ , and non-negative \ |LINK35|\  \ |LINK36|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE20|\  − 4x + 7. An example in three variables is x\ |STYLE21|\  + 2xyz\ |STYLE22|\  − yz + T\ |STYLE23|\ . 
 
 .. _h513c5b795d5d185d1c203d7e75205f41:
@@ -129,6 +128,7 @@ Complex Table
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |\ |STYLE26|\ , \ |IMG5|\  a \ |STYLE27|\ \ [#F5]_\  is an \ |LINK37|\  consisting of \ |LINK38|\  (or \ |LINK39|\ ) and \ |LINK40|\ , that involves only the operations of \ |LINK41|\ , \ |LINK42|\ , \ |LINK43|\ , and non-negative \ |LINK44|\  \ |LINK45|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE28|\  − 4x + 7. An example in three variables is x\ |STYLE29|\  + 2xyz\ |STYLE30|\  − yz + T\ |STYLE31|\ . |#. \ |STYLE32|\ , \ |IMG6|\  a \ |STYLE33|\ \ [#F6]_\  is an \ |LINK46|\  consisting of \ |LINK47|\  (or \ |LINK48|\ ) and \ |LINK49|\ , that involves only the operations of \ |LINK50|\ , \ |LINK51|\ , \ |LINK52|\ , and non-negative \ |LINK53|\  \ |LINK54|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE34|\  − 4x + 7. An example in three variables is x\ |STYLE35|\  + 2xyz\ |STYLE36|\  − yz + T\ |STYLE37|\ . |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                               |#. \ |STYLE38|\ , \ |IMG7|\  a \ |STYLE39|\ \ [#F7]_\  is an \ |LINK55|\  consisting of \ |LINK56|\  (or \ |LINK57|\ ) and \ |LINK58|\ , that involves only the operations of \ |LINK59|\ , \ |LINK60|\ , \ |LINK61|\ , and non-negative \ |LINK62|\  \ |LINK63|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE40|\  − 4x + 7. An example in three variables is x\ |STYLE41|\  + 2xyz\ |STYLE42|\  − yz + T\ |STYLE43|\ . |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |\ |STYLE44|\ , \ |IMG8|\  a \ |STYLE45|\ \ [#F8]_\  is an \ |LINK64|\  consisting of \ |LINK65|\  (or \ |LINK66|\ ) and \ |LINK67|\ , that involves only the operations of \ |LINK68|\ , \ |LINK69|\ , \ |LINK70|\ , and non-negative \ |LINK71|\  \ |LINK72|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE46|\  − 4x + 7. An example in three variables is x\ |STYLE47|\  + 2xyz\ |STYLE48|\  − yz + T\ |STYLE49|\ . |* \ |STYLE50|\ , \ |IMG9|\  a \ |STYLE51|\ \ [#F9]_\  is an \ |LINK73|\  consisting of \ |LINK74|\  (or \ |LINK75|\ ) and \ |LINK76|\ , that involves only the operations of \ |LINK77|\ , \ |LINK78|\ , \ |LINK79|\ , and non-negative \ |LINK80|\  \ |LINK81|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE52|\  − 4x + 7. An example in three variables is x\ |STYLE53|\  + 2xyz\ |STYLE54|\  − yz + T\ |STYLE55|\ .  |
@@ -270,10 +270,13 @@ Nested List Item
 * item 1
 
     #. item 1.1
+
     #. item 1.2
 
         * Item a
+
         * Item b
+
         * Item c
 
     #. item 1.3
@@ -286,22 +289,27 @@ List Item with Text Styles
 * item 1
 
     #. item 1.\ |STYLE64|\   with superscript
+
     #. \ |STYLE65|\  1.\ |STYLE66|\  with superscript
+
     #. \ |STYLE67|\  1.\ |STYLE68|\  with subscript
 
 * item 2
 
     #. Item with \ |LINK92|\ 
+
     #. item with a image \ |IMG14|\ 
 
 * item 3
 
     #. item\ [#F11]_\  with footnote
+
     #. item\ [#F12]_\  with footnote
 
 \ |LINK93|\ 
 
 .. bottom of content
+
 
 .. |STYLE0| replace:: *In mathematics*
 
