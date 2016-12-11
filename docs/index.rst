@@ -19,11 +19,11 @@ GGeditor
 
 GGeditor hopes to help you to focus on writing your idea instead of marking them up.
 
-\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the \ |LINK2|\  (RTD) got automatically updated.
+\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK1|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the  \ |LINK2|\  (RTD) got automatically updated.
 
 \ |IMG1|\ 
 
-.. Note:: 
+..  Note:: 
 
     You don’t need to trigger conversion before committing and downloading, the committing and downloading would do conversion internally at first.
 
@@ -33,15 +33,25 @@ Features
 ========
 
 #. Easy starting for reST beginners, even no idea about reST markups.
+
 #. Powered by the Google Docs. Almost what you see is what you get. As well as the coordination of team works.
+
 #. One-click to commit to the Github repository.
+
 #. Preview the generated reST file and download to local machine.
+
 #. Support headings, bold, italic, hyperlink, subscript and superscript.
+
 #. Support footnotes, image, list item and table.
+
 #. Support full-width characters (CKJ) in headings and table.
+
 #. Support internal links to bookmarks, headings and Google Docs native table of contents (in document table of contents).
+
 #. Support relative links to other generated reST files of the Google Docs under the same folder and subfolders.
+
 #. Support cross-document table of content (.. toctree::) for the RTD.
+
 #. Support all style of admonitions of the RTD.
 
 .. _h131f586a50795a4822677d4166231766:
@@ -52,6 +62,7 @@ How to install
 \ |LINK3|\ , or in a Google Docs Document:
 
 #. On the menu item “Add-ons”, click the “Get Add-ons”
+
 #. In the search box, input “GGeditor”, then click on the GGeditor icon to install.
 
 \ |IMG2|\ 
@@ -86,10 +97,15 @@ Acknowledgments
 ===============
 
 * Andrey Rublev as well as \ |LINK7|\  of the \ |LINK8|\ , it is a great tool for beginner to learn the reST markups.
+
 * Bitwiseshiftleft as well as \ |LINK9|\  of the \ |LINK10|\  projects. The sjcl.js is used for credentials encryption.
+
 * \ |LINK11|\ . Hard to be briefly described. In short, its excellent AR series let me have time to work on this project.
+
 * Philip Schatz as well as \ |LINK12|\  of the  \ |LINK13|\  project. The Github-related implementation is on this wonderful tool.
+
 * \ |LINK14|\  as well as \ |LINK15|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
+
 * \ |LINK16|\  (RTD), it provides a great service, which encourage me to create the GGeditor.
 
 .. _h15145c6c7955717d53774846404a3864:
@@ -97,13 +113,59 @@ Acknowledgments
 Release Note
 ============
 
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
+
+.. admonition:: Dec 12, 2012
+
+    Improved:
+    
+    * Create new file in github failed if the new path has new folder great than 1 level, ex, create docs/blog/technical/how2pythondocs.py in docs/ where blog/technical is not existed yet.
+    
+    * For In-document TOC, there is no extra empty line between items.
+    
+    * For partial convsion of selection or table, the conversion dialog would break a line for every 60 characters. It makes content easier to read.
+    
+    * For simplicity, the “Download” button is hidden in partial conversion except images are included.
+    
+    * Hyperlink in footnote content is allowed.
+    
+    Fixed:
+    
+    #. Insert link to another document failed for binded documents if binding path is different document path.
+    
+    Featured:
+    
+    * Add custom admonition. No more markup, just title it.\ |IMG3|\ 
+    
+    Limited:
+    
+    * Internal link to heading does not work. Currently there is no API to identifiy the target heading element. Please use “Bookmark“ instead.
+
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
 
 .. admonition:: Dec 6, 2016
 
-    #. Support partial conversion for selectd elements and table. (new feature)
-    #. Same image used multiple times is now only one copy been uploaded. (new feature)
-    #. Conversion features has an individual dialog. (improvment)
-    #. Downloaded zip file now got file name from binding file. (bug fix)
+    New
+    
+    * Support partial conversion for selectd elements and table.
+    
+    * Same image used multiple times is now only one copy been uploaded.
+    
+    Improved
+    
+    * Conversion features has an individual dialog. (improvment)
+    
+    Fixed
+    
+    * Downloaded zip file now got file name from binding file. (bug fix)
 
 .. _h4a6049483e752949322f585c69102a2a:
 
@@ -113,11 +175,14 @@ Appreciation for You
 It would really help us if you had a second to
 
 * \ |LINK17|\ 
+
 * Or \ |LINK18|\ 
 
 that helps us keep momentun on GGeditor.
 
 \ |LINK19|\ 
+
+.. bottom of content
 
 
 .. |STYLE0| replace:: **GGeditor**
@@ -201,10 +266,13 @@ that helps us keep momentun on GGeditor.
 
 
 .. |IMG1| image:: static/index_1.png
-   :align: middle
    :height: 250 px
    :width: 504 px
 
 .. |IMG2| image:: static/index_2.png
    :height: 157 px
    :width: 697 px
+
+.. |IMG3| image:: static/index_3.png
+   :height: 114 px
+   :width: 400 px
