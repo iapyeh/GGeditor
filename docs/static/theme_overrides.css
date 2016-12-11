@@ -4,3 +4,6 @@
 .wy-table-responsive table th {
    background-color: #f0f0f0;
 }
+.line-block, .docutils.footnote {
+    line-height: 24px;
+}
