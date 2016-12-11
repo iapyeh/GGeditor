@@ -163,49 +163,49 @@ Admonitions
 ===========
 
 
-.. Attention:: 
+..  Attention:: 
 
     인기 펑크록밴드 그린데이는 20일 열린 아메리칸 뮤직 어워즈 무대에서 트럼프를 맹비난했다. 그린 데이는 전 세계로 중계된 이날 시상식 무대에서 최근 발매된 신곡 '뱅 뱅'을 부르며 "노 트럼프, 노 KKK, 노 파시스트 미국(No Trump, No KKK, No Fascist USA)"라는 구호를 반복해 외쳤다. 그린 데이의 보컬이자 기타리스트인 빌리 조 암스트롱은 이달 초 열린 MTV 유러피안 뮤직 어워즈 현장에서도 트럼프를 히틀러에 비유하며 쓴 소리를 퍼부은 바 있다.
 
 
-.. Caution:: 
+..  Caution:: 
 
     ＮＨＫが各地の消防に取材したところ、午後１時半現在、この地震で、千葉県で８２歳の女性が足の骨を折る大けがをするなど、４つの都県で合わせて１２人がけがをしたということです。けがをした人の内訳は、福島県で５人、千葉県で４人、東京で２人、宮城県で１人となっています。
 
 
-.. Danger:: 
+..  Danger:: 
 
     今年9月，一張具有重要歷史意義的越戰照片「燒夷彈女孩」（Napalm Girl），但Facebook宣稱不該發布裸露的女孩照片，並將上傳者帳號停權。
     這引發了另一位挪威編輯不滿，他寫了一封公開信表示「Zuckerberg（臉書CEO）分不清楚歷史的重要照片及色情裸露圖片的不同，恣意的進行內容審查」
     臉書已經成為10幾億人的資訊來源，如果它開始恣意下架訊息，這會不會是新白色恐怖？
 
 
-.. Error:: 
+..  Error:: 
 
     (content of error)
 
 
-.. Hint:: 
+..  Hint:: 
 
     (content of hint)
 
 
-.. Important:: 
+..  Important:: 
 
     (content of important)
 
 
-.. Note:: 
+..  Note:: 
 
     (content of note)
 
 
-.. Tip:: 
+..  Tip:: 
 
     (content of tip)
 
 
-.. Warning:: 
+..  Warning:: 
 
     (content of warning)
 
