@@ -119,7 +119,7 @@ Release Note
 
 
 
-.. admonition:: Dec 12, 2012
+.. admonition:: Dec 11, 2012
 
     Improved:
     
