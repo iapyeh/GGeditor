@@ -120,6 +120,7 @@ Remarks on paragraph
 --------------------
 
 * You don’t need to put a backslash for escaping special characters.
+
 * A link text is not to be bold and italic at the same time, and a bold text is not to be italic too.
 
 .. _h6f5669738347e734b2391c49617a4c:
@@ -150,11 +151,13 @@ Bullet List, Enumerated List
 ============================
 
 * Just use them as in Google Docs
+
 * Nested list is fine
 
     * But the list style was depended on rendering.
 
 * Image \ |IMG3|\ in list item was not exported
+
 * Table in list item was not exported
 
 The above list in the Google Docs:
@@ -201,10 +204,15 @@ Table
 A Google Docs table was exported to a reST table with the following rules:
 
 * Text and hyperlink of text was exported.
+
 * Heading rows with all cell text to be bold were exported as header rows.
+
 * Nested table, image were not exported.
+
 * Text alignment, indent in cells were not exported. 
+
 * Currently, column and row span is not supported.
+
 * Line break was preserved. Which means, you got to break a very long sentence manually (with Shift+Enter) in order not to have a table with great width.
 
 For example, in the Google Docs:
@@ -219,13 +227,17 @@ It results:
 |Normal cell text     |                                          |Empty cell in my left|
 +---------------------+------------------------------------------+---------------------+
 |Hyper link is fine   |#. This is #1                             |                     |
-|                     |#. This is #2                             |                     |
-|Link to \ |LINK2|\   |                                          |                     |
-|Link to \ |LINK3|\   |    * This is #a                          |                     |
-|Link to \ |LINK4|\   |    * This is #b                          |                     |
+|                     |                                          |                     |
+|Link to \ |LINK2|\   |#. This is #2                             |                     |
+|Link to \ |LINK3|\   |                                          |                     |
+|Link to \ |LINK4|\   |    * This is #a                          |                     |
+|                     |                                          |                     |
+|                     |    * This is #b                          |                     |
 |                     |                                          |                     |
 |                     |        #. This is #1                     |                     |
+|                     |                                          |                     |
 |                     |        #. This is #2                     |                     |
+|                     |                                          |                     |
 |                     |        #. This is #3                     |                     |
 |                     |                                          |                     |
 |                     |    * This is #c                          |                     |
@@ -249,17 +261,27 @@ Image in the Google Docs was exported to reST. Chart  is image too, so it can be
 \ |IMG8|\ 
 
 * Image with hyperlinks is exported to :target:.
+
 * Horizontal alignment (left, center and right) is exported to :align:
+
 * Image alt-title was exported to reST :alt:, but alt-description was not.
+
 * Resized dimension was exported to  :width: and :height:. 
+
 * Image adjustments, border, cropping in Google Docs were dropped when exported to reST. Always the original image was exported.
+
 * Please be noted, currently the Github skipped :width:, :height:, :align:. you will see them be effective in the Sphinx (ReadTheDocs) only.
+
 * The inline drawing in the Google Docs has not API to get its binary data, it is not able to be exported. Please use inline image instead of inline drawing.
+
 * Images were saved into a subfolder. The naming rules for this subfolder are:
 
     #. For document with Github binding, the binding name was used.
+
     #. For document without Github binding, the document name was used.
+
     #. If there is file extension (ex, .rst) in the name, that extension was omitted.
+
     #. If there is no file extension in the name, “_files” was appended to avoid naming-conflict.
 
 .. class:: 
@@ -297,8 +319,12 @@ Image subfolder naming scheme
 =============================
 
 * If there is an image in a Google Docs document which is binding to README.rst, when committing to the Github, that image will be put into a subfolder named “README”. 
+
 * Which means if there is a file named “README” in the same folder of README.rst, confliction would happen.
+
 * Some special characters in name, such as space, \*, / are replaced with _
+
+.. bottom of content
 
 
 .. |STYLE0| replace:: **Paragraph Indent is preserved**
