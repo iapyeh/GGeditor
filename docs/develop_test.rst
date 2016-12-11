@@ -16,9 +16,19 @@ Test
 
 \ |IMG1|\ 
 
-Sphinx只是一個應用程式，要有人學習如何使用，還要安裝、執行，然後還要架一個網站把它產生的HTML檔案及附圖放上去。幸好，Sphinx只要用pip安裝就可以輕鬆完成。比較大的困擾是，如果不是資源豐沛的公司，要架設網站是挺耗時費力的，頻寬、網址申請、VM管理還有惱人的資安問題要有對策。如果這件事情有人代勞，而且免費，那該多好？如果你也有這樣的問題，那麼\ |LINK1|\  (RTD)跟Github就能幫助你。
+\ |LINK1|\ ，要有人學習如何使用，還要安裝、執行，然後還要架一個網站把它產生的HTML檔案及附圖放上去。幸好，Sphinx只要用pip安裝就可以輕鬆完成。比較大的困擾是，如果不是資源豐沛的公司，要架設網站是挺耗時費力的，頻寬、網址申請、VM管理還有惱人的資安問題要有對策。如果這件事情有人代勞，而且免費，那該多好？如果你也有這樣的問題，那麼\ |LINK2|\  (RTD)跟Github就能幫助你。
 
 \ |STYLE0|\ ，\*\*RTD的\*\*後台就可以從你的Github repository中用Sphinx產生你的系統文件，而且還能全文檢索。也就是說，RTD是一個hosting技術文件的網站。它是免費的\ [#F1]_\ 。使RTD跟Github之後，文件的架構就會變成這樣：
+
+
+..  Danger:: 
+
+    (content of Danger)
+
+
+.. admonition:: Release Note
+
+    (content of Change-me)
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -30,13 +40,15 @@ Sphinx只是一個應用程式，要有人學習如何使用，還要安裝、�
 
     Improved:
     
-    * \ |STYLE1|\  in github failed if the new path has new folder great than 1 level, ex, create docs/blog/technical/how\ |STYLE2|\ pythondocs.py in docs/ where blog/technical is not existed yet
+    * Create new file in github failed if the new path has new folder great than 1 level, ex, create docs/blog/technical/how2pythondocs.py in docs/ where blog/technical is not existed yet
     
-    * \ |STYLE3|\ \ |STYLE4|\ , there is no extra empty line between items.
+    * For In-document TOC, there is no extra empty line between items.
     
     * For partial convsion of selection or table, the conversion dialog would break a line for every 60 characters. It makes content easier to read.
     
     * For simplicity, the “Download” button is hidden in partial conversion except images are included.
+    
+    * Hyperlink in footnote content is allowed.
     
     Fixed:
     
@@ -76,16 +88,12 @@ Changes
 
 .. |STYLE0| replace:: **你把文件commit到Github去**
 
-.. |STYLE1| replace:: **Create new file**
-
-.. |STYLE2| replace:: :sup:`2`
-
-.. |STYLE3| replace:: *For In-document*
-
-.. |STYLE4| replace:: :sub:`TOC`
-
 
 .. |LINK1| raw:: html
+
+    <a href="docs/Tutorial.html">Sphinx只是一個應用程式</a>
+
+.. |LINK2| raw:: html
 
     <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
 
