@@ -145,30 +145,12 @@ Admonitions
 
 The GGeditor try to set the look-and-feel of admonitions to be as close as possible to what they are in the readthedocs.org (RTD). There are 4 kinds of layout for 10 types of admonitions. Please click on the admonition name to insert them into your document.
 
-.. _h584616187e1a7c33197e463470237f12:
-
-Custom Admonition
------------------
-
-The “custom” at lower-right of the admonitions panel is a special feature. It inserts a template of admonition. In the diagram below, the left side is the template and you should change its title to whatever you want. The GGeditor will convert it to native markup of reStructredText.
-
-\ |IMG5|\ 
-
-It renders like this:
-
-
-+----------------------+
-|Ⓘ Release Note        |
-+----------------------+
-|(content of Change-me)|
-+----------------------+
-
 .. _h5a3b1c203613551578563c31657026b:
 
 Directives
 ----------
 
-\ |IMG6|\ 
+\ |IMG5|\ 
 
 \ |LINK2|\  is the generic form of admonition and many other reST Markups.
 
@@ -179,23 +161,23 @@ Generic Directive
 
  ``Generic directive`` can be used for all kinds of reST directive. It will give you a table as shown below, you should replace all the placeholder to fit your needs.
 
-\ |IMG7|\ 
+\ |IMG6|\ 
 
 The following table is an example of the directive ``toctree``.
 
-\ |IMG8|\ 
+\ |IMG7|\ 
 
 Please be noted “name” and “content” are required for a directive, arguments and options are optional. If there are no options, the content can be in the 2nd row. If there is more than one options, these options should be put line by line in 2nd row, or row by row. See the diagram below for illustration. 
 
-\ |IMG9|\ 
+\ |IMG8|\ 
 
 This is the reST generated from the above table.
 
-\ |IMG10|\ 
+\ |IMG9|\ 
 
 You have to replace the name and content for your own purpose. One of the usage is to create customized admonition. The following directive table will create a ``And, by the way…`` dialog for you.
 
-\ |IMG11|\ 
+\ |IMG10|\ 
 
 Below is how it is rendered in the web page.
 
@@ -211,13 +193,13 @@ Code
 
 ``code`` is for holding sample codes.
 
-\ |IMG12|\ 
+\ |IMG11|\ 
 
 The content in a code directive cannot be in bold or italic. Neither hyperlinks and images.
 
 You can highlight your code by giving a language name after the \.\.code::, like this: (there is a space in front of “python”)
 
-\ |IMG13|\ 
+\ |IMG12|\ 
 
 It is rendered like this:
 
@@ -252,7 +234,7 @@ It is rendered like this:
 Code with line number
 ~~~~~~~~~~~~~~~~~~~~~
 
-\ |IMG14|\ 
+\ |IMG13|\ 
 
 This will insert a "code-block" directive. This feature render the given content with line numbers. The ":linenos" option should not be removed. Because the "code-block" should have an argument for programming language of the given content, a placeholder "python" has been appended as default. This argument can be replaced but shall not been removed.
 
@@ -298,7 +280,7 @@ The Table of Contents will insert \ |LINK3|\ , aka cross-document table of conte
 
  Here is an example of what it looks like:
 
-\ |IMG15|\ 
+\ |IMG14|\ 
 
 Please be noted the file suffix (.html or .rst) has been omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ |LINK4|\  of the GGeditor for an example.
 
@@ -307,7 +289,7 @@ Please be noted the file suffix (.html or .rst) has been omitted. Also, you have
 Headings
 ~~~~~~~~
 
-\ |IMG16|\ 
+\ |IMG15|\ 
 
 The headings construct the structure of the document. If you put the cursor in a paragraph you can set the heading for that paragraph with this panel. You can click on the upper parts (like Part, Chapter) or use the native heading tools of the Google Docs. The lower parts of this panel shows the relative headings in the Google Docs.
 
@@ -316,7 +298,7 @@ The headings construct the structure of the document. If you put the cursor in a
 Text Style
 ~~~~~~~~~~
 
-\ |IMG17|\ 
+\ |IMG16|\ 
 
 By putting the cursor in a paragraph you can change the text style of that paragraph. The `Paragraph Content` is for normal text, `Directive Content` is for code style (monospace). These two are usually used when you paste stuffs from other browser pages into your document.
 
@@ -343,7 +325,7 @@ Add link to another document
 
 Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:
 
-\ |IMG18|\ 
+\ |IMG17|\ 
 
 Please be noted:
 
@@ -363,7 +345,7 @@ Binding the document to a file in repository
 
 You can provide your account credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG19|\ 
+\ |IMG18|\ 
 
 If you want to commit to a new file. Please
 
@@ -388,15 +370,15 @@ If you want to commit to a new file. Please
 Committing
 ----------
 
-\ |IMG20|\ 
+\ |IMG19|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
-\ |IMG21|\ 
+\ |IMG20|\ 
 
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
-\ |IMG22|\ 
+\ |IMG21|\ 
 
 If only the text content has been modified, you can un-check the “Commit images” to exclude images from committing. This would speed up the committing process.
 
@@ -418,7 +400,7 @@ About the Credentials
 
 Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor. 
 
-\ |IMG23|\ \ |IMG24|\ 
+\ |IMG22|\ \ |IMG23|\ 
 
 Credentials is optional. You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
 
@@ -432,7 +414,7 @@ Credentials is optional. You can un-check the “Remeber Github Credentials” c
 Conversion
 ==========
 
-\ |IMG25|\ 
+\ |IMG24|\ 
 
 When you open the conversion dialog, the conversion process will be starting. When the conversion has completed, you can copy the generated reStructuredText content to clipboard by "Copy to Clipboard" button, or download the generated reStructuredText content as well as images by the "Download" button.
 
@@ -451,11 +433,11 @@ What been converted depends on selection and the cursor position, rules are:
 
 The conversion message on the right side are indications. Thre are three kinds of message:
 
-\ |IMG26|\ Menas the whole document is converted to the reStructuredText format.
+\ |IMG25|\ Menas the whole document is converted to the reStructuredText format.
 
-\ |IMG27|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
+\ |IMG26|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
 
-\ |IMG28|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
+\ |IMG27|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
 
 .. _h5782051373e754c6735481f7d792d67:
 
@@ -469,7 +451,7 @@ The idea for partial conversion is mainly for creating comments in a source code
 Copy to Clipboard
 -----------------
 
-\ |IMG29|\ 
+\ |IMG28|\ 
 
 (This feature is specially for API writers, so it is only visible for partial conversion)
 
@@ -495,7 +477,7 @@ This button will copy the generated reStructureText to system clipboard (pastebo
 Dowload
 -------
 
-\ |IMG30|\ 
+\ |IMG29|\ 
 
 What been converted depends on selection and the cursor position, rules are:
 
@@ -508,7 +490,7 @@ What been converted depends on selection and the cursor position, rules are:
 Generate Document
 -----------------
 
-\ |IMG31|\ 
+\ |IMG30|\ 
 
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
@@ -559,109 +541,105 @@ When partial content is converted only, like table or selection, The "Generate D
    :width: 281 px
 
 .. |IMG5| image:: static/User_Guide_5.png
-   :height: 80 px
-   :width: 745 px
-
-.. |IMG6| image:: static/User_Guide_6.png
    :height: 166 px
    :width: 276 px
 
-.. |IMG7| image:: static/User_Guide_7.png
+.. |IMG6| image:: static/User_Guide_6.png
    :height: 156 px
    :width: 458 px
 
-.. |IMG8| image:: static/User_Guide_8.png
+.. |IMG7| image:: static/User_Guide_7.png
    :height: 280 px
    :width: 426 px
 
-.. |IMG9| image:: static/User_Guide_9.png
+.. |IMG8| image:: static/User_Guide_8.png
    :height: 364 px
    :width: 773 px
 
-.. |IMG10| image:: static/User_Guide_10.png
+.. |IMG9| image:: static/User_Guide_9.png
    :height: 130 px
    :width: 140 px
 
-.. |IMG11| image:: static/User_Guide_11.png
+.. |IMG10| image:: static/User_Guide_10.png
    :height: 93 px
    :width: 496 px
 
-.. |IMG12| image:: static/User_Guide_12.png
+.. |IMG11| image:: static/User_Guide_11.png
    :height: 90 px
    :width: 753 px
 
-.. |IMG13| image:: static/User_Guide_13.png
+.. |IMG12| image:: static/User_Guide_12.png
    :height: 221 px
    :width: 753 px
 
-.. |IMG14| image:: static/User_Guide_14.png
+.. |IMG13| image:: static/User_Guide_13.png
    :height: 140 px
    :width: 1025 px
 
-.. |IMG15| image:: static/User_Guide_15.png
+.. |IMG14| image:: static/User_Guide_14.png
    :height: 153 px
    :width: 357 px
 
-.. |IMG16| image:: static/User_Guide_16.png
+.. |IMG15| image:: static/User_Guide_15.png
    :height: 133 px
    :width: 266 px
 
-.. |IMG17| image:: static/User_Guide_17.png
+.. |IMG16| image:: static/User_Guide_16.png
    :height: 84 px
    :width: 265 px
 
-.. |IMG18| image:: static/User_Guide_18.png
+.. |IMG17| image:: static/User_Guide_17.png
    :height: 236 px
    :width: 246 px
 
-.. |IMG19| image:: static/User_Guide_19.png
+.. |IMG18| image:: static/User_Guide_18.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG20| image:: static/User_Guide_20.png
+.. |IMG19| image:: static/User_Guide_19.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG21| image:: static/User_Guide_21.png
+.. |IMG20| image:: static/User_Guide_20.png
    :height: 40 px
    :width: 105 px
 
-.. |IMG22| image:: static/User_Guide_22.png
+.. |IMG21| image:: static/User_Guide_21.png
    :height: 52 px
    :width: 152 px
 
-.. |IMG23| image:: static/User_Guide_23.png
+.. |IMG22| image:: static/User_Guide_22.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG24| image:: static/User_Guide_24.png
+.. |IMG23| image:: static/User_Guide_23.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG25| image:: static/User_Guide_25.png
+.. |IMG24| image:: static/User_Guide_24.png
    :height: 165 px
    :width: 746 px
 
-.. |IMG26| image:: static/User_Guide_26.png
+.. |IMG25| image:: static/User_Guide_25.png
    :height: 42 px
    :width: 174 px
 
-.. |IMG27| image:: static/User_Guide_27.png
+.. |IMG26| image:: static/User_Guide_26.png
    :height: 42 px
    :width: 168 px
 
-.. |IMG28| image:: static/User_Guide_28.png
+.. |IMG27| image:: static/User_Guide_27.png
    :height: 36 px
    :width: 186 px
 
-.. |IMG29| image:: static/User_Guide_29.png
+.. |IMG28| image:: static/User_Guide_28.png
    :height: 36 px
    :width: 220 px
 
-.. |IMG30| image:: static/User_Guide_30.png
+.. |IMG29| image:: static/User_Guide_29.png
    :height: 38 px
    :width: 84 px
 
-.. |IMG31| image:: static/User_Guide_31.png
+.. |IMG30| image:: static/User_Guide_30.png
    :height: 40 px
    :width: 148 px
