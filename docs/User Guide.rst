@@ -12,13 +12,21 @@ The Google Docs Native Features
 You can use the following list native features of the Google Docs to build your content for generating reStructuredText format.
 
 * Paragraph heading and indentation
+
 * Bold, Italic, subscript and superscript
+
 * List and numbered list
+
 * Table
+
 * Image and chart
+
 * Footnote, hyperlink and bookmark
+
 * Table of contents (links to bookmarks and headings)
+
 * Special characters and CKJ full-width characters
+
 * Horizontal line
 
 .. Note:: 
@@ -88,7 +96,9 @@ Image
 Images and charts in the Google Docs document are able to be converted to the generated reStructuredText file bundles. Here is the naming rules:
 
 #. A folder named “static” will be created if necessary in the same folder of the document.
+
 #. All the images in the document will be stored in the “static” folder in PNG format. 
+
 #. The image name is the document name + underscore + sequence number + ‘.png’
 
 Images will be re-generated if “Commit images” was checked. That is, the mapping between image content and image name might not be constant.
@@ -263,7 +273,9 @@ Table of Contents
 The Table of Contents will insert \ |LINK3|\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
 
 #. All the documents with suffix .rst in the same folder of this document. Even the document is not binding to a file in the Github.
+
 #. If a document is binding to a file in the Github, the filename will be used. Even the source document is not with suffix “.rst”.
+
 #. The current document is excluded. This is for preventing from falling into an infinite loop while the RTD parsing this table. You should add it back manually if that makes sense for you.
 
  Here is an example of what it looks like:
@@ -318,6 +330,7 @@ Add a link of markup to other Google Docs document for selected text. Once click
 Please be noted:
 
 #. only files in the same folder of the current document will be listed.
+
 #. The Google Docs does not allow relative URL, so the added URL will be a pseudo-URL which starts with “http://cross.document/”, please keep the pseudo header when you are manually editing it. The pseudo-URL will be converted to relative-URL when generating the reST.
 
 .. _h76464c5c585d192b16121e3267e131:
@@ -337,7 +350,9 @@ You can provide your account credentials for binding the document to a file in t
 If you want to commit to a new file. Please
 
 #. Navigate to the folder where the new file would be
+
 #. Click on the “New File” item
+
 #. Give the file name to create. The name will be suffix with “.rst” automatically.
 
 
@@ -411,7 +426,9 @@ Conversion Rules
 What been converted depends on selection and the cursor position, rules are:
 
 #. If there are selections, the top elements of every selected one are converted. Which means if a paragraph is partially selected, whole the paragraph is converted.
+
 #. If there is no selection and the cursor is in a table, that table is converted
+
 #. Otherwise, the whole document is converted
 
 The conversion message on the right side are indications. Thre are three kinds of message:
@@ -465,6 +482,7 @@ Dowload
 What been converted depends on selection and the cursor position, rules are:
 
 #. When partially converted, a  <document-name>_selection.zip or  <document-name>_table.zip will be created with the partially generated reStructuredText content and images (if any).
+
 #. If whole document is converted, a <document-name>.zip will be created with whole generated reStructuredText content and images (if any).
 
 .. _hb512c40675e711967718345c60723c:
@@ -477,6 +495,8 @@ Generate Document
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
 \ |LINK6|\  
+
+.. bottom of content
 
 
 .. |LINK1| raw:: html
