@@ -137,7 +137,7 @@ Release Note
     
     Fixed:
     
-    #. Insert link to another document failed for binded documents if binding path is different document path.
+    * Insert link to another document failed for binded documents if binding path is different document path.
     
     Featured:
     
