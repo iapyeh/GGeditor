@@ -150,7 +150,7 @@ The GGeditor try to set the look-and-feel of admonitions to be as close as possi
 Custom Admonition
 -----------------
 
-The “custom” at lower-right of the admonitions panel is a special feature. It inserts a template of admonition. In the diagram below, the left side is the template and you should change its title to whatever you want. The GGeditor will convert it to native markup of reStructredText.
+The “custom” at lower-right of the admonitions panel is a special feature. It inserts a template of admonition. In the diagram below, the left side is the template and you should change its title to whatever you want. The GGeditor will convert it to native markup of reStructuredText.
 
 \ |IMG5|\ 
 
@@ -165,14 +165,14 @@ It renders like this:
 Directives
 ----------
 
-\ |IMG6|\ 
-
 \ |LINK2|\  is the generic form of admonition and many other reST Markups.
 
 .. _h13a5d3e27e111c18554152c6d123c:
 
 Generic Directive
 ~~~~~~~~~~~~~~~~~
+
+\ |IMG6|\ 
 
  ``Generic directive`` can be used for all kinds of reST directive. It will give you a table as shown below, you should replace all the placeholder to fit your needs.
 
@@ -206,15 +206,17 @@ Below is how it is rendered in the web page.
 Code
 ~~~~
 
+\ |IMG12|\ 
+
 ``code`` is for holding sample codes.
 
-\ |IMG12|\ 
+\ |IMG13|\ 
 
 The content in a code directive cannot be in bold or italic. Neither hyperlinks and images.
 
 You can highlight your code by giving a language name after the \.\.code::, like this: (there is a space in front of “python”)
 
-\ |IMG13|\ 
+\ |IMG14|\ 
 
 It is rendered like this:
 
@@ -249,9 +251,11 @@ It is rendered like this:
 Code with line number
 ~~~~~~~~~~~~~~~~~~~~~
 
-\ |IMG14|\ 
+\ |IMG15|\ 
 
 This will insert a "code-block" directive. This feature render the given content with line numbers. The ":linenos" option should not be removed. Because the "code-block" should have an argument for programming language of the given content, a placeholder "python" has been appended as default. This argument can be replaced but shall not been removed.
+
+\ |IMG16|\ 
 
 
 .. code-block:: python
@@ -285,6 +289,8 @@ This will insert a "code-block" directive. This feature render the given content
 Table of Contents
 ~~~~~~~~~~~~~~~~~
 
+\ |IMG17|\ 
+
 The Table of Contents will insert \ |LINK3|\ , aka cross-document table of contents to the cursor position. Usually, it was inserted into the ``index.rst`` document.  The rules of what filename been included in the auto generated toctree table are:
 
 #. All the documents with suffix .rst in the same folder of this document. Even the document is not binding to a file in the Github.
@@ -295,16 +301,22 @@ The Table of Contents will insert \ |LINK3|\ , aka cross-document table of conte
 
  Here is an example of what it looks like:
 
-\ |IMG15|\ 
+\ |IMG18|\ 
 
 Please be noted the file suffix (.html or .rst) has been omitted. Also, you have to change their order manually.  You have to manually edit the list content in the 3rd row when you add or remove your documents. Maybe you can just ask the GGeditor to generate a new doctree table and remove the existing one. You can refer to \ |LINK4|\  of the GGeditor for an example.
+
+Raw HTML
+
+\ |IMG19|\ 
+
+This is a handy feature for you to embed html tags into the generated reStructuredText file. This button will insert a table into the document. Then you can put HTML tages in the table.  The GGeditor will convert the table content to a ".. raw:: html" directive.
 
 .. _h545b1150273f784141121a3967491529:
 
 Headings
 ~~~~~~~~
 
-\ |IMG16|\ 
+\ |IMG20|\ 
 
 The headings construct the structure of the document. If you put the cursor in a paragraph you can set the heading for that paragraph with this panel. You can click on the upper parts (like Part, Chapter) or use the native heading tools of the Google Docs. The lower parts of this panel shows the relative headings in the Google Docs.
 
@@ -313,7 +325,7 @@ The headings construct the structure of the document. If you put the cursor in a
 Text Style
 ~~~~~~~~~~
 
-\ |IMG17|\ 
+\ |IMG21|\ 
 
 By putting the cursor in a paragraph you can change the text style of that paragraph. The `Paragraph Content` is for normal text, `Directive Content` is for code style (monospace). These two are usually used when you paste stuffs from other browser pages into your document.
 
@@ -340,7 +352,7 @@ Add link to another document
 
 Add a link of markup to other Google Docs document for selected text. Once clicked, a list of name of Google Docs will be prompted for your choice. Like this:
 
-\ |IMG18|\ 
+\ |IMG22|\ 
 
 Please be noted:
 
@@ -360,7 +372,7 @@ Binding the document to a file in repository
 
 You can provide your account credentials for binding the document to a file in the Github repository. Here is the process diagram:
 
-\ |IMG19|\ 
+\ |IMG23|\ 
 
 If you want to commit to a new file. Please
 
@@ -385,15 +397,15 @@ If you want to commit to a new file. Please
 Committing
 ----------
 
-\ |IMG20|\ 
+\ |IMG24|\ 
 
 Once you have build the binding, next time you can use the “Commit” button directly to commit. You can reset the binding in this dialog too.
 
-\ |IMG21|\ 
+\ |IMG25|\ 
 
 The “Rest Binding” is for rebinding the file in Github repository with this document.
 
-\ |IMG22|\ 
+\ |IMG26|\ 
 
 If only the text content has been modified, you can un-check the “Commit images” to exclude images from committing. This would speed up the committing process.
 
@@ -404,7 +416,7 @@ If only the text content has been modified, you can un-check the “Commit image
 
 ..  Attention:: 
 
-    If you have a fat document like this one "How to User", which has lots of images to upload, you might experience broken images in its coresponding html page in your RTD web site. It is because the RTD re-generating the html when uploading is still on going. In that case, you have to wait longer for the RTD to release its lock of building or enforce the RTD to build again from your administration page.
+    If you have a fat document like this one "How to User", which has lots of images to upload, you might experience broken images in its corresponding html page in your RTD web site. It is because the RTD re-generating the html when uploading is still ongoing. In that case, you have to wait longer for the RTD to release its lock of building or enforce the RTD to build again from your administration page.
     
     By the way, if you see an obsoleted image the reason might be that the RTD set cache time longer. In that case, you can clear the browser cache or check the Github repository for figuring what happened.
 
@@ -415,9 +427,9 @@ About the Credentials
 
 Given credentials is encrypted and kept in the Google App Script platform. None cloud server is built by the GGeditor. 
 
-\ |IMG23|\ \ |IMG24|\ 
+\ |IMG27|\ \ |IMG28|\ 
 
-Credentials is optional. You can un-check the “Remeber Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
+Credentials is optional. You can un-check the “Remember Github Credentials” check box or the “Reset Credentials” button to clean up the stored credentials.
 
 
 ..  Caution:: 
@@ -429,7 +441,7 @@ Credentials is optional. You can un-check the “Remeber Github Credentials” c
 Conversion
 ==========
 
-\ |IMG25|\ 
+\ |IMG29|\ 
 
 When you open the conversion dialog, the conversion process will be starting. When the conversion has completed, you can copy the generated reStructuredText content to clipboard by "Copy to Clipboard" button, or download the generated reStructuredText content as well as images by the "Download" button.
 
@@ -446,31 +458,31 @@ What been converted depends on selection and the cursor position, rules are:
 
 #. Otherwise, the whole document is converted
 
-The conversion message on the right side are indications. Thre are three kinds of message:
+The conversion message on the right side are indications. There are three kinds of message:
 
-\ |IMG26|\ Menas the whole document is converted to the reStructuredText format.
+\ |IMG30|\ Means the whole document is converted to the reStructuredText format.
 
-\ |IMG27|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
+\ |IMG31|\ Means only the table where cursor positioned was converted to the reStructuredText format. (partial conversion)
 
-\ |IMG28|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
+\ |IMG32|\ Means only the selection was converted to the reStructuredText format.  (partial conversion)
 
 .. _h5782051373e754c6735481f7d792d67:
 
 Why Partial Conversion
 ----------------------
 
-The idea for partial conversion is mainly for creating comments in a source code. In your source code scripts, you can have comments for functions, classes, modules, packages in reStructuredText format. The RTD can automatically generate API documents from souce codes. This "\ |LINK5|\ " has more.
+The idea for partial conversion is mainly for creating comments in a source code. In your source code scripts, you can have comments for functions, classes, modules, packages in reStructuredText format. The RTD can automatically generate API documents from source codes. This "\ |LINK5|\ " has more.
 
 .. _h95148cc6506117925452e78c21:
 
 Copy to Clipboard
 -----------------
 
-\ |IMG29|\ 
+\ |IMG33|\ 
 
 (This feature is specially for API writers, so it is only visible for partial conversion)
 
-This button will copy the generated reStructureText to system clipboard (pasteboard). For convenience to paste as a block of comment in source code, you can assign a prefix for every copied line. The options are:
+This button will copy the generated reStructuredText to system clipboard (pasteboard). For convenience to paste as a block of comment in source code, you can assign a prefix for every copied line. The options are:
 
 
 +---------+------------------------------+
@@ -492,7 +504,7 @@ This button will copy the generated reStructureText to system clipboard (pastebo
 Dowload
 -------
 
-\ |IMG30|\ 
+\ |IMG34|\ 
 
 What been converted depends on selection and the cursor position, rules are:
 
@@ -505,7 +517,7 @@ What been converted depends on selection and the cursor position, rules are:
 Generate Document
 -----------------
 
-\ |IMG31|\ 
+\ |IMG35|\ 
 
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
@@ -560,8 +572,8 @@ When partial content is converted only, like table or selection, The "Generate D
    :width: 745 px
 
 .. |IMG6| image:: static/User_Guide_6.png
-   :height: 166 px
-   :width: 276 px
+   :height: 48 px
+   :width: 213 px
 
 .. |IMG7| image:: static/User_Guide_7.png
    :height: 156 px
@@ -584,81 +596,97 @@ When partial content is converted only, like table or selection, The "Generate D
    :width: 496 px
 
 .. |IMG12| image:: static/User_Guide_12.png
+   :height: 44 px
+   :width: 208 px
+
+.. |IMG13| image:: static/User_Guide_13.png
    :height: 90 px
    :width: 753 px
 
-.. |IMG13| image:: static/User_Guide_13.png
+.. |IMG14| image:: static/User_Guide_14.png
    :height: 221 px
    :width: 753 px
 
-.. |IMG14| image:: static/User_Guide_14.png
+.. |IMG15| image:: static/User_Guide_15.png
+   :height: 48 px
+   :width: 214 px
+
+.. |IMG16| image:: static/User_Guide_16.png
    :height: 140 px
    :width: 1025 px
 
-.. |IMG15| image:: static/User_Guide_15.png
+.. |IMG17| image:: static/User_Guide_17.png
+   :height: 46 px
+   :width: 200 px
+
+.. |IMG18| image:: static/User_Guide_18.png
    :height: 153 px
    :width: 357 px
 
-.. |IMG16| image:: static/User_Guide_16.png
+.. |IMG19| image:: static/User_Guide_19.png
+   :height: 48 px
+   :width: 224 px
+
+.. |IMG20| image:: static/User_Guide_20.png
    :height: 133 px
    :width: 266 px
 
-.. |IMG17| image:: static/User_Guide_17.png
+.. |IMG21| image:: static/User_Guide_21.png
    :height: 84 px
    :width: 265 px
 
-.. |IMG18| image:: static/User_Guide_18.png
+.. |IMG22| image:: static/User_Guide_22.png
    :height: 236 px
    :width: 246 px
 
-.. |IMG19| image:: static/User_Guide_19.png
+.. |IMG23| image:: static/User_Guide_23.png
    :height: 545 px
    :width: 664 px
 
-.. |IMG20| image:: static/User_Guide_20.png
+.. |IMG24| image:: static/User_Guide_24.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG21| image:: static/User_Guide_21.png
+.. |IMG25| image:: static/User_Guide_25.png
    :height: 40 px
    :width: 105 px
 
-.. |IMG22| image:: static/User_Guide_22.png
+.. |IMG26| image:: static/User_Guide_26.png
    :height: 52 px
    :width: 152 px
 
-.. |IMG23| image:: static/User_Guide_23.png
+.. |IMG27| image:: static/User_Guide_27.png
    :height: 38 px
    :width: 128 px
 
-.. |IMG24| image:: static/User_Guide_24.png
+.. |IMG28| image:: static/User_Guide_28.png
    :height: 29 px
    :width: 213 px
 
-.. |IMG25| image:: static/User_Guide_25.png
+.. |IMG29| image:: static/User_Guide_29.png
    :height: 165 px
    :width: 746 px
 
-.. |IMG26| image:: static/User_Guide_26.png
+.. |IMG30| image:: static/User_Guide_30.png
    :height: 42 px
    :width: 174 px
 
-.. |IMG27| image:: static/User_Guide_27.png
+.. |IMG31| image:: static/User_Guide_31.png
    :height: 42 px
    :width: 168 px
 
-.. |IMG28| image:: static/User_Guide_28.png
+.. |IMG32| image:: static/User_Guide_32.png
    :height: 36 px
    :width: 186 px
 
-.. |IMG29| image:: static/User_Guide_29.png
+.. |IMG33| image:: static/User_Guide_33.png
    :height: 36 px
    :width: 220 px
 
-.. |IMG30| image:: static/User_Guide_30.png
+.. |IMG34| image:: static/User_Guide_34.png
    :height: 38 px
    :width: 84 px
 
-.. |IMG31| image:: static/User_Guide_31.png
+.. |IMG35| image:: static/User_Guide_35.png
    :height: 40 px
    :width: 148 px
