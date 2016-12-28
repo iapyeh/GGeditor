@@ -4,10 +4,10 @@
 How to Create API Docs
 **********************
 
-.. _h4c525118060635e4b6959584f2f3435:
+.. _h3a1c1e5f21544576747195f806f57:
 
-Create API document for a python module
-=======================================
+I. Create API document for a Python module
+==========================================
 
 .. _h547a1e3306f3d91f375c20216815:
 
@@ -80,10 +80,10 @@ http://<project-name>.readthedocs.io/en/latest/api/<module-name>.html, in this d
 
 http://ggeditor.readthedocs.io/en/latest/api/backend.html
 
-.. _h7673574b773f1b7a512a1d6957245829:
+.. _h751d41182d5124640792936454f3e60:
 
-Create API document for a python script
-=======================================
+II. Create API document for a Python script
+===========================================
 
 .. _h547a1e3306f3d91f375c20216815:
 
