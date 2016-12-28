@@ -102,7 +102,9 @@ Process
 1.  Modify the conf.py
 ~~~~~~~~~~~~~~~~~~~~~~
 
-in the "docs/conf.py", 
+(You can edit the conf.py by the default web-based text editor of the Github)
+
+In the "docs/conf.py", 
 
 #. Append a line to insert the backend to sys.path (Line #4)
 
@@ -142,7 +144,7 @@ Create the apidocsample.rst in the "docs". This is simple content, you can creat
 3. Done
 ~~~~~~~
 
-Commit the conf.py and the apidocsample.rst, then that's done. You can see the api document at the RTD by this URL:
+Commit the conf.py and the apidocsample.rst (suppose the backend/apidocsample.py has committed already), then that's done. You can see the api document at the RTD by this URL:
 
 http://<project-name>.readthedocs.io/en/latest/<rst-filename>.html, in this demo case, it is http://ggeditor.readthedocs.io/en/latest/apidocsample.html
 
