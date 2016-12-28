@@ -125,7 +125,7 @@ in the "docs/conf.py",
 2. Create the apidocsample.rst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Create the apidocsample.rst in the "docs"
+Create the apidocsample.rst in the "docs". This is simple content, you can create this file by the default web-based text editor of the Github.
 
 .. code:: 
 
