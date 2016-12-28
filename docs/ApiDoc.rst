@@ -23,13 +23,13 @@ We have a python module "backend". And suppose that scripts in the backend follo
 
 in the "docs/conf.py"\ [#F1]_\ , 
 
-#. append a line to insert the backend to sys.path (Line #4)
+#. Append a line to insert the path of module to sys.path, in this demo, it is "backend" (Line #4)
 
-#. ensure the autodoc and napoleon are in the extensions (Line #7)
+#. Ensure the autodoc and napoleon are in the extensions (Line #7)
 
-#. add a subroutine named run_apidoc (Line #9-17)
+#. Add a subroutine named run_apidoc (Line #9-17)
 
-#. add a callback to builder-inited by app.connect (Line #23)
+#. Add a callback to builder-inited by app.connect (Line #23)
 
 
 .. code-block:: python
@@ -104,9 +104,9 @@ Process
 
 in the "docs/conf.py", 
 
-#. append a line to insert the backend to sys.path (Line #4)
+#. Append a line to insert the backend to sys.path (Line #4)
 
-#. ensure the autodoc and napoleon are in the extensions (Line #7)
+#. Ensure the autodoc and napoleon are in the extensions (Line #7)
 
 
 .. code-block:: python
