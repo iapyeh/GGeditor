@@ -10,8 +10,6 @@
 
 2017/01/10 PM01:11:42
 
-|REPLACE4|
-
 .. _hc446611b54b3080663873375a615b:
 
 Test
@@ -71,39 +69,6 @@ Test
     <tr><td colspan="5" style="background-color:#ffff00;color:#000000;vertical-align:Bottom;border:solid 1px #000000"><p style="color:#000000"><span  style="color:#000000;font-size:11px;font-family:Courier New">蒐集完整蒐集這張規則表並不容易，主要原因是資料之間用語模糊與衝突的情況不少，必須詳細推敲求證，我們並沒有十足的把握，這張表都是正確的。歡迎您指正。我們若有訂正，會更新計算公式發行新版。</span></p></td></tr>
     </tbody></table>
 
-.. |REPLACE4| raw:: html
-
-    function generateDirectiveTable(namespace,ele,lines, attachements, options){
-    
-      var files = attachements.files
-      var footnotes = attachements.footnotes
-    
-      var maxRows = ele.getNumRows()
-      var maxCols = 0
-      var tableData = []
-      var contentStarted = false
-      var directiveName;
-      for (var i=0;i<maxRows;i++){
-        var row = ele.getRow(i)
-        var cols = row.getNumCells()
-        if (cols > maxCols) maxCols = cols
-        var rowdata = []
-        for (var j=0;j<cols;j++){
-          var cell = row.getCell(j)
-          var firstChild = cell.getChild(0)
-    
-          // first row
-          if (i==0){
-            // directive name
-            var firstLine = cell.getText().split(':')
-            var firstChunk = firstLine[0].trim()
-            if (firstChunk.substr(0,1)=='ⓘ' && (!/^ⓘ\s*(attention|caution|danger|error|hint|important|note|see\s+also|tip|warning)\s*$/i.test(firstLine[0]))){
-              // custom admonition
-              firstLine[0]='.. admonition:: '+firstLine[0].trim().replace(/(^ⓘ\s*)/g,'')
-              rowdata.push([firstLine[0]])
-              directiveName = 'admonition'
-            }
-    
 .. |IMG1| image:: static/develop_test_1.png
    :height: 94 px
    :width: 82 px
