@@ -1,17 +1,41 @@
 
-.. _h1e1675c5cb7b6425575741127962:
+.. _h7417311651356b38234173e38352a34:
 
-HTML Table convertion 
-######################
+Table conversion with HTML
+**************************
+
+Table conversion to reStructuredText has limitation due to limited features were supported by the reStructuredText. For example, row-span, column-span and background color were not supported in reStructuredText.
+
+This could be a problem for users who want to write their blogs in reStructuredText. The GGeditor solves this issue by converting a table to HTML-table instead of the reStructuredText-table.
+
+.. _h5e3c71275653e247c4d305d12131433:
+
+Supported Features
+==================
+
+* Columns width in propotion of percentage.
+
+* Column span or row span.
+
+* Cell background and foreground color.
+
+* Table border and cell border.
+
+* Cell-level font-size
+
+.. _h17cf336a3119355a1c01f75426961:
+
+Examples
+========
 
 .. _h365645603e234c6a6a291b1b7e1d534:
 
 Background, Foreground and links
-================================
+--------------------------------
 
 
 +--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-|words in red bigger font size               |words in blue                                                                                                              |
+|words in red bigger font size               |words in blue with font-family                                                                                             |
 +--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
 |                                            |                                                                                                                           |
 +--------------------------------------------+---------------------------------------------------------------------------------------------------------------------------+
