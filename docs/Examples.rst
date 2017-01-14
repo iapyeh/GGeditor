@@ -27,57 +27,7 @@ Supported Features List of the GGeditor
 =======================================
 
 
-+----------------+------------+------------+-------------+-------------+
-|Features        |In Paragraph|In List Item|In Table Cell|In Admonition|
-+================+============+============+=============+=============+
-|Normal Text     |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Text alignment  |No          |No          |No           |No           |
-+----------------+------------+------------+-------------+-------------+
-|Background Color|No          |No          |No           |No           |
-+----------------+------------+------------+-------------+-------------+
-|Indentation     |Yes         |N/A         |             |No           |
-+----------------+------------+------------+-------------+-------------+
-|Headings        |Yes         |N/A         |N/A          |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Bold            |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Italic          |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Subscript       |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Superscript     |Yes         |Yes         |Yes          |No           |
-+----------------+------------+------------+-------------+-------------+
-|Hyperlink       |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Horizontal Line |Yes         |N/A         |N/A          |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Link to bookmark|Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Link to headings|Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Footnote        |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Inline markup   |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Image           |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Image with link |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Chart           |Yes         |Yes         |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Admonition      |Yes         |No          |No           |No (Nested)  |
-+----------------+------------+------------+-------------+-------------+
-|List item       |Yes         |Yes(Nested) |Yes          |Yes          |
-+----------------+------------+------------+-------------+-------------+
-|Table           |Yes         |No          |No (Nested)  |No           |
-+----------------+------------+------------+-------------+-------------+
-|Column span     |N/A         |N/A         |No           |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Rowspan         |N/A         |N/A         |No           |N/A          |
-+----------------+------------+------------+-------------+-------------+
-|Table of Content|Yes         |No          |No           |No           |
-+----------------+------------+------------+-------------+-------------+
+|REPLACE1|
 
 .. _h1f81a111a3e4cd44467728753e5f73:
 
@@ -112,13 +62,7 @@ Simple Table
 ------------
 
 
-+---------------+---------------+-----------------+
-|header\*       |標題 x2+y2     |Search           |
-+===============+===============+=================+
-|In mathematics,|\ |STYLE24|\   |In mathe\*matics,|
-+---------------+---------------+-----------------+
-|\ |STYLE25|\   |In mathematics,|                 |
-+---------------+---------------+-----------------+
+|REPLACE2|
 
 .. _h5a6e575f7c1d332d6350624c6c73387:
 
@@ -126,15 +70,7 @@ Complex Table
 -------------
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ |STYLE26|\ , \ |IMG5|\  a \ |STYLE27|\ \ [#F5]_\  is an \ |LINK37|\  consisting of \ |LINK38|\  (or \ |LINK39|\ ) and \ |LINK40|\ , that involves only the operations of \ |LINK41|\ , \ |LINK42|\ , \ |LINK43|\ , and non-negative \ |LINK44|\  \ |LINK45|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE28|\  − 4x + 7. An example in three variables is x\ |STYLE29|\  + 2xyz\ |STYLE30|\  − yz + T\ |STYLE31|\ . |#. \ |STYLE32|\ , \ |IMG6|\  a \ |STYLE33|\ \ [#F6]_\  is an \ |LINK46|\  consisting of \ |LINK47|\  (or \ |LINK48|\ ) and \ |LINK49|\ , that involves only the operations of \ |LINK50|\ , \ |LINK51|\ , \ |LINK52|\ , and non-negative \ |LINK53|\  \ |LINK54|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE34|\  − 4x + 7. An example in three variables is x\ |STYLE35|\  + 2xyz\ |STYLE36|\  − yz + T\ |STYLE37|\ . |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |#. \ |STYLE38|\ , \ |IMG7|\  a \ |STYLE39|\ \ [#F7]_\  is an \ |LINK55|\  consisting of \ |LINK56|\  (or \ |LINK57|\ ) and \ |LINK58|\ , that involves only the operations of \ |LINK59|\ , \ |LINK60|\ , \ |LINK61|\ , and non-negative \ |LINK62|\  \ |LINK63|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE40|\  − 4x + 7. An example in three variables is x\ |STYLE41|\  + 2xyz\ |STYLE42|\  − yz + T\ |STYLE43|\ . |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|\ |STYLE44|\ , \ |IMG8|\  a \ |STYLE45|\ \ [#F8]_\  is an \ |LINK64|\  consisting of \ |LINK65|\  (or \ |LINK66|\ ) and \ |LINK67|\ , that involves only the operations of \ |LINK68|\ , \ |LINK69|\ , \ |LINK70|\ , and non-negative \ |LINK71|\  \ |LINK72|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE46|\  − 4x + 7. An example in three variables is x\ |STYLE47|\  + 2xyz\ |STYLE48|\  − yz + T\ |STYLE49|\ . |* \ |STYLE50|\ , \ |IMG9|\  a \ |STYLE51|\ \ [#F9]_\  is an \ |LINK73|\  consisting of \ |LINK74|\  (or \ |LINK75|\ ) and \ |LINK76|\ , that involves only the operations of \ |LINK77|\ , \ |LINK78|\ , \ |LINK79|\ , and non-negative \ |LINK80|\  \ |LINK81|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE52|\  − 4x + 7. An example in three variables is x\ |STYLE53|\  + 2xyz\ |STYLE54|\  − yz + T\ |STYLE55|\ .  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                               |\ |STYLE56|\ , \ |IMG10|\  a \ |STYLE57|\ \ [#F10]_\  is an \ |LINK82|\  consisting of \ |LINK83|\  (or \ |LINK84|\ ) and \ |LINK85|\ , that involves only the operations of \ |LINK86|\ , \ |LINK87|\ , \ |LINK88|\ , and non-negative \ |LINK89|\  \ |LINK90|\ . An example of a polynomial of a single indeterminate x is x\ |STYLE58|\  − 4x + 7. An example in three variables is x\ |STYLE59|\  + 2xyz\ |STYLE60|\  − yz + T\ |STYLE61|\ .  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|REPLACE3|
 
 .. _h425360541a6d36a14487962c584b8:
 
@@ -242,9 +178,9 @@ Code block with line number
     os.system('git clean -fd')
 
     def outer(x):
-        def indent_start(x):
-            go start start
-            go start end
+    def indent_start(x):
+        go start start
+        go start end
 
     def end(y):
         go end start
@@ -258,9 +194,9 @@ Custom Admonition
 
 .. admonition:: My Admonition
 
-    this is \ |STYLE62|\  and \ |STYLE63|\  in the first row
+    this is \ |STYLE24|\  and \ |STYLE25|\  in the first row
 
-    this is a \ |LINK91|\  in the second row
+    this is a \ |LINK37|\  in the second row
 
 .. _h1e7b7c356c1a63272445567d455a317e:
 
@@ -288,25 +224,25 @@ List Item with Text Styles
 
 * item 1
 
-    #. item 1.\ |STYLE64|\   with superscript
+    #. item 1.\ |STYLE26|\   with superscript
 
-    #. \ |STYLE65|\  1.\ |STYLE66|\  with superscript
+    #. \ |STYLE27|\  1.\ |STYLE28|\  with superscript
 
-    #. \ |STYLE67|\  1.\ |STYLE68|\  with subscript
+    #. \ |STYLE29|\  1.\ |STYLE30|\  with subscript
 
 * item 2
 
-    #. Item with \ |LINK92|\ 
+    #. Item with \ |LINK38|\ 
 
     #. item with a image \ |IMG14|\ 
 
 * item 3
 
-    #. item\ [#F11]_\  with footnote
+    #. item\ [#F5]_\  with footnote
 
-    #. item\ [#F12]_\  with footnote
+    #. item\ [#F6]_\  with footnote
 
-\ |LINK93|\ 
+\ |LINK39|\ 
 
 .. bottom of content
 
@@ -359,95 +295,70 @@ List Item with Text Styles
 
 .. |STYLE23| replace:: :sub:`ab`
 
-.. |STYLE24| replace:: **In mathematics,**
+.. |STYLE24| replace:: **bold text**
 
-.. |STYLE25| replace:: *In mathematics,*
+.. |STYLE25| replace:: *italic text*
 
-.. |STYLE26| replace:: *In mathematics*
+.. |STYLE26| replace:: :sup:`1`
 
-.. |STYLE27| replace:: **polynomial**
+.. |STYLE27| replace:: *item*
 
-.. |STYLE28| replace:: :sup:`2`
+.. |STYLE28| replace:: :sup:`12`
 
-.. |STYLE29| replace:: :sup:`3`
+.. |STYLE29| replace:: **item**
 
-.. |STYLE30| replace:: :sup:`2`
+.. |STYLE30| replace:: :sub:`34`
 
-.. |STYLE31| replace:: :sub:`ab`
 
-.. |STYLE32| replace:: *In mathematics*
+.. |REPLACE1| raw:: html
 
-.. |STYLE33| replace:: **polynomial**
+    <table cellspacing="0" cellpadding="0" style="width:60%">
+    <thead>
+    <tr><th style="width:0%;vertical-align:Top;border:solid 1px #000000"><p>Features</p></th><th style="width:0%;vertical-align:Top;border:solid 1px #000000"><p>In Paragraph</p></th><th style="width:31%;vertical-align:Top;border:solid 1px #000000"><p>In List Item</p></th><th style="width:32%;vertical-align:Top;border:solid 1px #000000"><p>In Table Cell</p></th><th style="width:37%;vertical-align:Top;border:solid 1px #000000"><p>In Admonition</p></th></tr>
+    </thead><tbody>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Normal Text</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Text alignment</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Background Color</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Indentation</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Headings</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Bold</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Italic</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Subscript</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Superscript</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Hyperlink</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Horizontal Line</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Link to bookmark</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Link to headings</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Footnote</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Inline markup</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Image</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Image with link</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Chart</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Admonition</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No (Nested)</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>List item</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes(Nested)</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Table</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No (Nested)</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Column span</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Rowspan</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>N/A</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>Table of Content</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>Yes</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>No</p></td></tr>
+    </tbody></table>
 
-.. |STYLE34| replace:: :sup:`2`
+.. |REPLACE2| raw:: html
 
-.. |STYLE35| replace:: :sup:`3`
+    <table cellspacing="0" cellpadding="0" style="width:100%">
+    <thead>
+    <tr><th style="vertical-align:Top;border:solid 1px #000000"><p>header*</p></th><th style="vertical-align:Top;border:solid 1px #000000"><p>標題 x<sup>2</sup>+y<sub>2</sub></p></th><th style="vertical-align:Top;border:solid 1px #000000"><p><span  style="color:#1155cc"><a href="http://www.google.com" target="_blank">Search</a></span></p></th></tr>
+    </thead><tbody>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p>In mathematics,</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p><span style="font-weight:bold">In mathematics,</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>In mathe*matics,</p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p><span style="font-style:italic">In mathematics,</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p>In mathematics,</p></td><td style="vertical-align:Top;border:solid 1px #000000"><p></td></tr>
+    </tbody></table>
 
-.. |STYLE36| replace:: :sup:`2`
+.. |REPLACE3| raw:: html
 
-.. |STYLE37| replace:: :sub:`ab`
-
-.. |STYLE38| replace:: *In mathematics*
-
-.. |STYLE39| replace:: **polynomial**
-
-.. |STYLE40| replace:: :sup:`2`
-
-.. |STYLE41| replace:: :sup:`3`
-
-.. |STYLE42| replace:: :sup:`2`
-
-.. |STYLE43| replace:: :sub:`ab`
-
-.. |STYLE44| replace:: *In mathematics*
-
-.. |STYLE45| replace:: **polynomial**
-
-.. |STYLE46| replace:: :sup:`2`
-
-.. |STYLE47| replace:: :sup:`3`
-
-.. |STYLE48| replace:: :sup:`2`
-
-.. |STYLE49| replace:: :sub:`ab`
-
-.. |STYLE50| replace:: *In mathematics*
-
-.. |STYLE51| replace:: **polynomial**
-
-.. |STYLE52| replace:: :sup:`2`
-
-.. |STYLE53| replace:: :sup:`3`
-
-.. |STYLE54| replace:: :sup:`2`
-
-.. |STYLE55| replace:: :sub:`ab`
-
-.. |STYLE56| replace:: *In mathematics*
-
-.. |STYLE57| replace:: **polynomial**
-
-.. |STYLE58| replace:: :sup:`2`
-
-.. |STYLE59| replace:: :sup:`3`
-
-.. |STYLE60| replace:: :sup:`2`
-
-.. |STYLE61| replace:: :sub:`ab`
-
-.. |STYLE62| replace:: **bold text**
-
-.. |STYLE63| replace:: *italic text*
-
-.. |STYLE64| replace:: :sup:`1`
-
-.. |STYLE65| replace:: *item*
-
-.. |STYLE66| replace:: :sup:`12`
-
-.. |STYLE67| replace:: **item**
-
-.. |STYLE68| replace:: :sub:`34`
+    <table cellspacing="0" cellpadding="0" style="width:100%">
+    <tbody>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p><span style="font-style:italic">In mathematics</span>, <a href="http://www.google.com" target="_blank"><img src="_images/Examples_1.png" style="width:73px;height:73px;vertical-align: baseline;"></a> a <span style="font-weight:bold">polynomial</span><!-- Skipped, unable to convert element of type FOOTNOTE --> is an <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a> consisting of <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a> (or <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>) and <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>, that involves only the operations of <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>, <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>, <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>, and non-negative <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a> <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>. An example of a polynomial of a single indeterminate x is x<sup>2</sup> − 4x + 7. An example in three variables is x<sup>3</sup> + 2xyz<sup>2</sup> − yz + T<sub>ab</sub>. </p></td><td style="vertical-align:Top;border:solid 1px #000000"><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span style="font-style:italic">In mathematics</span>, <a href="http://www.google.com" target="_blank"><img src="_images/Examples_1.png" style="width:73px;height:73px;vertical-align: baseline;"></a> a <span style="font-weight:bold">polynomial</span><!-- Skipped, unable to convert element of type FOOTNOTE --> is an <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a> consisting of <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a> (or <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>) and <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>, that involves only the operations of <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>, <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>, <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>, and non-negative <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a> <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>. An example of a polynomial of a single indeterminate x is x<sup>2</sup> − 4x + 7. An example in three variables is x<sup>3</sup> + 2xyz<sup>2</sup> − yz + T<sub>ab</sub>. </li><li style="list-style:inherit;list-style-image:inherit"><span style="font-style:italic">In mathematics</span>, <a href="http://www.google.com" target="_blank"><img src="_images/Examples_1.png" style="width:73px;height:73px;vertical-align: baseline;"></a> a <span style="font-weight:bold">polynomial</span><!-- Skipped, unable to convert element of type FOOTNOTE --> is an <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a> consisting of <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a> (or <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>) and <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>, that involves only the operations of <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>, <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>, <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>, and non-negative <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a> <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>. An example of a polynomial of a single indeterminate x is x<sup>2</sup> − 4x + 7. An example in three variables is x<sup>3</sup> + 2xyz<sup>2</sup> − yz + T<sub>ab</sub>. </li></ol></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p><span style="font-style:italic">In mathematics</span>, <a href="http://www.google.com" target="_blank"><img src="_images/Examples_1.png" style="width:73px;height:73px;vertical-align: baseline;"></a> a <span style="font-weight:bold">polynomial</span><!-- Skipped, unable to convert element of type FOOTNOTE --> is an <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a> consisting of <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a> (or <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>) and <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>, that involves only the operations of <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>, <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>, <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>, and non-negative <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a> <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>. An example of a polynomial of a single indeterminate x is x<sup>2</sup> − 4x + 7. An example in three variables is x<sup>3</sup> + 2xyz<sup>2</sup> − yz + T<sub>ab</sub>. </p></td><td style="vertical-align:Top;border:solid 1px #000000"><ul style="list-style:disc;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span style="font-style:italic">In mathematics</span>, <a href="http://www.google.com" target="_blank"><img src="_images/Examples_1.png" style="width:73px;height:73px;vertical-align: baseline;"></a> a <span style="font-weight:bold">polynomial</span><!-- Skipped, unable to convert element of type FOOTNOTE --> is an <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a> consisting of <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a> (or <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>) and <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>, that involves only the operations of <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>, <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>, <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>, and non-negative <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a> <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>. An example of a polynomial of a single indeterminate x is x<sup>2</sup> − 4x + 7. An example in three variables is x<sup>3</sup> + 2xyz<sup>2</sup> − yz + T<sub>ab</sub>. </li></ul><p><span style="font-style:italic">In mathematics</span>, <a href="http://www.google.com" target="_blank"><img src="_images/Examples_1.png" style="width:73px;height:73px;vertical-align: baseline;"></a> a <span style="font-weight:bold">polynomial</span><!-- Skipped, unable to convert element of type FOOTNOTE --> is an <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a> consisting of <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a> (or <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>) and <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>, that involves only the operations of <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>, <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>, <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>, and non-negative <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a> <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>. An example of a polynomial of a single indeterminate x is x<sup>2</sup> − 4x + 7. An example in three variables is x<sup>3</sup> + 2xyz<sup>2</sup> − yz + T<sub>ab</sub>. </p></td></tr>
+    </tbody></table>
 
 
 .. |LINK1| raw:: html
@@ -596,229 +507,13 @@ List Item with Text Styles
 
 .. |LINK37| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
+    <a href="http://www.google.com" target="_blank">link</a>
 
 .. |LINK38| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
+    <a href="http://www.google.com" target="_blank">link</a>
 
 .. |LINK39| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
-
-.. |LINK40| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
-
-.. |LINK41| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
-
-.. |LINK42| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
-
-.. |LINK43| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
-
-.. |LINK44| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
-
-.. |LINK45| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
-
-.. |LINK46| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
-
-.. |LINK47| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
-
-.. |LINK48| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
-
-.. |LINK49| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
-
-.. |LINK50| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
-
-.. |LINK51| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
-
-.. |LINK52| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
-
-.. |LINK53| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
-
-.. |LINK54| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
-
-.. |LINK55| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
-
-.. |LINK56| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
-
-.. |LINK57| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
-
-.. |LINK58| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
-
-.. |LINK59| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
-
-.. |LINK60| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
-
-.. |LINK61| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
-
-.. |LINK62| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
-
-.. |LINK63| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
-
-.. |LINK64| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
-
-.. |LINK65| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
-
-.. |LINK66| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
-
-.. |LINK67| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
-
-.. |LINK68| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
-
-.. |LINK69| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
-
-.. |LINK70| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
-
-.. |LINK71| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
-
-.. |LINK72| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
-
-.. |LINK73| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
-
-.. |LINK74| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
-
-.. |LINK75| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
-
-.. |LINK76| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
-
-.. |LINK77| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
-
-.. |LINK78| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
-
-.. |LINK79| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
-
-.. |LINK80| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
-
-.. |LINK81| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
-
-.. |LINK82| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Expression_(mathematics)" target="_blank">expression</a>
-
-.. |LINK83| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Variable_(mathematics)" target="_blank">variables</a>
-
-.. |LINK84| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Indeterminate_(variable)" target="_blank">indeterminates</a>
-
-.. |LINK85| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Coefficient" target="_blank">coefficients</a>
-
-.. |LINK86| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Addition" target="_blank">addition</a>
-
-.. |LINK87| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Subtraction" target="_blank">subtraction</a>
-
-.. |LINK88| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Multiplication" target="_blank">multiplication</a>
-
-.. |LINK89| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Integer" target="_blank">integer</a>
-
-.. |LINK90| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/Exponentiation" target="_blank">exponents</a>
-
-.. |LINK91| raw:: html
-
-    <a href="http://www.google.com" target="_blank">link</a>
-
-.. |LINK92| raw:: html
-
-    <a href="http://www.google.com" target="_blank">link</a>
-
-.. |LINK93| raw:: html
 
     <a href="https://docs.google.com/document/d/1WmPTmyJmenxPaWQUluPGskkqqwTsrlGjGf5DzTX4tpQ/edit?usp=sharing" target="_blank">Here is the source document of this page</a>
 
@@ -830,14 +525,8 @@ List Item with Text Styles
 .. [#f2]  Non-negative is positive and zero
 .. [#f3]  Polynomial is poly+nomial
 .. [#f4]  Polynomial is poly+nomial
-.. [#f5]  Polynomial is poly+nomial
-.. [#f6]  Polynomial is poly+nomial
-.. [#f7]  Polynomial is poly+nomial
-.. [#f8]  Polynomial is poly+nomial
-.. [#f9]  Polynomial is poly+nomial
-.. [#f10]  Polynomial is poly+nomial
-.. [#f11]  This is a footnote of a list item
-.. [#f12]  This is another footnote of a list item
+.. [#f5]  This is a footnote of a list item
+.. [#f6]  This is another footnote of a list item
 
 .. |IMG1| image:: static/Examples_1.png
    :height: 73 px
