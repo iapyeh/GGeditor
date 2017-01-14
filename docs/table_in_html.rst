@@ -175,10 +175,10 @@ col and row span
     <a href="http://www.google.com" target="_blank">link to google</a>
 
 
-.. |IMG1| image:: static/TabelConversionWithHTML_1.png
+.. |IMG1| image:: static/table_in_html_1.png
    :height: 65 px
    :width: 130 px
 
-.. |IMG2| image:: static/TabelConversionWithHTML_1.png
+.. |IMG2| image:: static/table_in_html_1.png
    :height: 28 px
    :width: 56 px
