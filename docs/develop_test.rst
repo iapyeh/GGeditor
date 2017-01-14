@@ -1,7 +1,7 @@
 
 .. _h1e1675c5cb7b6425575741127962:
 
-HTML Table convertion 
+HTML TABDE convertion
 ######################
 
 .. _h365645603e234c6a6a291b1b7e1d534:
