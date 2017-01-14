@@ -23,6 +23,17 @@ Supported Features
 
 * Cell-level font-size
 
+.. _h23786b7a28397e315b4726412e52451:
+
+Eenable this feature
+====================
+
+Converting table with HTML is not default behavior. To enable it, please open the Settings dialog to enable it.
+
+.. _h761ab401543201137a78553757464:
+
+\ |IMG1|\ ==========
+
 .. _h17cf336a3119355a1c01f75426961:
 
 Examples
@@ -62,6 +73,11 @@ col and row span
 
 |REPLACE4|
 
+.. _h2c1d74277104e41780968148427e:
+
+
+
+
 .. _h1a461f6b1275321a16291dd169a6c:
 
 Limitations
@@ -74,6 +90,8 @@ Limitations
 * Vertial-alignment of cell content. (API issue)
 
 * Cell height (API isue)
+
+♞ \ |LINK1|\ 
 
 .. bottom of content
 
@@ -89,14 +107,14 @@ Limitations
 
     <table cellspacing="0" cellpadding="0" style="width:75%">
     <tbody>
-    <tr><td style="width:67%;vertical-align:Top;border:solid 3px #ff0000"><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">external <a href="http://www.google.com" target="_blank">google</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">bookmark <a href="#bookmark-kix-q74pjka91gr0">link</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">cross-reference <a href="Examples.html">Examples</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px"><span style="font-style:italic">italic</span> text item</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px"><span style="font-weight:bold">bold</span> text item</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8;font-size:14px">this is</span><img src="_images/table_in_html_1.png" style="width:45px;height:41px;vertical-align: baseline;"><span  style="color:#4a86e8;font-size:14px">item with image</span></li></ol></td><td style="width:33%;background-color:#00ff00;vertical-align:Top;border:solid 3px #ff0000"><p>green background with content of <span style="font-style:italic">italic</span>, <span style="font-weight:bold">bold</span> and 有中文內容及上下標x<sup>2</sup>+y<sup>2</sup>+T<sub>ab</sub></p></td></tr>
+    <tr><td style="width:67%;vertical-align:Top;border:solid 3px #ff0000"><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">external <a href="http://www.google.com" target="_blank">google</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">bookmark <a href="#bookmark-kix-q74pjka91gr0">link</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">cross-reference <a href="Examples.html">Examples</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px"><span style="font-style:italic">italic</span> text item</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px"><span style="font-weight:bold">bold</span> text item</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8;font-size:14px">this is</span><img src="_images/table_in_html_2.png" style="width:45px;height:41px;vertical-align: baseline;"><span  style="color:#4a86e8;font-size:14px">item with image</span></li></ol></td><td style="width:33%;background-color:#00ff00;vertical-align:Top;border:solid 3px #ff0000"><p>green background with content of <span style="font-style:italic">italic</span>, <span style="font-weight:bold">bold</span> and 有中文內容及上下標x<sup>2</sup>+y<sup>2</sup>+T<sub>ab</sub></p></td></tr>
     </tbody></table>
 
 .. |REPLACE3| raw:: html
 
     <table cellspacing="0" cellpadding="0" style="width:100%">
     <tbody>
-    <tr><td style="background-color:#ffff00;color:#333333;vertical-align:Top;border:solid 3px #0000ff"><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this is a list</span></p><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 1</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 2</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 3</span></li></ol><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this has image in cell</span></p><p style="color:#333333;font-size:14px"><img src="_images/table_in_html_1.png" style="width:69px;height:62px;vertical-align: baseline;"></p></td><td style="background-color:#00ff00;vertical-align:Top;border:solid 3px #0000ff"><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this is a list</span></p><ul style="list-style:disc;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8;font-size:14px">this is</span><img src="_images/table_in_html_1.png" style="width:41px;height:37px;vertical-align: baseline;"><span  style="color:#4a86e8;font-size:14px"> item with image</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#ff0000;font-size:14px">this is item in red</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">this is italic item<a href="http://www.google.com" target="_blank"> link to google</a></span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">this is <span style="font-weight:bold">bold</span> item link to <a href="Examples.html">Example.html</a></span></li></ul></td></tr>
+    <tr><td style="background-color:#ffff00;color:#333333;vertical-align:Top;border:solid 3px #0000ff"><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this is a list</span></p><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 1</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 2</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 3</span></li></ol><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this has image in cell</span></p><p style="color:#333333;font-size:14px"><img src="_images/table_in_html_2.png" style="width:69px;height:62px;vertical-align: baseline;"></p></td><td style="background-color:#00ff00;vertical-align:Top;border:solid 3px #0000ff"><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this is a list</span></p><ul style="list-style:disc;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8;font-size:14px">this is</span><img src="_images/table_in_html_2.png" style="width:41px;height:37px;vertical-align: baseline;"><span  style="color:#4a86e8;font-size:14px"> item with image</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#ff0000;font-size:14px">this is item in red</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">this is italic item<a href="http://www.google.com" target="_blank"> link to google</a></span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">this is <span style="font-weight:bold">bold</span> item link to <a href="Examples.html">Example.html</a></span></li></ul></td></tr>
     </tbody></table>
 
 .. |REPLACE4| raw:: html
@@ -108,37 +126,47 @@ Limitations
     <tr><td style="vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td colspan="5" style="background-color:#ffff00;vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
-    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="2" colspan="2" style="background-color:#4a86e8;vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><img src="_images/table_in_html_1.png" style="width:80px;height:73px;vertical-align: baseline;"></p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="2" colspan="2" style="background-color:#4a86e8;vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><img src="_images/table_in_html_2.png" style="width:80px;height:73px;vertical-align: baseline;"></p></td></tr>
     <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
-    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="3" style="background-color:#00ff00;vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><img src="_images/table_in_html_1.png" style="width:77px;height:72px;vertical-align: baseline;"></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="3" style="background-color:#ff0000;vertical-align:Top;border:solid 1px #000000"><p style="margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="3" style="background-color:#00ff00;vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><img src="_images/table_in_html_2.png" style="width:77px;height:72px;vertical-align: baseline;"></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="3" style="background-color:#ff0000;vertical-align:Top;border:solid 1px #000000"><p style="margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td rowspan="2" style="background-color:#4a86e8;vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
-    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="2" colspan="2" style="background-color:#00ff00;vertical-align:Center;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text and </span><img src="_images/table_in_html_1.png" style="width:74px;height:68px;vertical-align: baseline;"></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="2" colspan="2" style="background-color:#00ff00;vertical-align:Center;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text and </span><img src="_images/table_in_html_2.png" style="width:74px;height:68px;vertical-align: baseline;"></p></td><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td style="vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td colspan="4" style="vertical-align:Top;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     <tr><td colspan="5" style="background-color:#ffff00;vertical-align:Bottom;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
     </tbody></table>
 
+
+.. |LINK1| raw:: html
+
+    <a href="https://docs.google.com/document/d/1d-NgzTw418Ml3PgQPLoJaw76whgnUW2x1IUt8WjOrnI/edit?usp=sharing" target="_blank">Source document of this page</a>
+
+
 .. |IMG1| image:: static/table_in_html_1.png
+   :height: 165 px
+   :width: 566 px
+
+.. |IMG2| image:: static/table_in_html_2.png
    :height: 41 px
    :width: 45 px
 
-.. |IMG2| image:: static/table_in_html_1.png
+.. |IMG3| image:: static/table_in_html_2.png
    :height: 62 px
    :width: 69 px
 
-.. |IMG3| image:: static/table_in_html_1.png
+.. |IMG4| image:: static/table_in_html_2.png
    :height: 37 px
    :width: 41 px
 
-.. |IMG4| image:: static/table_in_html_1.png
+.. |IMG5| image:: static/table_in_html_2.png
    :height: 73 px
    :width: 80 px
 
-.. |IMG5| image:: static/table_in_html_1.png
+.. |IMG6| image:: static/table_in_html_2.png
    :height: 72 px
    :width: 77 px
 
-.. |IMG6| image:: static/table_in_html_1.png
+.. |IMG7| image:: static/table_in_html_2.png
    :height: 68 px
    :width: 74 px
