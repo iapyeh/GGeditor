@@ -30,9 +30,7 @@ Eenable this feature
 
 Converting table with HTML is not default behavior. To enable it, please open the Settings dialog to enable it.
 
-.. _h761ab401543201137a78553757464:
-
-\ |IMG1|\ ==========
+\ |IMG1|\ 
 
 .. _h17cf336a3119355a1c01f75426961:
 
