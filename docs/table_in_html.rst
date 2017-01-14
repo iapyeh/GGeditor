@@ -43,11 +43,7 @@ Background, Foreground and links
 --------------------------------
 
 
-+---------------------------------------------------------------------+----------------------------------------------+
-|green background with content of italic, bold and 有中文內容及上下標 |words in blue with font-family "Comic Sans MS"|
-|                                                                     |                                              |
-|x\ |STYLE0|\ +y\ |STYLE1|\ +T\ |STYLE2|\                             |                                              |
-+---------------------------------------------------------------------+----------------------------------------------+
+|REPLACE1|
 
 .. _hf5e23482d7d5f257f501e131f189d:
 
@@ -55,19 +51,7 @@ List items
 ----------
 
 
-+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------+
-|#. external \ |LINK1|\             |green background with content of \ |STYLE5|\ , \ |STYLE6|\  and 有中文內容及上下標x\ |STYLE7|\ +y\ |STYLE8|\ +T\ |STYLE9|\ |
-|                                   |                                                                                                                           |
-|#. bookmark \ |LINK2|\             |                                                                                                                           |
-|                                   |                                                                                                                           |
-|#. cross-reference \ |LINK3|\      |                                                                                                                           |
-|                                   |                                                                                                                           |
-|#. \ |STYLE3|\  text item          |                                                                                                                           |
-|                                   |                                                                                                                           |
-|#. \ |STYLE4|\  text item          |                                                                                                                           |
-|                                   |                                                                                                                           |
-|#. this is\ |IMG2|\ item with image|                                                                                                                           |
-+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------+
+|REPLACE2|
 
 .. _h2929565b25e3945d5f2b58e2a37:
 
@@ -75,19 +59,7 @@ List items 2
 ------------
 
 
-+----------------------+------------------------------------------------+
-|this is a list        |this is a list                                  |
-|                      |                                                |
-|#. this is 1          |* this is\ |IMG4|\  item with image             |
-|                      |                                                |
-|#. this is 2          |* this is item in red                           |
-|                      |                                                |
-|#. this is 3          |* this is italic item \ |LINK4|\                |
-|                      |                                                |
-|this has image in cell|* this is \ |STYLE10|\  item link to \ |LINK5|\ |
-|                      |                                                |
-|\ |IMG3|\             |                                                |
-+----------------------+------------------------------------------------+
+|REPLACE3|
 
 .. _bookmark-kix-q74pjka91gr0:
 
@@ -97,33 +69,7 @@ col and row span
 ----------------
 
 
-+------+----------+-------------------+----------+------+
-|Header|Header    |Header             |Header    |Header|
-+======+==========+===================+==========+======+
-|Text  |Text      |Text               |Text      |Text  |
-+------+----------+-------------------+----------+------+
-|Text  |          |                   |          |      |
-+------+----------+-------------------+----------+------+
-|Text  |Text      |Text               |Text      |Text  |
-+------+----------+-------------------+----------+------+
-|Text  |Text      |Text               |\ |IMG5|\ |      |
-+------+----------+-------------------+----------+------+
-|Text  |Text      |Text               |          |      |
-+------+----------+-------------------+----------+------+
-|Text  |\ |IMG6|\ |Text               |Text      |Text  |
-+------+----------+-------------------+----------+------+
-|Text  |          |Text               |          |Text  |
-+------+----------+-------------------+----------+------+
-|Text  |          |Text               |          |Text  |
-+------+----------+-------------------+----------+------+
-|      |Text      |Text and \ |IMG7|\ |          |Text  |
-+------+----------+-------------------+----------+------+
-|Text  |Text      |                   |          |Text  |
-+------+----------+-------------------+----------+------+
-|Text  |Text      |                   |          |      |
-+------+----------+-------------------+----------+------+
-|Text  |          |                   |          |      |
-+------+----------+-------------------+----------+------+
+|REPLACE4|
 
 .. _h2c1d74277104e41780968148427e:
 
@@ -143,55 +89,54 @@ Limitations
 
 * Cell height (API isue)
 
-♞ \ |LINK6|\ 
+♞ \ |LINK1|\ 
 
 .. bottom of content
 
 
-.. |STYLE0| replace:: :sup:`2`
+.. |REPLACE1| raw:: html
 
-.. |STYLE1| replace:: :sup:`2`
+    <table cellspacing="0" cellpadding="0" style="width:75%">
+    <tbody>
+    <tr><td style="width:67%;background-color:#ff9900;vertical-align:Center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #4a86e8"><p>green background with content of italic, bold and 有中文內容及上下標 </p><p style="font-size:10px"><p><span  style="font-size:10px">x<sup>2</sup>+y<sup>2</sup>+T<sub>ab</sub></span></p></td><td style="width:33%;color:#0000ff;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #4a86e8"><p style="color:#0000ff;font-size:14px;font-family:Comic Sans MS"><span  style="color:#0000ff;font-size:14px;font-family:Comic Sans MS">words in blue with font-family "Comic Sans MS"</span></p></td></tr>
+    </tbody></table>
 
-.. |STYLE2| replace:: :sub:`ab`
+.. |REPLACE2| raw:: html
 
-.. |STYLE3| replace:: *italic*
+    <table cellspacing="0" cellpadding="0" style="width:75%">
+    <tbody>
+    <tr><td style="width:67%;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #ff0000"><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">external <a href="http://www.google.com" target="_blank">google</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">bookmark <a href="#bookmark-kix-q74pjka91gr0">link</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">cross-reference <a href="Examples.html">Examples</a> </span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px"><span style="font-style:italic">italic</span> text item</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px"><span style="font-weight:bold">bold</span> text item</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8;font-size:14px">this is</span><img src="_images/table_in_html_2.png" style="width:45px;height:41px;vertical-align: baseline;"><span  style="color:#4a86e8;font-size:14px">item with image</span></li></ol></td><td style="width:33%;background-color:#00ff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #ff0000"><p>green background with content of <span style="font-style:italic">italic</span>, <span style="font-weight:bold">bold</span> and 有中文內容及上下標x<sup>2</sup>+y<sup>2</sup>+T<sub>ab</sub></p></td></tr>
+    </tbody></table>
 
-.. |STYLE4| replace:: **bold**
+.. |REPLACE3| raw:: html
 
-.. |STYLE5| replace:: *italic*
+    <table cellspacing="0" cellpadding="0" style="width:100%">
+    <tbody>
+    <tr><td style="background-color:#ffff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this is a list</span></p><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 1</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 2</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#333333;font-size:14px">this is 3</span></li></ol><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this has image in cell</span></p><p style="font-size:14px"><a href="http://www.google.com" target="_blank"><img src="_images/table_in_html_2.png" style="width:69px;height:62px;vertical-align: baseline;"></a></p></td><td style="background-color:#00ff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p style="color:#333333;font-size:14px"><span  style="color:#333333;font-size:14px">this is a list</span></p><ul style="list-style:disc;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8;font-size:14px">this is</span><a href="http://www.google.com" target="_blank"><img src="_images/table_in_html_2.png" style="width:41px;height:37px;vertical-align: baseline;"></a><span  style="color:#4a86e8;font-size:14px"> item with image</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#ff0000;font-size:14px">this is item in red</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">this is italic item<a href="http://www.google.com" target="_blank"> link to google</a></span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="font-size:14px">this is <span style="font-weight:bold">bold</span> item link to <a href="Examples.html">Example.html</a></span></li></ul></td></tr>
+    </tbody></table>
 
-.. |STYLE6| replace:: **bold**
+.. |REPLACE4| raw:: html
 
-.. |STYLE7| replace:: :sup:`2`
-
-.. |STYLE8| replace:: :sup:`2`
-
-.. |STYLE9| replace:: :sub:`ab`
-
-.. |STYLE10| replace:: **bold**
+    <table cellspacing="0" cellpadding="0" style="width:85%">
+    <thead>
+    <tr><th style="text-align:center;width:16%;background-color:#666666;color:#333333;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="color:#333333;font-size:10px;margin-bottom:23"><span  style="color:#333333;font-size:10px">Header</span></p></th><th style="text-align:center;width:21%;background-color:#f3f3f3;color:#333333;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="color:#333333;font-size:10px;margin-bottom:23"><span  style="color:#333333;font-size:10px">Header</span></p></th><th style="text-align:center;width:21%;background-color:#93c47d;color:#333333;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="color:#333333;font-size:10px;margin-bottom:23"><span  style="color:#333333;font-size:10px">Header</span></p></th><th style="text-align:center;width:21%;background-color:#c27ba0;color:#333333;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="color:#333333;font-size:10px;margin-bottom:23"><span  style="color:#333333;font-size:10px">Header</span></p></th><th style="text-align:center;width:21%;background-color:#6d9eeb;color:#333333;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="color:#333333;font-size:10px;margin-bottom:23"><span  style="color:#333333;font-size:10px">Header</span></p></th></tr>
+    </thead><tbody>
+    <tr><td style="vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td colspan="5" style="background-color:#ffff00;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="2" colspan="2" style="background-color:#4a86e8;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><img src="_images/table_in_html_2.png" style="width:80px;height:73px;vertical-align: baseline;"></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="3" style="background-color:#00ff00;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><img src="_images/table_in_html_2.png" style="width:77px;height:72px;vertical-align: baseline;"></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="3" style="background-color:#ff0000;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td rowspan="2" style="background-color:#4a86e8;vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td rowspan="2" colspan="2" style="background-color:#00ff00;vertical-align:Center;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text and </span><a href="http://www.google.com" target="_blank"><img src="_images/table_in_html_2.png" style="width:74px;height:68px;vertical-align: baseline;"></a></p></td><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td style="vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td><td colspan="4" style="vertical-align:Top;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    <tr><td colspan="5" style="background-color:#ffff00;vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="font-size:10px;margin-bottom:23"><span  style="font-size:10px">Text</span></p></td></tr>
+    </tbody></table>
 
 
 .. |LINK1| raw:: html
-
-    <a href="http://www.google.com" target="_blank">google</a>
-
-.. |LINK2| raw:: html
-
-    <a href="#bookmark-kix-q74pjka91gr0">link</a>
-
-.. |LINK3| raw:: html
-
-    <a href="Examples.html">Examples</a>
-
-.. |LINK4| raw:: html
-
-    <a href="http://www.google.com" target="_blank">link to google</a>
-
-.. |LINK5| raw:: html
-
-    <a href="Examples.html">Example.html</a>
-
-.. |LINK6| raw:: html
 
     <a href="https://docs.google.com/document/d/1d-NgzTw418Ml3PgQPLoJaw76whgnUW2x1IUt8WjOrnI/edit?usp=sharing" target="_blank">Source document of this page</a>
 
