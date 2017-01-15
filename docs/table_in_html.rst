@@ -87,7 +87,7 @@ Limitations
 
 * Vertial-alignment of cell content. (API issue)
 
-* Cell height (API isue)
+* Height of cell is not been converted (API isue)
 
 ♞ \ |LINK1|\ 
 
