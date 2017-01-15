@@ -242,7 +242,7 @@ List Item with Text Styles
 
     #. item\ [#F6]_\  with footnote
 
-\ |LINK39|\ 
+♞ \ |LINK39|\ 
 
 .. bottom of content
 
