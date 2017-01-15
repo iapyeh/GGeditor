@@ -54,6 +54,10 @@ Features
 
 #. Support all style of admonitions of the RTD.
 
+#. Support multiple accounts for committing to repositories in different accounts.
+
+#. Support converting table with HTML tags to let look-and-feel as the same as possible for blogers.
+
 .. _h131f586a50795a4822677d4166231766:
 
 How to install
@@ -108,18 +112,29 @@ Acknowledgments
 
 * \ |LINK16|\  (RTD), it provides a great service, which encourage me to create the GGeditor.
 
-.. _h15145c6c7955717d53774846404a3864:
+.. _h5d303e73368631b6320494219743f2d:
 
-Release Note
-============
-
-.. _h2c1d74277104e41780968148427e:
+Release Notes
+=============
 
 
+.. admonition:: Jan 15, 2017
+
+    New:
+    
+    #. Convert table in HTML tags for preserving background color, column-span, row-span and column width.
+    
+    #. Multiple github accounts
+    
+    Improved:
+    
+    #. New "Settings" panel for accounts and document options.
+    
+    #. In partial conversion, markups of table will keep the same as it is in whole document conversion.
+    
 
 
-
-.. admonition:: Dec 27, 2012
+.. admonition:: Dec 27, 2016
 
     Improved:
     
@@ -137,7 +152,7 @@ Release Note
     
     Fixed:
     
-    * Insert link to another document failed for binded documents if binding path is different document path.
+    * Insert link to another document failed for documents with binding file if the binding path is different document path.
     
     Featured:
     
