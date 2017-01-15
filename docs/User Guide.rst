@@ -521,7 +521,39 @@ Generate Document
 
 When partial content is converted only, like table or selection, The "Generate Document" button appears. Users can click this button to enforce the whole document is converted.
 
-\ |LINK6|\  
+.. _hc97272434561d31f5d3b294a205c:
+
+Settings
+========
+
+.. _h656c5e2450654757441516265f2921:
+
+Accounts
+--------
+
+The GGeditor supports multipe Github accounts. You can select the account to use when committing converted reStructuredText to the Github for every single document. This panel is where you manage these Githubs accounts.
+
+\ |IMG36|\ 
+
+.. _h3a106f1e4d7d526393a6657d142f5d:
+
+Document Preferences
+--------------------
+
+\ |IMG37|\ 
+
+.. _h204e7726715c28365f3825e59381a28:
+
+When converting tables in this document
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You have two options.
+
+"with pure reStructuredText markups" would convert table in pure reStructuredText syntax. This is the default behavior.
+
+"with HTML tags" would generate table with HTML <TABLE>. This option is useful for those who utilizes the readthedocs.org as a blog system. Please refer to \ |LINK6|\ .
+
+♞ \ |LINK7|\  
 
 .. bottom of content
 
@@ -547,6 +579,10 @@ When partial content is converted only, like table or selection, The "Generate D
     <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">How to Create API Docs</a>
 
 .. |LINK6| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/table_in_html.html" target="_blank">this document for details</a>
+
+.. |LINK7| raw:: html
 
     <a href="https://docs.google.com/document/d/1D2Q53jiQyOoSoqsNhTQuoRb1d2XlIJURgPz2OqrX0DE/edit?usp=sharing" target="_blank">Here is the source document of this page</a>
 
@@ -690,3 +726,11 @@ When partial content is converted only, like table or selection, The "Generate D
 .. |IMG35| image:: static/User_Guide_35.png
    :height: 40 px
    :width: 148 px
+
+.. |IMG36| image:: static/User_Guide_36.png
+   :height: 220 px
+   :width: 684 px
+
+.. |IMG37| image:: static/User_Guide_37.png
+   :height: 136 px
+   :width: 662 px
