@@ -4,6 +4,15 @@
 Tutorial
 ********
 
+
+..  Attention:: 
+
+    For GGeditor installed after Jan 15, 2017:
+    
+    Because the GGeditor starts to support mutliple accounts in that release. But this tutorial is not yet updated. There is a note for your:
+    
+    Before your first committing to the Github. Please go "Settings" panel to set an accout for it to work.
+
 The GGeditor assumes a scenario that
 
 #. You already have a project repository in the Github, and
