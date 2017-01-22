@@ -74,7 +74,7 @@ Below is the content for you to copy and paste.
 .. code-block:: python
     :linenos:
 
-    # -\*- coding: utf-8 -\*-
+    # -*- coding: utf-8 -*-
     
     from __future__ import unicode_literals
     import sys, os
