@@ -4,6 +4,8 @@
 Tutorial
 ********
 
+(\ |LINK1|\  Video for Taiwanese users in Mandarin)
+
 
 ..  Attention:: 
 
@@ -67,13 +69,17 @@ Here is the video of this tutorial:
     
     #. in this tutorial video, the committing of index.rst does not also commit images. That is because the changes include text part only.  By un-checking the “Commit images” option, the committing only updates the generated reStructuredText content of the index.rst. That makes the time of committing being shorter.
 
-\ |LINK1|\ 
+\ |LINK2|\ 
 
 
 .. bottom of content
 
 
 .. |LINK1| raw:: html
+
+    <a href="https://goo.gl/qH1WWj" target="_blank">台灣使用者請點我開啟中文版</a>
+
+.. |LINK2| raw:: html
 
     <a href="https://docs.google.com/document/d/1V2Xync2yY9YYDHX6NJ5HXMekSnIIBi5035ephlAdJxA/edit?usp=sharing" target="_blank">The source document of this page in the Google Docs</a>
 
