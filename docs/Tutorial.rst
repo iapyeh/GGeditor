@@ -1,9 +1,3 @@
-
-.. _h36711971261f3518968783337294a20:
-
-Tutorial
-********
-
 (\ |LINK1|\  Video for Taiwanese users in Mandarin)
 
 
@@ -14,6 +8,11 @@ Tutorial
     Because the GGeditor starts to support mutliple accounts in that release. But this tutorial is not yet updated. There is a note for your:
     
     Before your first committing to the Github. Please go "Settings" panel to set an accout for it to work.
+
+.. _h36711971261f3518968783337294a20:
+
+Tutorial
+********
 
 The GGeditor assumes a scenario that
 
