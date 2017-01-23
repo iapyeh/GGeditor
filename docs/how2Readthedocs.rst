@@ -143,6 +143,27 @@ Below is the content of the theme_overrides.css for you to copy and paste.
         line-height: 24px;
     }
     
+    .admonition {
+        margin-bottom: 20px;
+        line-height:24px;
+    }
+    
+    .admonition > *:not(:first-child){
+        /* draw a boder around a admonition */
+        border-left: solid 1px #b59e9e;
+        border-right: solid 1px #b59e9e;
+        padding: 12px;
+        margin: -12px -12px -12px -12px;
+        margin-bottom: -12px !important;
+    }
+    .admonition > .last, .admonition- > .last{
+        /* draw a boder around a admonition */
+        border-bottom: solid 1px #b59e9e !important;
+    }
+    
+    
+
+    
 
 Because the standard theme set the white-space to be “no-wrap” for table cell undesirable for the converted table of the GGeditor.
 
