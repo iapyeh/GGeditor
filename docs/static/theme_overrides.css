@@ -25,6 +25,11 @@
     margin: -12px -12px -12px -12px;
     margin-bottom: -12px !important;
 }
+
 .admonition .last, .admonition- .last{
     border-bottom: solid 1px #b59e9e !important;
+}
+
+.admonition {
+    margin-bottom: 20px;
 }
