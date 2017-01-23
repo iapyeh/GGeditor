@@ -1,10 +1,4 @@
 
-.. _h28105e656d4d48041184d771d3b4a1a:
-
-GGeditor
-********
-
-
 .. toctree:: 
     :maxdepth: 2
     :hidden:
@@ -23,6 +17,11 @@ GGeditor
     * [Jan 22, 2017] \ |LINK1|\ .
     
     * [Jan 15, 2017] New Release for multiple accounts and conversion with HTML-table.
+
+.. _h28105e656d4d48041184d771d3b4a1a:
+
+GGeditor
+********
 
 GGeditor hopes to help you to focus on writing your idea instead of marking them up.
 
