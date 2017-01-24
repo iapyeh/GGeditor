@@ -215,7 +215,7 @@ that helps us keep momentun on GGeditor.
 
 .. |LINK1| raw:: html
 
-    <a href="https://goo.gl/qH1WWj" target="_blank">台灣使用者請點我開啟中文版/Video for Taiwanese users in Mandarin</a>
+    <a href="https://goo.gl/qH1WWj" target="_blank">從零開始建立一個RTD文件網站灣使用者/Tutorial Video for Taiwanese users in Mandarin</a>
 
 .. |LINK2| raw:: html
 
