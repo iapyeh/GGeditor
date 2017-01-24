@@ -14,7 +14,7 @@
 
 .. admonition:: Announcements
 
-    * [Jan 22, 2017] \ |LINK1|\ .
+    * [Jan 22, 2017] \ |LINK1|\ ).
     
     * [Jan 15, 2017] New Release for multiple accounts and conversion with HTML-table.
 
@@ -215,7 +215,7 @@ that helps us keep momentun on GGeditor.
 
 .. |LINK1| raw:: html
 
-    <a href="https://goo.gl/qH1WWj" target="_blank">從零開始建立一個RTD文件網站灣使用者/Tutorial Video for Taiwanese users in Mandarin</a>
+    <a href="https://goo.gl/qH1WWj" target="_blank">從零開始建立一個RTD文件網站/Tutorial Video for Taiwanese (Mandarin</a>
 
 .. |LINK2| raw:: html
 
