@@ -12,11 +12,13 @@
     api/backend
 
 
-.. admonition:: Announcements
+.. admonition:: Announcements - 2017
 
-    * [Jan 22, 2017] \ |LINK1|\ ).
+    * [Jan 29] \ |LINK1|\ 
     
-    * [Jan 15, 2017] New Release for multiple accounts and conversion with HTML-table.
+    * [Jan 22] \ |LINK2|\ ).
+    
+    * [Jan 15] New Release for multiple accounts and conversion with HTML-table.
 
 .. _h28105e656d4d48041184d771d3b4a1a:
 
@@ -25,7 +27,7 @@ GGeditor
 
 GGeditor hopes to help you to focus on writing your idea instead of marking them up.
 
-\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK2|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the  \ |LINK3|\  (RTD) got automatically updated.
+\ |STYLE0|\  is a Google Docs Add-on for generating \ |LINK3|\  file from the Google Docs. The generated reST file can be committed to the Github repository with the GGeditor. Then, that repository’s documentations hosted by the  \ |LINK4|\  (RTD) got automatically updated.
 
 \ |IMG1|\ 
 
@@ -69,7 +71,7 @@ Features
 How to install
 ==============
 
-\ |LINK4|\ , or in a Google Docs Document:
+\ |LINK5|\ , or in a Google Docs Document:
 
 #. On the menu item “Add-ons”, click the “Get Add-ons”
 
@@ -82,7 +84,7 @@ How to install
 How to Use
 ==========
 
-Please refer to this article \ |LINK5|\ 
+Please refer to this article \ |LINK6|\ 
 
 .. _h84e3b4616757118376d336e2e5d5d23:
 
@@ -91,11 +93,11 @@ For reStructuredText Beginners
 
 If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the RTD website. I wrote two quick guides to help your task to be quickly completed with the GGeditor. 
 
-\ |LINK6|\ 
+\ |LINK7|\ 
 
     This guide for you to make the 1st copy of your product documents get online.
 
-\ |LINK7|\ 
+\ |LINK8|\ 
 
     This guide for you to make the 1st copy of your module documents get online.
 
@@ -106,17 +108,17 @@ I was struggling on writing reStructuredText for a long time . Now, with the GGe
 Acknowledgments
 ===============
 
-* Andrey Rublev as well as \ |LINK8|\  of the \ |LINK9|\ , it is a great tool for beginner to learn the reST markups.
+* Andrey Rublev as well as \ |LINK9|\  of the \ |LINK10|\ , it is a great tool for beginner to learn the reST markups.
 
-* Bitwiseshiftleft as well as \ |LINK10|\  of the \ |LINK11|\  projects. The sjcl.js is used for credentials encryption.
+* Bitwiseshiftleft as well as \ |LINK11|\  of the \ |LINK12|\  projects. The sjcl.js is used for credentials encryption.
 
-* \ |LINK12|\ . Hard to be briefly described. In short, its excellent AR series let me have time to work on this project.
+* \ |LINK13|\ . Hard to be briefly described. In short, its excellent AR series let me have time to work on this project.
 
-* Philip Schatz as well as \ |LINK13|\  of the  \ |LINK14|\  project. The Github-related implementation is on this wonderful tool.
+* Philip Schatz as well as \ |LINK14|\  of the  \ |LINK15|\  project. The Github-related implementation is on this wonderful tool.
 
-* \ |LINK15|\  as well as \ |LINK16|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
+* \ |LINK16|\  as well as \ |LINK17|\ . Pelican lead me to the world of markup. The conf.py is borrowed from the pelican’s repository.
 
-* \ |LINK17|\  (RTD), it provides a great service, which encourage me to create the GGeditor.
+* \ |LINK18|\  (RTD), it provides a great service, which encourage me to create the GGeditor.
 
 .. _h5d303e73368631b6320494219743f2d:
 
@@ -199,13 +201,13 @@ Appreciation for You
 
 It would really help us if you had a second to
 
-* \ |LINK18|\ 
+* \ |LINK19|\ 
 
-* Or \ |LINK19|\ 
+* Or \ |LINK20|\ 
 
 that helps us keep momentun on GGeditor.
 
-\ |LINK20|\ 
+\ |LINK21|\ 
 
 .. bottom of content
 
@@ -215,81 +217,85 @@ that helps us keep momentun on GGeditor.
 
 .. |LINK1| raw:: html
 
-    <a href="https://goo.gl/qH1WWj" target="_blank">從零開始建立一個RTD文件網站/Tutorial Video for Taiwanese (Mandarin</a>
+    <a href="https://youtu.be/PUswAbvpE7c" target="_blank">Tutorial - Create a project site in the RTD</a>
 
 .. |LINK2| raw:: html
 
-    <a href="https://en.wikipedia.org/wiki/ReStructuredText" target="_blank">reStructuredText</a>
+    <a href="https://goo.gl/qH1WWj" target="_blank">從零開始建立一個RTD文件網站(Mandarin</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://readthedocs.org/" target="_blank">Readthedocs.org</a>
+    <a href="https://en.wikipedia.org/wiki/ReStructuredText" target="_blank">reStructuredText</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Click this link to the Google Docs Add-on page</a>
+    <a href="https://readthedocs.org/" target="_blank">Readthedocs.org</a>
 
 .. |LINK5| raw:: html
 
-    <a href="User%20Guide.html">How to Use</a>
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Click this link to the Google Docs Add-on page</a>
 
 .. |LINK6| raw:: html
 
-    <a href="how2Readthedocs.html">How to create a generic website of documentation on the RTD</a>
+    <a href="User%20Guide.html">How to Use</a>
 
 .. |LINK7| raw:: html
 
-    <a href="ApiDoc.html">How to create API document for python modules</a>
+    <a href="how2Readthedocs.html">How to create a generic website of documentation on the RTD</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="ApiDoc.html">How to create API document for python modules</a>
 
 .. |LINK9| raw:: html
 
-    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
+    <a href="https://github.com/anru/rsted/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="http://rst.ninjs.org/" target="_blank">Online reStructuredText editor</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK12| raw:: html
 
-    <a href="http://neusauber.com" target="_blank">Neusauber.com</a>
+    <a href="https://github.com/bitwiseshiftleft/sjcl" target="_blank">sjcl</a>
 
 .. |LINK13| raw:: html
 
-    <a href="https://github.com/philschatz/octokat.js/graphs/contributors" target="_blank">all the contributors</a>
+    <a href="http://neusauber.com" target="_blank">Neusauber.com</a>
 
 .. |LINK14| raw:: html
 
-    <a href="https://github.com/philschatz/octokat.js" target="_blank">octokat.js</a>
+    <a href="https://github.com/philschatz/octokat.js/graphs/contributors" target="_blank">all the contributors</a>
 
 .. |LINK15| raw:: html
 
-    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
+    <a href="https://github.com/philschatz/octokat.js" target="_blank">octokat.js</a>
 
 .. |LINK16| raw:: html
 
-    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
+    <a href="https://github.com/getpelican/pelican" target="_blank">Pelican project</a>
 
 .. |LINK17| raw:: html
 
-    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
+    <a href="https://github.com/getpelican/pelican/graphs/contributors" target="_blank">all the contributes</a>
 
 .. |LINK18| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Leave a Google Docs store rating</a>
+    <a href="https://readthedocs.org" target="_blank">Readthedocs.org</a>
 
 .. |LINK19| raw:: html
 
-    <a href="https://github.com/iapyeh/GGeditor" target="_blank">star GGeditor on Github</a>
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Leave a Google Docs store rating</a>
 
 .. |LINK20| raw:: html
+
+    <a href="https://github.com/iapyeh/GGeditor" target="_blank">star GGeditor on Github</a>
+
+.. |LINK21| raw:: html
 
     <a href="https://docs.google.com/document/d/13b5dr8TZoTC5IJZeoiDt066b6mwq67yHqcl4TYUFnk0/edit?usp=sharing" target="_blank">Source document in the Google Docs</a>
 
