@@ -5,11 +5,11 @@
 
 |REPLACE2|
 
-\ |IMG3|\ 
+\ |IMG1|\ \ |IMG2|\ 
 
 this is a list
 
-* this is\ |IMG4|\  item 1
+* this is item 1
 
 * this is item 2
 
@@ -34,7 +34,6 @@ gg
 Test
 ####
 
-\ |IMG5|\ 
 
 .. admonition:: Release Note
 
@@ -68,7 +67,7 @@ Test
     <table cellspacing="0" cellpadding="0" style="width:100%">
     <tbody>
     <tr><td style="background-color:#000000;color:#ffffff;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p style="color:#ffffff"><span  style="color:#ffffff">A</span></p></td><td style="background-color:#ff0000;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p>B</p></td></tr>
-    <tr><td style="background-color:#ffff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p>this is a list</p><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit">this is 1</li><li style="list-style:inherit;list-style-image:inherit">this is 2</li><li style="list-style:inherit;list-style-image:inherit">this is 3</li></ol><p>this is image</p><p><img src="_images/develop_test_1.png" style="width:130px;height:65px;vertical-align: baseline;"></p></td><td style="background-color:#00ff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p>this is a list</p><ul style="list-style:disc;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8">this is</span><img src="_images/develop_test_1.png" style="width:56px;height:28px;vertical-align: baseline;"><span  style="color:#4a86e8"> item, of long long long long sentenance</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#ff0000">this is item</span></li><li style="list-style:inherit;list-style-image:inherit">this is item</li></ul></td></tr>
+    <tr><td style="background-color:#ffff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p>this is a list</p><ol style="list-style:decimal;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit">this is 1</li><li style="list-style:inherit;list-style-image:inherit">this is 2</li><li style="list-style:inherit;list-style-image:inherit">this is 3</li></ol><p>this is image</p><p></td><td style="background-color:#00ff00;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 3px #0000ff"><p>this is a list</p><ul style="list-style:disc;list-style-image:inherit;padding:0px 40px;margin:initial"><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#4a86e8">this is item, of long long long long sentenance</span></li><li style="list-style:inherit;list-style-image:inherit"><span  style="color:#ff0000">this is item</span></li><li style="list-style:inherit;list-style-image:inherit">this is item</li></ul></td></tr>
     </tbody></table>
 
 .. |REPLACE3| raw:: html
@@ -92,22 +91,10 @@ Test
     <tr><td colspan="5" style="background-color:#ffff00;color:#000000;vertical-align:Bottom;padding-top:2px;padding-bottom:2px;padding-left:2px;padding-right:2px;border:solid 1px #000000"><p style="color:#000000"><span  style="color:#000000;font-size:11px;font-family:Courier New">蒐集完整蒐集這張規則表並不容易，主要原因是資料之間用語模糊與衝突的情況不少，必須詳細推敲求證，我們並沒有十足的把握，這張表都是正確的。歡迎您指正。我們若有訂正，會更新計算公式發行新版。</span></p></td></tr>
     </tbody></table>
 
-.. |IMG1| image:: static/develop_test_1.png
-   :height: 65 px
-   :width: 130 px
-
-.. |IMG2| image:: static/develop_test_1.png
-   :height: 28 px
-   :width: 56 px
-
-.. |IMG3| image:: static/develop_test_2.png
+.. |IMG1| image:: static/develop_test_1.gif
    :height: 194 px
    :width: 260 px
 
-.. |IMG4| image:: static/develop_test_1.png
-   :height: 28 px
-   :width: 56 px
-
-.. |IMG5| image:: static/develop_test_3.png
-   :height: 94 px
-   :width: 82 px
+.. |IMG2| image:: static/develop_test_2.png
+   :height: 100 px
+   :width: 100 px
