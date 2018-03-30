@@ -198,30 +198,30 @@ Contenuti di questo documento
     <a href="https://readthedocs.org/" target="_blank">Readthedocs</a>
 
 
-.. |IMG1| image:: static/Tutorial_sull'uso_di_GGeditor_1.png
+.. |IMG1| image:: static/undefined_1.png
    :height: 172 px
    :width: 273 px
 
-.. |IMG2| image:: static/Tutorial_sull'uso_di_GGeditor_2.png
+.. |IMG2| image:: static/undefined_2.png
    :height: 250 px
    :width: 504 px
 
-.. |IMG3| image:: static/Tutorial_sull'uso_di_GGeditor_3.png
+.. |IMG3| image:: static/undefined_3.png
    :height: 96 px
    :width: 72 px
 
-.. |IMG4| image:: static/Tutorial_sull'uso_di_GGeditor_4.png
+.. |IMG4| image:: static/undefined_4.png
    :height: 32 px
    :width: 134 px
 
-.. |IMG5| image:: static/Tutorial_sull'uso_di_GGeditor_5.png
+.. |IMG5| image:: static/undefined_5.png
    :height: 45 px
    :width: 49 px
 
-.. |IMG6| image:: static/Tutorial_sull'uso_di_GGeditor_6.png
+.. |IMG6| image:: static/undefined_6.png
    :height: 33 px
    :width: 134 px
 
-.. |IMG7| image:: static/Tutorial_sull'uso_di_GGeditor_7.png
+.. |IMG7| image:: static/undefined_7.png
    :height: 226 px
    :width: 500 px
