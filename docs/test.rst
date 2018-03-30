@@ -73,14 +73,14 @@ Per la \ |STYLE0|\  si fa riferimento a \ |LINK1|\
     <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html#conversion" target="_blank">questo paragrafo del tutorial di GGeditor</a>
 
 
-.. |IMG1| image:: static/User-Guide-test_1.png
+.. |IMG1| image:: static/GGeditor-Debug_1.png
    :height: 494 px
    :width: 601 px
 
-.. |IMG2| image:: static/User-Guide-test_2.png
+.. |IMG2| image:: static/GGeditor-Debug_2.png
    :height: 304 px
    :width: 600 px
 
-.. |IMG3| image:: static/User-Guide-test_3.png
+.. |IMG3| image:: static/GGeditor-Debug_3.png
    :height: 52 px
    :width: 152 px
