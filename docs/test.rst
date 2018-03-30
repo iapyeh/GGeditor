@@ -1,102 +1,224 @@
 
-.. _h1173587464195a67462c6526383c69d:
+.. _h85b6993fe7e11412b481a47264959:
 
-Tutorial sull'uso di GGeditor
-#############################
+Come usarlo
+***********
 
-il tutorial è molto semplice nei passi da seguire, partendo innanzitutto da questo video:
+.. _h79285c4e7257194524363d5a1e617d44:
+
+Per i principianti dei file RST
+===============================
+
+\ |STYLE0|\ 
+
+|
+
+.. _h665b13f663e6519330123b6940202c:
+
+Il plug-in di Google Doc
+========================
+
+Per prima cosa si va su "Componenti aggiuntivi" e si scarica e si installa il plug-in su Google Doc \ |IMG1|\  
+
+così si può cominciare ad usare il set di strumenti del menù che appare se clicchiamo su "componenti aggiuntivi", poi su "GGeditor" e poi ancora su "Show Markup Panel".
+
+|
+
+.. _h96481b373011705e781746f262f0:
+
+Il Markup Panel
+===============
+
+Cliccando su su "Show Markup Panel" viene visualizzato questo pannello.\ |IMG2|\  
+
+che ci consente di inserire sul documento in Google Doc:
+
+* Note colorate, personalizzabili nel titolo;
+
+* Codice da illustrare in una pagina HTML;
+
+* Tabella dell'indice dei contenuti (cioè il titolo delle pagine che compongono l'indice dei contenuti).
+
+|
+
+.. _h20557f3997523b367c672f10583f2a:
+
+Blocchi di codice
+=================
+
+|
+
+.. _h577b282b652a133d475a216414d3a41:
+
+senza righe numerate
+--------------------
+
+
+.. code:: 
+
+    #!/usr/bin/env python
+    
+    """
+    Twisted moved the C{twisted} hierarchy to the C{src} hierarchy, but C{git}
+    doesn't know how to track moves of directories, only files.  Therefore any
+    files added in branches after this move will be added into ./twisted/ and need
+    to be moved over into
+    """
+    
+    import os
+    from twisted.python.filepath import FilePath
+    
+    here = FilePath(__file__).parent().parent()
+    fromPath = here.child("twisted")
+    toPath = here.child("src")
+    
+    for fn in fromPath.walk():
+        if fn.isfile():
+            os.system("git mv {it} src/{it}"
+                      .format(it="/".join(fn.segmentsFrom(here))))
+    
+    os.system('git clean -fd')
+    
+    def outer(x):
+    def indent_start(x):
+        go start start
+        go start end
+    
+    def end(y):
+        go end start
+        go end end
+
+|
+
+.. _h477f4023e6f37514b3e5a371a681858:
+
+con righe numerate
+------------------
+
+
+.. code-block:: python
+    :linenos:
+
+    #!/usr/bin/env python
+    
+    """
+    Twisted moved the C{twisted} hierarchy to the C{src} hierarchy, but C{git}
+    doesn't know how to track moves of directories, only files.  Therefore any
+    files added in branches after this move will be added into ./twisted/ and need
+    to be moved over into
+    """
+    
+    import os
+    from twisted.python.filepath import FilePath
+    
+    here = FilePath(__file__).parent().parent()
+    fromPath = here.child("twisted")
+    toPath = here.child("src")
+    
+    for fn in fromPath.walk():
+        if fn.isfile():
+            os.system("git mv {it} src/{it}"
+                      .format(it="/".join(fn.segmentsFrom(here))))
+    
+    os.system('git clean -fd')
+    
+    def outer(x):
+    def indent_start(x):
+        go start start
+        go start end
+    
+    def end(y):
+        go end start
+        go end end
+
+|
+
+.. _h5d535b7f2e655f2e1f3e4c6225335713:
+
+Note colorate di vario tipo
+===========================
+
+
+..  Attention:: 
+
+    (content of Attention)
+
+
+..  Caution:: 
+
+    (content of Caution)
+
+
+..  Warning:: 
+
+    (content of Warning)
+
+
+..  Danger:: 
+
+    (content of Danger)
+
+
+..  Error:: 
+
+    (content of Error)
+
+
+..  Hint:: 
+
+    (content of Hint)
+
+
+..  Important:: 
+
+    (content of Important)
+
+
+..  Tip:: 
+
+    (content of Tip)
+
+
+..  Note:: 
+
+    (content of Note)
+
+
+..  seealso:: 
+
+    (content of See also)
+
+
+.. admonition:: Change-me
+
+    (content of Change-me)
+
+--------
+
 
 |REPLACE1|
 
 |
 
-.. _h62049d30623c1a1c5869257e287c7b:
+.. _h496a7729534b3e4c36782439686453:
 
-Come installare GGeditor
-========================
+Altre (tante) funzioni di GGeditor
+==================================
 
-\ |LINK1|\ , oppure in un documento Google:
+\ |IMG3|\ 
 
-#. Sul menu "componenti aggiuntivi" clicca “Installa componenti aggiuntivi”
+\ |LINK1|\  e \ |LINK2|\  sono descritte molte funzioni che possono essere attivate con GGeditor.
 
-#. Nel box di ricerca edita “GGeditor”, e clicca sull'icona di GGeditor per installare.
-
-L'editor GG parte da uno scenario composto da 2 situazioni:
-
-#. Tu già hai un repository di progetto su Github, 
-
-#. Tu già hai un progetto su Readthedocs.or che è in diretta relazione al repository su Github.
-
-Github e Readthedocs accettano formati RST o Markup. Hai bisogno di costruire la documentazione in uno di questi due formati. 
-
-|
-
-.. _h674712443519d775f679124c276a2c:
-
-Il flusso di lavoro del processo che gestisce GGeditor
-======================================================
-
-Questo è il flusso di lavoro con GGeditor per costruire la documentazione su Github:
-
-\ |IMG1|\ 
-
-|
-
-.. _h5f65204616512558169115d286b261d:
-
-Le azioni svolte da GGeditor
-============================
-
-La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel processo che esso stesso gestisce. Ecco le fasi:
-
-#. iniziare creando un nuovo documento su Google Docs.
-
-#. Il nuovo file sarà nominato "Tutorial" (come nel caso di questa pagina che state leggendo). Il file contiene un'intestazione, un immagine e una nota creata dal sidebar di GGeditor.
-
-#. Il nuovo file sarà compilato da GGeditor sul repository del progetto Github.
-
-#. Siccome questo è un file nuovo, un processo sarà avviato per costruire il legame agli altri documenti (es. index) nel repository Github. Il processo avviato include: 
-
-    #. log-in all'account Github che ospita il progetto su Github, 
-
-    #. azioni di navigazione dentro Github, 
-
-    #. creazione di un nuovo file 
-
-    #. e l'attività di compilazione (commit di Github).
-
-.. admonition:: Importante
-
-    #. Quando nomini il tuo documento Google Doc, il nome del documento non necessita del suffisso "\ |STYLE0|\ ".
-    
-    #. Per legare il file del Google Doc sul repository del progetto (Github), Github  ha bisogno del suffisso ".rst". Il suffisso sarà automaticamente creato da GGeditor. Se nomini manualmente tu il file su Github allora aggiungi il suffisso "\ |STYLE1|\ " (sulla directory "docs" di Github).
-    
-
-|
-
-
-.. admonition:: Importante
-
-    il contenuto di questa pagina che state leggendo è in \ |LINK2|\ 
-
-|
-
-
-|REPLACE2|
+\ |LINK3|\  espone le funzioni abbastanza bene.
 
 
 .. bottom of content
 
 
-.. |STYLE0| replace:: **.rst**
-
-.. |STYLE1| replace:: **.rst**
+.. |STYLE0| replace:: *If you are a beginner of the reStructuredText and you feel a little bit of confusing about how to put your documents onto the RTD website. Now, with the GGeditor and this tutorial, I hope it can help you to get jobs done quicker and easier.*
 
 
 .. |REPLACE1| raw:: html
-
-    <iframe width="100%" height="380" src="https://www.youtube.com/embed/PUswAbvpE7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-.. |REPLACE2| raw:: html
 
     <script id="dsq-count-scr" src="//guida-readthedocs.disqus.com/count.js" async></script>
     
@@ -124,13 +246,25 @@ La sequenza di azioni che vengono effettuate da GGeditor su Google Doc nel proce
 
 .. |LINK1| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">Clicca questo link per il plug-in da installare su Google Docs</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/User%20Guide.html" target="_blank">Qui</a>
 
 .. |LINK2| raw:: html
 
-    <a href="https://docs.google.com/document/d/1H5CXu8rhCuryrG6NVjfgfk4csYezuw1dN4s0eg1tmhY/edit?usp=sharing" target="_blank">questo Google Doc</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/Examples.html" target="_blank">qui (esempi)</a>
+
+.. |LINK3| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io" target="_blank">Il tutorial di GGeditor</a>
 
 
 .. |IMG1| image:: static/Tutorial_sull'uso_di_GGeditor_1.png
-   :height: 406 px
-   :width: 601 px
+   :height: 109 px
+   :width: 485 px
+
+.. |IMG2| image:: static/Tutorial_sull'uso_di_GGeditor_2.png
+   :height: 496 px
+   :width: 292 px
+
+.. |IMG3| image:: static/Tutorial_sull'uso_di_GGeditor_3.png
+   :height: 294 px
+   :width: 290 px
