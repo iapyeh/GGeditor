@@ -4,6 +4,8 @@
 User-guide (gli step operativi)
 *******************************
 
+-----------------test ciro after GGeditor Debug provided by Iap ---------------
+
 .. _h713143325814353613281e551531322a:
 
 Consegnare i file (da Google Doc) a Github
@@ -58,8 +60,6 @@ Conversione
 ===========
 
 Per la \ |STYLE0|\  si fa riferimento a \ |LINK1|\ 
-
--
 
 
 .. bottom of content
