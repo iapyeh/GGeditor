@@ -5,22 +5,26 @@
 
     For GGeditor installed after Jan 15, 2017:
     
-    Because the GGeditor starts to support mutliple accounts in that release. But this tutorial is not yet updated. There is a note for your:
+    GGeditor added support for multiple accounts in this release. But this tutorial is not yet updated:
     
-    Before your first committing to the Github. Please go "Settings" panel to set an accout for it to work.
+    Before your first committing to Github, you must go to the "Settings" panel and set an account.
 
 .. _h36711971261f3518968783337294a20:
 
 Tutorial
 ********
 
-The GGeditor assumes a scenario that
+GGeditor assumes a scenario where:
 
 #. You already have a project repository in the Github, and
 
 #. You already have a project in the readthedocs.org which corresponds to that repository. 
 
-Because the Github and the readthedocs.org accept reStructuredText or markup formats only. You have to build documentation in markup or reStructuredText formats. But you are suffering on creating document with markup or reStructuredText formats.
+- Create a Google Docs document written in Markdown or reStructuredText formats.
+- Push a copy of the latest GDoc document revision to a file in a Github repository which ReadTheDocs.org renders into HTML and PDF.
+  - (Note that while GitHub supports many lightweight markup languages, Readthedocs.org only supports (Sphinx) reStructuredText and Markdown.)
+- Collaboratively build documentation in Markdown or reStructuredText formats.
+
 
 This is the flow chart of working with the GGeditor to build your documentation:
 
