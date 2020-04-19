@@ -11,9 +11,7 @@ Github Bad Credentials
 Steps: 
 *******
 
-#. \ |LINK2|\  in the Github.com and create a personal access token in Github.com. (\ |LINK3|\ )
-
-#. Copy the personal access token
+#. \ |LINK2|\  in the Github.com and create a personal access token in Github.com. (\ |LINK3|\ ) and copy the personal access token into your clipboard.
 
 #. Open a Google Document and remove all stored credentials in the GGEditor
 
@@ -24,12 +22,34 @@ Steps:
 Diagrams:
 *********
 
-.. _h6f4a225b2940695663301c471fc547f:
+.. _h6227125968437746b17433a465d2a11:
 
-Step 1
-======
+Step 1: Generate a personal access token and copy it.
+=====================================================
 
 \ |IMG1|\ 
+
+Please do copy at this stage, the Github won't show it twice. But don't worry, if you missed, just to generate it again.
+
+\ |IMG2|\ 
+
+Step 2: Reset credentials in the GGEditor
+
+From the menubar item of the GGeditor, select "Settings"
+
+\ |IMG3|\ 
+
+Delete stored credientails and add a new account.
+
+\ |IMG4|\ 
+
+With the copied personal access token as the password
+
+\ |IMG5|\ 
+
+You have done. Try it!
+
+\ |IMG6|\ 
 
 
 .. bottom of content
@@ -51,3 +71,23 @@ Step 1
 .. |IMG1| image:: static/Github_Bad_Credentials_1.png
    :height: 480 px
    :width: 684 px
+
+.. |IMG2| image:: static/Github_Bad_Credentials_2.png
+   :height: 158 px
+   :width: 697 px
+
+.. |IMG3| image:: static/Github_Bad_Credentials_3.png
+   :height: 222 px
+   :width: 262 px
+
+.. |IMG4| image:: static/Github_Bad_Credentials_4.png
+   :height: 190 px
+   :width: 697 px
+
+.. |IMG5| image:: static/Github_Bad_Credentials_5.png
+   :height: 366 px
+   :width: 550 px
+
+.. |IMG6| image:: static/Github_Bad_Credentials_6.png
+   :height: 232 px
+   :width: 205 px
