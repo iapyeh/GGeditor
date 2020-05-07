@@ -29,6 +29,12 @@ Features
 
 .. _h18206c5a232448777c266b647f1b7765:
 
+License
+================
+
+MIT License
+
+
 More Information
 ================
 
