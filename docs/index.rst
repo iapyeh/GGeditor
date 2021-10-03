@@ -14,7 +14,7 @@
 
 .. admonition:: Privacy Policy (for Google OAuth Verification)
 
-    The GGeditor is an Google Docs Addon, it is developped and running in the sandbox with the script API of the Google Docs System. Within the sandbox, it accesses, use users documents and stores users settings. (\ |LINK1|\ )
+    The GGeditor is an Google Docs Addon, it is developped and running within the sandbox of the Google Docs System. Within the sandbox, it accesses, inserts content into user's document and stores user's settings. (\ |LINK1|\ )
 
 
 .. admonition:: Announcements - 2020
