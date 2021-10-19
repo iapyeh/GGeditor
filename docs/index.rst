@@ -11,10 +11,14 @@
     Limitations
     api/backend
 
+.. _h62e53697d6768353a5c7f384e65332b:
+
+Privacy Policy
+**************
+
 
 .. admonition:: Privacy Policy (for Google OAuth Verification)
 
-    Privacy Policy of GGeditor
     version 2021/10/15
     
     This document would thoroughly disclose the manner in which the GGeditor accesses, uses, stores, or shares Google user data. Here, the "Google user data" means the opening Google document which every add-ons of the Google Docs are working with.
